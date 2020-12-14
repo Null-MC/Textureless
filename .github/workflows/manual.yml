@@ -1,0 +1,49 @@
+name: Manual triggered publishing workflow
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version number.'
+        required: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - name: Publish Default-LAB11
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/default-lab11.pack.yml" -z "//content/Textureless-LAB11.zip"
+      - name: Publish Default-LAB13
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/default-lab13.pack.yml" -z "//content/Textureless-LAB13.zip"
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.inputs.version }}
+          release_name: Release ${{ github.event.inputs.version }}
+          draft: true
+      - name: Upload Textureless-LAB11
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-LAB11.zip
+          asset_name: Textureless-LAB11.zip
+          asset_content_type: application/zip
+      - name: Upload Textureless-LAB13
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-LAB13.zip
+          asset_name: Textureless-LAB13.zip
+          asset_content_type: application/zip
