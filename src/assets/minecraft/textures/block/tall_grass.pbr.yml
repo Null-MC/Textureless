@@ -1,0 +1,21 @@
+albedo:
+  value-red: 200
+  value-green: 200
+  value-blue: 200
+height:
+  value: 0
+smooth:
+  value: 50
+sss:
+  value: 180
+parts:
+  - name: tall_grass_top
+    top: 0
+    left: 0
+    width: 16
+    height: 16
+  - name: tall_grass_bottom
+    top: 16
+    left: 0
+    width: 16
+    height: 16

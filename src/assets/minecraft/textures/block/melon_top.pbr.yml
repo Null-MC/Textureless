@@ -1,9 +1,9 @@
 alpha:
   value: 255
 albedo:
-  value-red: 187
-  value-green: 112
-  value-blue: 34
+  value-red: 125
+  value-green: 149
+  value-blue: 31
 height:
   value: 0
 normal:

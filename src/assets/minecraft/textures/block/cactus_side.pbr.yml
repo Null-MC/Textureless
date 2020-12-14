@@ -1,5 +1,4 @@
-alpha:
-  value: 255
+wrap: false
 albedo:
   value-red: 88
   value-green: 144

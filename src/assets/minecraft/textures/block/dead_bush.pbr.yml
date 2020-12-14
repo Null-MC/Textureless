@@ -1,0 +1,12 @@
+albedo:
+  value-red: 109
+  value-green: 79
+  value-blue: 40
+height:
+  value: 0
+smooth:
+  value: 40
+porosity:
+  value: 60
+occlusion:
+  value: 0

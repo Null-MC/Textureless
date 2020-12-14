@@ -1,0 +1,11 @@
+wrap: false
+albedo:
+  value-red: 51
+  value-green: 59
+  value-blue: 30
+height:
+  value: 0
+smooth:
+  value: 10
+sss:
+  value: 0

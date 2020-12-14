@@ -1,0 +1,13 @@
+wrap: false
+albedo:
+  value-red: 200
+  value-green: 200
+  value-blue: 200
+height:
+  value: 0
+normal:
+  noise: 6
+smooth:
+  value: 50
+sss:
+  value: 60

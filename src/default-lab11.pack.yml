@@ -2,7 +2,7 @@ edition: Java
 format: 6
 description: No Textures!
 tags: LAB-1.1
-texture-size: 32
+texture-size: 16
 encoding:
   format: lab-1.1
   alpha: {}

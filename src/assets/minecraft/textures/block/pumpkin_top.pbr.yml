@@ -10,6 +10,6 @@ normal:
   curve-x: 90
   curve-y: 90
 smooth:
-  value: 160
+  value: 80
 porosity:
   value: 0
