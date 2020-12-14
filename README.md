@@ -1,6 +1,8 @@
 # Textureless
 A Minecraft Resource Pack that uses material values instead of textures. This content is intended for debugging shaders or using as a base for your own custom RP's, not regular gameplay.
 
+<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/title-ice.png" alt="Preview" />
+
 ## Try It
 You can use this resource pack as-is, in either Lab-1.1 or Lab-1.3 encoding, both with generated 16x textures for surface-normal curvature and noise. You can find them under _Assets_ in the [Releases](https://github.com/null511/MCRP-Textureless/releases) section.
 
