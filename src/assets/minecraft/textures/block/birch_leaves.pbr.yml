@@ -1,0 +1,14 @@
+albedo:
+  value-red: 220
+  value-green: 220
+  value-blue: 220
+height:
+  value: 0
+normal:
+  noise: 4
+occlusion:
+  value: 0
+smooth:
+  value: 100
+sss:
+  value: 160
