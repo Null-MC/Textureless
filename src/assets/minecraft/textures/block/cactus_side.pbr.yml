@@ -8,6 +8,6 @@ height:
 normal:
   curve-x: 90
 smooth:
-  value: 100
+  value: 50
 sss:
   value: 80

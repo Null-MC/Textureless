@@ -1,0 +1,14 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 43
+  value-green: 38
+  value-blue: 44
+height:
+  value: 0
+normal:
+  noise: 8
+smooth:
+  value: 10
+porosity:
+  value: 20

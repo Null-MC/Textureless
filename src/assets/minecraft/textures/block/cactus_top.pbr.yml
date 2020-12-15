@@ -9,6 +9,6 @@ normal:
   curve-x: 45
   curve-y: 45
 smooth:
-  value: 100
+  value: 50
 sss:
   value: 80
