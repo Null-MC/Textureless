@@ -1,9 +1,7 @@
-alpha:
-  value: 50
 albedo:
-  value-red: 200
-  value-green: 200
-  value-blue: 200
+  value-red: 180
+  value-green: 215
+  value-blue: 221
 height:
   value: 0
 smooth:

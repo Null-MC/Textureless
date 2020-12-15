@@ -8,7 +8,7 @@ height:
   value: 0
 occlusion:
   value: 0
-metal:
-  value: 180
 smooth:
   value: 120
+metal:
+  value: 255
