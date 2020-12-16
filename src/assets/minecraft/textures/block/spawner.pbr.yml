@@ -1,0 +1,13 @@
+albedo:
+  value-red: 66
+  value-green: 66
+  value-blue: 66
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 120
+metal:
+  value: 230
+porosity: {}
