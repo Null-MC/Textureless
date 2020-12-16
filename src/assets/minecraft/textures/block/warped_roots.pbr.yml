@@ -1,0 +1,12 @@
+albedo:
+  value-red: 20
+  value-green: 140
+  value-blue: 125
+height:
+  value: 0
+smooth:
+  value: 120
+sss:
+  value: 180
+occlusion:
+  value: 0
