@@ -1,0 +1,13 @@
+wrap: false
+albedo:
+  value-red: 120
+  value-green: 95
+  value-blue: 58
+height:
+  value: 0
+occlusion:
+  value: 0
+normal:
+  noise: 1
+porosity:
+  value: 60

@@ -1,14 +1,12 @@
-alpha:
-  value: 255
 albedo:
   value-red: 255
   value-green: 255
   value-blue: 255
 height:
   value: 0
-normal:
-  noise: 6
 smooth:
-  value: 50
+  value: 160
 sss:
   value: 60
+occlusion:
+  value: 0

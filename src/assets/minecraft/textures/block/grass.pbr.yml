@@ -1,7 +1,7 @@
 albedo:
-  value-red: 200
-  value-green: 200
-  value-blue: 200
+  value-red: 255
+  value-green: 255
+  value-blue: 255
 height:
   value: 0
 smooth:
