@@ -7,7 +7,7 @@ albedo:
 height:
   value: 0
 normal:
-  noise: 1
+  noise: 3
 smooth:
   value: 20
 porosity:

@@ -1,4 +1,5 @@
-wrap: false
+wrap-x: false
+wrap-y: false
 albedo:
   value-red: 120
   value-green: 95

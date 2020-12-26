@@ -12,4 +12,5 @@ smooth:
   value: 210
 metal:
   value: 230
-porosity: {}
+porosity:
+  value: 0

@@ -1,0 +1,14 @@
+albedo:
+  value-red: 225
+  value-green: 226
+  value-blue: 227
+alpha:
+  value: 255
+normal:
+  value-x: 127
+  value-y: 127
+  value-z: 255
+porosity:
+  value: 0
+emissive:
+  value: 255
