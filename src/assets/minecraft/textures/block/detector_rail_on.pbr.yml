@@ -1,0 +1,14 @@
+alpha:
+  texture: detector_rail_a.png
+height:
+  value: 0
+normal:
+  noise: 1
+smooth:
+  texture: detector_rail_smooth.png
+metal:
+  texture: detector_rail_metal.png
+porosity:
+  texture: detector_rail_p.png
+emissive:
+  scale: 0.1

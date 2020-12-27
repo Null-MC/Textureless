@@ -1,0 +1,12 @@
+alpha:
+  value: 90
+albedo:
+  value-red: 102
+  value-green: 76
+  value-blue: 51
+height:
+  value: 0
+smooth:
+  value: 255
+sss:
+  value: 255

@@ -1,0 +1,19 @@
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 80
+sss:
+  value: 120
+parts:
+- name: rose_bush_top
+  top: 0
+  left: 0
+  width: 16
+  height: 16
+- name: rose_bush_bottom
+  top: 16
+  left: 0
+  width: 16
+  height: 16

@@ -1,0 +1,19 @@
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 50
+sss:
+  value: 180
+parts:
+- name: lilac_top
+  top: 0
+  left: 0
+  width: 16
+  height: 16
+- name: lilac_bottom
+  top: 16
+  left: 0
+  width: 16
+  height: 16

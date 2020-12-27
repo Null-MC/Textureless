@@ -1,0 +1,14 @@
+alpha:
+  texture: activator_rail_a.png
+height:
+  value: 0
+normal:
+  noise: 1
+smooth:
+  texture: activator_rail_smooth.png
+metal:
+  texture: activator_rail_metal.png
+porosity:
+  texture: activator_rail_p.png
+emissive:
+  scale: 0.1

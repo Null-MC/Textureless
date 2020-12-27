@@ -9,6 +9,6 @@ normal:
 occlusion:
   value: 0
 smooth:
-  value: 100
+  value: 40
 sss:
   value: 160

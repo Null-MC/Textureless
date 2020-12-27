@@ -1,0 +1,19 @@
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 20
+sss:
+  value: 200
+parts:
+- name: peony_top
+  top: 0
+  left: 0
+  width: 16
+  height: 16
+- name: peony_bottom
+  top: 16
+  left: 0
+  width: 16
+  height: 16

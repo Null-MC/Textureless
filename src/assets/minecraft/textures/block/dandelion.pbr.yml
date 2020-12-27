@@ -1,12 +1,9 @@
-albedo:
-  value-red: 245
-  value-green: 210
-  value-blue: 66
+albedo: {}
 height:
+  value: 0
+occlusion:
   value: 0
 smooth:
   value: 50
 sss:
   value: 180
-occlusion:
-  value: 0

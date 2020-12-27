@@ -10,3 +10,14 @@ sss:
   value: 120
 occlusion:
   value: 0
+parts:
+- name: large_fern_top
+  top: 0
+  left: 0
+  width: 16
+  height: 16
+- name: large_fern_bottom
+  top: 16
+  left: 0
+  width: 16
+  height: 16

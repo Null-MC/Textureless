@@ -1,0 +1,10 @@
+alpha:
+  value: 255
+height:
+  value: 0
+normal:
+  noise: 2
+smooth:
+  value: 80
+porosity:
+  value: 170

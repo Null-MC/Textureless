@@ -1,0 +1,16 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 190
+  value-green: 176
+  value-blue: 125
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 100
+metal:
+  value: 0
+porosity:
+  value: 50

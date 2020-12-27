@@ -23,4 +23,5 @@ encoding:
   porosity: {}
   sss: {}
   emissive: {}
+texture-scale: 1
 texture-size: 16
