@@ -5,8 +5,8 @@ height:
 occlusion:
   value: 0
 normal:
-  noise: 4
+  noise: 2
 smooth:
-  value: 180
+  value: 100
 porosity:
   value: 0
