@@ -1,9 +1,9 @@
+alpha:
+  value: 255
 albedo:
   value-red: 231
   value-green: 197
   value-blue: 53
-alpha:
-  value: 255
 normal:
   value-x: 127
   value-y: 127
@@ -11,4 +11,4 @@ normal:
 porosity:
   value: 0
 emissive:
-  value: 255
+  value: 180

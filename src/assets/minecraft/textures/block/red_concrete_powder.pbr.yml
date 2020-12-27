@@ -1,9 +1,9 @@
+alpha:
+  value: 255
 albedo:
   value-red: 166
   value-green: 53
   value-blue: 50
-alpha:
-  value: 255
 normal:
   value-x: 127
   value-y: 127

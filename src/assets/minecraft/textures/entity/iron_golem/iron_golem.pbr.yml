@@ -1,0 +1,10 @@
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 200
+porosity:
+  value: 0
+emissive:
+  scale: 0.6

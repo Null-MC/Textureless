@@ -1,0 +1,12 @@
+alpha:
+  value: 255
+height:
+  value: 0
+normal:
+  noise: 8
+smooth:
+  value: 0
+porosity:
+  value: 20
+emissive:
+  scale: 0.6
