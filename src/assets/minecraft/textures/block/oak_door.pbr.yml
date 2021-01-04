@@ -7,11 +7,9 @@ height:
 occlusion:
   value: 0
 smooth:
-  value: 100
-metal:
-  value: 0
+  value: 0.39
 porosity:
-  value: 50
+  value: 0.2
 parts:
 - name: oak_door_top
   top: 0

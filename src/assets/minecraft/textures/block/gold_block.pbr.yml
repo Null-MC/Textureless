@@ -9,7 +9,7 @@ height:
 occlusion:
   value: 0
 smooth:
-  value: 232
+  value: 0.91
 metal:
   value: 231
 porosity:

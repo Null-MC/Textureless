@@ -10,9 +10,9 @@ occlusion:
   value: 0
 normal:
   noise: 2
-metal:
+f0:
   value: 60
 smooth:
-  value: 200
+  value: 0.78
 porosity:
   value: 0

@@ -9,4 +9,4 @@ height:
 normal:
   noise: 10
 smooth:
-  value: 30
+  value: 0.12

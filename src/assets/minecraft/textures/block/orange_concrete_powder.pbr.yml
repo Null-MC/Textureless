@@ -5,10 +5,10 @@ albedo:
 alpha:
   value: 255
 normal:
-  value-x: 127
-  value-y: 127
-  value-z: 255
+  value-x: 0.5
+  value-y: 0.5
+  value-z: 1.0
 porosity:
   value: 0
 emissive:
-  value: 255
+  value: 1

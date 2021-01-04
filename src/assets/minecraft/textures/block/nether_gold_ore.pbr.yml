@@ -7,6 +7,6 @@ occlusion:
 normal:
   noise: 4
 smooth:
-  value: 180
+  value: 0.71
 porosity:
   value: 0

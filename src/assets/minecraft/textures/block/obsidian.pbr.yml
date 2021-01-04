@@ -7,4 +7,4 @@ albedo:
 height:
   value: 0
 smooth:
-  value: 160
+  value: 0.63

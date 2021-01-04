@@ -11,9 +11,9 @@ occlusion:
 normal:
   noise: 2
   curve-x: 90
-metal:
+f0:
   value: 60
 smooth:
-  value: 200
+  value: 0.78
 porosity:
   value: 0

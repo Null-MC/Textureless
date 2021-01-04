@@ -11,8 +11,8 @@ occlusion:
 normal:
   noise: 2
 smooth:
-  value: 20
+  value: 0.08
 metal:
   value: 0
 porosity:
-  value: 120
+  value: 0.47

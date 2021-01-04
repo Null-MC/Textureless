@@ -11,6 +11,6 @@ occlusion:
 normal:
   noise: 20
 smooth:
-  value: 200
+  value: 0.78
 sss:
-  value: 40
+  value: 0.16

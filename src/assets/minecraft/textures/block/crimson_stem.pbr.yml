@@ -12,8 +12,8 @@ normal:
 occlusion:
   value: 0
 smooth:
-  value: 90
+  value: 0.35
 porosity:
-  value: 120
+  value: 0.47
 emissive:
-  value: 30
+  value: 0.12

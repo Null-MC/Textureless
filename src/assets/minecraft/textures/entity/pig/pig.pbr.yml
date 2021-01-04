@@ -3,6 +3,6 @@ height:
 occlusion:
   value: 0
 smooth:
-  value: 40
+  value: 0.16
 sss:
-  value: 20
+  value: 0.08

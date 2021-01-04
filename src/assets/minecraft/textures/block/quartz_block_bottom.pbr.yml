@@ -8,9 +8,9 @@ height:
   value: 0
 occlusion:
   value: 0
-metal:
+f0:
   value: 60
 smooth:
-  value: 250
+  value: 0.98
 porosity:
   value: 0

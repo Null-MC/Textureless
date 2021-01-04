@@ -11,4 +11,4 @@ occlusion:
 normal:
   noise: 1
 porosity:
-  value: 60
+  value: 0.24

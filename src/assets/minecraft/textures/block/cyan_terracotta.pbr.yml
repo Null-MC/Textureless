@@ -5,10 +5,10 @@ albedo:
   value-green: 91
   value-blue: 91
 height:
-  value: 0
+  value: 0.0
 normal:
   noise: 1
 smooth:
-  value: 120
+  value: 0.47
 porosity:
-  value: 10
+  value: 0.04

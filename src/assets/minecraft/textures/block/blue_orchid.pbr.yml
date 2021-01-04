@@ -1,13 +1,12 @@
-albedo: {}
 height:
   value: 0
 normal:
-  value-x: 127
-  value-y: 127
-  value-z: 255
+  value-x: 0.5
+  value-y: 0.5
+  value-z: 1.0
 occlusion:
-  value: 0
+  value: 0.0
 smooth:
-  value: 20
+  value: 0.08
 sss:
-  value: 180
+  value: 0.71

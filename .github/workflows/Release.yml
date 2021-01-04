@@ -15,11 +15,11 @@ jobs:
       - name: Publish LAB11-16x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab11-16x.pack.yml" -z "//content/Textureless-LAB11-16x.zip"
+            publish -p "//content/src/legacy-16x.pack.yml" -z "//content/Textureless-LegacyPBR-16x.zip"
       - name: Publish LAB13-16x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-16x.pack.yml" -z "//content/Textureless-LAB13-16x.zip"
+            publish -p "//content/src/lab13-16x.pack.yml" -z "//content/Textureless-LabPBR-16x.zip"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -28,22 +28,21 @@ jobs:
         with:
           tag_name: v${{ github.event.inputs.version }}
           release_name: Release ${{ github.event.inputs.version }}
-          #draft: true
-      - name: Upload LAB11-16x
+      - name: Upload LegacyPBR-16x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Textureless-LAB11-16x.zip
-          asset_name: Textureless-LAB11-16x.zip
+          asset_path: ./Textureless-LegacyPBR-16x.zip
+          asset_name: Textureless-LegacyPBR-16x.zip
           asset_content_type: application/zip
-      - name: Upload LAB13-16x
+      - name: Upload LabPBR-16x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Textureless-LAB13-16x.zip
-          asset_name: Textureless-LAB13-16x.zip
+          asset_path: ./Textureless-LabPBR-16x.zip
+          asset_name: Textureless-LabPBR-16x.zip
           asset_content_type: application/zip

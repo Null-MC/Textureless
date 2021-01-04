@@ -11,6 +11,6 @@ smooth:
 porosity:
   value: 0
 emissive:
-  value: 70
+  value: 0.28
 occlusion:
   value: 0

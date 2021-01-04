@@ -11,4 +11,4 @@ normal:
 smooth:
   value: 0
 sss:
-  value: 60
+  value: 0.24

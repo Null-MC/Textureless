@@ -16,4 +16,4 @@ smooth:
 metal:
   value: 0
 porosity:
-  value: 100
+  value: 0.39

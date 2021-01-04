@@ -5,6 +5,4 @@ albedo:
 height:
   value: 0
 smooth:
-  value: 255
-sss:
-  value: 255
+  value: 1.0

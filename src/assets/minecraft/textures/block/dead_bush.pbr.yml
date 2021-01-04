@@ -5,8 +5,8 @@ albedo:
 height:
   value: 0
 smooth:
-  value: 40
+  value: 0.16
 porosity:
-  value: 60
+  value: 0.24
 occlusion:
   value: 0

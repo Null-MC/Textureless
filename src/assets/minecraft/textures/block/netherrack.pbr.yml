@@ -11,6 +11,6 @@ occlusion:
 normal:
   noise: 2
 smooth:
-  value: 100
+  value: 0.39
 porosity:
   value: 0

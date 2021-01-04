@@ -7,8 +7,6 @@ albedo:
 height:
   value: 0
 smooth:
-  value: 120
-porosity:
-  value: 0
+  value: 0.47
 emissive:
-  value: 140
+  value: 0.55

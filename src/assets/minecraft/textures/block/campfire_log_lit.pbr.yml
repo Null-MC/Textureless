@@ -5,8 +5,8 @@ height:
 normal:
   noise: 8
 smooth:
-  value: 0
+  value: 0.0
 porosity:
-  value: 20
+  value: 0.08
 emissive:
   scale: 0.6

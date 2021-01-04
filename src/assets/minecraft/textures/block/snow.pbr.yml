@@ -9,6 +9,6 @@ height:
 normal:
   noise: 2
 smooth:
-  value: 220
+  value: 0.86
 sss:
-  value: 200
+  value: 0.78

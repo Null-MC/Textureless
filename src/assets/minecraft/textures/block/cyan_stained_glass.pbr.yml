@@ -5,8 +5,6 @@ albedo:
   value-green: 127
   value-blue: 153
 height:
-  value: 0
+  value: 0.0
 smooth:
-  value: 255
-sss:
-  value: 255
+  value: 1.0

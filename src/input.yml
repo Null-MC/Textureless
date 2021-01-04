@@ -1,22 +1,5 @@
 format: raw
-alpha: {}
-diffuse-red: {}
-diffuse-green: {}
-diffuse-blue: {}
-albedo-red: {}
-albedo-green: {}
-albedo-blue: {}
 height:
   invert: true
 occlusion:
   invert: true
-normal-x: {}
-normal-y: {}
-normal-z: {}
-specular: {}
-smooth: {}
-rough: {}
-metal: {}
-porosity: {}
-sss: {}
-emissive: {}

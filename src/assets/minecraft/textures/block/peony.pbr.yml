@@ -3,9 +3,9 @@ height:
 occlusion:
   value: 0
 smooth:
-  value: 20
+  value: 0.08
 sss:
-  value: 200
+  value: 0.78
 parts:
 - name: peony_top
   top: 0

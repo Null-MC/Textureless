@@ -7,9 +7,8 @@ albedo:
 height:
   value: 0
 normal:
-  noise: 0
   curve-x: 90
 smooth:
-  value: 36
+  value: 0.14
 sss:
-  value: 32
+  value: 0.13

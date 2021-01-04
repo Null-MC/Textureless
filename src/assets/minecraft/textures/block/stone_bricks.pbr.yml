@@ -9,6 +9,6 @@ height:
 normal:
   noise: 2
 smooth:
-  value: 120
+  value: 0.47
 porosity:
-  value: 100
+  value: 0.39

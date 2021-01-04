@@ -6,7 +6,7 @@ normal:
   curve-x: 90
   curve-y: 90
 smooth:
-  value: 80
+  value: 0.31
 porosity:
   value: 0
 emissive:

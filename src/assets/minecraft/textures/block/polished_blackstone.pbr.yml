@@ -7,6 +7,6 @@ albedo:
 height:
   value: 0
 smooth:
-  value: 200
+  value: 0.78
 porosity:
   value: 0

@@ -5,8 +5,8 @@ albedo:
 height:
   value: 0
 smooth:
-  value: 120
+  value: 0.47
 sss:
-  value: 150
+  value: 0.6
 occlusion:
   value: 0

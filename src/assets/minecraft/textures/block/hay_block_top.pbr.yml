@@ -11,6 +11,6 @@ normal:
 occlusion:
   value: 0
 smooth:
-  value: 20
+  value: 0.08
 sss:
-  value: 60
+  value: 0.24
