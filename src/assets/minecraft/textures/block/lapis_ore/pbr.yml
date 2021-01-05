@@ -1,10 +1,11 @@
 alpha:
   value: 255
 height:
-  value: 0
+  scale: 0.2
 normal:
+  strength: 0
   noise: 2
 smooth:
   value: 0.31
 porosity:
-  value: 0.2
+  value: 0.67

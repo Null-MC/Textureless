@@ -2,8 +2,9 @@ alpha:
   value: 255
 albedo: {}
 height:
-  value: 0
+  scale: 0.2
 normal:
+  strength: 0
   noise: 3
 smooth: {}
 porosity:
