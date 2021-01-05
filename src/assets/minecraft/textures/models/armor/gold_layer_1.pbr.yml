@@ -1,0 +1,16 @@
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 223
+  value-green: 175
+  value-blue: 61
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 0.95
+metal:
+  value: 231
+porosity:
+  value: 0

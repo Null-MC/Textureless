@@ -10,7 +10,5 @@ occlusion:
   value: 0
 smooth:
   value: 0.47
-metal:
-  value: 0
 porosity:
   value: 0.2
