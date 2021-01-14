@@ -6,8 +6,7 @@ normal:
   strength: 0
   noise: 2
 occlusion:
-  z-scale: 12
-  steps: 4
+  value: 0
 f0: {}
 porosity:
   value: 0.2

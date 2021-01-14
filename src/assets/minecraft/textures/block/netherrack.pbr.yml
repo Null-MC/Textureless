@@ -6,11 +6,13 @@ albedo:
   value-blue: 40
 height:
   value: 0
-occlusion:
-  value: 0
 normal:
   noise: 2
+occlusion:
+  value: 0
 smooth:
-  value: 0.39
+  value: 0.2
+f0:
+  value: 0.063
 porosity:
   value: 0

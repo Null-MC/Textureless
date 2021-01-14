@@ -1,0 +1,13 @@
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 0.4
+f0:
+  value: 0.26
+porosity: {}
+sss:
+  value: 0.06

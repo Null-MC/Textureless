@@ -7,8 +7,7 @@ normal:
   strength: 0
   noise: 3
 occlusion:
-  z-scale: 12
-  steps: 4
+  value: 0
 smooth: {}
 porosity:
   value: 0.31

@@ -1,3 +1,4 @@
+wrap-x: false
 alpha:
   value: 255
 albedo:
@@ -13,6 +14,7 @@ occlusion:
   value: 0
 smooth:
   value: 0.1
-f0: {}
+f0:
+  value: 0.053
 porosity:
-  value: 80
+  value: 0.1

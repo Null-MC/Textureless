@@ -11,8 +11,8 @@ normal:
 occlusion:
   value: 0
 smooth:
-  value: 0.78
+  value: 0.1
 f0:
-  value: 0.05
+  value: 0.053
 porosity:
-  value: 0
+  value: 0.1
