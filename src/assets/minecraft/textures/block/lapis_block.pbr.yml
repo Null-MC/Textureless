@@ -10,5 +10,6 @@ occlusion:
   value: 0
 smooth:
   value: 0.47
-metal:
-  value: 255
+metal: {}
+f0:
+  value: 0.053

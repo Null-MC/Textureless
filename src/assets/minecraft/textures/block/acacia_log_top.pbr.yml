@@ -12,5 +12,7 @@ smooth:
   value: 0.24
 metal:
   value: 0
+f0:
+  value: 0.04
 porosity:
   value: 0.12

@@ -5,7 +5,10 @@ height:
   scale: 0.2
 normal:
   strength: 0
-  noise: 4
+  noise: 2
+occlusion:
+  z-scale: 12
+  steps: 4
 smooth: {}
 porosity:
   value: 0.47

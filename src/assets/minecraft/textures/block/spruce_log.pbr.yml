@@ -11,5 +11,7 @@ normal:
   curve-x: 90
 occlusion:
   value: 0
+f0:
+  value: 0.017
 porosity:
   value: 0.63

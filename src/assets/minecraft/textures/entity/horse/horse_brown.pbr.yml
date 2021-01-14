@@ -1,0 +1,10 @@
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 0.1
+sss:
+  value: 0.1

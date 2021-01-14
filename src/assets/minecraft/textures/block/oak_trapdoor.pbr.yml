@@ -3,7 +3,10 @@ albedo:
   value-green: 80
   value-blue: 44
 height:
-  value: 0
+  scale: 0.2
+normal:
+  strength: 0
+  noise: 1
 occlusion:
   value: 0
 smooth:

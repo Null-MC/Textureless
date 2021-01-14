@@ -2,10 +2,12 @@ alpha:
   value: 255
 height:
   value: 0
-occlusion:
-  value: 0
 normal:
   noise: 4
+occlusion:
+  value: 0
+  z-scale: 12
+  steps: 4
 smooth:
   value: 0.71
 porosity:

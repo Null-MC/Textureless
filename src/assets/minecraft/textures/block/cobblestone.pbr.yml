@@ -10,5 +10,7 @@ normal:
   noise: 4
 smooth:
   value: 0.24
+f0:
+  value: 0.017
 porosity:
   value: 0.55
