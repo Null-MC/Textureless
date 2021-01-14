@@ -1,0 +1,18 @@
+alpha:
+  texture: boat_a.png
+albedo:
+  value-red: 160
+  value-green: 115
+  value-blue: 81
+height:
+  value: 0
+occlusion:
+  value: 0
+normal:
+  noise: 2
+f0:
+  value: 0.017
+smooth:
+  value: 0.1
+porosity:
+  value: 0.6
