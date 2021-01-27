@@ -2,7 +2,7 @@ edition: Java
 format: 6
 description: No Textures!
 tags: 64x LabPBR
-texture-scale: 4
+#texture-scale: 4
 texture-size: 64
 encoding:
   format: lab-1.3

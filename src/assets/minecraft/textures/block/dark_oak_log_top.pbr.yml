@@ -9,7 +9,7 @@ height:
 occlusion:
   value: 0
 smooth:
-  value: 0.24
+  value: 0.2
 f0:
   value: 0.04
 porosity:

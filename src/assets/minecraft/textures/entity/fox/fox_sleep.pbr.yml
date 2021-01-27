@@ -1,0 +1,15 @@
+wrap-x: false
+wrap-y: false
+alpha:
+  texture: fox_a.png
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity: {}
+sss:
+  value: 0.2
