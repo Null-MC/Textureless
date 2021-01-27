@@ -1,0 +1,8 @@
+alpha:
+  value: 255
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth: {}
+porosity: {}

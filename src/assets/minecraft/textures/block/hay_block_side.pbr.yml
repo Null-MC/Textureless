@@ -8,6 +8,7 @@ height:
   value: 0
 normal:
   noise: 2
+  curve-x: 45
 occlusion:
   value: 0
 smooth:
