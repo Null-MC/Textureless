@@ -1,3 +1,5 @@
+wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 albedo:

@@ -2,8 +2,8 @@ edition: Java
 format: 6
 description: No Textures!
 tags: 16x LabPBR
-texture-scale: 1
-texture-size: 16
+#texture-scale: 1
+#texture-size: 16
 encoding:
   format: lab-1.3
 auto-generate-occlusion: false

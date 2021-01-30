@@ -14,3 +14,4 @@ metal:
   value: 230
 porosity:
   value: 0
+emissive: {}
