@@ -1,4 +1,5 @@
 format: raw
+auto-material: false
 alpha: {}
 diffuse-red: {}
 diffuse-green: {}

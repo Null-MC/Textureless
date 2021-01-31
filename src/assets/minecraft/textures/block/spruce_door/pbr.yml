@@ -1,0 +1,24 @@
+alpha:
+  value: 255
+height:
+  scale: 0.25
+normal:
+  strength: 0.25
+  noise: 1
+  filter: sobel-low
+occlusion:
+  z-scale: 2
+  steps: 8
+smooth:
+  scale: 0.6
+parts:
+- name: spruce_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: spruce_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

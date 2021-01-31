@@ -3,7 +3,7 @@ format: 6
 description: No Textures!
 tags: 1x LabPBR
 texture-scale: 0.0625
-texture-size: 1
+#texture-size: 1
 encoding:
   format: lab-1.3
   alpha:

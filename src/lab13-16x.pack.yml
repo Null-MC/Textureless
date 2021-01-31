@@ -2,8 +2,27 @@ edition: Java
 format: 6
 description: No Textures!
 tags: 16x LabPBR
-#texture-scale: 1
-#texture-size: 16
 encoding:
   format: lab-1.3
+  alpha: {}
+  diffuse-red: {}
+  diffuse-green: {}
+  diffuse-blue: {}
+  albedo-red: {}
+  albedo-green: {}
+  albedo-blue: {}
+  height: {}
+  occlusion: {}
+  normal-x: {}
+  normal-y: {}
+  normal-z: {}
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+default-texture-size: 16
 auto-generate-occlusion: false

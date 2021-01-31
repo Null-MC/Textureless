@@ -2,7 +2,8 @@ edition: Java
 format: 6
 description: No Textures!
 tags: 16x LegacyPBR
-texture-scale: 1
-texture-size: 16
+default-texture-size: 16
+#texture-scale: 1
+#texture-size: 16
 encoding:
   format: legacy

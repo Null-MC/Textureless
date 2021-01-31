@@ -1,0 +1,24 @@
+albedo: {}
+height:
+  scale: 0.6
+normal:
+  strength: 0.4
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.2
+  z-scale: 4
+  steps: 6
+smooth: {}
+porosity: {}
+parts:
+- name: oak_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: oak_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

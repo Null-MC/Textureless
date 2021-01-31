@@ -1,0 +1,24 @@
+wrap-x: false
+alpha:
+  value: 255
+albedo:
+  value-red: 115
+  value-green: 89
+  value-blue: 53
+height:
+  scale: 0.2
+normal:
+  strength: 0.2
+  noise: 2
+  curve-x: 90
+occlusion:
+  quality: 0.1
+  z-bias: 0.2
+  z-scale: 2
+  steps: 6
+smooth:
+  value: 0.05
+f0:
+  value: 0.03
+porosity:
+  value: 0.55

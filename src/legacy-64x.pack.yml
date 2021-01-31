@@ -2,8 +2,9 @@ edition: Java
 format: 6
 description: No Textures!
 tags: 64x LegacyPBR
+default-texture-size: 64
 texture-scale: 4
-texture-size: 64
+#texture-size: 64
 encoding:
   format: legacy
   sampler: bilinear

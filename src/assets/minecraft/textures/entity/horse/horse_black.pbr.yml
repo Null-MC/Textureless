@@ -5,7 +5,7 @@ height:
 occlusion:
   value: 0
 smooth:
-  value: 0.1
+  texture: horse_smooth.png
 metal:
   texture: horse_metal.png
 f0:

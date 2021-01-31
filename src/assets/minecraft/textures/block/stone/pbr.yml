@@ -1,0 +1,22 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 129
+  value-green: 129
+  value-blue: 129
+height:
+  scale: 0.2
+normal:
+  strength: 0.2
+  noise: 2
+occlusion:
+  quality: 0.1
+  z-bias: 0.2
+  z-scale: 2
+  steps: 6
+smooth:
+  value: 0.15
+f0:
+  value: 0.07
+porosity:
+  value: 0.4

@@ -6,10 +6,16 @@ albedo:
   value-blue: 97
 height:
   value: 0
+normal:
+  strength: 0.2
+  filter: sobel-low
 occlusion:
-  value: 0
+  quality: 0.1
+  z-bias: 0.2
+  z-scale: 3
+  steps: 8
 smooth:
-  value: 0.71
+  value: 0.85
 metal:
   value: 231
 porosity:
