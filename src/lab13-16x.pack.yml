@@ -20,7 +20,8 @@ encoding:
   smooth: {}
   rough: {}
   metal: {}
-  f0: {}
+  f0:
+    range-max: 0
   porosity: {}
   sss: {}
   emissive: {}

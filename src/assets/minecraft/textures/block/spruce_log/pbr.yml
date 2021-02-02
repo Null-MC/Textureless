@@ -17,7 +17,7 @@ occlusion:
   z-scale: 2
   steps: 6
 smooth:
-  value: 0.02
+  value: 0.01
 f0:
   value: 0.03
 porosity:

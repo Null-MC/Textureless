@@ -1,14 +1,14 @@
 wrap-x: false
 wrap-y: false
-albedo:
-  value-red: 144
-  value-green: 121
-  value-blue: 80
+albedo: {}
 height:
   value: 0
 normal:
+  strength: 0.6
   noise: 1
+  filter: sobel-low
 occlusion:
   value: 0
-porosity:
-  value: 0.39
+f0:
+  value: 0.04
+porosity: {}

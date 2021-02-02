@@ -1,0 +1,17 @@
+height:
+  scale: 0.8
+normal:
+  strength: 0.02
+  noise: 1
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 8
+  steps: 8
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity:
+  value: 0.5

@@ -1,0 +1,24 @@
+wrap-x: false
+wrap-y: false
+alpha: {}
+albedo:
+  value-red: 126
+  value-green: 82
+  value-blue: 40
+height:
+  value: 0
+normal:
+  strength: 0.6
+  noise: 2
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 3
+  steps: 6
+smooth:
+  value: 0.15
+f0:
+  value: 0.04
+porosity:
+  value: 0.4
