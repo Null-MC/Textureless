@@ -1,11 +1,13 @@
 wrap-x: false
+alpha:
+  value: 255
 height:
-  scale: 0.3
+  value: 0
 normal:
   strength: 0.1
   filter: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 1.6
+  z-scale: 1.5
   steps: 12

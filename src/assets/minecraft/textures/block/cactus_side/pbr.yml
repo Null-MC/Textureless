@@ -1,0 +1,18 @@
+wrap-x: false
+wrap-y: true
+albedo: {}
+height: {}
+normal:
+  strength: 0.8
+  curve-x: 90
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 1
+  steps: 12
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+sss: {}

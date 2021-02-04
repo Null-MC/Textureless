@@ -1,11 +1,12 @@
-wrap-x: false
 height:
-  scale: 0.3
+  scale: 0.4
 normal:
   strength: 0.1
   filter: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 1.6
+  z-scale: 2
   steps: 12
+emissive:
+  scale: 0.17

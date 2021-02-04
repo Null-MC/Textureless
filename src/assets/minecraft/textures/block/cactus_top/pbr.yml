@@ -1,0 +1,20 @@
+wrap-x: false
+wrap-y: false
+albedo: {}
+height:
+  scale: 0.6
+normal:
+  curve-x: 45
+  curve-y: 45
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 1
+  steps: 12
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+sss:
+  value: 0.04

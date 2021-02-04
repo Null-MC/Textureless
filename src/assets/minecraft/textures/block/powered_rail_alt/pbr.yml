@@ -1,0 +1,7 @@
+alpha:
+  value: 255
+height:
+  value: 0
+normal:
+  strength: 0.1
+  filter: sobel-low

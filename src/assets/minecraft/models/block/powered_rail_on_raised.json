@@ -1,0 +1,6 @@
+{
+  "parent": "block/powered_rail_raised_template",
+  "textures": {
+    "rail": "block/powered_rail_on_alt"
+  }
+}
