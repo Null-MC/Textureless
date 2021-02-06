@@ -1,0 +1,18 @@
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 61
+  value-green: 132
+  value-blue: 37
+height:
+  value: 0
+normal:
+  strength: 0.6
+occlusion:
+  value: 0
+smooth:
+  value: 0.08
+f0:
+  value: 0.04
+sss:
+  value: 0.02

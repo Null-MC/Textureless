@@ -1,0 +1,31 @@
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 61
+  value-green: 134
+  value-blue: 35
+height:
+  value: 0
+normal:
+  strength: 0.6
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 2
+  z-scale: 8
+  steps: 12
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+parts:
+- name: sunflower_top
+  top: 0
+  left: 0
+  width: 16
+  height: 16
+- name: sunflower_bottom
+  top: 16
+  left: 0
+  width: 16
+  height: 16

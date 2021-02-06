@@ -1,0 +1,18 @@
+albedo:
+  value-red: 235
+  value-green: 235
+  value-blue: 235
+height:
+  scale: 0.2
+normal:
+  strength: 0.2
+  filter: sobel-low
+occlusion:
+  value: 0
+smooth:
+  value: 0.4
+f0:
+  value: 0.09
+porosity: {}
+sss:
+  value: 0.1

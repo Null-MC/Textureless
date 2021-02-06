@@ -1,0 +1,19 @@
+wrap-x: false
+alpha:
+  value: 255
+height:
+  shift: -0.1
+  scale: 0.8
+  edge-fade-size-x: 1
+  edge-fade-size-y: 1
+normal:
+  strength: 0.5
+  curve-x: 90
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 1
+  steps: 12
+smooth: {}
+porosity: {}

@@ -1,0 +1,21 @@
+alpha:
+  value: 255
+height:
+  scale: 0.24
+normal:
+  strength: 0.6
+  noise: 2
+  curve-x: 45
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 2
+  z-scale: 8
+  steps: 12
+smooth:
+  value: 0.08
+f0:
+  value: 0.04
+porosity: {}
+sss:
+  value: 0.24
