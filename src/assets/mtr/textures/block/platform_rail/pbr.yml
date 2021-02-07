@@ -1,0 +1,11 @@
+wrap-x: false
+height:
+  scale: 0.3
+normal:
+  strength: 0.1
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 1.6
+  steps: 12

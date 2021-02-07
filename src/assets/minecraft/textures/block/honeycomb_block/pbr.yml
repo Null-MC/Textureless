@@ -1,0 +1,14 @@
+alpha:
+  value: 255
+height:
+  scale: 0.5
+normal:
+  strength: 0.5
+occlusion:
+  quality: 0.1
+  z-bias: 1
+  z-scale: 4
+  steps: 12
+smooth:
+  value: 0.35
+sss: {}

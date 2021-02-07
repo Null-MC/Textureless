@@ -1,0 +1,13 @@
+wrap-x: false
+wrap-y: false
+albedo: {}
+height:
+  value: 0
+normal:
+  strength: 0.4
+  noise: 1
+  filter: sobel-low
+occlusion:
+  value: 0
+f0: {}
+porosity: {}

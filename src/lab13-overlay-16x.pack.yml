@@ -1,0 +1,16 @@
+edition: Java
+format: 6
+description: No Textures!
+tags: 16x LabPBR
+encoding:
+  format: lab-1.3
+  alpha:
+    texture: none
+  albedo-red:
+    texture: none
+  albedo-green:
+    texture: none
+  albedo-blue:
+    texture: none
+default-texture-size: 16
+auto-generate-occlusion: false

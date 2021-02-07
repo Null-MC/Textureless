@@ -1,0 +1,25 @@
+alpha:
+  value: 255
+height:
+  shift: -0.06
+  scale: 0.4
+  edge-fade-size-x: 1
+  edge-fade-size-y: 1
+normal:
+  strength: 0.4
+  curve-x: 90
+  curve-y: 90
+  filter: sobel3
+occlusion:
+  quality: 0.1
+  z-bias: 1
+  z-scale: 8
+  steps: 12
+smooth:
+  value: 0.15
+f0:
+  value: 0.03
+porosity:
+  value: 0
+sss:
+  value: 0.05

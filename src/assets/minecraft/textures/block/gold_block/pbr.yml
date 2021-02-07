@@ -5,7 +5,12 @@ albedo:
   value-green: 176
   value-blue: 7
 height:
-  value: 0
+  scale: 0.6
+  edge-fade-size-x: 1
+  edge-fade-size-y: 1
+normal:
+  strength: 0.6
+  filter: sobel-high
 occlusion:
   value: 0
 smooth:

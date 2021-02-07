@@ -5,9 +5,17 @@ albedo:
   value-green: 200
   value-blue: 200
 height:
-  value: 0
+  scale: 0.5
+  edge-fade-size-x: 1
+  edge-fade-size-y: 1
+normal:
+  strength: 0.5
+  filter: sobel-high
 occlusion:
-  value: 0
+  quality: 0.1
+  z-bias: 1
+  z-scale: 8
+  steps: 12
 smooth:
   value: 0.82
 metal:
