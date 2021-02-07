@@ -1,9 +1,27 @@
 edition: Java
 format: 6
-description: No Textures!
-tags: 16x LegacyPBR
-default-texture-size: 16
-#texture-scale: 1
-#texture-size: 16
+description: No Textures! PBR shader required.
+tags: 16x OldPBR
 encoding:
   format: legacy
+  alpha: {}
+  diffuse-red: {}
+  diffuse-green: {}
+  diffuse-blue: {}
+  albedo-red: {}
+  albedo-green: {}
+  albedo-blue: {}
+  height: {}
+  occlusion: {}
+  normal-x: {}
+  normal-y: {}
+  normal-z: {}
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+default-texture-size: 16
