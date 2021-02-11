@@ -7,5 +7,5 @@ normal:
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 1.6
-  steps: 12
+  z-scale: 2
+  steps: 6

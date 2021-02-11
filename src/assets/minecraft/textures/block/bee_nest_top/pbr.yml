@@ -10,6 +10,6 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 1
-  z-scale: 5
-  steps: 12
+  z-bias: 0.1
+  z-scale: 3
+  steps: 6

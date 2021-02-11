@@ -5,7 +5,7 @@ A Minecraft Resource Pack that uses material values instead of textures. This RP
 _Preview of Textureless using [BSL shaders](https://bitslablab.com/bslshaders) with promo-outline enabled._
 
 ## Try It
-You can use this resource pack as-is, in either legacy PBR ("old" PBR) or modern LabPBR [1.3] encoding; both with generated 16x textures for surface-normals and alpha masking. You can find them under _Assets_ in the [Releases](https://github.com/null511/MCRP-Textureless/releases) section.
+You can use this resource pack as-is, in either modern LabPBR [1.3] or OldPBR encoding; both with generated 16x textures for surface-normals and alpha masking. You can find them under _Assets_ in the [Releases](https://github.com/null511/MCRP-Textureless/releases) section.
 
 ## Editing
 

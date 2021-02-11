@@ -1,20 +1,21 @@
+wrap-x: false
+wrap-y: false
 albedo:
   value-red: 197
   value-green: 200
   value-blue: 200
 height:
   shift: -0.2
-  scale: 0.3
+  scale: 0.4
 normal:
   strength: 0.4
-  filter: sobel-high
+  filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 1.2
-  z-scale: 6
-  steps: 12
-smooth:
-  value: 0.7
+  z-bias: 0.5
+  z-scale: 4
+  steps: 8
+smooth: {}
 metal:
   value: 230
 porosity:

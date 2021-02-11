@@ -6,9 +6,9 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0.2
-  z-scale: 4
-  steps: 6
+  z-bias: 0.14
+  z-scale: 2
+  steps: 4
 smooth: {}
 porosity: {}
 parts:

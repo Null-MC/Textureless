@@ -9,12 +9,12 @@ normal:
   strength: 0.4
   curve-x: 90
   curve-y: 90
-  filter: sobel3
+  filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 1
-  z-scale: 8
-  steps: 12
+  z-bias: 0.2
+  z-scale: 4
+  steps: 6
 smooth:
   value: 0.15
 f0:

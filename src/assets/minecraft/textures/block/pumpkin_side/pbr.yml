@@ -14,9 +14,9 @@ normal:
   curve-y: 90
 occlusion:
   quality: 0.1
-  z-bias: 1
-  z-scale: 8
-  steps: 12
+  z-bias: 0.2
+  z-scale: 3
+  steps: 6
 smooth:
   value: 0.15
 f0:

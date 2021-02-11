@@ -1,0 +1,11 @@
+edition: Java
+format: 6
+description: No Textures! PBR shader required.
+tags: 32x LabPBR
+encoding:
+  format: lab-1.3
+  sampler: nearest
+  alpha:
+    sampler: nearest
+block-texture-size: 32
+texture-scale: 2

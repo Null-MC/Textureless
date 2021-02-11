@@ -8,7 +8,7 @@ height:
   scale: 0.2
 normal:
   strength: 0.2
-  noise: 6
+  noise: 3
   filter: sobel-high
 occlusion:
   quality: 0.1

@@ -1,4 +1,5 @@
 wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 height:
@@ -14,6 +15,6 @@ occlusion:
   quality: 0.1
   z-bias: 2
   z-scale: 8
-  steps: 12
+  steps: 6
 smooth: {}
 porosity: {}

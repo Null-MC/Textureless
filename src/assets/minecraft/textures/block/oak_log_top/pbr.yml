@@ -3,13 +3,13 @@ alpha:
 height:
   scale: 0.5
 normal:
-  strength: 0.3
+  strength: 0.8
   filter: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0.1
   z-scale: 2
-  steps: 6
+  steps: 8
 smooth:
   value: 0.1
 f0:

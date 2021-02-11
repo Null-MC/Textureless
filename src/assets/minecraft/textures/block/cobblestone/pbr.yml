@@ -5,16 +5,16 @@ albedo:
   value-green: 124
   value-blue: 124
 height:
-  scale: 0.35
+  scale: 0.4
 normal:
-  strength: 0.3
+  strength: 0.5
   noise: 3
   filter: sobel3
 occlusion:
   quality: 0.1
-  z-bias: 0.5
-  z-scale: 2
-  steps: 4
+  z-bias: 0.3
+  z-scale: 3
+  steps: 6
 smooth:
   value: 0.05
 f0:

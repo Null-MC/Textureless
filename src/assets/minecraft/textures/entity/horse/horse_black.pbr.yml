@@ -12,3 +12,4 @@ f0:
   texture: horse_f0.png
 sss:
   value: 0.1
+texture-size: 64

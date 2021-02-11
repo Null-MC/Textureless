@@ -9,7 +9,7 @@ occlusion:
   quality: 0.1
   z-bias: 0.1
   z-scale: 2
-  steps: 6
+  steps: 12
 smooth:
   value: 0.1
 f0:

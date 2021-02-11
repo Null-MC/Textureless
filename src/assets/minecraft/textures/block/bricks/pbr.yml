@@ -4,17 +4,15 @@ albedo: {}
 height:
   scale: 0.6
 normal:
-  strength: 0.5
   noise: 2
-  filter: sobel3
+  filter: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 4
+  z-scale: 6
   steps: 12
 smooth:
   value: 0.01
 f0:
   value: 0.04
-porosity:
-  value: 0.71
+porosity: {}

@@ -10,9 +10,9 @@ normal:
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 1
-  z-scale: 7
-  steps: 12
+  z-bias: 0.1
+  z-scale: 4
+  steps: 8
 smooth: {}
 f0: {}
 porosity: {}

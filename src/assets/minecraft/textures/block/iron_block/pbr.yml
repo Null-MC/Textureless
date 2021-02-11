@@ -6,16 +6,14 @@ albedo:
   value-blue: 200
 height:
   scale: 0.5
-  edge-fade-size-x: 1
-  edge-fade-size-y: 1
 normal:
-  strength: 0.5
+  strength: 0.8
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 1
-  z-scale: 8
-  steps: 12
+  z-bias: 0.1
+  z-scale: 4
+  steps: 6
 smooth:
   value: 0.82
 metal:

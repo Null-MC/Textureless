@@ -16,6 +16,10 @@ jobs:
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
             publish -p "//content/src/lab13-16x.pack.yml" -z "//content/Textureless-LabPBR-16x.zip"
+      - name: Publish LAB13-32x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/lab13-32x.pack.yml" -z "//content/Textureless-LabPBR-32x.zip"
       - name: Publish LAB13-Overlay-16x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
@@ -40,6 +44,15 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Textureless-LabPBR-16x.zip
           asset_name: Textureless-LabPBR-16x.zip
+          asset_content_type: application/zip
+      - name: Upload LabPBR-32x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-LabPBR-32x.zip
+          asset_name: Textureless-LabPBR-32x.zip
           asset_content_type: application/zip
       - name: Upload LabPBR-Overlay-16x
         uses: actions/upload-release-asset@v1

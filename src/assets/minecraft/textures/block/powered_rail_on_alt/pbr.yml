@@ -5,5 +5,10 @@ height:
 normal:
   strength: 0.1
   filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 6
 emissive:
   scale: 0.17

@@ -1,4 +1,5 @@
 wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 height:
@@ -7,13 +8,13 @@ height:
   edge-fade-size-x: 1
   edge-fade-size-y: 1
 normal:
-  strength: 0.5
+  strength: 0.8
   curve-x: 90
   filter: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 1
-  steps: 12
+  z-scale: 2
+  steps: 6
 smooth: {}
 porosity: {}
