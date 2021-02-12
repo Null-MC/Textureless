@@ -1,3 +1,5 @@
+texture-width: 64
+texture-height: 32
 wrap-x: false
 wrap-y: false
 albedo:
@@ -9,7 +11,7 @@ height:
 occlusion:
   value: 0
 smooth:
-  value: 0.95
+  value: 0.8
 metal:
   value: 231
 porosity:

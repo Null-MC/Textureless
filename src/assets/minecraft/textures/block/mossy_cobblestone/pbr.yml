@@ -3,7 +3,7 @@ alpha:
 height:
   scale: 0.35
 normal:
-  strength: 0.3
+  strength: 0.5
   noise: 3
   filter: sobel3
 occlusion:

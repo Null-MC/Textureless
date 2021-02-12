@@ -1,3 +1,4 @@
+texture-size: 64
 height:
   scale: 0.6
 normal:
@@ -8,4 +9,3 @@ occlusion:
   z-bias: 0.1
   z-scale: 6
   steps: 8
-texture-size: 64

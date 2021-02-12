@@ -1,0 +1,14 @@
+alpha:
+  value: 255
+albedo: {}
+height: {}
+normal:
+  strength: 0.7
+  filter: sobel-low
+occlusion:
+  value: 0
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 3
+  steps: 6
+smooth: {}

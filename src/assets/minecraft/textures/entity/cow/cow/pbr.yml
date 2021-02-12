@@ -1,0 +1,14 @@
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 0.06
+f0:
+  value: 0.04
+sss:
+  value: 0.04
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: false

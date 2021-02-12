@@ -1,0 +1,15 @@
+albedo: {}
+height:
+  value: 0
+normal:
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 5
+smooth:
+  value: 0.08
+f0:
+  value: 0.04
+sss: {}

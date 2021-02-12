@@ -1,18 +1,26 @@
+texture-width: 128
+texture-height: 64
 alpha:
-  texture: boat_a.png
+  texture: alpha.png
 albedo:
   value-red: 118
   value-green: 88
   value-blue: 51
 height:
-  value: 0
-occlusion:
-  value: 0
+  texture: height.png
+  scale: 0.12
 normal:
-  noise: 2
-f0:
-  value: 0.017
+  strength: 0.5
+  noise: 1
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 6
 smooth:
   value: 0.1
+f0:
+  value: 0.04
 porosity:
   value: 0.6
