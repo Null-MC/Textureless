@@ -20,7 +20,7 @@ smooth:
   value: 0.5
 metal: {}
 f0:
-  value: 0.04
+  value: 0.1
 porosity:
   value: 0
 emissive: {}

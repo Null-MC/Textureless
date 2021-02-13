@@ -2,19 +2,18 @@ alpha:
   value: 255
 albedo: {}
 height:
-  scale: 0.7
+  scale: 0.3
 normal:
-  strength: 0.6
-  noise: 2
+  strength: 0.4
+  noise: 4
   filter: sobel3
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 4
+  z-scale: 3
   steps: 4
-smooth:
-  value: 0.05
+smooth: {}
 f0:
   value: 0.07
 porosity:
-  value: 0.8
+  value: 0.08

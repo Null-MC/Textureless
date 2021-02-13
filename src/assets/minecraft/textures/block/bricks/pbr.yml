@@ -2,15 +2,16 @@ alpha:
   value: 255
 albedo: {}
 height:
-  scale: 0.6
+  scale: 0.4
 normal:
+  strength: 0.6
   noise: 2
   filter: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 6
-  steps: 12
+  z-scale: 3
+  steps: 6
 smooth:
   value: 0.01
 f0:

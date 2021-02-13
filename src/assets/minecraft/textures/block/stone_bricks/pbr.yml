@@ -9,11 +9,12 @@ height:
 normal:
   strength: 0.6
   noise: 2
+  filter: sobel3
 occlusion:
   quality: 0.1
   z-bias: 0.1
   z-scale: 4
-  steps: 6
+  steps: 4
 smooth:
   value: 0.05
 f0:
