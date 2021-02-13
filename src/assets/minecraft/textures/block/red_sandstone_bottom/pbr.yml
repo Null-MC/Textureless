@@ -1,14 +1,14 @@
 alpha:
   value: 255
 albedo:
-  value-red: 217
-  value-green: 205
-  value-blue: 159
+  value-red: 186
+  value-green: 99
+  value-blue: 29
 height:
   scale: 0.3
 normal:
   strength: 0.5
-  noise: 1
+  noise: 3
   filter: sobel3
 occlusion:
   quality: 0.1
@@ -16,8 +16,8 @@ occlusion:
   z-scale: 2
   steps: 4
 smooth:
-  value: 0.02
+  value: 0.04
 f0:
-  value: 0.07
+  value: 0.05
 porosity:
-  value: 0.78
+  value: 0.6

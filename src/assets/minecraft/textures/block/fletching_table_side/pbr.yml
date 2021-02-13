@@ -1,0 +1,13 @@
+alpha:
+  value: 255
+height:
+  scale: 0.3
+normal:
+  strength: 0.4
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 4
+  steps: 4
+smooth: {}

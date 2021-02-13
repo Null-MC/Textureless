@@ -7,7 +7,7 @@ albedo:
 height:
   scale: 0.6
 normal:
-  strength: 0.4
+  strength: 0.6
   noise: 3
   filter: sobel3
 occlusion:
