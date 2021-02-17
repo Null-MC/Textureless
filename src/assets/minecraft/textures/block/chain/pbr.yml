@@ -3,7 +3,10 @@ albedo:
   value-green: 200
   value-blue: 200
 height:
-  value: 0
+  scale: 0.2
+normal:
+  strength: 0.6
+  filter: sobel-low
 occlusion:
   value: 0
 smooth:

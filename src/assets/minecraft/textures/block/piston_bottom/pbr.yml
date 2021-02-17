@@ -7,8 +7,7 @@ normal:
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 4
+  z-scale: 2
   steps: 4
 smooth: {}
 porosity: {}
-wrap-y: false

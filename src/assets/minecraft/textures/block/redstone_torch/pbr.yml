@@ -1,5 +1,3 @@
-wrap-x: false
-wrap-y: false
 albedo: {}
 height:
   value: 0
@@ -12,3 +10,7 @@ occlusion:
 f0:
   value: 0.04
 porosity: {}
+emissive:
+  scale: 0.3
+wrap-x: false
+wrap-y: false
