@@ -1,0 +1,19 @@
+albedo:
+  value-red: 185
+  value-green: 149
+  value-blue: 82
+height:
+  value: 0
+normal:
+  noise: 1
+occlusion:
+  value: 0
+smooth:
+  value: 0.2
+f0:
+  value: 0.04
+porosity:
+  value: 0.4
+sss: {}
+wrap-x: false
+wrap-y: false

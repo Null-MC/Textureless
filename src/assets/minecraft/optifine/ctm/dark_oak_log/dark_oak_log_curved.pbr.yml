@@ -5,6 +5,7 @@ albedo:
   value-green: 47
   value-blue: 27
 height:
+  texture: height.png
   scale: 0.3
 normal:
   strength: 0.2
@@ -22,3 +23,9 @@ f0:
 porosity:
   value: 0.55
 wrap-x: false
+parts:
+- name: 4
+  left: 0
+  top: 0
+  width: 16
+  height: 16

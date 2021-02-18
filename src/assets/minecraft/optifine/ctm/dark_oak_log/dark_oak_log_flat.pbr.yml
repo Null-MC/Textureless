@@ -5,11 +5,11 @@ albedo:
   value-green: 47
   value-blue: 27
 height:
+  texture: height.png
   scale: 0.3
 normal:
   strength: 0.2
   noise: 2
-  curve-x: 90
 occlusion:
   quality: 0.1
   z-bias: 0.2
@@ -22,3 +22,9 @@ f0:
 porosity:
   value: 0.55
 wrap-x: false
+parts:
+- name: 2
+  left: 0
+  top: 0
+  width: 16
+  height: 16

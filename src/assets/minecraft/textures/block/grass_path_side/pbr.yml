@@ -1,6 +1,3 @@
-alpha:
-  value: 255
-albedo: {}
 height:
   scale: 0.3
 normal:
@@ -11,7 +8,8 @@ occlusion:
   z-bias: 0.2
   z-scale: 2
   steps: 6
-smooth: {}
 f0:
   value: 0.05
-porosity: {}
+porosity:
+  value: 0.78
+wrap-y: false

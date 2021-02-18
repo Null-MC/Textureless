@@ -5,17 +5,22 @@ albedo:
   value-green: 70
   value-blue: 26
 height:
-  value: 0
+  scale: 0.5
 normal:
-  noise: 6
+  strength: 0.5
+  noise: 2
   curve-x: 90
+  filter: sobel-high
 occlusion:
-  value: 0
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 1
+  steps: 4
 smooth:
-  value: 0
+  value: 0.06
 metal:
   value: 0
 f0:
-  value: 0.017
+  value: 0.04
 porosity:
-  value: 0.63
+  value: 0.4

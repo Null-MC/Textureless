@@ -1,0 +1,33 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 88
+  value-green: 70
+  value-blue: 26
+height:
+  texture: height.png
+  scale: 0.5
+normal:
+  strength: 0.5
+  noise: 2
+  curve-x: 90
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 1
+  steps: 4
+smooth:
+  value: 0.06
+metal:
+  value: 0
+f0:
+  value: 0.04
+porosity:
+  value: 0.4
+parts:
+- name: "4"
+  top: 0
+  left: 0
+  width: 16
+  height: 16
