@@ -1,0 +1,23 @@
+height:
+  scale: 0.8
+normal:
+  strength: 0.8
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 4
+  steps: 6
+porosity:
+  value: 0.3
+parts:
+- name: jungle_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: jungle_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

@@ -1,0 +1,25 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 40
+  value-green: 42
+  value-blue: 49
+height:
+  scale: 0.3
+  edge-fade-size-x: 1
+  edge-fade-size-y: 1
+normal:
+  strength: 0.5
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 4
+smooth: {}
+metal:
+  value: 230
+porosity:
+  value: 0
+wrap-x: false
+wrap-y: false

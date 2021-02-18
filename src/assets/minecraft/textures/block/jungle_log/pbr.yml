@@ -17,7 +17,7 @@ occlusion:
   z-scale: 1
   steps: 4
 smooth:
-  value: 0.06
+  value: 0.01
 metal:
   value: 0
 f0:

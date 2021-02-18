@@ -5,17 +5,17 @@ albedo:
   value-green: 205
   value-blue: 159
 height:
-  scale: 0.2
+  scale: 0.12
 normal:
   strength: 0.2
   noise: 2
 occlusion:
   quality: 0.1
-  z-bias: 0.2
-  z-scale: 2
-  steps: 6
+  z-bias: 0.1
+  z-scale: 1
+  steps: 4
 smooth:
-  value: 0.06
+  scale: 0.9
 f0:
   value: 0.07
 porosity:

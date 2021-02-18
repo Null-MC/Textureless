@@ -1,0 +1,22 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 177
+  value-green: 144
+  value-blue: 86
+height:
+  scale: 0.5
+normal:
+  strength: 0.8
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 8
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity:
+  value: 0.12

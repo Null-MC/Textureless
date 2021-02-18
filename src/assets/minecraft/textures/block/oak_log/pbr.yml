@@ -6,6 +6,7 @@ albedo:
   value-blue: 53
 height:
   scale: 0.3
+  edge-fade-size-x: 20
 normal:
   strength: 0.2
   noise: 2

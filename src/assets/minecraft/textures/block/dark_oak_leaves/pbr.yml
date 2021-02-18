@@ -1,0 +1,19 @@
+albedo:
+  value-red: 108
+  value-green: 108
+  value-blue: 108
+height:
+  value: 0
+normal:
+  strength: 0.7
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 3
+  steps: 6
+smooth:
+  value: 0.08
+f0:
+  value: 0.03
+sss:
+  scale: 0.2

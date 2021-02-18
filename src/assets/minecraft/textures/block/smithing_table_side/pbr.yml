@@ -1,0 +1,16 @@
+alpha:
+  value: 255
+height:
+  scale: 0.7
+  edge-fade-size-y: 1
+normal:
+  strength: 0.6
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 4
+porosity:
+  value: 0
+wrap-y: false

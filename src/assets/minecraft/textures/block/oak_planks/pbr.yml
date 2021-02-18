@@ -1,9 +1,9 @@
 alpha:
   value: 255
 height:
-  scale: 0.5
+  scale: 0.4
 normal:
-  strength: 0.3
+  strength: 0.5
   noise: 2
   filter: sobel-low
 occlusion:

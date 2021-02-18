@@ -6,6 +6,7 @@ albedo:
   value-blue: 18
 height:
   scale: 0.6
+  edge-fade-size-x: 20
 normal:
   strength: 0.6
   noise: 2
@@ -22,3 +23,4 @@ f0:
   value: 0.03
 porosity:
   value: 0.55
+wrap-x: false
