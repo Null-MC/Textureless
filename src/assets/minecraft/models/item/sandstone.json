@@ -1,8 +1,8 @@
 {
-  "parent": "block/cube_bottom_top",
+  "parent": "block/sandstone",
   "textures": {
-    "top": "item/sandstone_top",
-    "bottom": "item/sandstone_bottom",
-    "side": "item/sandstone"
+    "top": "block/sandstone_top_inventory",
+    "bottom": "block/sandstone_bottom_inventory",
+    "side": "block/sandstone_inventory"
   }
 }

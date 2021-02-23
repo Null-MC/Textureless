@@ -1,14 +1,21 @@
-wrap-x: false
-wrap-y: false
+create-inventory: true
 albedo:
   value-red: 148
   value-green: 148
   value-blue: 148
 height:
-  value: 0
+  scale: 0.6
 normal:
+  strength: 0.5
   noise: 6
+  filter: sobel3
+occlusion:
+  value: 0
 smooth:
   value: 0.2
+f0:
+  value: 0.04
 sss:
-  value: 0.24
+  value: 0.05
+wrap-x: true
+wrap-y: false

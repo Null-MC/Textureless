@@ -1,0 +1,11 @@
+{
+  "parent": "block/fletching_table",
+  "textures": {
+    "north": "block/fletching_table_front_inventory",
+    "south": "block/fletching_table_front_inventory",
+    "east": "block/fletching_table_side_inventory",
+    "west": "block/fletching_table_side_inventory",
+    "up": "block/fletching_table_top_inventory",
+    "down": "block/birch_planks_inventory"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/oak_slab",
+  "textures": {
+    "bottom": "block/oak_planks_inventory",
+    "top": "block/oak_planks_inventory",
+    "side": "block/oak_planks_inventory"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_spruce_log",
+  "textures": {
+    "end": "block/stripped_spruce_log_top_inventory",
+    "side": "block/stripped_spruce_log_inventory"
+  }
+}

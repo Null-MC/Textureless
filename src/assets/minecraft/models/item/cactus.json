@@ -1,0 +1,8 @@
+{
+    "parent": "block/cactus",
+    "textures": {
+        "bottom": "block/cactus_bottom_inventory",
+        "top": "block/cactus_top_inventory",
+        "side": "block/cactus_side_inventory"
+    }
+}

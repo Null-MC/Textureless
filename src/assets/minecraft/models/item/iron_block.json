@@ -1,0 +1,6 @@
+{
+  "parent": "block/iron_block",
+  "textures": {
+    "all": "block/iron_block_inventory"
+  }
+}

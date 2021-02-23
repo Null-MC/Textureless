@@ -1,7 +1,7 @@
 {
-  "parent": "block/cube_column",
+  "parent": "block/spruce_log",
   "textures": {
-    "end": "item/spruce_log_top",
-    "side": "item/spruce_log"
+    "end": "block/spruce_log_top_inventory",
+    "side": "block/spruce_log_inventory"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/coarse_dirt",
+  "textures": {
+    "all": "block/coarse_dirt_inventory"
+  }
+}

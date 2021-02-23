@@ -1,0 +1,7 @@
+{
+  "parent": "block/bookshelf",
+  "textures": {
+    "end": "block/oak_planks_inventory",
+    "side": "block/bookshelf_inventory"
+  }
+}

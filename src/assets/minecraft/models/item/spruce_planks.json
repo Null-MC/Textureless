@@ -1,6 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/spruce_planks",
   "textures": {
-    "all": "item/spruce_planks"
+    "all": "block/spruce_planks_inventory"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "block/bee_nest",
+  "textures": {
+    "top": "block/bee_nest_top_inventory",
+    "bottom": "block/bee_nest_bottom_inventory",
+    "side": "block/bee_nest_side_inventory",
+    "front": "block/bee_nest_front_inventory"
+  }
+}

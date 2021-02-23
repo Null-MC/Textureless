@@ -1,3 +1,4 @@
+create-inventory: true
 wrap-y: false
 alpha:
   value: 255

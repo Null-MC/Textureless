@@ -1,0 +1,8 @@
+{
+  "parent": "block/acacia_stairs",
+  "textures": {
+    "bottom": "block/acacia_planks_inventory",
+    "top": "block/acacia_planks_inventory",
+    "side": "block/acacia_planks_inventory"
+  }
+}

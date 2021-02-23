@@ -1,0 +1,7 @@
+{
+  "parent": "block/hay_block",
+  "textures": {
+    "end": "block/hay_block_top_inventory",
+    "side": "block/hay_block_side_inventory"
+  }
+}

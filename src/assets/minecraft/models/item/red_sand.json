@@ -1,0 +1,6 @@
+{
+  "parent": "block/red_sand",
+  "textures": {
+    "all": "block/red_sand_inventory"
+  }
+}

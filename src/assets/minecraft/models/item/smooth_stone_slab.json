@@ -1,0 +1,8 @@
+{
+  "parent": "block/smooth_stone_slab",
+  "textures": {
+    "bottom": "block/smooth_stone_inventory",
+    "top": "block/smooth_stone_inventory",
+    "side": "block/smooth_stone_slab_side_inventory"
+  }
+}

@@ -1,0 +1,18 @@
+create-inventory: true
+alpha:
+  value: 255
+height:
+  scale: 0.3
+normal:
+  strength: 0.6
+  noise: 4
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 4
+  steps: 6
+smooth: {}
+f0:
+  value: 0.04
+porosity:
+  value: 0.05

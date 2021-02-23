@@ -7,7 +7,7 @@ height:
 smooth:
   value: 0.2
 sss:
-  value: 0.71
+  value: 0.2
 parts:
 - name: tall_grass_top
   left: 0

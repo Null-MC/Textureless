@@ -1,0 +1,6 @@
+{
+  "parent": "block/jungle_planks",
+  "textures": {
+    "all": "block/jungle_planks_inventory"
+  }
+}

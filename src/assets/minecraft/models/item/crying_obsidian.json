@@ -1,0 +1,6 @@
+{
+  "parent": "block/crying_obsidian",
+  "textures": {
+    "all": "block/crying_obsidian_inventory"
+  }
+}

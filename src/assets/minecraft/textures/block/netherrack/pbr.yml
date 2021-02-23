@@ -12,11 +12,12 @@ normal:
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 2
-  steps: 4
+  z-scale: 6
+  steps: 12
 smooth:
   value: 0.2
 f0:
   value: 0.09
 porosity:
   value: 0.2
+create-inventory: true

@@ -1,6 +1,6 @@
 {
   "parent": "block/fence_inventory",
   "textures": {
-    "texture": "block/stripped_oak_wood"
+    "texture": "block/stripped_oak_wood_inventory"
   }
 }

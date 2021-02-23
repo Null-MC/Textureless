@@ -1,4 +1,4 @@
-alpha: {}
+create-inventory: true
 albedo:
   value-red: 197
   value-green: 200

@@ -1,0 +1,7 @@
+{
+  "parent": "block/chiseled_sandstone",
+  "textures": {
+    "end": "block/sandstone_top_inventory",
+    "side": "block/chiseled_sandstone_inventory"
+  }
+}

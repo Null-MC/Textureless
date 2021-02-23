@@ -1,0 +1,9 @@
+{
+    "parent": "block/composter",
+    "textures": {
+        "top": "block/composter_top_inventory",
+        "bottom": "block/composter_bottom_inventory",
+        "side": "block/composter_side_inventory",
+        "inside": "block/composter_bottom_inventory"
+    }
+}

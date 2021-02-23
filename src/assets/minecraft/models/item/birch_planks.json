@@ -1,0 +1,6 @@
+{
+  "parent": "block/birch_planks",
+  "textures": {
+    "all": "block/birch_planks_inventory"
+  }
+}

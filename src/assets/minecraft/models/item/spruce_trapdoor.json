@@ -1,0 +1,6 @@
+{
+  "parent": "block/spruce_trapdoor_bottom",
+  "textures": {
+    "texture": "block/spruce_trapdoor_inventory"
+  }
+}

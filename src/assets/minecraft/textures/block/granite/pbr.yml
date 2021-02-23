@@ -1,3 +1,4 @@
+create-inventory: true
 alpha:
   value: 255
 albedo: {}

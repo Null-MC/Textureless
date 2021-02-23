@@ -1,0 +1,6 @@
+{
+  "parent": "block/acacia_planks",
+  "textures": {
+    "all": "block/acacia_planks_inventory"
+  }
+}

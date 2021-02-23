@@ -1,0 +1,9 @@
+{
+    "parent": "block/grass_block",
+    "textures": {
+        "bottom": "block/dirt_inventory",
+        "top": "block/grass_block_top_inventory",
+        "side": "block/dirt_inventory",
+        "overlay": "block/grass_block_side_overlay_inventory"
+    }
+}

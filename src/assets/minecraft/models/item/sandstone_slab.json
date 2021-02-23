@@ -1,0 +1,8 @@
+{
+  "parent": "block/sandstone_slab",
+  "textures": {
+    "bottom": "block/sandstone_bottom_inventory",
+    "top": "block/sandstone_top_inventory",
+    "side": "block/sandstone_inventory"
+  }
+}

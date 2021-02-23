@@ -9,6 +9,7 @@ normal:
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.2
-  z-scale: 4
-  steps: 4
+  z-bias: 0.1
+  z-scale: 3
+  steps: 8
+create-inventory: true

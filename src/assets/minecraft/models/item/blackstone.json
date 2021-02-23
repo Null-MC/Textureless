@@ -1,0 +1,7 @@
+{
+  "parent": "block/blackstone",
+  "textures": {
+    "end": "block/blackstone_top_inventory",
+    "side": "block/blackstone_inventory"
+  }
+}

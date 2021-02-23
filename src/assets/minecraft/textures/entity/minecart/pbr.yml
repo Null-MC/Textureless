@@ -1,0 +1,17 @@
+height:
+  scale: 0.3
+normal:
+  strength: 0.5
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 4
+smooth: {}
+metal:
+  value: 230
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: false

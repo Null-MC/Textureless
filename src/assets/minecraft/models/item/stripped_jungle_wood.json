@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_jungle_wood",
+  "textures": {
+    "end": "block/stripped_jungle_wood_inventory",
+    "side": "block/stripped_jungle_wood_inventory"
+  }
+}

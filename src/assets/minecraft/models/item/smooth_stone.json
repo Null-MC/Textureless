@@ -1,0 +1,6 @@
+{
+  "parent": "block/smooth_stone",
+  "textures": {
+    "all": "block/smooth_stone_inventory"
+  }
+}

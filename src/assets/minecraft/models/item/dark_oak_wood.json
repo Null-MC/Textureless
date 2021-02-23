@@ -1,0 +1,7 @@
+{
+  "parent": "block/dark_oak_wood",
+  "textures": {
+    "end": "block/dark_oak_log_inventory",
+    "side": "block/dark_oak_log_inventory"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/barrel",
+  "textures": {
+    "top": "block/barrel_top_inventory",
+    "bottom": "block/barrel_bottom_inventory",
+    "side": "block/barrel_side_inventory"
+  }
+}

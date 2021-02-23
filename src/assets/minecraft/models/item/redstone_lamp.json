@@ -1,0 +1,6 @@
+{
+  "parent": "block/redstone_lamp",
+  "textures": {
+    "all": "block/redstone_lamp_inventory"
+  }
+}

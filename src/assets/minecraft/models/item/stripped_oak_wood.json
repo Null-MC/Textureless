@@ -1,7 +1,6 @@
 {
-  "parent": "block/cube_column",
+  "parent": "block/stripped_oak_wood",
   "textures": {
-    "end": "item/stripped_oak_log",
-    "side": "item/stripped_oak_log"
+    "all": "block/stripped_oak_wood_inventory"
   }
 }

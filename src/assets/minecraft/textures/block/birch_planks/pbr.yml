@@ -1,16 +1,15 @@
+create-inventory: true
 alpha:
   value: 255
-height:
-  scale: 0.12
+height: {}
 normal:
-  strength: 0.3
   noise: 2
-  filter: sobel-low
+  filter: sobel3
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 3
-  steps: 4
+  z-scale: 4
+  steps: 6
 smooth:
   value: 0.08
 metal: {}

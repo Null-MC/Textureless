@@ -1,12 +1,20 @@
 albedo:
-  value-red: 148
-  value-green: 148
-  value-blue: 148
+  value-red: 180
+  value-green: 180
+  value-blue: 180
 height:
   value: 0
+normal:
+  strength: 0.5
+  noise: 6
+  filter: sobel3
 occlusion:
-  value: 0
+  scale: 0.6
 smooth:
   value: 0.2
+f0:
+  value: 0.04
 sss:
-  value: 0.71
+  scale: 0.2
+wrap-x: false
+wrap-y: false

@@ -1,11 +1,13 @@
+create-inventory: true
 albedo:
   value-red: 185
   value-green: 149
   value-blue: 82
 height:
-  value: 0
+  scale: 0.8
 normal:
-  noise: 1
+  strength: 0.5
+  noise: 3
 occlusion:
   value: 0
 smooth:
@@ -13,7 +15,7 @@ smooth:
 f0:
   value: 0.04
 porosity:
-  value: 0.4
+  value: 0.1
 sss: {}
-wrap-x: false
+wrap-x: true
 wrap-y: false

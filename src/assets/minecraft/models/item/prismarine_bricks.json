@@ -1,6 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/prismarine_bricks",
   "textures": {
-    "all": "item/prismarine_bricks"
+    "all": "block/prismarine_bricks_inventory"
   }
 }

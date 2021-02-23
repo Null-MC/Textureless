@@ -1,0 +1,6 @@
+{
+  "parent": "block/mossy_stone_bricks",
+  "textures": {
+    "all": "block/mossy_stone_bricks_inventory"
+  }
+}

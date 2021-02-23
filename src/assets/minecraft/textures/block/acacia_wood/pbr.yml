@@ -1,0 +1,27 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 104
+  value-green: 97
+  value-blue: 88
+height:
+  scale: 0.6
+  edge-fade-size-x: 20
+normal:
+  strength: 0.6
+  noise: 3
+  filter: sobel3
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 1.3
+  steps: 6
+smooth:
+  value: 0.01
+metal:
+  value: 0
+f0:
+  value: 0.03
+porosity:
+  value: 0.63
+create-inventory: true

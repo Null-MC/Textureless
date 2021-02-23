@@ -1,6 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/stone_bricks",
   "textures": {
-    "all": "item/stone_bricks"
+    "all": "block/stone_bricks_inventory"
   }
 }

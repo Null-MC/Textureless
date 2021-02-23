@@ -1,0 +1,8 @@
+{
+  "parent": "block/polished_granite_slab",
+  "textures": {
+    "bottom": "block/polished_granite_inventory",
+    "top": "block/polished_granite_inventory",
+    "side": "block/polished_granite_inventory"
+  }
+}

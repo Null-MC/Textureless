@@ -1,0 +1,7 @@
+{
+  "parent": "block/farmland",
+  "textures": {
+    "dirt": "block/dirt_inventory",
+    "top": "block/farmland_inventory"
+  }
+}

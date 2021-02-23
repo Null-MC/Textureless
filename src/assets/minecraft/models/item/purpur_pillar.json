@@ -1,0 +1,7 @@
+{
+  "parent": "block/purpur_pillar",
+  "textures": {
+    "end": "block/purpur_pillar_top_inventory",
+    "side": "block/purpur_pillar_inventory"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/nether_brick_slab",
+  "textures": {
+    "bottom": "block/nether_bricks_inventory",
+    "top": "block/nether_bricks_inventory",
+    "side": "block/nether_bricks_inventory"
+  }
+}

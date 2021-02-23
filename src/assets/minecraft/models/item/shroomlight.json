@@ -1,0 +1,6 @@
+{
+  "parent": "block/shroomlight",
+  "textures": {
+    "all": "block/shroomlight_inventory"
+  }
+}

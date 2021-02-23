@@ -1,0 +1,6 @@
+{
+  "parent": "block/snow_block",
+  "textures": {
+    "all": "block/snow_inventory"
+  }
+}

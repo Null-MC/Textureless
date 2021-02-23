@@ -5,9 +5,10 @@ normal:
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 4
-  steps: 6
+  z-scale: 2.5
+  steps: 8
 f0:
   value: 0.07
 porosity:
   value: 0.4
+create-inventory: true

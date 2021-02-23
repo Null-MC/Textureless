@@ -1,0 +1,6 @@
+{
+  "parent": "block/sea_lantern",
+  "textures": {
+    "all": "block/sea_lantern_inventory"
+  }
+}

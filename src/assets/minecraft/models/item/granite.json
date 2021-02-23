@@ -1,0 +1,6 @@
+{
+  "parent": "block/granite",
+  "textures": {
+    "all": "block/granite_inventory"
+  }
+}

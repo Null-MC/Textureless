@@ -1,0 +1,7 @@
+{
+  "parent": "block/cut_sandstone",
+  "textures": {
+    "end": "block/sandstone_top_inventory",
+    "side": "block/cut_sandstone_inventory"
+  }
+}

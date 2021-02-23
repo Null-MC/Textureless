@@ -1,0 +1,6 @@
+{
+  "parent": "block/purpur_block",
+  "textures": {
+    "all": "block/purpur_block_inventory"
+  }
+}

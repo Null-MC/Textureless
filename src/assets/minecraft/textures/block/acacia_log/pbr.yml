@@ -5,8 +5,9 @@ albedo:
   value-green: 97
   value-blue: 88
 height:
-  scale: 0.6
-  edge-fade-size-x: 20
+  shift: -0.06
+  scale: 0.5
+  edge-fade-size-x: 60
 normal:
   strength: 0.6
   noise: 3
@@ -15,8 +16,8 @@ normal:
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 1
-  steps: 4
+  z-scale: 2
+  steps: 5
 smooth:
   value: 0.01
 metal:
@@ -25,4 +26,5 @@ f0:
   value: 0.03
 porosity:
   value: 0.63
+create-inventory: true
 wrap-x: false

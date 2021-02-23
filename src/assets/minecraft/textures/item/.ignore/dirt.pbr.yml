@@ -1,4 +1,0 @@
-albedo:
-  texture: ../block/dirt/albedo.png
-occlusion:
-  texture: ../block/dirt/occlusion.png

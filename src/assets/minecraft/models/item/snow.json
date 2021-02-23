@@ -1,0 +1,6 @@
+{
+    "parent": "block/snow_height2",
+    "textures": {
+        "texture": "block/snow_inventory"
+    }
+}

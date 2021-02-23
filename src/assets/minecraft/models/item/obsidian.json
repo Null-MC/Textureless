@@ -1,0 +1,6 @@
+{
+  "parent": "block/obsidian",
+  "textures": {
+    "all": "block/obsidian_inventory"
+  }
+}

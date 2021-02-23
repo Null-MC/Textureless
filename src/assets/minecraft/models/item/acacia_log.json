@@ -1,7 +1,7 @@
 {
-  "parent": "block/cube_column",
+  "parent": "block/acacia_log",
   "textures": {
-    "end": "item/acacia_log_top",
-    "side": "item/acacia_log"
+    "end": "block/acacia_log_top_inventory",
+    "side": "block/acacia_log_inventory"
   }
 }

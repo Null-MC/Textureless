@@ -1,0 +1,6 @@
+{
+  "parent": "block/dark_oak_planks",
+  "textures": {
+    "all": "block/dark_oak_planks_inventory"
+  }
+}

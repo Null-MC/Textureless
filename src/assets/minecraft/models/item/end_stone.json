@@ -1,0 +1,6 @@
+{
+  "parent": "block/end_stone",
+  "textures": {
+    "all": "block/end_stone_inventory"
+  }
+}

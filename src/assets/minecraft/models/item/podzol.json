@@ -1,0 +1,9 @@
+{
+  "parent": "block/podzol",
+  "textures": {
+    "top": "block/podzol_top_inventory",
+    "bottom": "block/dirt_inventory",
+    "side": "block/dirt_inventory",
+    "overlay": "block/podzol_side_overlay_inventory"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "block/light_weighted_pressure_plate",
+	"textures": {
+		"texture": "block/gold_block_inventory"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/honeycomb_block",
+  "textures": {
+    "all": "block/honeycomb_block_inventory"
+  }
+}

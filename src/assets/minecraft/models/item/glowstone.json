@@ -1,0 +1,6 @@
+{
+  "parent": "block/glowstone",
+  "textures": {
+    "all": "block/glowstone_inventory"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/magma_block",
+  "textures": {
+    "all": "block/magma_inventory"
+  }
+}

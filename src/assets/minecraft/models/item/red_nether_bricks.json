@@ -1,0 +1,6 @@
+{
+  "parent": "block/red_nether_bricks",
+  "textures": {
+    "all": "block/red_nether_bricks_inventory"
+  }
+}

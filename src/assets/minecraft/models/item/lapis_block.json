@@ -1,0 +1,6 @@
+{
+  "parent": "block/lapis_block",
+  "textures": {
+    "all": "block/lapis_block_inventory"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/smithing_table",
+  "textures": {
+    "north": "block/smithing_table_front_inventory",
+    "south": "block/smithing_table_front_inventory",
+    "east": "block/smithing_table_side_inventory",
+    "west": "block/smithing_table_side_inventory",
+    "up": "block/smithing_table_top_inventory",
+    "down": "block/smithing_table_bottom_inventory"
+  }
+}

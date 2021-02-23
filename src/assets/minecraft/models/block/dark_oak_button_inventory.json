@@ -1,6 +1,6 @@
 {
   "parent": "block/button_inventory",
   "textures": {
-    "texture": "block/stripped_dark_oak_wood"
+    "texture": "block/stripped_dark_oak_wood_inventory"
   }
 }

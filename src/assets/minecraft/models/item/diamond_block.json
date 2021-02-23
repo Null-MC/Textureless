@@ -1,0 +1,6 @@
+{
+  "parent": "block/diamond_block",
+  "textures": {
+    "all": "block/diamond_block_inventory"
+  }
+}

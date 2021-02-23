@@ -1,0 +1,19 @@
+create-inventory: true
+alpha:
+  value: 255
+albedo: {}
+height:
+  scale: 0.5
+normal:
+  strength: 0.5
+  noise: 6
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 6
+smooth: {}
+f0:
+  value: 0.04
+porosity: {}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/netherrack",
+  "textures": {
+    "all": "block/netherrack_inventory"
+  }
+}

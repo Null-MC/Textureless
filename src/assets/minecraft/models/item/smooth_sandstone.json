@@ -1,0 +1,6 @@
+{
+  "parent": "block/smooth_sandstone",
+  "textures": {
+    "all": "block/sandstone_top_inventory"
+  }
+}

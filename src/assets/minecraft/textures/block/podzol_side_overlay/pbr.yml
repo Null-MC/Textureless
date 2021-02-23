@@ -1,0 +1,20 @@
+create-inventory: true
+albedo:
+  value-red: 95
+  value-green: 64
+  value-blue: 24
+height:
+  scale: 0.2
+normal:
+  strength: 0.4
+  noise: 4
+  filter: sobel3
+occlusion:
+  value: 0
+smooth:
+  value: 0
+f0:
+  value: 0.04
+porosity:
+  value: 0.6
+wrap-y: false
