@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_acacia_wood",
+  "textures": {
+    "end": "block/stripped_acacia_wood_inventory",
+    "side": "block/stripped_acacia_wood_inventory"
+  }
+}

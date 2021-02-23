@@ -1,0 +1,7 @@
+{
+  "parent": "block/bone_block",
+  "textures": {
+    "end": "block/bone_block_top_inventory",
+    "side": "block/bone_block_side_inventory"
+  }
+}

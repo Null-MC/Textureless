@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_birch_log",
+  "textures": {
+    "end": "block/stripped_birch_log_top_inventory",
+    "side": "block/stripped_birch_log_inventory"
+  }
+}

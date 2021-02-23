@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_acacia_log",
+  "textures": {
+    "end": "block/stripped_acacia_log_top_inventory",
+    "side": "block/stripped_acacia_log_inventory"
+  }
+}

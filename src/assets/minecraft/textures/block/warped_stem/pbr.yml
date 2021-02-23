@@ -1,0 +1,27 @@
+alpha:
+  value: 255
+albedo: {}
+height:
+  shift: -0.02
+  scale: 0.2
+  edge-fade-size-x: 60
+normal:
+  strength: 0.3
+  noise: 3
+  curve-x: 90
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0
+  z-scale: 6
+  steps: 12
+smooth: {}
+f0:
+  value: 0.04
+porosity: {}
+sss:
+  scale: 1.5
+emissive:
+  scale: 0.7
+create-inventory: true
+wrap-x: false

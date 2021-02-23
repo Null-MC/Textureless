@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_warped_hyphae",
+  "textures": {
+    "end": "block/stripped_warped_hyphae_inventory",
+    "side": "block/stripped_warped_hyphae_inventory"
+  }
+}

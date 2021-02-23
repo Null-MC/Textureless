@@ -1,0 +1,9 @@
+{
+    "parent": "block/warped_nylium",
+    "textures": {
+        "bottom": "block/netherrack_inventory",
+        "top": "block/warped_nylium_inventory",
+        "side": "block/netherrack_inventory",
+        "overlay": "block/warped_nylium_side_overlay_inventory"
+    }
+}

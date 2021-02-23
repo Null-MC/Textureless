@@ -5,19 +5,19 @@ albedo:
   value-green: 40
   value-blue: 40
 height:
-  scale: 0.6
+  scale: 0.5
 normal:
-  strength: 0.5
-  noise: 2
+  strength: 0.8
+  noise: 3
+  filter: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 6
-  steps: 12
-smooth:
-  value: 0.2
-f0:
-  value: 0.09
-porosity:
-  value: 0.2
+  z-scale: 5
+  steps: 9
+smooth: {}
+f0: {}
+porosity: {}
+sss:
+  scale: 0.4
 create-inventory: true

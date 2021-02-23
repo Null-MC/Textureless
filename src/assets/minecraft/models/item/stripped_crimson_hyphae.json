@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_crimson_hyphae",
+  "textures": {
+    "end": "block/stripped_crimson_hyphae_inventory",
+    "side": "block/stripped_crimson_hyphae_inventory"
+  }
+}

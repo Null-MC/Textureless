@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_birch_wood",
+  "textures": {
+    "end": "block/stripped_birch_wood_inventory",
+    "side": "block/stripped_birch_wood_inventory"
+  }
+}

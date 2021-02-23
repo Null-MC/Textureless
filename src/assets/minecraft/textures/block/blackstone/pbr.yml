@@ -1,22 +1,21 @@
-create-inventory: true
 alpha:
   value: 255
 albedo:
-  value-red: 43
-  value-green: 38
-  value-blue: 44
-height:
-  scale: 0.6
+  value-red: 35
+  value-green: 32
+  value-blue: 38
+height: {}
 normal:
-  filter: sobel-low
+  filter: sobel3
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 4
-  steps: 6
+  z-scale: 6
+  steps: 12
 smooth:
   value: 0.04
 f0:
   value: 0.07
 porosity:
   value: 0.2
+create-inventory: true

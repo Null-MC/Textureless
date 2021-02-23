@@ -1,9 +1,10 @@
-create-inventory: true
 alpha:
   value: 255
 albedo: {}
 height:
+  shift: -0.02
   scale: 0.2
+  edge-fade-size-x: 60
 normal:
   strength: 0.3
   noise: 3
@@ -17,6 +18,10 @@ occlusion:
 smooth: {}
 f0:
   value: 0.04
-porosity:
-  value: 0.47
-emissive: {}
+porosity: {}
+sss:
+  scale: 1.5
+emissive:
+  scale: 0.5
+create-inventory: true
+wrap-x: false

@@ -1,5 +1,7 @@
 alpha:
   value: 255
+height:
+  scale: 0.5
 normal:
   filter: sobel-low
 occlusion:

@@ -1,0 +1,17 @@
+create-inventory: true
+alpha:
+  value: 255
+albedo:
+  value-red: 51
+  value-green: 118
+  value-blue: 104
+height:
+  value: 0
+occlusion:
+  value: 0
+normal:
+  noise: 4
+smooth:
+  value: 0.71
+porosity:
+  value: 0

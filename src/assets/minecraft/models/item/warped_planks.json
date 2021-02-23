@@ -1,0 +1,6 @@
+{
+  "parent": "block/warped_planks",
+  "textures": {
+    "all": "block/warped_planks_inventory"
+  }
+}

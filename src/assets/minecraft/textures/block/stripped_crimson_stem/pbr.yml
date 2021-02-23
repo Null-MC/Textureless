@@ -1,11 +1,12 @@
-create-inventory: true
 alpha:
   value: 255
 albedo:
   value-red: 136
   value-green: 57
   value-blue: 89
-height: {}
+height:
+  shift: -0.02
+  edge-fade-size-x: 60
 normal:
   noise: 2
   curve-x: 90
@@ -20,4 +21,5 @@ f0:
   value: 0.04
 porosity:
   value: 0.15
+create-inventory: true
 wrap-x: false

@@ -1,0 +1,9 @@
+{
+    "parent": "block/crimson_nylium",
+    "textures": {
+        "bottom": "block/netherrack_inventory",
+        "top": "block/crimson_nylium_inventory",
+        "side": "block/netherrack_inventory",
+        "overlay": "block/crimson_nylium_side_overlay_inventory"
+    }
+}

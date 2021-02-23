@@ -1,0 +1,7 @@
+{
+  "parent": "block/warped_stem",
+  "textures": {
+    "end": "block/warped_stem_top_inventory",
+    "side": "block/warped_stem_inventory"
+  }
+}

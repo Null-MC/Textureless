@@ -1,0 +1,7 @@
+{
+  "parent": "block/spruce_wood",
+  "textures": {
+    "end": "block/spruce_wood_inventory",
+    "side": "block/spruce_wood_inventory"
+  }
+}
