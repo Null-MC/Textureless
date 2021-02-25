@@ -5,20 +5,19 @@ albedo:
   value-green: 251
   value-blue: 240
 height:
-  scale: 0.65
+  scale: 0.9
 normal:
-  strength: 0.8
-  filter: sobel-low
+  strength: 2
+  filter: sobel-high
 occlusion:
   quality: 0.1
   z-bias: 0.1
-  z-scale: 8
-  steps: 12
+  z-scale: 2
+  steps: 6
 smooth:
   value: 1
 metal: {}
 f0:
   value: 0.17
-sss:
-  value: 1
+sss: {}
 create-inventory: true

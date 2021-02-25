@@ -1,0 +1,6 @@
+{
+  "parent": "block/oak_pressure_plate",
+  "textures": {
+    "texture": "block/stripped_oak_wood_inventory"
+  }
+}

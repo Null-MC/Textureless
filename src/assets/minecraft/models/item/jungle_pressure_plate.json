@@ -1,0 +1,6 @@
+{
+  "parent": "block/jungle_pressure_plate",
+  "textures": {
+    "texture": "block/stripped_jungle_wood_inventory"
+  }
+}

@@ -1,12 +1,17 @@
+create-inventory: true
 alpha:
   value: 255
 height:
   scale: 0.2
 normal:
-  strength: 0
+  strength: 0.6
   noise: 2
+  filter: sobel-low
 occlusion:
-  value: 0
+  quality: 0.1
+  z-bias: 0
+  z-scale: 4
+  step-distance: 0.1
 smooth:
   value: 0.31
 porosity:

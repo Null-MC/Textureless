@@ -1,0 +1,7 @@
+{
+  "parent": "block/stripped_dark_oak_log",
+  "textures": {
+    "end": "block/stripped_dark_oak_log_top_inventory",
+    "side": "block/stripped_dark_oak_log_inventory"
+  }
+}

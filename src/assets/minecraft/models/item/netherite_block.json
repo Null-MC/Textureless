@@ -1,0 +1,6 @@
+{
+  "parent": "block/netherite_block",
+  "textures": {
+    "all": "block/netherite_block_inventory"
+  }
+}

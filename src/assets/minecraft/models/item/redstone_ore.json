@@ -1,0 +1,6 @@
+{
+  "parent": "block/redstone_ore",
+  "textures": {
+    "all": "block/redstone_ore_inventory"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stone_slab",
+  "textures": {
+    "bottom": "block/stone_inventory",
+    "top": "block/stone_inventory",
+    "side": "block/stone_inventory"
+  }
+}

@@ -7,6 +7,7 @@ albedo:
 height:
   texture: height.png
   scale: 0.6
+  edge-fade-x: 1
 normal:
   strength: 0.6
   noise: 2
@@ -15,7 +16,6 @@ occlusion:
   quality: 0.1
   z-bias: 0.1
   z-scale: 3
-  steps: 6
 smooth:
   value: 0.01
 f0:

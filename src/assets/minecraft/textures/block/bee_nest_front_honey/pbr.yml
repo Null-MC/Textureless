@@ -1,10 +1,9 @@
-wrap-y: false
 alpha:
   value: 255
 height:
   shift: -0.05
   scale: 0.4
-  edge-fade-size-y: 1
+  edge-fade-x: 0.4
 normal:
   strength: 0.3
   filter: sobel3
@@ -12,7 +11,7 @@ occlusion:
   quality: 0.1
   z-bias: 1
   z-scale: 7
-  steps: 12
 smooth: {}
 f0: {}
 porosity: {}
+wrap-y: false

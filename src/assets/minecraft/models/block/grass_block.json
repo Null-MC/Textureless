@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_bottom_top",
     "textures": {
-        "particle": "block/dirt",
+        "particle": "block/dirt_inventory",
         "bottom": "block/dirt",
         "top": "block/grass_block_top",
         "side": "block/dirt",

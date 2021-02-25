@@ -1,0 +1,6 @@
+{
+  "parent": "block/gold_ore",
+  "textures": {
+    "all": "block/gold_ore_inventory"
+  }
+}

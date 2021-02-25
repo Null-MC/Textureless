@@ -6,7 +6,9 @@ albedo:
   value-blue: 26
 height:
   texture: height.png
-  scale: 0.5
+  shift: -0.08
+  scale: 0.4
+  edge-fade-x: 1
 normal:
   strength: 0.5
   noise: 2
@@ -14,9 +16,9 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0.1
-  z-scale: 1
-  steps: 4
+  z-bias: 0
+  z-scale: 4
+  step-distance: 0.1
 smooth:
   value: 0.06
 metal:
@@ -26,8 +28,8 @@ f0:
 porosity:
   value: 0.4
 parts:
-- name: "4"
-  top: 0
+- name: 4
   left: 0
+  top: 0
   width: 16
   height: 16

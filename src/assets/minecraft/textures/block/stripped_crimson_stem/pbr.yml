@@ -6,16 +6,16 @@ albedo:
   value-blue: 89
 height:
   shift: -0.02
-  edge-fade-size-x: 60
+  edge-fade-x: 0.5
 normal:
   noise: 2
   curve-x: 90
   filter: sobel3
 occlusion:
   quality: 0.1
-  z-bias: 0.05
+  z-bias: 0
   z-scale: 1
-  steps: 6
+  step-distance: 0.10000000149011612
 smooth: {}
 f0:
   value: 0.04

@@ -1,0 +1,6 @@
+{
+  "parent": "block/stone_pressure_plate",
+  "textures": {
+    "texture": "block/stone_inventory"
+  }
+}

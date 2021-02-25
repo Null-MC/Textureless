@@ -1,6 +1,6 @@
 {
   "parent": "block/button",
   "textures": {
-    "texture": "block/stripped_crimson_wood"
+    "texture": "block/stripped_crimson_hyphae"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/pressure_plate_down",
   "textures": {
-    "texture": "block/stripped_warped_wood"
+    "texture": "block/stripped_warped_hyphae"
   }
 }

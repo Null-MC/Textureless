@@ -1,6 +1,6 @@
 {
   "parent": "block/button_inventory",
   "textures": {
-    "texture": "block/stripped_warped_wood_inventory"
+    "texture": "block/stripped_warped_hyphae_inventory"
   }
 }

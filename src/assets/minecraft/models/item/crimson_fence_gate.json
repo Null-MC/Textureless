@@ -1,6 +1,6 @@
 {
   "parent": "block/crimson_fence_gate",
   "textures": {
-    "texture": "block/stripped_crimson_wood_inventory"
+    "texture": "block/stripped_crimson_hyphae_inventory"
   }
 }

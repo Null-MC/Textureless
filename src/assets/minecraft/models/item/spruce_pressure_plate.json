@@ -1,0 +1,6 @@
+{
+  "parent": "block/spruce_pressure_plate",
+  "textures": {
+    "texture": "block/stripped_spruce_wood_inventory"
+  }
+}

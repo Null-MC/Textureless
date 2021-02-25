@@ -1,0 +1,6 @@
+{
+  "parent": "block/nether_gold_ore",
+  "textures": {
+    "all": "block/nether_gold_ore_inventory"
+  }
+}

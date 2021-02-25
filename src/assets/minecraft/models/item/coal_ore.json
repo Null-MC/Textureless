@@ -1,0 +1,6 @@
+{
+  "parent": "block/coal_ore",
+  "textures": {
+    "all": "block/coal_ore_inventory"
+  }
+}

@@ -1,4 +1,3 @@
-create-inventory: true
 alpha:
   value: 255
 albedo:
@@ -7,8 +6,8 @@ albedo:
   value-blue: 34
 height:
   scale: 0.2
-  edge-fade-size-x: 40
-  edge-fade-size-y: 40
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
 normal:
   strength: 0.4
   curve-x: 90
@@ -17,7 +16,6 @@ occlusion:
   quality: 0.1
   z-bias: 0.2
   z-scale: 3
-  steps: 6
 smooth:
   value: 0.15
 f0:
@@ -26,3 +24,4 @@ porosity:
   value: 0
 sss:
   value: 0.05
+create-inventory: true

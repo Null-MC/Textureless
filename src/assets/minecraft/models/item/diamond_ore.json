@@ -1,0 +1,6 @@
+{
+  "parent": "block/diamond_ore",
+  "textures": {
+    "all": "block/diamond_ore_inventory"
+  }
+}

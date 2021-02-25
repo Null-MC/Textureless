@@ -1,6 +1,3 @@
-create-inventory: true
-wrap-x: false
-wrap-y: false
 alpha:
   value: 255
 height:
@@ -16,6 +13,10 @@ occlusion:
   quality: 0.1
   z-bias: 2
   z-scale: 8
+  step-distance: 0.25
   steps: 6
 smooth: {}
 porosity: {}
+create-inventory: true
+wrap-x: false
+wrap-y: false

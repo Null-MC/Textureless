@@ -1,0 +1,7 @@
+{
+  "parent": "block/crimson_hyphae",
+  "textures": {
+    "end": "block/crimson_hyphae_inventory",
+    "side": "block/crimson_hyphae_inventory"
+  }
+}

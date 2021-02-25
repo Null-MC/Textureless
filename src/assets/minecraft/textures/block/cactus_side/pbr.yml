@@ -1,8 +1,6 @@
-create-inventory: true
-wrap-x: false
-wrap-y: true
 albedo: {}
-height: {}
+height:
+  edge-fade-x: 0.2
 normal:
   strength: 0.8
   curve-x: 90
@@ -11,9 +9,11 @@ occlusion:
   quality: 0.1
   z-bias: 0.1
   z-scale: 2
-  steps: 6
 smooth:
   value: 0.1
 f0:
   value: 0.04
 sss: {}
+create-inventory: true
+wrap-x: false
+wrap-y: true

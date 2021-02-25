@@ -1,0 +1,19 @@
+format: 6
+description: No Textures! PBR shader required.
+tags: 64x LabPBR
+encoding:
+  format: lab-1.3
+  sampler: nearest
+  height:
+    sampler: bilinear
+  occlusion:
+    sampler: bilinear
+  normal-x:
+    sampler: bilinear
+  normal-y:
+    sampler: bilinear
+  normal-z:
+    sampler: bilinear
+block-texture-size: 64
+texture-scale: 4
+edition: Java

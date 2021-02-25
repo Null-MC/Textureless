@@ -1,24 +1,22 @@
-create-inventory: true
-wrap-x: false
-wrap-y: false
 alpha:
   value: 255
 height:
   scale: 0.6
-  edge-fade-size-x: 1
-  edge-fade-size-y: 1
 normal:
-  strength: 0.6
+  strength: 0.8
   noise: 2
-  filter: sobel-high
+  filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.1
-  z-scale: 4
-  steps: 6
+  z-bias: 0
+  z-scale: 8
+  step-distance: 0.1
 smooth:
   value: 0.15
 f0:
   value: 0.04
 porosity:
   value: 0.4
+create-inventory: true
+wrap-x: false
+wrap-y: false

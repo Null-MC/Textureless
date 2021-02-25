@@ -1,3 +1,4 @@
+create-inventory: true
 albedo:
   value-red: 180
   value-green: 180
@@ -6,15 +7,15 @@ height:
   value: 0
 normal:
   strength: 0.5
-  noise: 6
-  filter: sobel3
+  noise: 4
+  filter: sobel-low
 occlusion:
-  scale: 0.6
+  scale: 0.8
 smooth:
   value: 0.2
 f0:
   value: 0.04
 sss:
-  scale: 0.2
+  scale: 0.1
 wrap-x: false
 wrap-y: false

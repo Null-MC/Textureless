@@ -1,11 +1,9 @@
-create-inventory: true
-wrap-y: false
 alpha:
   value: 255
 height:
   shift: -0.05
   scale: 0.4
-  edge-fade-size-y: 1
+  edge-fade-x: 0.4
 normal:
   strength: 0.3
   curve-x: 90
@@ -15,7 +13,8 @@ occlusion:
   quality: 0.1
   z-bias: 0.1
   z-scale: 3
-  steps: 6
 smooth: {}
 f0: {}
 porosity: {}
+create-inventory: true
+wrap-y: false

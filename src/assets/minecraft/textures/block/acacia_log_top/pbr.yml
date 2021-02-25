@@ -4,7 +4,7 @@ albedo: {}
 height:
   shift: -0.16
 normal:
-  strength: 0.3
+  strength: 0.6
   filter: sobel-low
 occlusion:
   quality: 0.1

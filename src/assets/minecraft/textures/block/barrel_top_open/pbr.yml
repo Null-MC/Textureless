@@ -1,4 +1,3 @@
-wrap-x: false
 alpha:
   value: 255
 albedo:
@@ -15,8 +14,9 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 2
-  z-scale: 8
+  z-bias: 0.1
+  z-scale: 4
+  step-distance: 0.25
   steps: 6
 smooth:
   value: 0.08
@@ -24,3 +24,4 @@ f0:
   value: 0.04
 porosity:
   value: 0.59
+wrap-x: false

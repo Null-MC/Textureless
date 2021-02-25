@@ -1,0 +1,6 @@
+{
+  "parent": "block/stone",
+  "textures": {
+    "all": "block/stone_inventory"
+  }
+}

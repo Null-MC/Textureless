@@ -1,0 +1,22 @@
+height:
+  shift: -0.02
+normal:
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 3
+  steps: 6
+porosity:
+  value: 0.2
+parts:
+- name: birch_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: birch_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

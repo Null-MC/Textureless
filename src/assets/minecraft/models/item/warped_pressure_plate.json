@@ -1,6 +1,6 @@
 {
   "parent": "block/warped_pressure_plate",
   "textures": {
-    "texture": "block/stripped_warped_wood_inventory"
+    "texture": "block/stripped_warped_hyphae_inventory"
   }
 }
