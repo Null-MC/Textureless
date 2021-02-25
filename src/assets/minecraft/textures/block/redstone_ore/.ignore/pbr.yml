@@ -1,10 +1,11 @@
+create-inventory: true
 alpha:
   value: 255
 albedo: {}
 height:
-  scale: 0.3
+  scale: 0.2
 normal:
-  strength: 0.7
+  strength: 0.6
   noise: 3
   filter: sobel-low
 occlusion:
@@ -13,6 +14,5 @@ occlusion:
   z-scale: 4
   step-distance: 0.1
 smooth: {}
-f0: {}
-porosity: {}
-create-inventory: true
+porosity:
+  value: 0.31
