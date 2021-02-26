@@ -1,0 +1,9 @@
+{
+    "parent": "block/observer",
+    "textures": {
+        "bottom": "block/observer_back_inventory",
+        "side": "block/observer_side_inventory",
+        "top": "block/observer_top_inventory",
+        "front": "block/observer_front_inventory"
+    }
+}

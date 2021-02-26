@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "block/stripped_birch_wood_inventory"
+  }
+}

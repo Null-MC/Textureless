@@ -12,22 +12,18 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LAB13-16x
+      - name: Publish 16x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-16x.pack.yml" -z "//content/Textureless-LabPBR-16x.zip"
-      - name: Publish LAB13-32x
+            publish -p "//content/src/lab13-16x.pack.yml" -z "//content/Textureless-16x.zip"
+      - name: Publish 32x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-32x.pack.yml" -z "//content/Textureless-LabPBR-32x.zip"
-      - name: Publish LAB13-Overlay-16x
+            publish -p "//content/src/lab13-32x.pack.yml" -z "//content/Textureless-32x.zip"
+      - name: Publish 64x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-overlay-16x.pack.yml" -z "//content/Textureless-LabPBR-Overlay-16x.zip"
-      - name: Publish OldPBR-16x
-        run: |
-          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/legacy-16x.pack.yml" -z "//content/Textureless-OldPBR-16x.zip"
+            publish -p "//content/src/lab13-64x.pack.yml" -z "//content/Textureless-64x.zip"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -36,39 +32,30 @@ jobs:
         with:
           tag_name: v${{ github.event.inputs.version }}
           release_name: Release ${{ github.event.inputs.version }}
-      - name: Upload LabPBR-16x
+      - name: Upload 16x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Textureless-LabPBR-16x.zip
-          asset_name: Textureless-LabPBR-16x.zip
+          asset_path: ./Textureless-16x.zip
+          asset_name: Textureless-16x.zip
           asset_content_type: application/zip
-      - name: Upload LabPBR-32x
+      - name: Upload 32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Textureless-LabPBR-32x.zip
-          asset_name: Textureless-LabPBR-32x.zip
+          asset_path: ./Textureless-32x.zip
+          asset_name: Textureless-32x.zip
           asset_content_type: application/zip
-      - name: Upload LabPBR-Overlay-16x
+      - name: Upload 64x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Textureless-LabPBR-Overlay-16x.zip
-          asset_name: Textureless-LabPBR-Overlay-16x.zip
-          asset_content_type: application/zip
-      - name: Upload OldPBR-16x
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Textureless-OldPBR-16x.zip
-          asset_name: Textureless-OldPBR-16x.zip
+          asset_path: ./Textureless-64x.zip
+          asset_name: Textureless-64x.zip
           asset_content_type: application/zip

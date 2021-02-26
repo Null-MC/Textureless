@@ -1,0 +1,18 @@
+alpha:
+  value: 255
+height:
+  scale: 0.2
+normal:
+  strength: 0.5
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0
+  z-scale: 3
+  step-distance: 0.1
+smooth: {}
+metal:
+  value: 230
+porosity:
+  value: 0
+create-inventory: true

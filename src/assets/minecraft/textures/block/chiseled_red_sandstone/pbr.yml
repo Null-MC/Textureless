@@ -1,0 +1,25 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 186
+  value-green: 99
+  value-blue: 29
+height:
+  shift: -0.1
+  scale: 0.35
+normal:
+  noise: 3
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0
+  z-scale: 6
+  step-distance: 0.1
+smooth: {}
+f0:
+  value: 0.07
+porosity:
+  value: 0.63
+create-inventory: true
+wrap-x: true
+wrap-y: false
