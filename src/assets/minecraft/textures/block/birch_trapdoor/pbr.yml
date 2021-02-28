@@ -1,10 +1,9 @@
-alpha: {}
-height:
-  value: 0
+create-inventory: true
+normal:
+  strength: 0.8
+  filter: sobel-low
 occlusion:
-  value: 0
-smooth:
-  value: 0.39
-metal: {}
-porosity:
-  value: 0.2
+  quality: 0.1
+  z-bias: 0
+  z-scale: 8
+  step-distance: 0.1

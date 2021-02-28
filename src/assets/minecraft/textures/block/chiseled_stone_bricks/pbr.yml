@@ -12,10 +12,9 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0
-  z-scale: 12
-  step-distance: 0.20000000298023224
-  steps: 6
+  z-bias: 0.02
+  z-scale: 4
+  step-distance: 0.2
 smooth: {}
 f0:
   value: 0.07

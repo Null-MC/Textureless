@@ -22,4 +22,4 @@ porosity:
   value: 0.63
 create-inventory: true
 wrap-x: true
-wrap-y: false
+wrap-y: true

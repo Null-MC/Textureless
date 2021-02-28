@@ -2,8 +2,6 @@ alpha:
   value: 255
 height:
   scale: 0.8
-  edge-fade-size-x: 1
-  edge-fade-size-y: 1
 normal:
   strength: 0.5
   curve-x: 20
@@ -11,10 +9,9 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 2
-  z-scale: 8
-  step-distance: 0.25
-  steps: 6
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
 smooth: {}
 porosity: {}
 create-inventory: true

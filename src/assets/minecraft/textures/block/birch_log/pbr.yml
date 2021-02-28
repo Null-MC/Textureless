@@ -1,22 +1,22 @@
 alpha:
   value: 255
 height:
-  scale: 0.6
-  edge-fade-x: 0.2
+  scale: 0.4
+  edge-fade-x: 0.8
 normal:
+  strength: 0.7
   noise: 1
   curve-x: 90
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0
-  z-scale: 4
-  step-distance: 0.10000000149011612
-smooth:
-  value: 0.06
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
+smooth: {}
 metal: {}
 f0:
   value: 0.03
-porosity:
-  value: 0.39
+porosity: {}
 create-inventory: true
+wrap-x: false

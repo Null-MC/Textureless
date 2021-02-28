@@ -4,18 +4,20 @@ albedo:
   value-red: 35
   value-green: 32
   value-blue: 38
-height: {}
+height:
+  scale: 0.5
 normal:
+  strength: 0.8
+  noise: 6
   filter: sobel3
 occlusion:
   quality: 0.1
-  z-bias: 0.1
-  z-scale: 6
-  steps: 12
-smooth:
-  value: 0.04
+  z-bias: 0.02
+  z-scale: 4
+  step-distance: 0.2
+smooth: {}
 f0:
-  value: 0.07
+  value: 0.05
 porosity:
   value: 0.2
 create-inventory: true

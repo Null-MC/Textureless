@@ -4,7 +4,11 @@ albedo:
   value-blue: 31
 height:
   value: 0
+occlusion:
+  value: 0
 smooth:
   value: 0.24
+f0:
+  value: 0.04
 sss:
-  value: 0.71
+  value: 0.4

@@ -1,8 +1,5 @@
 {
 	"ambientocclusion": false,
-	"textures": {
-		"particle": "#rail"
-	},
 	"elements": [
 		{
 			"name": "rail-west",

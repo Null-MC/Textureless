@@ -1,0 +1,6 @@
+{
+  "parent": "block/polished_andesite",
+  "textures": {
+    "all": "block/polished_andesite_inventory"
+  }
+}

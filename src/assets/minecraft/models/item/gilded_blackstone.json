@@ -1,0 +1,6 @@
+{
+  "parent": "block/gilded_blackstone",
+  "textures": {
+    "all": "block/gilded_blackstone_inventory"
+  }
+}

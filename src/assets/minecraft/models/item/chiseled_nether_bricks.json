@@ -1,0 +1,6 @@
+{
+  "parent": "block/chiseled_nether_bricks",
+  "textures": {
+    "all": "block/chiseled_nether_bricks_inventory"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/chiseled_polished_blackstone",
+  "textures": {
+    "all": "block/chiseled_polished_blackstone_inventory"
+  }
+}

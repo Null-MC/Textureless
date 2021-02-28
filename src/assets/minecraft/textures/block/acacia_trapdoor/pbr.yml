@@ -1,0 +1,19 @@
+albedo: {}
+height:
+  shift: -0.14
+  scale: 0.6
+  edge-fade-x: 0.15
+  edge-fade-y: 0.15
+normal:
+  strength: 0.6
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0
+  z-scale: 8
+  step-distance: 0.1
+smooth: {}
+metal: {}
+porosity: {}
+wrap-x: false
+wrap-y: false

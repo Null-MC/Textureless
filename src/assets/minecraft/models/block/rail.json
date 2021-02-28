@@ -1,8 +1,8 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-	    "rail": "block/rail_alt",
-        "particle": "block/rail_alt"
+	    "rail": "block/rail",
+        "particle": "block/rail_inventory"
 	},
 	"elements": [
 		{

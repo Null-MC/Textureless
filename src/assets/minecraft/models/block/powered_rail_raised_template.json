@@ -1,9 +1,5 @@
 {
 	"ambientocclusion": false,
-	"textures": {
-		"particle": "block/powered_rail_alt",
-		"rail": "block/powered_rail_alt"
-	},
 	"elements": [
 		{
 			"name": "rail-west",

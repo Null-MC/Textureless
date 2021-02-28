@@ -1,6 +1,7 @@
 {
   "parent": "block/powered_rail_template",
   "textures": {
-    "rail": "block/powered_rail_alt"
+    "particle": "block/powered_rail_inventory",
+    "rail": "block/powered_rail"
   }
 }

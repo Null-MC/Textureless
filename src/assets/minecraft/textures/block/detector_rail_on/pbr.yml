@@ -1,0 +1,13 @@
+height:
+  value: 0
+normal:
+  strength: 0.4
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0
+  z-scale: 8
+  step-distance: 0.1
+emissive:
+  scale: 0.1
+create-inventory: true

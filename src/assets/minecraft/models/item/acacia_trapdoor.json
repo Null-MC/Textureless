@@ -1,0 +1,6 @@
+{
+  "parent": "block/acacia_trapdoor_bottom",
+  "textures": {
+    "texture": "block/acacia_trapdoor_inventory"
+  }
+}

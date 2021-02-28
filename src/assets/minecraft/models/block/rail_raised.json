@@ -2,7 +2,7 @@
 	"ambientocclusion": false,
 	"textures": {
 	    "rail": "block/rail",
-		"particle": "block/rail"
+		"particle": "block/rail_inventory"
 	},
 	"elements": [
 		{

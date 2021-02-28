@@ -1,18 +1,19 @@
+alpha: {}
 albedo:
   value-red: 127
   value-green: 98
   value-blue: 55
 height:
-  scale: 0.16
+  value: 0
 normal:
   strength: 0.2
   noise: 2
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.1
-  z-scale: 6
-  steps: 12
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
 smooth:
   value: 0.05
 metal: {}
@@ -20,3 +21,4 @@ f0:
   value: 0.03
 porosity:
   value: 0.6
+create-inventory: true

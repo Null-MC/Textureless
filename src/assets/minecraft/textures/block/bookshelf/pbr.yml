@@ -8,13 +8,13 @@ normal:
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.9
-  z-scale: 8
-  steps: 4
+  z-bias: 0.02
+  z-scale: 6
+  step-distance: 0.1
 smooth:
-  value: 0.1
+  value: 0.78
 f0:
   value: 0.04
 porosity:
-  value: 0.5
+  value: 0
 create-inventory: true

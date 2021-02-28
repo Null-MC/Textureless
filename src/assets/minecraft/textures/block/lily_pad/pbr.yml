@@ -1,0 +1,22 @@
+create-inventory: true
+albedo:
+  value-red: 163
+  value-green: 163
+  value-blue: 163
+height:
+  scale: 0.4
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 4
+  step-distance: 0.1
+smooth:
+  value: 0.6
+f0:
+  value: 0.03
+sss:
+  value: 0.06

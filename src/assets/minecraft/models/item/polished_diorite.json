@@ -1,0 +1,6 @@
+{
+  "parent": "block/polished_diorite",
+  "textures": {
+    "all": "block/polished_diorite_inventory"
+  }
+}

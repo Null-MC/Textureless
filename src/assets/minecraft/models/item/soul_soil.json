@@ -1,0 +1,6 @@
+{
+  "parent": "block/soul_soil",
+  "textures": {
+    "all": "block/soul_soil_inventory"
+  }
+}

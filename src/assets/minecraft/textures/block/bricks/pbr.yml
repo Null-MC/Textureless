@@ -9,14 +9,13 @@ normal:
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.1
-  z-scale: 12
-  step-distance: 0.10000000149011612
-  steps: 6
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
 smooth:
   value: 0.01
 f0:
-  value: 0.04
+  value: 0.05
 porosity: {}
 create-inventory: true
 wrap-x: true
