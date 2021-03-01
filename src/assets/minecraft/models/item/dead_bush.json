@@ -1,0 +1,6 @@
+{
+  "parent": "block/dead_bush",
+  "textures": {
+    "cross": "block/dead_bush_inventory"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/smooth_quartz",
+  "textures": {
+    "all": "block/quartz_block_bottom_inventory"
+  }
+}

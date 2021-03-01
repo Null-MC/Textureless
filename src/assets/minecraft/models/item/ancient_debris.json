@@ -1,0 +1,7 @@
+{
+  "parent": "block/ancient_debris",
+  "textures": {
+    "end": "block/ancient_debris_top_inventory",
+    "side": "block/ancient_debris_side_inventory"
+  }
+}
