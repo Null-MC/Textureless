@@ -1,12 +1,9 @@
-edition: Java
 format: 6
 description: No Textures! PBR shader required.
-tags: 64x OldPBR
+tags: 16x OldPBR
 encoding:
   format: legacy
-  sampler: bilinear
-  alpha:
-    sampler: nearest
+  alpha: {}
   diffuse-red: {}
   diffuse-green: {}
   diffuse-blue: {}
@@ -26,5 +23,6 @@ encoding:
   porosity: {}
   sss: {}
   emissive: {}
-default-texture-size: 64
-texture-scale: 4
+block-texture-size: 16
+auto-generate-occlusion: true
+edition: Java

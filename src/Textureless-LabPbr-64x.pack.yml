@@ -4,6 +4,13 @@ tags: 64x LabPBR
 encoding:
   format: lab-1.3
   sampler: nearest
+  alpha: {}
+  diffuse-red: {}
+  diffuse-green: {}
+  diffuse-blue: {}
+  albedo-red: {}
+  albedo-green: {}
+  albedo-blue: {}
   height:
     sampler: bilinear
   occlusion:
@@ -14,6 +21,15 @@ encoding:
     sampler: bilinear
   normal-z:
     sampler: bilinear
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
 block-texture-size: 64
 texture-scale: 4
+auto-generate-occlusion: true
 edition: Java

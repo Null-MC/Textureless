@@ -1,17 +1,19 @@
 format: 6
-description: No Textures! PBR shader required.
-tags: 32x LabPBR
+description: Place above Default textures!
+tags: 16x LabPBR
 encoding:
   format: lab-1.3
-  sampler: nearest
   alpha:
-    sampler: nearest
+    texture: none
   diffuse-red: {}
   diffuse-green: {}
   diffuse-blue: {}
-  albedo-red: {}
-  albedo-green: {}
-  albedo-blue: {}
+  albedo-red:
+    texture: none
+  albedo-green:
+    texture: none
+  albedo-blue:
+    texture: none
   height: {}
   occlusion: {}
   normal-x: {}
@@ -25,6 +27,6 @@ encoding:
   porosity: {}
   sss: {}
   emissive: {}
-block-texture-size: 32
-texture-scale: 2
+block-texture-size: 16
+auto-generate-occlusion: true
 edition: Java

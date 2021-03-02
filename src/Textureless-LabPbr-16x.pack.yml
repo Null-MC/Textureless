@@ -1,0 +1,33 @@
+format: 6
+description: No Textures! PBR shader required.
+tags: 16x LabPBR
+encoding:
+  format: lab-1.3
+  alpha: {}
+  diffuse-red: {}
+  diffuse-green: {}
+  diffuse-blue: {}
+  albedo-red: {}
+  albedo-green: {}
+  albedo-blue: {}
+  height:
+    sampler: average
+  occlusion:
+    sampler: average
+  normal-x:
+    sampler: average
+  normal-y:
+    sampler: average
+  normal-z:
+    sampler: average
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 16
+auto-generate-occlusion: true
+edition: Java

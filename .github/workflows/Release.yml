@@ -15,15 +15,15 @@ jobs:
       - name: Publish 16x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-16x.pack.yml" -z "//content/Textureless-16x.zip"
+            publish -p "//content/src/Textureless-LabPbr-16x.pack.yml" -z "//content/Textureless-16x.zip"
       - name: Publish 32x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-32x.pack.yml" -z "//content/Textureless-32x.zip"
+            publish -p "//content/src/Textureless-LabPbr-32x.pack.yml" -z "//content/Textureless-32x.zip"
       - name: Publish 64x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-64x.pack.yml" -z "//content/Textureless-64x.zip"
+            publish -p "//content/src/Textureless-LabPbr-64x.pack.yml" -z "//content/Textureless-64x.zip"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1

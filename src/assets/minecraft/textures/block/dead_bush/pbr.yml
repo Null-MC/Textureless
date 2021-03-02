@@ -1,3 +1,4 @@
+create-inventory: true
 albedo:
   value-red: 109
   value-green: 79
