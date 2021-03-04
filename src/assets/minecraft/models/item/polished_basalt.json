@@ -1,0 +1,7 @@
+{
+  "parent": "block/polished_basalt",
+  "textures": {
+    "end": "block/polished_basalt_top_inventory",
+    "side": "block/polished_basalt_side_inventory"
+  }
+}

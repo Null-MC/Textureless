@@ -4,10 +4,17 @@ albedo:
   value-blue: 148
 height:
   value: 0
+normal:
+  strength: 0.5
+occlusion:
+  scale: 0.8
 smooth:
-  value: 0.2
-sss:
-  value: 0.2
+  value: 0.6
+f0:
+  value: 0.017
+sss: {}
+wrap-x: false
+wrap-y: false
 parts:
 - name: tall_grass_top
   left: 0

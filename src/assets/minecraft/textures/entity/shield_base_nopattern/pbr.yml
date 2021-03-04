@@ -1,11 +1,14 @@
 height:
   scale: 0.6
 normal:
-  strength: 1
+  strength: 1.5
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0.1
-  z-scale: 6
-  steps: 8
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
+create-inventory: true
 texture-size: 64
+wrap-x: false
+wrap-y: false

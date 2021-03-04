@@ -1,0 +1,10 @@
+create-inventory: true
+height:
+  value: 0
+occlusion:
+  scale: 0.8
+smooth:
+  value: 0.2
+f0:
+  value: 0.017
+sss: {}

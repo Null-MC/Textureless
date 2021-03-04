@@ -1,3 +1,4 @@
+create-inventory: true
 albedo: {}
 height:
   shift: -0.14

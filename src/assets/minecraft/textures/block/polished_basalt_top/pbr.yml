@@ -1,13 +1,14 @@
+create-inventory: true
 alpha:
   value: 255
 albedo:
-  value-red: 95
-  value-green: 145
-  value-blue: 31
+  value-red: 107
+  value-green: 107
+  value-blue: 107
 height:
-  value: 0
+  scale: 0.15
 normal:
-  strength: 0.3
+  strength: 0.5
   filter: sobel-high
 occlusion:
   quality: 0.1
@@ -15,7 +16,9 @@ occlusion:
   z-scale: 2
   step-distance: 0.2
 smooth:
-  value: 0.24
-sss: {}
+  value: 0.4
+f0:
+  value: 0.05
+porosity:
+  value: 0.15
 wrap-x: false
-wrap-y: true

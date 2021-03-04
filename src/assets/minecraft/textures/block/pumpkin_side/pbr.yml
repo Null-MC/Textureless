@@ -23,5 +23,5 @@ f0:
 porosity:
   value: 0
 sss:
-  value: 0.05
+  value: 0.01
 create-inventory: true
