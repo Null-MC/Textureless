@@ -3,7 +3,7 @@
     "textures": {
         "particle": "block/dirt_inventory",
         "bottom": "block/dirt",
-        "top": "block/grass_block_snow_top",
+        "top": "block/snow",
         "side": "block/dirt",
         "overlay": "block/grass_block_snow_side_overlay"
     },

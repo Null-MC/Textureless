@@ -1,0 +1,8 @@
+{
+  "parent": "block/andesite_slab",
+  "textures": {
+    "bottom": "block/andesite_inventory",
+    "top": "block/andesite_inventory",
+    "side": "block/andesite_inventory"
+  }
+}

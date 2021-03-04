@@ -1,10 +1,11 @@
 alpha:
   value: 255
 height:
-  scale: 0.3
+  scale: 0.05
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
 normal:
-  strength: 0.4
-  filter: sobel-low
+  filter: sobel-high
 occlusion:
   quality: 0.1
   z-bias: 0.02
@@ -13,7 +14,8 @@ occlusion:
 smooth:
   value: 0.06
 f0:
-  value: 0.03
+  value: 0.04
 porosity:
   value: 0.4
-create-inventory: true
+wrap-x: false
+wrap-y: false

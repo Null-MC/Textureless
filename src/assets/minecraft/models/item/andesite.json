@@ -1,0 +1,6 @@
+{
+  "parent": "block/andesite",
+  "textures": {
+    "all": "block/andesite_inventory"
+  }
+}
