@@ -1,0 +1,14 @@
+create-inventory: true
+height:
+  scale: 0.2
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  filter: sobel-low
+occlusion:
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
+smooth: {}
+f0: {}
+porosity: {}

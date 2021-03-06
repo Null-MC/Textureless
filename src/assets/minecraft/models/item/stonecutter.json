@@ -1,0 +1,9 @@
+{
+    "parent": "block/stonecutter",
+    "textures": {
+        "bottom": "block/stonecutter_bottom_inventory",
+        "top": "block/stonecutter_top_inventory",
+        "side": "block/stonecutter_side_inventory",
+        "saw": "block/stonecutter_saw_inventory"
+    }
+}

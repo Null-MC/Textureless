@@ -5,15 +5,20 @@ albedo:
 height:
   value: 0
 normal:
-  filter: sobel-low
+  strength: 0.5
+  filter: sobel3
 occlusion:
+  value: 0
   quality: 0.1
   z-bias: 0.02
-  z-scale: 1
+  z-scale: 0.1
   step-distance: 0.2
 smooth:
   value: 1
 f0:
   value: 0.03
 sss:
-  value: 0.6
+  value: 0.3
+create-inventory: true
+wrap-x: false
+wrap-y: false

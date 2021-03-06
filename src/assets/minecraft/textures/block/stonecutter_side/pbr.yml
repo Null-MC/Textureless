@@ -1,0 +1,14 @@
+create-inventory: true
+alpha: {}
+height: {}
+normal:
+  noise: 2
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
+f0: {}
+wrap-x: false
+wrap-y: false

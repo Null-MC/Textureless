@@ -1,0 +1,16 @@
+height:
+  scale: 0.5
+normal:
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
+smooth:
+  value: 0.2
+f0:
+  value: 0.05
+porosity:
+  value: 0.8
+create-inventory: true

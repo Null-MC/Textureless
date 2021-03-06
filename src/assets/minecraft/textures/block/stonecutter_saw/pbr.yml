@@ -1,9 +1,13 @@
+create-inventory: true
 albedo:
   value-red: 216
   value-green: 216
   value-blue: 216
 height:
-  value: 0
+  scale: 0.5
+normal:
+  noise: 3
+  filter: sobel-low
 occlusion:
   value: 0
 smooth: {}
@@ -11,5 +15,5 @@ metal:
   value: 230
 porosity:
   value: 0
-texture-width: 16
-texture-height: 48
+wrap-x: false
+wrap-y: true

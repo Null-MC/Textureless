@@ -12,12 +12,11 @@ occlusion:
   z-bias: 0.1
   z-scale: 1
   step-distance: 0.10000000149011612
-  steps: 12
 smooth:
   value: 0.08
 f0:
   value: 0.04
-porosity: {}
-sss:
-  value: 0.24
+porosity:
+  value: 0.85
+sss: {}
 create-inventory: true

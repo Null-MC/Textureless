@@ -13,11 +13,10 @@ occlusion:
   z-bias: 0
   z-scale: 16
   step-distance: 0.10000000149011612
-  steps: 6
 smooth:
   value: 0.08
 f0:
   value: 0.04
 porosity:
-  value: 0.55
+  value: 0.65
 create-inventory: true

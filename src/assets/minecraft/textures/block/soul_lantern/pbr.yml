@@ -1,0 +1,15 @@
+wrap-y: false
+height:
+  scale: 0.8
+normal:
+  strength: 0.6
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.5
+  z-scale: 8
+  steps: 12
+smooth:
+  value: 0.82
+porosity:
+  value: 0

@@ -4,20 +4,22 @@ albedo:
   value-blue: 148
 height:
   value: 0
+occlusion:
+  scale: 0.6
 smooth:
   value: 0.35
+f0:
+  value: 0.017
 sss:
-  value: 0.47
-occlusion:
-  value: 0
+  scale: 0.5
 parts:
 - name: large_fern_top
-  top: 0
   left: 0
+  top: 0
   width: 16
   height: 16
 - name: large_fern_bottom
-  top: 16
   left: 0
+  top: 16
   width: 16
   height: 16

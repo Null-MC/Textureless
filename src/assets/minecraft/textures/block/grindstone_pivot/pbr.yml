@@ -1,0 +1,13 @@
+create-inventory: true
+albedo:
+  value-red: 83
+  value-green: 52
+  value-blue: 24
+normal:
+  noise: 3
+smooth:
+  value: 0.2
+f0:
+  value: 0.03
+porosity:
+  value: 0.9

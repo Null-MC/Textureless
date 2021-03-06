@@ -1,0 +1,10 @@
+{
+    "parent": "block/lectern",
+    "textures": {
+        "bottom": "block/oak_planks_inventory",
+        "base": "block/lectern_base_inventory",
+        "front": "block/lectern_front_inventory",
+        "sides": "block/lectern_sides_inventory",
+        "top": "block/lectern_top_inventory"
+    }
+}

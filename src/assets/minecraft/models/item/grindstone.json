@@ -1,0 +1,9 @@
+{
+    "parent": "block/grindstone",
+    "textures": {
+        "pivot": "block/grindstone_pivot_inventory",
+        "round": "block/grindstone_round_inventory",
+        "side": "block/grindstone_side_inventory",
+        "leg": "block/stripped_dark_oak_wood_inventory"
+    }
+}

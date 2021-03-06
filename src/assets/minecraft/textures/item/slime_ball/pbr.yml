@@ -1,0 +1,17 @@
+albedo:
+  value-red: 103
+  value-green: 162
+  value-blue: 95
+height: {}
+normal:
+  strength: 2
+  filter: sobel3
+occlusion:
+  value: 0
+smooth:
+  value: 0.7
+f0:
+  value: 0.03
+sss:
+  value: 0.1
+texture-size: 16

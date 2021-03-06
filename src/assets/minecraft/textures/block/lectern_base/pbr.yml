@@ -1,3 +1,4 @@
+create-inventory: true
 alpha:
   value: 255
 height:
@@ -11,8 +12,7 @@ occlusion:
   z-bias: 0.02
   z-scale: 2
   step-distance: 0.2
-smooth:
-  value: 0.06
+smooth: {}
 f0:
   value: 0.04
 porosity:

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/chain_inventory"
+    "layer0": "block/fern_inventory"
   }
 }

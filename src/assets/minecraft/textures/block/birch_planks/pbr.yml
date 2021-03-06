@@ -15,5 +15,5 @@ metal: {}
 f0:
   value: 0.04
 porosity:
-  value: 0.47
+  value: 0.7
 create-inventory: true
