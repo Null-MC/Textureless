@@ -1,0 +1,8 @@
+{
+  "parent": "block/prismarine_slab",
+  "textures": {
+    "bottom": "block/prismarine_inventory",
+    "top": "block/prismarine_inventory",
+    "side": "block/prismarine_inventory"
+  }
+}

@@ -1,3 +1,5 @@
+texture-width: 16
+texture-height: 16
 wrap-y: false
 height:
   scale: 0.8

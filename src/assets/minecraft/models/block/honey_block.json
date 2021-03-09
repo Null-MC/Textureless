@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "block/honey_block_top_inventory",
+        "top": "block/honey_block_top",
+        "side": "block/honey_block_side",
+        "bottom": "block/honey_block_bottom"
+    }
+}

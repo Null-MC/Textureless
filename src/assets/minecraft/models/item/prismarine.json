@@ -1,0 +1,6 @@
+{
+  "parent": "block/prismarine",
+  "textures": {
+    "all": "block/prismarine_inventory"
+  }
+}
