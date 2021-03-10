@@ -1,17 +1,20 @@
 alpha:
   value: 255
 height:
-  shift: -0.05
-  scale: 0.4
-  edge-fade-x: 0.4
+  shift: -0.06
+  scale: 0.8
+  edge-fade-x: 0.2
 normal:
-  strength: 0.3
+  strength: 0.8
   filter: sobel3
 occlusion:
   quality: 0.1
-  z-bias: 1
-  z-scale: 7
+  z-bias: 0.02
+  z-scale: 6
+  step-distance: 0.2
 smooth: {}
 f0: {}
 porosity: {}
+sss:
+  scale: 0.2
 wrap-y: false

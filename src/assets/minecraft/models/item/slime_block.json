@@ -1,0 +1,6 @@
+{
+    "parent": "block/slime_block",
+    "textures": {
+        "texture": "block/slime_block_inventory"
+    }
+}
