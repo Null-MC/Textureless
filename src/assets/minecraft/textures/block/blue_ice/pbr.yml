@@ -1,0 +1,22 @@
+alpha:
+  value: 120
+albedo:
+  value-red: 117
+  value-green: 168
+  value-blue: 253
+height: {}
+normal:
+  strength: 1.6
+  noise: 4
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 6
+  step-distance: 0.2
+smooth:
+  value: 1.0
+f0:
+  value: 0.02
+sss:
+  value: 0.6

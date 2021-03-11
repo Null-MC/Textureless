@@ -1,0 +1,6 @@
+{
+  "parent": "block/blue_ice",
+  "textures": {
+    "all": "block/blue_ice_inventory"
+  }
+}
