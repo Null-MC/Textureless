@@ -1,0 +1,17 @@
+create-inventory: true
+albedo:
+  value-red: 102
+  value-green: 127
+  value-blue: 51
+normal:
+  strength: 0.7
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.1
+  z-scale: 2
+  steps: 4
+f0:
+  value: 0.04
+porosity:
+  value: 0

@@ -39,7 +39,8 @@ encoding:
   albedo-blue:
     texture: none
   height: {}
-  occlusion: {}
+  occlusion:
+    texture: none
   normal-x: {}
   normal-y: {}
   normal-z: {}

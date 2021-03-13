@@ -12,13 +12,12 @@ normal:
   filter: sobel3
 occlusion:
   quality: 0.1
-  z-bias: 0
-  z-scale: 8
-  step-distance: 0.1
-smooth:
-  value: 0.05
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
+smooth: {}
 f0:
-  value: 0.05
+  value: 0.03
 porosity:
   value: 0.7
 create-inventory: true

@@ -11,11 +11,11 @@ normal:
 occlusion:
   scale: 0.8
 smooth:
-  value: 0.6
+  value: 0.16
 f0:
   value: 0.017
 sss:
-  scale: 0.35
+  scale: 0.2
 create-inventory: true
 wrap-x: false
 wrap-y: false

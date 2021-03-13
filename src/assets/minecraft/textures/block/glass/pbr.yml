@@ -2,7 +2,6 @@ albedo:
   value-red: 180
   value-green: 215
   value-blue: 221
-height: {}
 normal:
   strength: 0.7
   filter: sobel-low
@@ -11,7 +10,6 @@ occlusion:
   z-bias: 0.1
   z-scale: 2
   steps: 4
-smooth: {}
 f0:
   value: 0.04
 porosity:

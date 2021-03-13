@@ -1,0 +1,21 @@
+albedo:
+  value-red: 216
+  value-green: 127
+  value-blue: 51
+height:
+  value: 0
+normal:
+  strength: 0.7
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 0.5
+  step-distance: 0.2
+f0:
+  value: 0.04
+porosity:
+  value: 0
+wrap-x: false
+wrap-y: false
+ctm-type: compact

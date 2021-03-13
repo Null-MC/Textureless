@@ -1,0 +1,6 @@
+{
+  "parent": "block/white_stained_glass",
+  "textures": {
+    "all": "block/white_stained_glass_inventory"
+  }
+}
