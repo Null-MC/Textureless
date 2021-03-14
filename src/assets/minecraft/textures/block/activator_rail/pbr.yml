@@ -9,3 +9,4 @@ occlusion:
   z-scale: 8
   step-distance: 0.1
 create-inventory: true
+wrap-x: false

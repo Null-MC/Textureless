@@ -1,6 +1,3 @@
-texture-width: 16
-texture-height: 16
-wrap-y: false
 height:
   scale: 0.8
 normal:
@@ -10,8 +7,11 @@ occlusion:
   quality: 0.1
   z-bias: 0.5
   z-scale: 8
-  steps: 12
 smooth:
   value: 0.82
 porosity:
   value: 0
+texture-width: 16
+texture-height: 16
+wrap-x: false
+wrap-y: false

@@ -1,3 +1,4 @@
+texture-size: 16
 albedo:
   value-red: 180
   value-green: 215
@@ -16,6 +17,6 @@ f0:
   value: 0.04
 porosity:
   value: 0
-wrap-x: false
-wrap-y: false
+wrap-x: true
+wrap-y: true
 ctm-type: compact

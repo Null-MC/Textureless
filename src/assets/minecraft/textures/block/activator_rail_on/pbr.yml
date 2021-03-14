@@ -11,3 +11,4 @@ occlusion:
 emissive:
   scale: 0.1
 create-inventory: true
+wrap-x: false
