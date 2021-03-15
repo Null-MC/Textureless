@@ -7,8 +7,10 @@ normal:
   noise: 1
   filter: sobel-low
 occlusion:
-  z-scale: 2
-  steps: 8
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 0.8
+  step-distance: 0.2
 smooth:
   scale: 0.6
 parts:

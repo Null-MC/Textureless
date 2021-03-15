@@ -1,5 +1,3 @@
-wrap-x: false
-wrap-y: false
 albedo:
   value-red: 197
   value-green: 200
@@ -12,14 +10,16 @@ normal:
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.5
-  z-scale: 4
-  steps: 8
+  z-bias: 0.02
+  z-scale: 1
+  step-distance: 0.2
 smooth: {}
 metal:
   value: 230
 porosity:
   value: 0
+wrap-x: false
+wrap-y: false
 parts:
 - name: iron_door_top
   left: 0

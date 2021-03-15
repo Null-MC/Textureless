@@ -1,4 +1,3 @@
-create-inventory: true
 albedo:
   value-red: 163
   value-green: 163
@@ -12,11 +11,12 @@ normal:
 occlusion:
   quality: 0.1
   z-bias: 0.02
-  z-scale: 4
-  step-distance: 0.1
+  z-scale: 2
+  step-distance: 0.2
 smooth:
   value: 0.6
 f0:
   value: 0.03
 sss:
   value: 0.06
+create-inventory: true

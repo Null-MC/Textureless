@@ -6,8 +6,6 @@ albedo:
   value-blue: 58
 height:
   scale: 0.8
-  edge-fade-size-x: 1
-  edge-fade-size-y: 1
 normal:
   strength: 0.5
   curve-x: 20
@@ -15,10 +13,9 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0.1
-  z-scale: 3
-  step-distance: 0.25
-  steps: 12
+  z-bias: 0.02
+  z-scale: 1
+  step-distance: 0.2
 smooth:
   value: 0.08
 f0:

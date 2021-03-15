@@ -7,7 +7,7 @@ occlusion:
   quality: 0.1
   z-bias: 0.02
   z-scale: 2
-  step-distance: 0.1
+  step-distance: 0.2
 smooth: {}
 sss:
   scale: 1.6

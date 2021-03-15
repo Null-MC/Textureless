@@ -7,9 +7,9 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0
-  z-scale: 3
-  step-distance: 0.1
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
 smooth: {}
 metal:
   value: 230

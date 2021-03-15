@@ -1,6 +1,3 @@
-create-inventory: true
-wrap-x: false
-wrap-y: false
 albedo: {}
 height:
   shift: -0.03
@@ -10,12 +7,15 @@ normal:
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.3
-  z-scale: 8
-  steps: 12
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
 smooth:
   value: 0.04
 f0:
   value: 0.04
 sss:
   value: 0
+create-inventory: true
+wrap-x: false
+wrap-y: false

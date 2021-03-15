@@ -1,4 +1,3 @@
-create-inventory: true
 albedo: {}
 height:
   shift: -0.14
@@ -10,11 +9,12 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0
-  z-scale: 8
-  step-distance: 0.1
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
 smooth: {}
 metal: {}
 porosity: {}
+create-inventory: true
 wrap-x: false
 wrap-y: false
