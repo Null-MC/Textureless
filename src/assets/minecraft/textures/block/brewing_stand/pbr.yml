@@ -1,0 +1,11 @@
+normal:
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
+emissive:
+  scale: 0.4
+wrap-x: false
+wrap-y: false

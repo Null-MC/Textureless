@@ -1,0 +1,6 @@
+{
+  "parent": "block/bedrock",
+  "textures": {
+    "all": "block/bedrock_inventory"
+  }
+}

@@ -1,6 +1,7 @@
 alpha:
   value: 255
 height:
+  texture: height.png
   scale: 0.4
 normal:
   strength: 0.5
@@ -11,9 +12,8 @@ occlusion:
   z-scale: 2
   step-distance: 0.2
 smooth:
-  value: 0.02
+  value: 0.14
 f0:
   value: 0.07
 porosity:
-  value: 0.8
-create-inventory: true
+  value: 0.6

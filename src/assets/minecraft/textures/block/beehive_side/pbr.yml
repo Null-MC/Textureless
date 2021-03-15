@@ -1,0 +1,21 @@
+alpha:
+  value: 255
+albedo: {}
+height:
+  scale: 0.2
+  edge-fade-x: 0.2
+  edge-fade-y: 0.2
+normal:
+  strength: 0.8
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
+smooth: {}
+f0: {}
+porosity:
+  value: 0.8
+wrap-x: false
+wrap-y: false

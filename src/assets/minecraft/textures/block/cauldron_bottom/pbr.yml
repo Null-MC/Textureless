@@ -1,0 +1,21 @@
+albedo:
+  value-red: 85
+  value-green: 83
+  value-blue: 83
+height: {}
+normal:
+  noise: 3
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 1
+  step-distance: 0.2
+smooth:
+  value: 0.34
+metal:
+  value: 230
+porosity:
+  value: 0
+wrap-x: false
+wrap-y: false
