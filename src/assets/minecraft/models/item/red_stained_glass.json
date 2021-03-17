@@ -1,6 +1,6 @@
 {
   "parent": "block/red_stained_glass",
   "textures": {
-    "all": "block/red_stained_glass_inventory"
+    "all": "block/stained_glass/red_inventory"
   }
 }

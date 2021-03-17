@@ -1,15 +1,20 @@
-create-inventory: true
 alpha:
   value: 255
-albedo:
-  value-red: 132
-  value-green: 39
-  value-blue: 39
+albedo: {}
 height:
-  value: 0
+  scale: 0.32
 normal:
+  strength: 0.6
   noise: 5
-smooth:
-  value: 0.63
+  filter: sobel3
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 2
+  step-distance: 0.2
+smooth: {}
+f0:
+  value: 0.02
 sss:
   value: 0.08
+create-inventory: true

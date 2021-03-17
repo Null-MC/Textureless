@@ -1,0 +1,22 @@
+alpha:
+  texture: alpha.png
+albedo:
+  value-red: 102
+  value-green: 76
+  value-blue: 51
+bump:
+  texture: bump.png
+normal:
+  filter: sobel-high
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 1
+  step-distance: 0.2
+smooth:
+  value: 0.21
+f0:
+  value: 0.04
+porosity:
+  value: 0
+create-inventory: true

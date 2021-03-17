@@ -1,6 +1,6 @@
 {
-  "parent": "block/cobweb",
+  "parent": "item/generated",
   "textures": {
-    "cross": "block/cobweb_inventory"
+    "layer0": "block/cobweb_inventory"
   }
 }
