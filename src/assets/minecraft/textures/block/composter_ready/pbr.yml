@@ -1,0 +1,12 @@
+normal:
+  noise: 8
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 3
+  step-distance: 0.2
+smooth: {}
+f0:
+  value: 0.04
+porosity:
+  value: 0.3

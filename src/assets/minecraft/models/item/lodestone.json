@@ -1,0 +1,7 @@
+{
+  "parent": "block/lodestone",
+  "textures": {
+    "end": "block/lodestone_top_inventory",
+    "side": "block/lodestone_side_inventory"
+  }
+}

@@ -4,7 +4,8 @@ albedo:
   value-red: 70
   value-green: 45
   value-blue: 21
-height: {}
+height:
+  scale: 0.6
 normal:
   noise: 1
   filter: sobel-high
@@ -13,8 +14,7 @@ occlusion:
   z-bias: 0.02
   z-scale: 2
   step-distance: 0.2
-smooth:
-  value: 0.05
+smooth: {}
 f0:
   value: 0.04
 porosity:

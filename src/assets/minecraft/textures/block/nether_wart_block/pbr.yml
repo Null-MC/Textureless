@@ -13,9 +13,9 @@ occlusion:
   z-bias: 0.02
   z-scale: 8
   step-distance: 0.2
-smooth:
-  value: 0.78
+smooth: {}
 f0:
   value: 0.08
 sss:
   value: 0.16
+create-inventory: true

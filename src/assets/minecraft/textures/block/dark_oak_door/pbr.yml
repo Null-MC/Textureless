@@ -1,0 +1,23 @@
+create-inventory: true
+alpha:
+  value: 255
+height:
+  shift: -0.02
+normal:
+  filter: sobel-low
+occlusion:
+  quality: 0.1
+  z-bias: 0.02
+  z-scale: 4
+  step-distance: 0.2
+parts:
+- name: dark_oak_door_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: dark_oak_door_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

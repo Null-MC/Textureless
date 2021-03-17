@@ -1,0 +1,10 @@
+{
+  "parent": "block/beehive",
+  "textures": {
+    "top": "block/beehive_end_inventory",
+    "bottom": "block/beehive_end_inventory",
+    "side": "block/beehive_side_inventory",
+    "front": "block/beehive_front_inventory",
+    "particle": "block/beehive_side_inventory"
+  }
+}

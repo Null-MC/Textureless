@@ -1,4 +1,4 @@
-albedo: {}
+create-inventory: true
 height:
   scale: 0.6
 normal:
@@ -9,8 +9,6 @@ occlusion:
   z-bias: 0.02
   z-scale: 2
   step-distance: 0.2
-smooth: {}
-porosity: {}
 parts:
 - name: oak_door_top
   left: 0

@@ -1,0 +1,6 @@
+{
+  "parent": "block/nether_wart_block",
+  "textures": {
+    "all": "block/nether_wart_block_inventory"
+  }
+}
