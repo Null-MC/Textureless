@@ -11,8 +11,8 @@ normal:
   noise: 2
 occlusion:
   quality: 0.1
-  z-bias: 0.01
-  z-scale: 1
+  z-bias: 0
+  z-scale: 5
   step-distance: 0.2
 smooth:
   value: 0.4

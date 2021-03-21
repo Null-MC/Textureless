@@ -1,0 +1,8 @@
+{
+  "parent": "block/dispenser",
+  "textures": {
+    "top": "block/furnace_top_inventory",
+    "front": "block/dispenser_front_inventory",
+    "side": "block/furnace_side_inventory"
+  }
+}

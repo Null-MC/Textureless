@@ -20,7 +20,6 @@ smooth:
   texture: ../smooth.png
 porosity:
   value: 0
-texture-size: 16
 ctm-type: compact
 wrap-x: true
 wrap-y: true

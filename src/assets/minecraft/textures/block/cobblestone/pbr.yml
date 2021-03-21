@@ -7,17 +7,17 @@ albedo:
 height:
   scale: 0.6
 normal:
-  strength: 0.6
+  strength: 0.8
   noise: 3
   filter: sobel3
 occlusion:
-  quality: 0.1
-  z-bias: 0.02
-  z-scale: 3
+  z-bias: 0
+  z-scale: 4
   step-distance: 0.2
-smooth: {}
+smooth:
+  scale: 0.1
 f0:
-  value: 0.03
+  value: 0.05
 porosity:
   value: 0.7
 create-inventory: true

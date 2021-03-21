@@ -9,7 +9,7 @@ height:
 occlusion:
   quality: 0.1
   z-bias: 0.02
-  z-scale: 3
+  z-scale: 6
   step-distance: 0.2
 smooth:
   value: 0.72

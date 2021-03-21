@@ -1,15 +1,15 @@
-create-inventory: true
 height:
   value: 0
 normal:
   filter: sobel3
 occlusion:
   quality: 0.1
-  z-bias: 0.02
-  z-scale: 1
+  z-bias: 0
+  z-scale: 5
   step-distance: 0.2
 smooth: {}
 f0:
   value: 0.017
+create-inventory: true
 wrap-x: false
 wrap-y: false

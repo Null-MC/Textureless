@@ -1,15 +1,15 @@
-create-inventory: true
 height:
   shift: -0.02
 normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0.02
-  z-scale: 1
+  z-bias: 0
+  z-scale: 2
   step-distance: 0.2
 porosity:
   value: 0.2
+create-inventory: true
 parts:
 - name: birch_door_top
   left: 0

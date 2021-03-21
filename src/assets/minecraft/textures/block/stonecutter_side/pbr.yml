@@ -1,4 +1,3 @@
-create-inventory: true
 alpha: {}
 height: {}
 normal:
@@ -6,9 +5,10 @@ normal:
   filter: sobel-low
 occlusion:
   quality: 0.1
-  z-bias: 0.02
-  z-scale: 2
+  z-bias: 0
+  z-scale: 5
   step-distance: 0.2
 f0: {}
+create-inventory: true
 wrap-x: false
 wrap-y: false

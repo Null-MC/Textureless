@@ -1,4 +1,3 @@
-create-inventory: true
 albedo:
   value-red: 204
   value-green: 177
@@ -10,8 +9,8 @@ normal:
   filter: sobel-high
 occlusion:
   quality: 0.1
-  z-bias: 0.02
-  z-scale: 3
+  z-bias: 0
+  z-scale: 5
   step-distance: 0.2
 smooth:
   value: 0.3
@@ -19,5 +18,6 @@ f0:
   value: 0.03
 porosity:
   value: 0.6
+create-inventory: true
 wrap-x: false
 wrap-y: false

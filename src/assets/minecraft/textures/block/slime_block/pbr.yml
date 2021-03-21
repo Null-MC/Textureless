@@ -1,4 +1,3 @@
-create-inventory: true
 alpha:
   value: 200
 albedo:
@@ -8,8 +7,8 @@ albedo:
 height: {}
 occlusion:
   quality: 0.1
-  z-bias: 0.02
-  z-scale: 3
+  z-bias: 0
+  z-scale: 5
   step-distance: 0.2
 smooth:
   value: 0.71
@@ -17,3 +16,4 @@ f0:
   value: 0.02
 sss:
   value: 0.6
+create-inventory: true

@@ -1,0 +1,6 @@
+{
+  "parent": "block/wet_sponge",
+  "textures": {
+    "all": "block/wet_sponge_inventory"
+  }
+}

@@ -3,10 +3,9 @@ albedo:
   value-red: 127
   value-green: 98
   value-blue: 55
-height:
-  value: 0
+height: {}
 normal:
-  strength: 0.2
+  strength: 0.3
   noise: 2
   filter: sobel-low
 occlusion:

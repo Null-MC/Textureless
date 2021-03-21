@@ -1,0 +1,9 @@
+{
+  "parent": "block/mycelium",
+  "textures": {
+    "top": "block/mycelium_top_inventory",
+    "bottom": "block/dirt_inventory",
+    "side": "block/dirt_inventory",
+    "overlay": "block/mycelium_side_overlay_inventory"
+  }
+}

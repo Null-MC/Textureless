@@ -8,7 +8,7 @@ normal:
 occlusion:
   quality: 0.1
   z-bias: 0.02
-  z-scale: 8
+  z-scale: 16
   step-distance: 0.2
 smooth: {}
 f0: {}
