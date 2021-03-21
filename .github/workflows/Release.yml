@@ -24,10 +24,14 @@ jobs:
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
             publish -p "//content/src/Textureless-LabPbr-64x.pack.yml" -z "//content/Textureless-64x.zip"
-      - name: Publish Molly 32x
+      - name: Publish LabPbr-Baked-AO 32x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/Textureless-Molly-32x.pack.yml" -z "//content/Textureless-Molly-32x.zip"
+            publish -p "//content/src/Textureless-LabBakedAO-32x.pack.yml" -z "//content/Textureless-LabBakedAO-32x.zip"
+      - name: Publish LabPbr-Baked-AO 64x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/Textureless-LabBakedAO-64x.pack.yml" -z "//content/Textureless-LabBakedAO-64x.zip"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -63,12 +67,21 @@ jobs:
           asset_path: ./Textureless-64x.zip
           asset_name: Textureless-64x.zip
           asset_content_type: application/zip
-      - name: Upload Molly 32x
+      - name: Upload LabBakedAO 32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Textureless-Molly-32x.zip
-          asset_name: Textureless-Molly-32x.zip
+          asset_path: ./Textureless-LabBakedAO-32x.zip
+          asset_name: Textureless-LabBakedAO-32x.zip
+          asset_content_type: application/zip
+      - name: Upload LabBakedAO 64x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-LabBakedAO-64x.zip
+          asset_name: Textureless-LabBakedAO-64x.zip
           asset_content_type: application/zip
