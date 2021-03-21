@@ -9,9 +9,8 @@ height:
 normal:
   noise: 3
 occlusion:
-  quality: 0.1
-  z-bias: 0.02
-  z-scale: 16
+  z-bias: 0
+  z-scale: 6
   step-distance: 0.2
 smooth: {}
 f0:

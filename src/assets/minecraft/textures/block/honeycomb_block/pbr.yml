@@ -5,9 +5,8 @@ height:
 normal:
   strength: 0.5
 occlusion:
-  quality: 0.1
-  z-bias: 0.02
-  z-scale: 5
+  z-bias: 0
+  z-scale: 10
   step-distance: 0.2
 smooth:
   value: 0.35

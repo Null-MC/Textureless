@@ -40,7 +40,7 @@ encoding:
     texture: none
   height: {}
   occlusion:
-    texture: none
+    range-min: 255
   normal-x: {}
   normal-y: {}
   normal-z: {}
@@ -54,6 +54,7 @@ encoding:
   emissive: {}
 block-texture-size: 32
 texture-scale: 2
+diffuse-occlusion-strength: 0.5
 auto-generate-occlusion: true
 occlusion-quality: 0.04
 edition: Java

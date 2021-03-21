@@ -7,11 +7,10 @@ albedo:
 height:
   scale: 0.3
 normal:
-  strength: 0.2
+  strength: 0.5
   noise: 2
-  filter: sobel3
+  filter: sobel-low
 occlusion:
-  quality: 0.1
   z-bias: 0
   z-scale: 5
   step-distance: 0.2

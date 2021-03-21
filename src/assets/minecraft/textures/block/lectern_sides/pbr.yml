@@ -11,8 +11,7 @@ normal:
   noise: 2
   filter: sobel-high
 occlusion:
-  quality: 0.1
-  z-bias: 0.02
+  z-bias: 0
   z-scale: 4
   step-distance: 0.2
 smooth:

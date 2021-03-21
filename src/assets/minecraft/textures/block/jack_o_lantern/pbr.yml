@@ -9,9 +9,8 @@ normal:
   curve-y: 90
   filter: sobel3
 occlusion:
-  quality: 0.1
-  z-bias: 0.02
-  z-scale: 6
+  z-bias: 0
+  z-scale: 4
   step-distance: 0.2
 smooth:
   value: 0.15

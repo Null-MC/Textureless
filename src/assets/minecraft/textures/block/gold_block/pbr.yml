@@ -1,22 +1,22 @@
 alpha:
   value: 255
 albedo:
-  value-red: 226
-  value-green: 176
-  value-blue: 7
+  value-red: 255
+  value-green: 195
+  value-blue: 70
 height:
   scale: 0.6
-  edge-fade-size-x: 1
-  edge-fade-size-y: 1
 normal:
   strength: 0.6
   filter: sobel-high
 occlusion:
-  value: 0
+  z-bias: 0
+  z-scale: 4
+  step-distance: 0.2
 smooth:
-  value: 0.8
+  value: 0.85
 metal:
-  value: 231
+  value: 255
 porosity:
   value: 0
 emissive: {}

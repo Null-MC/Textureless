@@ -6,9 +6,8 @@ normal:
   strength: 0.4
   filter: sobel-low
 occlusion:
-  quality: 0.1
-  z-bias: 0.02
-  z-scale: 2
+  z-bias: 0
+  z-scale: 6
   step-distance: 0.2
 smooth:
   value: 0.06

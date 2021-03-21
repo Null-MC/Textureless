@@ -7,8 +7,7 @@ normal:
   noise: 3
   filter: sobel-low
 occlusion:
-  quality: 0.1
-  z-bias: 0.02
+  z-bias: 0
   z-scale: 12
   step-distance: 0.2
 smooth: {}
