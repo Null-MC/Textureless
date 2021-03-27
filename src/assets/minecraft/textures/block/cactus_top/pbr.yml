@@ -1,21 +1,19 @@
 albedo: {}
-height:
-  scale: 0.6
+height: {}
 normal:
   curve-x: 45
   curve-y: 45
   filter: sobel-high
 occlusion:
-  quality: 0.1
   z-bias: 0
-  z-scale: 4
-  step-distance: 0.2
+  z-scale: 6
+  step-distance: 0.15
 smooth:
   value: 0.1
 f0:
   value: 0.04
 sss:
-  value: 0.04
+  value: 0.08
 create-inventory: true
 wrap-x: false
 wrap-y: false

@@ -8,8 +8,8 @@ normal:
   strength: 0.8
   filter: sobel3
 occlusion:
-  z-bias: 0
-  z-scale: 6
+  z-bias: 1
+  z-scale: 4
   step-distance: 0.2
 smooth: {}
 f0: {}

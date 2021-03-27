@@ -9,9 +9,8 @@ normal:
   curve-y: 60
   filter: sobel-high
 occlusion:
-  quality: 0.1
-  z-bias: 0
-  z-scale: 6
+  z-bias: 1
+  z-scale: 3
   step-distance: 0.2
 sss:
   scale: 0.2

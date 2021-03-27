@@ -11,7 +11,7 @@ normal:
   filter: sobel-low
 occlusion:
   z-bias: 0
-  z-scale: 4
+  z-scale: 2
   step-distance: 0.2
 smooth: {}
 f0:

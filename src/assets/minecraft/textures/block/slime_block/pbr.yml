@@ -6,10 +6,9 @@ albedo:
   value-blue: 93
 height: {}
 occlusion:
-  quality: 0.1
   z-bias: 0
-  z-scale: 5
-  step-distance: 0.2
+  z-scale: 3
+  step-distance: 0.15
 smooth:
   value: 0.71
 f0:

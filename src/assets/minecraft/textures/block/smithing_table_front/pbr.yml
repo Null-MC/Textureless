@@ -6,10 +6,9 @@ normal:
   strength: 0.6
   filter: sobel-high
 occlusion:
-  quality: 0.1
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
+  step-distance: 0.15
 porosity:
   value: 0
 create-inventory: true

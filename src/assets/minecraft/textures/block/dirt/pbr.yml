@@ -4,12 +4,13 @@ albedo: {}
 height:
   scale: 0.3
 normal:
-  noise: 2
+  strength: 0.8
+  noise: 6
   filter: sobel-high
 occlusion:
   z-bias: 0
-  z-scale: 5
-  step-distance: 0.2
+  z-scale: 1
+  step-distance: 0.15
 smooth: {}
 f0:
   value: 0.05

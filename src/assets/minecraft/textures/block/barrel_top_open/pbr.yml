@@ -11,8 +11,7 @@ normal:
   curve-y: 20
   filter: sobel-high
 occlusion:
-  quality: 0.1
-  z-bias: 0
+  z-bias: 1
   z-scale: 3
   step-distance: 0.25
 smooth:

@@ -6,7 +6,7 @@ normal:
 occlusion:
   z-bias: 0
   z-scale: 4
-  step-distance: 0.2
+  step-distance: 0.15
 porosity:
   value: 0.3
 create-inventory: true

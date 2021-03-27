@@ -38,8 +38,7 @@ encoding:
     texture: none
   albedo-blue:
     texture: none
-  height:
-    max-value: 0.2
+  height: {}
   occlusion:
     texture: none
   normal-x: {}
@@ -56,5 +55,6 @@ encoding:
 block-texture-size: 32
 texture-scale: 2
 auto-generate-occlusion: true
-occlusion-quality: 0.04
+occlusion-quality: 0.06
+occlusion-power: 0.5
 edition: Java

@@ -60,5 +60,6 @@ encoding:
 block-texture-size: 64
 texture-scale: 4
 auto-generate-occlusion: true
-occlusion-quality: 0.04
+occlusion-quality: 0.06
+occlusion-power: 0.5
 edition: Java

@@ -1,0 +1,13 @@
+alpha:
+  value: 255
+height:
+  scale: 0.8
+normal:
+  strength: 1
+  filter: sobel-low
+occlusion:
+  z-scale: 3
+f0:
+  value: 0.04
+porosity:
+  value: 0.6

@@ -5,19 +5,18 @@ albedo:
   value-green: 148
   value-blue: 148
 height:
-  scale: 0.2
+  scale: 0.4
 normal:
   strength: 0.4
-  noise: 10
+  noise: 4
 occlusion:
-  quality: 0.1
   z-bias: 0
-  z-scale: 4
-  step-distance: 0.2
-smooth:
-  value: 0.14
+  z-scale: 3
+  step-distance: 0.15
+smooth: {}
 f0:
   value: 0.02
+porosity: {}
 sss:
-  value: 0.1
+  value: 0.2
 create-inventory: true

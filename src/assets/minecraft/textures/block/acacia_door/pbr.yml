@@ -4,9 +4,8 @@ normal:
   strength: 0.5
   filter: sobel-low
 occlusion:
-  quality: 0.1
   z-bias: 0
-  z-scale: 5
+  z-scale: 3
   step-distance: 0.2
 porosity:
   value: 0.3

@@ -5,9 +5,8 @@ albedo:
 height:
   value: 0
 normal:
-  strength: 0.5
   noise: 4
-  filter: sobel-low
+  filter: sobel3
 occlusion:
   scale: 0.8
 smooth:

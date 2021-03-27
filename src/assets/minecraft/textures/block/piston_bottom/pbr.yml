@@ -3,12 +3,12 @@ alpha:
 height:
   scale: 0.5
 normal:
+  strength: 1.5
   filter: sobel-low
 occlusion:
-  quality: 0.1
   z-bias: 0
-  z-scale: 6
-  step-distance: 0.2
+  z-scale: 3
+  step-distance: 0.15
 smooth: {}
 porosity: {}
 create-inventory: true

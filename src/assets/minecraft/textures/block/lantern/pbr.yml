@@ -5,10 +5,9 @@ normal:
   filter: sobel-high
 occlusion:
   z-bias: 0
-  z-scale: 4
-  step-distance: 0.2
-smooth:
-  value: 0.82
+  z-scale: 3
+  step-distance: 0.15
+smooth: {}
 porosity:
   value: 0
 texture-width: 16
