@@ -30,18 +30,18 @@
       "y": 90
     },
     "powered=true,shape=ascending_north": {
-      "model": "block/activator_rail_on_raised"
+      "model": "block/activator_rail_raised_on"
     },
     "powered=true,shape=ascending_east": {
-      "model": "block/activator_rail_on_raised",
+      "model": "block/activator_rail_raised_on",
       "y": 90
     },
     "powered=true,shape=ascending_south": {
-      "model": "block/activator_rail_on_raised",
+      "model": "block/activator_rail_raised_on",
       "y": 180
     },
     "powered=true,shape=ascending_west": {
-      "model": "block/activator_rail_on_raised",
+      "model": "block/activator_rail_raised_on",
       "y": 270
     }
   }

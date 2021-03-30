@@ -5,13 +5,13 @@ albedo:
   value-green: 83
   value-blue: 83
 height:
+  value: 0
   scale: 0.8
 normal:
   strength: 1.5
   noise: 3
   filter: sobel3
 occlusion:
-  quality: 0.1
   z-bias: 0
   z-scale: 8
   step-distance: 0.2

@@ -1,0 +1,10 @@
+create-inventory: true
+alpha:
+  value: 255
+height: {}
+normal:
+  strength: 3
+  filter: sobel-low
+occlusion:
+  z-scale: 3
+  step-distance: 0.15

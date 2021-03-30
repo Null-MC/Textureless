@@ -1,0 +1,6 @@
+{
+  "parent": "block/detector_rail_raised_template",
+  "textures": {
+    "powered": "block/powered_rail_on"
+  }
+}

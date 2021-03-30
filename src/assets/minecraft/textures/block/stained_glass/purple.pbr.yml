@@ -1,7 +1,8 @@
 alpha:
   texture: alpha.png
-bump:
-  texture: bump.png
+height:
+  texture: height.png
+  value: 0
 albedo:
   value-red: 127
   value-green: 63

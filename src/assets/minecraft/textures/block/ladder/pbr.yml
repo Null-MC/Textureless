@@ -3,7 +3,8 @@ albedo:
   value-red: 127
   value-green: 98
   value-blue: 55
-height: {}
+height:
+  value: 0
 normal:
   strength: 0.3
   noise: 2

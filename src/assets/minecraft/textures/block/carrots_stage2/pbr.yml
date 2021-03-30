@@ -1,3 +1,5 @@
+height:
+  value: 0
 normal:
   strength: 1
   filter: sobel3

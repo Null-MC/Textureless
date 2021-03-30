@@ -1,7 +1,7 @@
 {
   "parent": "block/activator_rail_template",
   "textures": {
-    "particle": "block/activator_rail_inventory",
-    "rail": "block/activator_rail"
+    "particle": "block/activator_rail_flat_inventory",
+    "powered": "block/powered_rail"
   }
 }

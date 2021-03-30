@@ -1,0 +1,9 @@
+{
+  "parent": "block/smoker",
+  "textures": {
+    "top": "block/smoker_top_inventory",
+    "bottom": "block/smoker_bottom_inventory",
+    "side": "block/smoker_side_inventory",
+    "front": "block/smoker_front_inventory"
+  }
+}

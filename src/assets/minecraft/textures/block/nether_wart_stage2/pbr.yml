@@ -2,11 +2,12 @@ albedo:
   value-red: 131
   value-green: 28
   value-blue: 32
+height:
+  value: 0
 normal:
   strength: 1.5
   noise: 4
 occlusion:
-  quality: 0.1
   z-bias: 0.02
   z-scale: 18
   step-distance: 0.2

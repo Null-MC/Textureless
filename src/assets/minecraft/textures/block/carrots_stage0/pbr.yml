@@ -2,6 +2,8 @@ albedo:
   value-red: 62
   value-green: 131
   value-blue: 40
+height:
+  value: 0
 normal:
   strength: 0.5
   filter: sobel3

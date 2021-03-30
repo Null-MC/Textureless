@@ -4,8 +4,9 @@ albedo:
   value-blue: 25
 alpha:
   texture: ../alpha.png
-bump:
-  texture: ../bump.png
+height:
+  texture: ../height.png
+  value: 0
 normal:
   strength: 0.7
   filter: sobel-low

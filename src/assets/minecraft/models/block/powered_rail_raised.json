@@ -2,6 +2,7 @@
   "parent": "block/powered_rail_raised_template",
 	"textures": {
 		"particle": "block/powered_rail_inventory",
-		"rail": "block/powered_rail"
+		"powered": "block/powered_rail",
+		"rail": "block/rail"
 	}
 }

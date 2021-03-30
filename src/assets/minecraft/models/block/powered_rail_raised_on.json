@@ -1,0 +1,8 @@
+{
+  "parent": "block/powered_rail_raised_template",
+  "textures": {
+    "particle": "block/powered_rail_on_inventory",
+	"powered": "block/powered_rail_on",
+	"rail": "block/rail"
+  }
+}

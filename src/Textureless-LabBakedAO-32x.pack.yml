@@ -54,7 +54,7 @@ encoding:
   emissive: {}
 block-texture-size: 32
 texture-scale: 2
-diffuse-occlusion-strength: 0.5
+#diffuse-occlusion-strength: 0.7
 auto-generate-occlusion: true
 occlusion-quality: 0.06
 occlusion-power: 0.5

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "block/powered_rail_inventory"
+    "layer0": "block/powered_rail_flat_inventory"
   }
 }
