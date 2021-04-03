@@ -1,0 +1,8 @@
+{
+    "parent": "block/beacon",
+    "textures": {
+        "glass": "block/glass_inventory",
+        "obsidian": "block/obsidian_inventory",
+        "beacon": "block/beacon_inventory"
+    }
+}

@@ -1,0 +1,19 @@
+create-inventory: true
+alpha:
+  value: 255
+albedo:
+  value-red: 204
+  value-green: 197
+  value-blue: 186
+height:
+  scale: 0.5
+normal:
+  curve-x: 90
+occlusion:
+  z-scale: 3
+  step-distance: 0.15
+smooth:
+  value: 0.14
+f0:
+  value: 0.017
+wrap-x: false

@@ -1,0 +1,17 @@
+create-inventory: true
+alpha:
+  value: 255
+albedo:
+  value-red: 73
+  value-green: 213
+  value-blue: 204
+normal:
+  curve-x: 90
+  curve-y: 90
+  filter: sobel3
+occlusion:
+  value: 0
+smooth:
+  value: 1
+f0:
+  value: 0.04

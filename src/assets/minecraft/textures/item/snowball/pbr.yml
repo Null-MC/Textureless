@@ -1,4 +1,3 @@
-create-inventory: true
 albedo:
   value-red: 209
   value-green: 228
@@ -11,9 +10,9 @@ normal:
 occlusion:
   value: 0
 smooth:
-  value: 0.9
+  value: 0.8
 f0:
-  value: 0.02
-sss:
-  value: 0.2
+  value: 0.017
+sss: {}
+create-inventory: true
 texture-size: 16

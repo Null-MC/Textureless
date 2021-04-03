@@ -1,0 +1,21 @@
+create-inventory: true
+albedo:
+  value-red: 148
+  value-green: 148
+  value-blue: 148
+height:
+  value: 0
+normal:
+  strength: 0.8
+  noise: 6
+occlusion:
+  z-bias: 0
+  z-scale: 3
+  step-distance: 0.15
+smooth:
+  value: 0.16
+f0:
+  value: 0.017
+porosity: {}
+sss:
+  value: 0.3

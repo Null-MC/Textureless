@@ -1,0 +1,24 @@
+publish: false
+publish-inventory: true
+alpha:
+  value: 255
+albedo:
+  value-red: 162
+  value-green: 78
+  value-blue: 79
+height:
+  texture: terracotta_side/height.png
+  scale: 0.5
+normal:
+  noise: 4
+  filter: sobel-high
+occlusion:
+  z-bias: 0
+  z-scale: 3
+  step-distance: 0.15
+smooth:
+  value: 0.1
+f0:
+  value: 0.053
+porosity:
+  value: 0.3

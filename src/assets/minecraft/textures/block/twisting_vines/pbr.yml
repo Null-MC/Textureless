@@ -1,0 +1,16 @@
+albedo:
+  value-red: 20
+  value-green: 144
+  value-blue: 123
+height:
+  value: 0
+occlusion:
+  z-scale: 5
+  step-distance: 0.2
+smooth:
+  value: 0.6
+f0:
+  value: 0.056
+sss: {}
+wrap-x: false
+wrap-y: false

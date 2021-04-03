@@ -20,5 +20,5 @@ f0:
 porosity: {}
 sss: {}
 emissive:
-  scale: 4
+  scale: 2
 create-inventory: true

@@ -1,0 +1,30 @@
+wrap-x: true
+wrap-y: true
+alpha:
+  value: 255
+albedo:
+  value-red: 231
+  value-green: 218
+  value-blue: 174
+height:
+  shift: -0.5
+  scale: 0.2
+  edge-fade-x: 3
+  edge-fade-y: 3
+normal:
+  strength: 2
+  noise: 4
+  filter: sobel-low
+occlusion:
+  z-scale: 4
+  step-distance: 0.2
+smooth: {}
+f0:
+  value: 0.03
+porosity:
+  scale: 0.8
+sss:
+  scale: 0.24
+ctm-count-x: 8
+ctm-count-y: 8
+ctm-type: repeat

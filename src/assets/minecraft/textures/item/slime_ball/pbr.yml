@@ -9,9 +9,8 @@ normal:
 occlusion:
   value: 0
 smooth:
-  value: 0.7
+  value: 0.9
 f0:
   value: 0.03
-sss:
-  value: 0.1
+sss: {}
 texture-size: 16

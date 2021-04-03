@@ -15,7 +15,6 @@ smooth:
   value: 0.6
 f0:
   value: 0.08
-sss:
-  value: 0.2
+sss: {}
 wrap-x: false
 wrap-y: false

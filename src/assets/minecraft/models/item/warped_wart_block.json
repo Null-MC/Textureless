@@ -1,0 +1,6 @@
+{
+  "parent": "block/warped_wart_block",
+  "textures": {
+    "all": "block/warped_wart_block_inventory"
+  }
+}

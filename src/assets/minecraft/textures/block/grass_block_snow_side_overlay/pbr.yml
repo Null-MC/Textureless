@@ -6,18 +6,18 @@ albedo:
 height:
   scale: 0.4
 normal:
-  strength: 0.5
+  strength: 2
   noise: 2
-  filter: sobel3
+  filter: sobel-high
 occlusion:
   z-bias: 0
-  z-scale: 6
-  step-distance: 0.2
+  z-scale: 3
+  step-distance: 0.15
 smooth:
-  value: 0.4
+  value: 0.6
 f0:
-  value: 0.017
+  value: 0.02
 sss:
-  value: 0.3
+  value: 0.6
 create-inventory: true
 wrap-y: false
