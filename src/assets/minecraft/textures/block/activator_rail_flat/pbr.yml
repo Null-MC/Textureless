@@ -1,3 +1,5 @@
+publish: false
+publish-inventory: true
 height:
   value: 0
 normal:
@@ -6,5 +8,4 @@ occlusion:
   z-bias: 0
   z-scale: 4
   step-distance: 0.15
-create-inventory: true
 wrap-x: false

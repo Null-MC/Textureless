@@ -1,9 +1,10 @@
+publish-inventory: true
 alpha:
   value: 255
 albedo: {}
 height: {}
 normal:
-  strength: 0.7
+  strength: 0.4
   filter: sobel-low
 occlusion:
   z-bias: 0

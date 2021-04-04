@@ -3,8 +3,12 @@ wrap-x: false
 wrap-y: false
 height:
   value: 0
+normal:
+  filter: sobel-low
 occlusion:
-  value: 0
+  z-bias: 0
+  z-scale: 3
+  step-distance: 0.15
 smooth:
   value: 0.02
 f0:

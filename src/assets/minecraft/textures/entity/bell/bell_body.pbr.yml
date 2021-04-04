@@ -1,4 +1,6 @@
 texture-size: 32
+wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 albedo:
@@ -8,16 +10,13 @@ albedo:
 height:
   value: 0
 normal:
-  strength: 0.2
-  filter: sobel-low
+  filter: sobel-high
 occlusion:
-  quality: 0.1
-  z-bias: 0.2
-  z-scale: 3
-  steps: 8
+  z-scale: 1
+  step-distance: 0.15
 smooth:
-  value: 0.85
+  value: 0.7
 metal:
-  value: 231
+  value: 255
 porosity:
   value: 0

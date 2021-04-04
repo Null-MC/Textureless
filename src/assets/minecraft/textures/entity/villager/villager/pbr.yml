@@ -1,0 +1,13 @@
+texture-size: 64
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  filter: sobel-low
+occlusion:
+  z-scale: 2
+  step-distance: 0.15
+smooth: {}
+f0: {}
+sss: {}
