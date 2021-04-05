@@ -1,0 +1,22 @@
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 128
+  value-green: 128
+  value-blue: 128
+height:
+  value: 0
+normal:
+  strength: 2
+  noise: 6
+occlusion:
+  z-scale: 3
+  step-distance: 0.15
+smooth:
+  value: 0.02
+f0:
+  value: 0.017
+porosity:
+  value: 0.92
+sss:
+  value: 0

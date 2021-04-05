@@ -1,0 +1,25 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 249
+  value-green: 254
+  value-blue: 254
+height:
+  shift: -0.14
+  scale: 0.5
+  edge-fade-x: 3
+  edge-fade-y: 3
+normal:
+  strength: 2
+  noise: 6
+occlusion:
+  z-scale: 3
+  step-distance: 0.15
+smooth: {}
+f0:
+  value: 0.02
+sss:
+  value: 0.8
+ctm-count-x: 8
+ctm-count-y: 8
+ctm-type: repeat

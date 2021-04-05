@@ -1,0 +1,15 @@
+alpha:
+  value: 255
+height:
+  value: 0
+normal:
+  filter: sobel-low
+occlusion:
+  z-scale: 4
+  step-distance: 0.2
+smooth:
+  value: 0.15
+f0:
+  value: 0.308
+porosity:
+  value: 0.8

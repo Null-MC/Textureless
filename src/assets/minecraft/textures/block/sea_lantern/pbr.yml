@@ -1,3 +1,4 @@
+publish-inventory: true
 alpha:
   value: 255
 albedo: {}
@@ -13,6 +14,5 @@ occlusion:
 smooth: {}
 porosity:
   value: 0
-emissive:
-  scale: 0.8
+emissive: {}
 create-inventory: true

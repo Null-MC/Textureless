@@ -1,9 +1,16 @@
-create-inventory: true
+publish-inventory: true
+wrap-x: false
+wrap-y: false
 height:
   value: 0
-occlusion: {}
-smooth:
-  value: 0.2
+normal:
+  strength: 1.5
+  filter: sobel3
+occlusion:
+  z-scale: 12
+  step-distance: 0.15
+smooth: {}
 f0:
   value: 0.017
 sss: {}
+create-inventory: true

@@ -1,3 +1,4 @@
+publish-inventory: true
 albedo:
   value-red: 143
   value-green: 145
@@ -12,7 +13,7 @@ occlusion:
   step-distance: 0.15
 smooth: {}
 metal:
-  value: 255
+  value: 230
 porosity:
   value: 0
 create-inventory: true

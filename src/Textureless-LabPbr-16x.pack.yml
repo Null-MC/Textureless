@@ -30,6 +30,6 @@ encoding:
   emissive: {}
 block-texture-size: 16
 auto-generate-occlusion: true
-occlusion-quality: 0.06
+occlusion-quality: 0.1
 occlusion-power: 1
 edition: Java
