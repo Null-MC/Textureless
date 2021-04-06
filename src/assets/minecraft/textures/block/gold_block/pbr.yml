@@ -1,4 +1,6 @@
 publish-inventory: true
+wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 albedo:
@@ -6,18 +8,17 @@ albedo:
   value-green: 205
   value-blue: 77
 height:
-  scale: 0.6
+  edge-fade-x: 2
+  edge-fade-y: 2
 normal:
-  strength: 0.6
   filter: sobel-high
 occlusion:
   z-bias: 0
   z-scale: 2
   step-distance: 0.15
-smooth:
-  value: 0.85
+smooth: {}
 metal:
-  value: 231
+  value: 255
 porosity:
   value: 0
 emissive: {}
