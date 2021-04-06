@@ -1,13 +1,11 @@
+texture-size: 32
 wrap-x: false
 wrap-y: false
 height:
   value: 0
-normal:
-  strength: 2
-  filter: sobel3
 occlusion:
   z-bias: 0
   z-scale: 3
   step-distance: 0.15
 f0:
-  value: 0.017
+  value: 0.053

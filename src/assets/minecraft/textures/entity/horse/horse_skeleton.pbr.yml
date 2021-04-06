@@ -11,5 +11,5 @@ metal:
   texture: horse_metal.png
 f0:
   texture: horse_f0.png
-sss:
-  value: 0.1
+porosity: {}
+sss: {}

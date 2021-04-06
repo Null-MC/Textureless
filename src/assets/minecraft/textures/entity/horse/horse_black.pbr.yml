@@ -2,9 +2,15 @@ texture-size: 64
 wrap-x: false
 wrap-y: false
 height:
+  texture: horse_height.png
   value: 0
+normal:
+  strength: 0.4
+  filter: sobel3
 occlusion:
-  value: 0
+  z-bias: 0
+  z-scale: 3
+  step-distance: 0.15
 smooth:
   texture: horse_smooth.png
 metal:
@@ -12,4 +18,4 @@ metal:
 f0:
   texture: horse_f0.png
 sss:
-  value: 0.1
+  texture: horse_sss.png
