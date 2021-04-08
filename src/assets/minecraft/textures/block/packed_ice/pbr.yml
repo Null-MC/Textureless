@@ -1,12 +1,21 @@
+publish-inventory: true
 alpha:
   value: 255
 albedo:
-  value-red: 141
-  value-green: 179
-  value-blue: 250
-height:
-  value: 0
+  value-red: 194
+  value-green: 214
+  value-blue: 251
+normal:
+  strength: 1.6
+  filter: sobel-high
+occlusion:
+  z-bias: 0
+  z-scale: 6
+  step-distance: 0.2
 smooth:
-  value: 0.71
+  value: 0.9
+f0:
+  value: 0.02
 sss:
-  value: 0.71
+  value: 0.8
+create-inventory: true

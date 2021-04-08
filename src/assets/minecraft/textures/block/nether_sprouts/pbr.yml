@@ -1,0 +1,18 @@
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 20
+  value-green: 142
+  value-blue: 134
+height:
+  value: 0
+normal:
+  filter: sobel-low
+occlusion:
+  value: 0
+smooth:
+  value: 0.6
+f0:
+  value: 0.052
+sss:
+  value: 0.6

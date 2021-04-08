@@ -1,0 +1,18 @@
+texture-size: 16
+albedo:
+  value-red: 200
+  value-green: 204
+  value-blue: 209
+height:
+  value: 0
+normal:
+  noise: 4
+  filter: sobel3
+occlusion:
+  z-bias: 0
+  z-scale: 9
+  step-distance: 0.15
+smooth:
+  value: 0.6
+metal:
+  value: 255

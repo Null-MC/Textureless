@@ -1,0 +1,6 @@
+{
+  "parent": "block/packed_ice",
+  "textures": {
+    "all": "block/packed_ice_inventory"
+  }
+}

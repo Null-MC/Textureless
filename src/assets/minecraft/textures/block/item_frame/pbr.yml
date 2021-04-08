@@ -3,6 +3,7 @@ alpha:
 height:
   value: 0
 normal:
+  noise: 2
   filter: sobel-low
 occlusion:
   z-scale: 4

@@ -1,0 +1,23 @@
+texture-size: 64
+wrap-x: false
+wrap-y: false
+alpha:
+  texture: alpha.png
+height:
+  texture: height.png
+  value: 0
+normal:
+  strength: 1.2
+  filter: sobel-high
+occlusion:
+  z-bias: 0
+  z-scale: 2
+  step-distance: 0.15
+smooth:
+  texture: smooth.png
+f0:
+  value: 0.03
+porosity:
+  texture: porosity.png
+sss:
+  texture: sss.png

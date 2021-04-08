@@ -1,0 +1,17 @@
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 45
+  value-green: 120
+  value-blue: 3
+height:
+  value: 0
+normal:
+  strength: 0.4
+  filter: sobel3
+smooth:
+  value: 0.7
+f0:
+  value: 0.017
+sss:
+  value: 0.4

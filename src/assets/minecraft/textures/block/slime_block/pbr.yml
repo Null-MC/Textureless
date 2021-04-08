@@ -1,3 +1,4 @@
+publish-inventory: true
 alpha:
   value: 200
 albedo:
@@ -5,6 +6,8 @@ albedo:
   value-green: 192
   value-blue: 93
 height: {}
+normal:
+  strength: 2
 occlusion:
   z-bias: 0
   z-scale: 3
