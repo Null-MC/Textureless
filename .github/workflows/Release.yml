@@ -144,6 +144,6 @@ jobs:
           game_endpoint: minecraft
           file_path: Textureless-LabPbr-32x.zip
           display_name: LabPbr 32x
-          game_versions: minecraft-1-16,java
+          game_versions: 70886
           changelog: Release ${{ github.event.inputs.version }}
-          release_type: beta
+          release_type: release
