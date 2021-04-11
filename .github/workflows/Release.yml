@@ -96,7 +96,7 @@ jobs:
     #needs: [Publish-LabPbr-16x, Publish-LabPbr-32x, Publish-LabPbr-64x, Publish-LabBakedAO-32x, Publish-LabBakedAO-64x]
     needs: [Publish-LabPbr-16x, Publish-LabPbr-32x, Publish-LabBakedAO-32x, Publish-OldBakedAO-32x]
     steps:
-      - uses: actions/checkout@v2
+      #- uses: actions/checkout@v2
       - name: Download LabPbr 16x
         uses: actions/download-artifact@v2
         with:
@@ -188,6 +188,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: Create-Release
     steps:
+      - name: Download LabPbr 32x
+        uses: actions/download-artifact@v2
+        with:
+          name: Textureless-LabPbr-32x
       - name: Upload LabPbr 32x
         uses: itsmeow/curseforge-upload@master
         with:
