@@ -1,0 +1,22 @@
+albedo:
+  value-red: 147
+  value-green: 184
+  value-blue: 254
+height:
+  shift: -0.02
+  scale: 0.3
+  edge-fade-x: 3
+  edge-fade-y: 3
+normal:
+  strength: 2
+  filter: sobel-high
+occlusion:
+  z-bias: 1
+  z-scale: 8
+  step-distance: 0.15
+f0:
+  value: 0.017
+sss: {}
+ctm-count-x: 8
+ctm-count-y: 8
+ctm-type: repeat

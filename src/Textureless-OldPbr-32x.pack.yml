@@ -11,7 +11,8 @@ encoding:
   albedo-red: {}
   albedo-green: {}
   albedo-blue: {}
-  height: {}
+  height:
+    sampler: bilinear
   occlusion: {}
   normal-x: {}
   normal-y: {}

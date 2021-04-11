@@ -1,14 +1,14 @@
-publish-inventory: true
+texture-size: 64
 wrap-x: false
 wrap-y: false
 height:
   value: 0
 normal:
-  strength: 2
+  noise: 2
   filter: sobel3
 occlusion:
   z-bias: 0
   z-scale: 3
   step-distance: 0.15
 f0:
-  value: 0.017
+  value: 0.03

@@ -91,7 +91,7 @@ jobs:
   #         name: Textureless-LabBakedAO-64x
   #         path: Textureless-LabBakedAO-64x.zip
 
-  publish:
+  Create-Release:
     runs-on: ubuntu-latest
     #needs: [Publish-LabPbr-16x, Publish-LabPbr-32x, Publish-LabPbr-64x, Publish-LabBakedAO-32x, Publish-LabBakedAO-64x]
     needs: [Publish-LabPbr-16x, Publish-LabPbr-32x, Publish-LabBakedAO-32x, Publish-OldBakedAO-32x]
@@ -183,3 +183,18 @@ jobs:
           asset_path: ./Textureless-OldBakedAO-32x.zip
           asset_name: Textureless-OldBakedAO-32x.zip
           asset_content_type: application/zip
+
+  Upload-CurseForge:
+    runs-on: ubuntu-latest
+    needs: Create-Release
+    steps:
+      - name: Upload LabPbr 32x
+        uses: itsmeow/curseforge-upload@master
+        with:
+          token: ${{ secrets.CF_API_TOKEN }}
+          project_id: 469686
+          game_endpoint: minecraft
+          file_path: Textureless-LabPbr-32x.zip
+          display_name: LabPbr 32x
+          game_versions: minecraft-1-16,java
+          release_type: beta

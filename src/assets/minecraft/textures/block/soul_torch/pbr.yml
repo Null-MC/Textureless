@@ -9,11 +9,10 @@ normal:
   noise: 1
   filter: sobel-low
 occlusion:
-  z-bias: 0
-  step-distance: 0.15
+  value: 0
 f0:
   value: 0.04
 porosity: {}
 emissive:
-  scale: 0.6
+  scale: 0.3
 create-inventory: true
