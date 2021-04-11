@@ -137,7 +137,7 @@ jobs:
         with:
           name: Textureless-LabPbr-32x
       - name: Upload LabPbr 32x
-        runs: |
+        run: |
           curl -X POST \
             -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x", gameVersions: [8203]}' \
             -F 'file=@Textureless-LabPbr-32x.zip' 'https://minecraft.curseforge.com/api/projects/469686/upload-file?token=${{secrets.CF_API_TOKEN}}'
