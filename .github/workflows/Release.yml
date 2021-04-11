@@ -35,20 +35,6 @@ jobs:
           name: Textureless-LabPbr-32x
           path: Textureless-LabPbr-32x.zip
 
-  # Publish-LabPbr-64x:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - run: docker pull null511/pixelgraph
-  #     - run: |
-  #         docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-  #           publish -p "//content/src/Textureless-LabPbr-64x.pack.yml" -z "//content/Textureless-LabPbr-64x.zip"
-  #     - name: Upload LabPbr 64x
-  #       uses: actions/upload-artifact@v2
-  #       with:
-  #         name: Textureless-LabPbr-64x
-  #         path: Textureless-LabPbr-64x.zip
-
   Publish-LabBakedAO-32x:
     runs-on: ubuntu-latest
     steps:
@@ -77,26 +63,10 @@ jobs:
           name: Textureless-OldBakedAO-32x
           path: Textureless-OldBakedAO-32x.zip
 
-  # Publish-LabBakedAO-64x:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - run: docker pull null511/pixelgraph
-  #     - run: |
-  #         docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-  #           publish -p "//content/src/Textureless-LabBakedAO-64x.pack.yml" -z "//content/Textureless-LabBakedAO-64x.zip"
-  #     - name: Upload LabBakedAO 64x
-  #       uses: actions/upload-artifact@v2
-  #       with:
-  #         name: Textureless-LabBakedAO-64x
-  #         path: Textureless-LabBakedAO-64x.zip
-
   Create-Release:
     runs-on: ubuntu-latest
-    #needs: [Publish-LabPbr-16x, Publish-LabPbr-32x, Publish-LabPbr-64x, Publish-LabBakedAO-32x, Publish-LabBakedAO-64x]
     needs: [Publish-LabPbr-16x, Publish-LabPbr-32x, Publish-LabBakedAO-32x, Publish-OldBakedAO-32x]
     steps:
-      #- uses: actions/checkout@v2
       - name: Download LabPbr 16x
         uses: actions/download-artifact@v2
         with:
@@ -105,18 +75,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: Textureless-LabPbr-32x
-      # - name: Download LabPbr 64x
-      #   uses: actions/download-artifact@v2
-      #   with:
-      #     name: Textureless-LabPbr-64x
       - name: Download LabBakedAO 32x
         uses: actions/download-artifact@v2
         with:
           name: Textureless-LabBakedAO-32x
-      # - name: Download LabBakedAO 64x
-      #   uses: actions/download-artifact@v2
-      #   with:
-      #     name: Textureless-LabBakedAO-64x
       - name: Download OldBakedAO 32x
         uses: actions/download-artifact@v2
         with:
@@ -147,15 +109,6 @@ jobs:
           asset_path: ./Textureless-LabPbr-32x.zip
           asset_name: Textureless-LabPbr-32x.zip
           asset_content_type: application/zip
-      # - name: Upload 64x
-      #   uses: actions/upload-release-asset@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
-      #     asset_path: ./Textureless-LabPbr-64x.zip
-      #     asset_name: Textureless-LabPbr-64x.zip
-      #     asset_content_type: application/zip
       - name: Upload LabBakedAO 32x
         uses: actions/upload-release-asset@v1
         env:
@@ -165,15 +118,6 @@ jobs:
           asset_path: ./Textureless-LabBakedAO-32x.zip
           asset_name: Textureless-LabBakedAO-32x.zip
           asset_content_type: application/zip
-      # - name: Upload LabBakedAO 64x
-      #   uses: actions/upload-release-asset@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
-      #     asset_path: ./Textureless-LabBakedAO-64x.zip
-      #     asset_name: Textureless-LabBakedAO-64x.zip
-      #     asset_content_type: application/zip
       - name: Upload OldBakedAO 32x
         uses: actions/upload-release-asset@v1
         env:
@@ -201,4 +145,5 @@ jobs:
           file_path: Textureless-LabPbr-32x.zip
           display_name: LabPbr 32x
           game_versions: minecraft-1-16,java
+          changelog: Release ${{ github.event.inputs.version }}
           release_type: beta
