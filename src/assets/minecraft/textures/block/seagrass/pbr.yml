@@ -7,11 +7,10 @@ albedo:
 height:
   value: 0
 normal:
-  strength: 0.4
+  strength: 0.8
   filter: sobel3
 smooth:
   value: 0.7
 f0:
   value: 0.017
-sss:
-  value: 0.4
+sss: {}

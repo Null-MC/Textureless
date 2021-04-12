@@ -1,11 +1,11 @@
 albedo:
-  value-red: 178
+  value-red: 102
   value-green: 76
-  value-blue: 216
+  value-blue: 51
 alpha:
-  texture: alpha.png
+  texture: ../alpha.png
 height:
-  texture: height.png
+  texture: ../height.png
   value: 0
 normal:
   strength: 0.7
@@ -18,7 +18,7 @@ occlusion:
 f0:
   value: 0.04
 smooth:
-  texture: smooth.png
+  texture: ../smooth.png
 porosity:
   value: 0
 ctm-type: compact
