@@ -8,14 +8,15 @@ You can find them under _Assets_ in the [Releases](https://github.com/null511/MC
 |-|-|
 |LabPbr-16x|A low-quality version using the original 16x texture resolution. Uses the full Lab PBR spec.|
 |LabPbr-32x*|A standard quality version using 32x textures. Uses the full Lab PBR spec.|
-|LabPbr-64x|Uses upscaling to create higher-resolution textures using linear scaling. Uses the full Lab PBR spec.|
 |LabBakedAO-32x|A standard quality version using 32x textures. Uses the full Lab PBR spec, with the exception that AO has been baked into the albedo textures.|
-|LabBakedAO-64x|Uses upscaling to create higher-resolution textures using linear scaling. Uses the full Lab PBR spec, with the exception that AO has been baked into the albedo textures.|
+|OldBakedAO-32x|A standard quality version using 32x textures. Uses the old PBR spec (required for SEUS shaders), with the addition of AO being baked into the albedo textures.|
 
 *The LabPbr 32x release is the recommended version.
 
-<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/title-ice.png" alt="Preview"></img>
-_Preview of Textureless using [BSL shaders](https://bitslablab.com/bslshaders) with promo-outline enabled._
+| | | |
+|-|-|-|
+|<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/Kappa-01.png" alt="Preview"></img>|<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/Kappa-02.png" alt="Preview"></img>|<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/Kappa-03.png" alt="Preview"></img>|
+|<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/Chocapic-01.png" alt="Preview"></img>|<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/Chocapic-02.png" alt="Preview"></img>|<img src="https://github.com/null511/MCRP-Textureless/raw/main/media/MollyVX-01.png" alt="Preview"></img>|
 
 ## Editing
 
