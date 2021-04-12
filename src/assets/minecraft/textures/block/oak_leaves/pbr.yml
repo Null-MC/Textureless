@@ -10,12 +10,11 @@ normal:
   filter: sobel3
 occlusion:
   z-bias: 0
-  z-scale: 5
-  step-distance: 0.2
+  z-scale: 3
+  step-distance: 0.15
 smooth:
   value: 0.16
 f0:
   value: 0.03
-sss:
-  scale: 0.4
+sss: {}
 create-inventory: true
