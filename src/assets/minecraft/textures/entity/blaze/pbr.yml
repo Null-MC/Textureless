@@ -6,5 +6,6 @@ height:
   value: 0
 occlusion:
   value: 0
-emissive:
-  scale: 0.4
+f0:
+  value: 0.04
+emissive: {}

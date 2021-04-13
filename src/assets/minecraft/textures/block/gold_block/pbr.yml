@@ -19,7 +19,6 @@ occlusion:
 smooth: {}
 metal:
   value: 255
-porosity:
-  value: 0
+porosity: {}
 emissive: {}
 create-inventory: true

@@ -1,3 +1,4 @@
+publish-inventory: true
 albedo:
   value-red: 148
   value-green: 148
@@ -10,8 +11,7 @@ occlusion:
   z-bias: 0
   z-scale: 6
   step-distance: 0.2
-smooth:
-  value: 0.38
+smooth: {}
 f0:
   value: 0.017
 sss:

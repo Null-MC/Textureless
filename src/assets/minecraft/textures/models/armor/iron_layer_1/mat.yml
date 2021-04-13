@@ -1,0 +1,19 @@
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 194
+  value-green: 194
+  value-blue: 194
+height:
+  value: 0
+occlusion:
+  z-bias: 0
+  z-scale: 3
+  step-distance: 0.15
+smooth:
+  value: 0.65
+metal:
+  value: 230
+porosity: {}

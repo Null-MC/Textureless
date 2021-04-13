@@ -1,3 +1,4 @@
+publish-inventory: true
 height:
   value: 0
 normal:
@@ -8,7 +9,7 @@ occlusion:
   z-scale: 5
   step-distance: 0.2
 smooth:
-  scale: 3
+  scale: 2
 f0:
   value: 0.017
 sss:

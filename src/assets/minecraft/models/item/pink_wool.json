@@ -1,0 +1,6 @@
+{
+  "parent": "block/pink_wool",
+  "textures": {
+    "all": "block/wool/pink_inventory"
+  }
+}

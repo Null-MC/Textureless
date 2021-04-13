@@ -1,3 +1,6 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 albedo:
@@ -15,9 +18,7 @@ occlusion:
   step-distance: 0.15
 smooth: {}
 metal:
-  value: 230
+  value: 255
 porosity:
   value: 0
 create-inventory: true
-wrap-x: false
-wrap-y: false

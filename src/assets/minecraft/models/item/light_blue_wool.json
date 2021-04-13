@@ -1,0 +1,6 @@
+{
+  "parent": "block/light_blue_wool",
+  "textures": {
+    "all": "block/wool/light_blue_inventory"
+  }
+}

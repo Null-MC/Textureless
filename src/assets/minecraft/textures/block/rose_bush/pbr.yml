@@ -5,14 +5,16 @@ height:
   value: 0
 normal:
   strength: 2
+  filter: sobel-low
 occlusion:
   z-bias: 0
-  z-scale: 6
+  z-scale: 4
   step-distance: 0.15
 smooth: {}
 f0:
   value: 0.017
 sss: {}
+create-inventory: true
 parts:
 - name: rose_bush_top
   left: 0

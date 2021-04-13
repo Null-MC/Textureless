@@ -1,3 +1,4 @@
+publish-inventory: true
 albedo:
   value-red: 108
   value-green: 108
@@ -14,7 +15,7 @@ occlusion:
 smooth:
   value: 0.08
 f0:
-  value: 0.03
+  value: 0.017
 sss:
   scale: 0.2
 create-inventory: true

@@ -1,3 +1,6 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
 albedo:
   value-red: 197
   value-green: 200
@@ -6,7 +9,7 @@ height:
   shift: -0.2
   scale: 0.4
 normal:
-  strength: 0.4
+  strength: 0.6
   filter: sobel-low
 occlusion:
   z-bias: 0
@@ -18,8 +21,6 @@ metal:
 porosity:
   value: 0
 create-inventory: true
-wrap-x: false
-wrap-y: false
 parts:
 - name: iron_door_top
   left: 0

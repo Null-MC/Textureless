@@ -1,0 +1,6 @@
+{
+  "parent": "block/cyan_carpet",
+  "textures": {
+    "wool": "block/wool/cyan_inventory"
+  }
+}
