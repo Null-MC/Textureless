@@ -1,0 +1,7 @@
+{
+  "parent": "block/jungle_trapdoor_bottom",
+  "textures": {
+    "texture": "block/jungle_trapdoor_inventory",
+    "side": "block/jungle_trapdoor_side_inventory"
+  }
+}

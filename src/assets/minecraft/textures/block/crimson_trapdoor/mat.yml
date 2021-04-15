@@ -1,0 +1,17 @@
+publish-inventory: true
+albedo:
+  value-red: 125
+  value-green: 57
+  value-blue: 84
+height:
+  scale: 0.75
+normal:
+  strength: 0.5
+  filter: sobel-low
+occlusion:
+  value: 0
+  z-bias: 0
+  z-scale: 5
+  step-distance: 0.15
+f0:
+  value: 0.03

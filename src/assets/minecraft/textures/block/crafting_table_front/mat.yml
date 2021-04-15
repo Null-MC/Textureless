@@ -1,0 +1,10 @@
+alpha:
+  value: 255
+height:
+  scale: 0.2
+  edge-fade-y: 1
+normal:
+  filter: sobel-low
+occlusion:
+  z-scale: 3
+  step-distance: 0.15

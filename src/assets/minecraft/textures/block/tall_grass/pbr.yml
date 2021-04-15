@@ -1,3 +1,6 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
 albedo:
   value-red: 148
   value-green: 148
@@ -5,17 +8,17 @@ albedo:
 height:
   value: 0
 normal:
-  strength: 0.5
+  filter: sobel3
 occlusion:
-  scale: 0.8
+  z-scale: 2
+  step-distance: 0.15
 smooth:
   value: 0.16
 f0:
   value: 0.017
-sss: {}
+sss:
+  scale: 0.6
 create-inventory: true
-wrap-x: false
-wrap-y: false
 parts:
 - name: tall_grass_top
   left: 0

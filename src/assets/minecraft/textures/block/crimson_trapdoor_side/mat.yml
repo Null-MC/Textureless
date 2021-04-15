@@ -1,0 +1,9 @@
+publish-inventory: true
+alpha:
+  value: 255
+albedo:
+  value-red: 125
+  value-green: 57
+  value-blue: 84
+f0:
+  value: 0.03

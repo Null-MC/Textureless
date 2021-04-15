@@ -1,6 +1,7 @@
 {
   "parent": "block/birch_trapdoor_bottom",
   "textures": {
-    "texture": "block/birch_trapdoor_inventory"
+    "texture": "block/birch_trapdoor_inventory",
+    "side": "block/birch_trapdoor_side_inventory"
   }
 }

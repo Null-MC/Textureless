@@ -1,0 +1,10 @@
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  noise: 4
+  filter: sobel3
+occlusion:
+  step-distance: 0.15
+sss: {}

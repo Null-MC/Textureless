@@ -1,0 +1,7 @@
+{
+  "parent": "block/crimson_trapdoor_bottom",
+  "textures": {
+    "texture": "block/crimson_trapdoor_inventory",
+    "side": "block/crimson_trapdoor_side_inventory"
+  }
+}

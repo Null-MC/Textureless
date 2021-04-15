@@ -15,5 +15,6 @@ occlusion:
 smooth: {}
 f0:
   value: 0.017
-sss: {}
+sss:
+  scale: 0.7
 create-inventory: true

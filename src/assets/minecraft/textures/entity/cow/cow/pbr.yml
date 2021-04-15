@@ -1,14 +1,16 @@
-height:
-  value: 0
-occlusion:
-  value: 0
-smooth:
-  value: 0.06
-f0:
-  value: 0.04
-sss:
-  value: 0.04
 texture-width: 64
 texture-height: 32
 wrap-x: false
 wrap-y: false
+height:
+  value: 0
+normal:
+  strength: 2
+  filter: sobel3
+occlusion:
+  z-scale: 6
+  step-distance: 0.15
+smooth: {}
+f0:
+  value: 0.017
+sss: {}

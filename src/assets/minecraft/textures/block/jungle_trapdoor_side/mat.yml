@@ -1,0 +1,15 @@
+publish-inventory: true
+alpha:
+  value: 255
+albedo:
+  value-red: 177
+  value-green: 129
+  value-blue: 93
+occlusion:
+  value: 0
+smooth:
+  value: 0.1
+f0:
+  value: 0.03
+porosity:
+  value: 0.5

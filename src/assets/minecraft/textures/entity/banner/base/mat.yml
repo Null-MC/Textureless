@@ -1,0 +1,12 @@
+texture-size: 64
+albedo:
+  value-red: 234
+  value-green: 234
+  value-blue: 234
+normal:
+  noise: 2
+smooth:
+  value: 0.2
+f0:
+  value: 0.03
+sss: {}

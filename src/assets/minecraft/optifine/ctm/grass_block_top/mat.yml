@@ -21,8 +21,7 @@ smooth:
 f0:
   value: 0.017
 porosity: {}
-sss:
-  value: 0.2
+sss: {}
 ctm-count-x: 8
 ctm-count-y: 8
 ctm-type: repeat

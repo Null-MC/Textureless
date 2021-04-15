@@ -1,21 +1,19 @@
 publish-inventory: true
 albedo:
-  value-red: 108
-  value-green: 108
-  value-blue: 108
+  value-red: 104
+  value-green: 104
+  value-blue: 104
 height:
   value: 0
 normal:
-  strength: 0.7
+  strength: 2
   filter: sobel3
 occlusion:
   z-bias: 0
   z-scale: 6
-  step-distance: 0.2
-smooth:
-  value: 0.08
+  step-distance: 0.4
+smooth: {}
 f0:
   value: 0.017
-sss:
-  scale: 0.2
+sss: {}
 create-inventory: true

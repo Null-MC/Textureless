@@ -1,3 +1,6 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
 albedo:
   value-red: 180
   value-green: 180
@@ -14,7 +17,5 @@ smooth:
 f0:
   value: 0.017
 sss:
-  scale: 0.2
+  scale: 0.4
 create-inventory: true
-wrap-x: false
-wrap-y: false
