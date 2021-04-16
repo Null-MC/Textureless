@@ -1,0 +1,19 @@
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 6
+  value-green: 130
+  value-blue: 8
+height:
+  value: 0
+normal: {}
+occlusion:
+  z-bias: 0
+  z-scale: 6
+  step-distance: 0.2
+smooth:
+  value: 0.32
+f0:
+  value: 0.017
+sss:
+  value: 0.3
