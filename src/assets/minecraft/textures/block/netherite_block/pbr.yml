@@ -1,9 +1,7 @@
+publish-inventory: true
 alpha:
   value: 255
-albedo:
-  value-red: 66
-  value-green: 62
-  value-blue: 65
+albedo: {}
 height:
   scale: 0.2
 normal:
@@ -14,7 +12,8 @@ occlusion:
   z-bias: 0
   z-scale: 3
   step-distance: 0.15
-smooth: {}
+smooth:
+  scale: 0.8
 metal:
   value: 255
 porosity:

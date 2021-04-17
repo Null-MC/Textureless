@@ -1,13 +1,10 @@
-wrap-x: false
-wrap-y: false
+texture-size: 16
+wrap-x: true
+wrap-y: true
 height:
   value: 0
 normal:
-  strength: 0.6
-  filter: sobel-low
+  filter: sobel3
 occlusion:
-  quality: 0.1
-  z-bias: 0.2
-  z-scale: 2
-  steps: 4
-texture-size: 16
+  z-scale: 4
+  step-distance: 0.15

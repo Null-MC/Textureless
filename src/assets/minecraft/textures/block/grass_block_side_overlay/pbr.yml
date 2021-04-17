@@ -1,10 +1,13 @@
+publish-inventory: true
+wrap-x: true
+wrap-y: false
 albedo:
   value-red: 148
   value-green: 148
   value-blue: 148
 height:
   scale: 0.3
-  edge-fade-y: 1
+  edge-fade-y: 0.1
 normal:
   strength: 0.4
   noise: 8
@@ -19,5 +22,3 @@ f0:
 sss:
   value: 0.2
 create-inventory: true
-wrap-x: true
-wrap-y: false
