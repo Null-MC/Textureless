@@ -1,27 +1,28 @@
 alpha:
   value: 255
 albedo:
-  value-red: 128
-  value-green: 128
-  value-blue: 128
+  value-red: 138
+  value-green: 138
+  value-blue: 138
 height:
-  shift: -0.12
-  scale: 0.4
+  shift: -0.28
+  scale: 0.12
   edge-fade-x: 3
   edge-fade-y: 3
 normal:
-  strength: 0.8
-  noise: 4
+  strength: 0.6
+  noise: 6
+  filter: sobel3
 occlusion:
-  z-bias: 0
-  z-scale: 6
+  z-bias: 2
+  z-scale: 2
   step-distance: 0.15
-smooth:
-  scale: 0.3
+smooth: {}
 f0:
   value: 0.017
 porosity: {}
-sss: {}
+sss:
+  scale: 2
 ctm-count-x: 8
 ctm-count-y: 8
 ctm-type: repeat
