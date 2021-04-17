@@ -1,0 +1,15 @@
+publish-inventory: true
+texture-size: 16
+wrap-x: true
+wrap-y: true
+height:
+  value: 0
+normal:
+  filter: sobel3
+occlusion:
+  z-bias: 0
+  z-scale: 4
+  step-distance: 0.15
+smooth:
+  scale: 0.88
+create-inventory: true

@@ -1,0 +1,7 @@
+texture-size: 16
+height:
+  value: 0
+occlusion:
+  z-bias: 0
+  z-scale: 4
+  step-distance: 0.15

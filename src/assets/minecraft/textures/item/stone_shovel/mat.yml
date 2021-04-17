@@ -1,0 +1,12 @@
+texture-size: 16
+height:
+  value: 0
+normal:
+  filter: sobel3
+occlusion:
+  z-bias: 0
+  step-distance: 0.15
+f0:
+  value: 0.03
+porosity:
+  value: 0.2
