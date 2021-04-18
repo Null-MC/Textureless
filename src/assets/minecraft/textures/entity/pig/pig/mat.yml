@@ -1,0 +1,19 @@
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: true
+height:
+  value: 0
+normal:
+  strength: 2
+  filter: sobel-low
+occlusion:
+  z-bias: 0
+  z-scale: 4
+  step-distance: 0.15
+smooth:
+  value: 0.16
+f0:
+  value: 0.017
+sss:
+  value: 0.1

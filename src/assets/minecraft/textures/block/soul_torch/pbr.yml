@@ -14,5 +14,5 @@ f0:
   value: 0.04
 porosity: {}
 emissive:
-  scale: 0.3
+  scale: 0.45
 create-inventory: true

@@ -1,12 +1,15 @@
-albedo:
-  value-red: 66
-  value-green: 66
-  value-blue: 66
+albedo: {}
 height:
-  value: 0
+  scale: 0.3
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  strength: 0.4
+  filter: sobel3
 occlusion:
-  value: 0
-smooth:
-  value: 0.47
+  z-bias: 0
+  z-scale: 5
+  step-distance: 0.2
+smooth: {}
 metal:
-  value: 230
+  value: 255

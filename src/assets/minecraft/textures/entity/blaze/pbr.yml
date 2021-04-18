@@ -8,4 +8,5 @@ occlusion:
   value: 0
 f0:
   value: 0.04
-emissive: {}
+emissive:
+  scale: 3
