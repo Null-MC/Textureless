@@ -1,0 +1,18 @@
+wrap-x: true
+wrap-y: true
+alpha:
+  value: 255
+height:
+  shift: -0.1
+  scale: 0.4
+normal:
+  strength: 0.6
+  noise: 6
+  filter: sobel-low
+occlusion:
+  z-bias: 1
+  z-scale: 5
+  step-distance: 0.3
+ctm-count-x: 8
+ctm-count-y: 8
+ctm-type: repeat

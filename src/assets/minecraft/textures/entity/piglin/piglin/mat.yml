@@ -1,0 +1,12 @@
+texture-size: 64
+wrap-x: true
+wrap-y: false
+height:
+  value: 0
+normal:
+  strength: 4
+  filter: sobel-high
+occlusion:
+  z-bias: 0
+  z-scale: 5
+  step-distance: 0.15

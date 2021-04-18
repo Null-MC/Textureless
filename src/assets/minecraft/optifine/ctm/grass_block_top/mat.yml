@@ -14,9 +14,9 @@ normal:
   noise: 6
   filter: sobel3
 occlusion:
-  z-bias: 2
-  z-scale: 2
-  step-distance: 0.15
+  z-bias: 1
+  z-scale: 3
+  step-distance: 0.3
 smooth: {}
 f0:
   value: 0.017
