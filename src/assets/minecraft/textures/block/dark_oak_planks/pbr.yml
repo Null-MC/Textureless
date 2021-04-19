@@ -15,9 +15,9 @@ occlusion:
   z-scale: 3
   step-distance: 0.15
 smooth:
-  scale: 2
+  scale: 0.8
 f0:
-  value: 0.04
+  value: 0.03
 porosity:
   value: 0.8
 create-inventory: true

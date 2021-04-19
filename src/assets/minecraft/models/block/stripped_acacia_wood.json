@@ -1,7 +1,6 @@
 {
-  "parent": "block/cube_column",
+  "parent": "block/cube_all",
   "textures": {
-    "end": "block/stripped_acacia_wood",
-    "side": "block/stripped_acacia_wood"
+    "all": "block/stripped_acacia_wood"
   }
 }
