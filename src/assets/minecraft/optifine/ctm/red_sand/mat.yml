@@ -1,3 +1,5 @@
+wrap-x: true
+wrap-y: true
 alpha:
   value: 255
 albedo:
@@ -21,11 +23,9 @@ smooth:
 f0:
   value: 0.03
 porosity:
-  scale: 0.8
+  scale: 0.4
 sss:
   scale: 0.12
 ctm-count-x: 8
 ctm-count-y: 8
-wrap-x: true
-wrap-y: true
 ctm-type: repeat

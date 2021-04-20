@@ -22,7 +22,7 @@ smooth: {}
 f0:
   value: 0.03
 porosity:
-  scale: 0.8
+  scale: 0.3
 sss:
   scale: 0.24
 ctm-count-x: 8

@@ -17,5 +17,5 @@ smooth:
 f0:
   value: 0.017
 sss:
-  scale: 0.4
+  scale: 0.8
 create-inventory: true
