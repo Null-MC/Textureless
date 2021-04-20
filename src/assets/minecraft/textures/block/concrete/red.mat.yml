@@ -5,11 +5,11 @@ albedo:
   value-green: 33
   value-blue: 33
 normal:
-  noise: 1
+  noise: 0.6
 occlusion:
   value: 0
 smooth:
-  value: 0.04
+  texture: smooth.png
 f0:
   value: 0.067
 porosity:

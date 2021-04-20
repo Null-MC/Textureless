@@ -1,4 +1,3 @@
 height:
   value: 0
-emissive:
-  value: 0.78
+emissive: {}

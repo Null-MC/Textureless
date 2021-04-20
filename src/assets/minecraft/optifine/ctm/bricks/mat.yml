@@ -11,7 +11,7 @@ normal:
   filter: sobel-low
 occlusion:
   z-bias: 1
-  z-scale: 5
+  z-scale: 4
   step-distance: 0.3
 ctm-count-x: 8
 ctm-count-y: 8
