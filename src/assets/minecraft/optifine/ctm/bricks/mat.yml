@@ -13,6 +13,8 @@ occlusion:
   z-bias: 1
   z-scale: 4
   step-distance: 0.3
+smooth:
+  scale: 1.5
 ctm-count-x: 8
 ctm-count-y: 8
 ctm-type: repeat

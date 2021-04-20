@@ -6,13 +6,10 @@ alpha:
 height:
   scale: 0.3
 normal:
-  strength: 0.4
-  noise: 2
-  filter: sobel-high
+  noise: 4
+  filter: sobel3
 occlusion:
   z-bias: 0
-  z-scale: 3
+  z-scale: 5
   step-distance: 0.15
-smooth:
-  scale: 2
-create-inventory: true
+smooth: {}

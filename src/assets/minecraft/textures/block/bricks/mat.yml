@@ -8,7 +8,7 @@ height:
 normal:
   strength: 0.4
   noise: 2
-  filter: sobel-high
+  filter: sobel-low
 occlusion:
   z-bias: 0
   z-scale: 3

@@ -1,6 +1,7 @@
 {
   "parent": "block/bricks",
   "textures": {
-    "all": "block/bricks_inventory"
+    "side": "block/bricks_inventory",
+    "end": "block/bricks_top_inventory"
   }
 }
