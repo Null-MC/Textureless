@@ -1,3 +1,4 @@
+publish-inventory: true
 alpha:
   value: 255
 albedo:
@@ -14,10 +15,9 @@ occlusion:
   z-bias: 0
   z-scale: 6
   step-distance: 0.15
-smooth:
-  scale: 0.1
+smooth: {}
 f0:
-  value: 0.05
+  value: 0.03
 porosity:
-  value: 0.7
+  value: 0.85
 create-inventory: true

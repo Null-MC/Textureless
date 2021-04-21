@@ -1,3 +1,4 @@
+publish-inventory: true
 alpha:
   value: 255
 height:
@@ -10,10 +11,7 @@ occlusion:
   z-bias: 0
   z-scale: 3
   step-distance: 0.15
-smooth:
-  value: 0.05
-f0:
-  value: 0.05
-porosity:
-  value: 0.7
+smooth: {}
+f0: {}
+porosity: {}
 create-inventory: true

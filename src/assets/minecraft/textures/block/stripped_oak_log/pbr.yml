@@ -23,5 +23,5 @@ smooth:
 f0:
   value: 0.03
 porosity:
-  value: 0.35
+  value: 0.1
 create-inventory: true
