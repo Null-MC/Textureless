@@ -14,15 +14,14 @@ normal:
   noise: 6
   filter: sobel3
 occlusion:
-  z-bias: 16
-  z-scale: 2
-  step-distance: 0.3
+  z-bias: 8
+  z-scale: 1.5
+  step-distance: 0.15
 smooth: {}
 f0:
-  value: 0.017
+  value: 0.01
 porosity: {}
-sss:
-  scale: 2
+sss: {}
 ctm-count-x: 8
 ctm-count-y: 8
 ctm-type: repeat

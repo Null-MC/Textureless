@@ -1,7 +1,7 @@
 albedo:
-  value-red: 147
-  value-green: 184
-  value-blue: 254
+  value-red: 93
+  value-green: 122
+  value-blue: 149
 height:
   shift: -0.02
   scale: 0.3

@@ -16,7 +16,7 @@ occlusion:
   z-scale: 0.5
   step-distance: 0.15
 smooth:
-  scale: 0.4
+  scale: 0.6
 f0:
   value: 0.03
 porosity:

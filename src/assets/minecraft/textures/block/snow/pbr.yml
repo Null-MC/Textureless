@@ -1,9 +1,10 @@
+publish-inventory: true
 alpha:
   value: 255
 albedo:
-  value-red: 249
-  value-green: 254
-  value-blue: 254
+  value-red: 178
+  value-green: 195
+  value-blue: 206
 height:
   scale: 0.7
 normal:
@@ -13,7 +14,7 @@ occlusion:
   z-scale: 3
   step-distance: 0.15
 smooth:
-  value: 0.6
+  value: 0.5
 f0:
   value: 0.02
 sss:

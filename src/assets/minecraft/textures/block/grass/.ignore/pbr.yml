@@ -2,19 +2,20 @@ publish-inventory: true
 wrap-x: false
 wrap-y: false
 albedo:
-  value-red: 128
-  value-green: 128
-  value-blue: 128
+  value-red: 180
+  value-green: 180
+  value-blue: 180
 height:
-  scale: 0.05
+  value: 0
 normal:
+  noise: 4
   filter: sobel3
 occlusion:
-  scale: 0.2
+  scale: 0.8
 smooth:
   value: 0.16
 f0:
-  value: 0.01
+  value: 0.017
 sss:
-  value: 0.6
+  scale: 0.8
 create-inventory: true

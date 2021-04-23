@@ -1,9 +1,9 @@
 alpha:
   value: 255
 albedo:
-  value-red: 249
-  value-green: 254
-  value-blue: 254
+  value-red: 178
+  value-green: 195
+  value-blue: 206
 height:
   shift: -0.14
   scale: 0.5
@@ -19,7 +19,7 @@ smooth: {}
 f0:
   value: 0.02
 sss:
-  value: 0.8
+  scale: 0.8
 ctm-count-x: 8
 ctm-count-y: 8
 ctm-type: repeat
