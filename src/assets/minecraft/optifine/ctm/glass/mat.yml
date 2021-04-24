@@ -1,3 +1,6 @@
+wrap-x: true
+wrap-y: true
+alpha: {}
 albedo:
   value-red: 180
   value-green: 215
@@ -8,7 +11,6 @@ normal:
   strength: 0.7
   filter: sobel-low
 occlusion:
-  quality: 0.1
   z-bias: 0.02
   z-scale: 0.5
   step-distance: 0.2
@@ -16,6 +18,4 @@ f0:
   value: 0.04
 porosity:
   value: 0
-wrap-x: true
-wrap-y: true
 ctm-type: compact
