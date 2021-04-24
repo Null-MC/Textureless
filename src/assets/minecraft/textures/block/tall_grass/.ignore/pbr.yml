@@ -2,23 +2,22 @@ publish-inventory: true
 wrap-x: false
 wrap-y: false
 albedo:
-  value-red: 128
-  value-green: 128
-  value-blue: 128
+  value-red: 148
+  value-green: 148
+  value-blue: 148
 height:
-  scale: 0.05
+  value: 0
 normal:
   filter: sobel3
 occlusion:
-  value: 0
   z-scale: 2
   step-distance: 0.15
 smooth:
   value: 0.16
 f0:
-  value: 0.01
+  value: 0.017
 sss:
-  value: 0.6
+  scale: 0.8
 create-inventory: true
 parts:
 - name: tall_grass_top
