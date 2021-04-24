@@ -12,3 +12,6 @@ occlusion:
   step-distance: 0.15
 f0:
   value: 0.017
+sss:
+  scale: 0.5
+create-inventory: true
