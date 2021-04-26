@@ -10,9 +10,10 @@ occlusion:
   z-bias: 0
   z-scale: 3
   step-distance: 0.15
-smooth: {}
+smooth:
+  scale: 0.6
 metal: {}
 f0:
-  value: 0.03
+  value: 0.044
 porosity: {}
 create-inventory: true

@@ -1,9 +1,9 @@
 alpha:
   value: 255
 albedo:
-  value-red: 96
-  value-green: 60
-  value-blue: 32
+  value-red: 73
+  value-green: 91
+  value-blue: 36
 normal:
   noise: 0.6
 occlusion:
@@ -14,3 +14,4 @@ f0:
   value: 0.067
 porosity:
   value: 0.47
+publish-inventory: true

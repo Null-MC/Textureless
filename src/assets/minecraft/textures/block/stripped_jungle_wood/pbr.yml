@@ -1,3 +1,6 @@
+publish-inventory: true
+wrap-x: true
+wrap-y: true
 alpha:
   value: 255
 albedo:
@@ -15,7 +18,7 @@ occlusion:
   z-scale: 1
   step-distance: 0.2
 smooth:
-  value: 0.02
+  value: 0.15
 metal: {}
 f0:
   value: 0.04

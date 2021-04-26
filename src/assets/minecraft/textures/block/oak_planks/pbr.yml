@@ -12,7 +12,7 @@ occlusion:
   z-scale: 3
   step-distance: 0.15
 smooth:
-  scale: 0.55
+  scale: 0.50
 metal: {}
 f0:
   value: 0.03

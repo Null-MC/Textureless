@@ -1,5 +1,6 @@
 publish-inventory: true
-wrap-x: false
+wrap-x: true
+wrap-y: true
 alpha:
   value: 255
 albedo:
@@ -17,9 +18,9 @@ occlusion:
   z-scale: 0.5
   step-distance: 0.15
 smooth:
-  scale: 0.6
+  scale: 0.4
 f0:
-  value: 0.03
+  value: 0.04
 porosity:
   value: 0.35
 create-inventory: true

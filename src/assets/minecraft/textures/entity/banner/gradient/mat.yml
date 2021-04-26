@@ -1,0 +1,5 @@
+texture-size: 64
+albedo:
+  value-red: 245
+  value-green: 245
+  value-blue: 245
