@@ -1,5 +1,5 @@
 {
-  "parent": "block/template_grass",
+  "parent": "block/tinted_cross",
   "textures": {
     "cross": "block/grass"
   }
