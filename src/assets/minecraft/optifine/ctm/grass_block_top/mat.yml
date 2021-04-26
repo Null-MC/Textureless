@@ -5,19 +5,20 @@ albedo:
   value-green: 138
   value-blue: 138
 height:
-  shift: -0.28
-  scale: 0.12
-  edge-fade-x: 3
-  edge-fade-y: 3
+  shift: -0.2
+  scale: 0.2
+  edge-fade-x: 6
+  edge-fade-y: 6
 normal:
-  strength: 0.6
+  strength: 4
   noise: 6
   filter: sobel3
 occlusion:
-  z-bias: 8
-  z-scale: 1.5
-  step-distance: 0.15
-smooth: {}
+  z-bias: 1
+  z-scale: 1
+  step-distance: 0.3
+smooth:
+  scale: 0.8
 f0:
   value: 0.01
 porosity: {}
