@@ -7,12 +7,11 @@ height:
   scale: 0.6
 normal:
   strength: 0.4
+  method: sobel-low
   noise: 2
-  filter: sobel-low
 occlusion:
   z-bias: 0
   z-scale: 3
   step-distance: 0.15
 smooth:
-  scale: 2
-create-inventory: true
+  scale: 2.8

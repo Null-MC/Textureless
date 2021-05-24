@@ -1,16 +1,17 @@
+publish-inventory: true
 alpha:
   value: 255
 albedo: {}
 height:
   scale: 0.4
 normal:
+  method: sobel-high
   noise: 8
-  filter: sobel-high
 occlusion:
   z-bias: 0
   z-scale: 3
   step-distance: 0.15
-smooth: {}
+smooth:
+  scale: 5
 f0: {}
 porosity: {}
-create-inventory: true

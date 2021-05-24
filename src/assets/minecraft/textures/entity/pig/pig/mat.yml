@@ -5,8 +5,7 @@ wrap-y: true
 height:
   value: 0
 normal:
-  strength: 2
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   z-bias: 0
   z-scale: 4
@@ -17,3 +16,112 @@ f0:
   value: 0.017
 sss:
   value: 0.1
+filters:
+- name: head-up
+  left: 0.125
+  top: 0
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: head-down
+  left: 0.25
+  top: 0
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: head-east
+  left: 0
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: head-north
+  left: 0.125
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: head-west
+  left: 0.25
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: head-south
+  left: 0.375
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: torso-north
+  left: 0.5625
+  top: 0.25
+  width: 0.15625
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: torso-south
+  left: 0.71875
+  top: 0.25
+  width: 0.15625
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: torso-east
+  left: 0.4375
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: torso-down
+  left: 0.5625
+  top: 0.5
+  width: 0.15625
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: torso-west
+  left: 0.71875
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: torso-up
+  left: 0.84375
+  top: 0.5
+  width: 0.15625
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: foot-east
+  left: 0
+  top: 0.625
+  width: 0.0625
+  height: 0.1875
+  normal-curve-x: 90
+- name: foot-north
+  left: 0.0625
+  top: 0.625
+  width: 0.0625
+  height: 0.1875
+  normal-curve-x: 90
+- name: foot-west
+  left: 0.125
+  top: 0.625
+  width: 0.0625
+  height: 0.1875
+  normal-curve-x: 90
+- name: foot-south
+  left: 0.1875
+  top: 0.625
+  width: 0.0625
+  height: 0.1875
+  normal-curve-x: 90

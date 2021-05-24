@@ -1,16 +1,18 @@
 publish-inventory: true
-wrap-x: true
-wrap-y: true
 alpha:
   value: 255
+albedo: {}
 height:
-  scale: 0.3
+  scale: 0.4
 normal:
-  strength: 1.5
+  strength: 2
   method: sobel-high
-  noise: 4
+  noise: 8
 occlusion:
   z-bias: 0
-  z-scale: 5
+  z-scale: 3
   step-distance: 0.15
-smooth: {}
+smooth:
+  scale: 5
+f0: {}
+porosity: {}

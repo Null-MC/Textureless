@@ -1,0 +1,96 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+alpha:
+  value: 255
+albedo:
+  value-red: 244
+  value-green: 228
+  value-blue: 173
+height:
+  scale: 0.5
+normal:
+  strength: 0.5
+  method: sobel-high
+occlusion:
+  z-scale: 6
+  step-distance: 0.15
+smooth:
+  value: 0.85
+metal:
+  value: 255
+porosity: {}
+filters:
+- name: top-up
+  left: 0.375
+  top: 0
+  width: 0.1875
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: top-east
+  left: 0
+  top: 0.1875
+  width: 0.1875
+  height: 0.21875
+  normal-curve-x: 90
+- name: top-south
+  left: 0.1875
+  top: 0.1875
+  width: 0.1875
+  height: 0.21875
+  normal-curve-x: 90
+- name: top-west
+  left: 0.375
+  top: 0.1875
+  width: 0.1875
+  height: 0.21875
+  normal-curve-x: 90
+- name: top-north
+  left: 0.5625
+  top: 0.1875
+  width: 0.1875
+  height: 0.21875
+  normal-curve-x: 90
+- name: bottom-down
+  left: 0.28125
+  top: 0.4375
+  width: 0.1875
+  height: 0.1875
+  normal-curve-x: -90
+  normal-curve-y: -90
+- name: bottom-up
+  left: 0.5
+  top: 0.40625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: bottom-east
+  left: 0
+  top: 0.65625
+  width: 0.25
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: bottom-south
+  left: 0.25
+  top: 0.65625
+  width: 0.25
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: bottom-west
+  left: 0.5
+  top: 0.65625
+  width: 0.25
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: bottom-north
+  left: 0.75
+  top: 0.65625
+  width: 0.25
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90

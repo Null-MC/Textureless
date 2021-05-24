@@ -6,15 +6,15 @@ height:
   shift: -0.1
   scale: 0.4
 normal:
-  strength: 0.6
+  method: sobel-high
   noise: 6
-  filter: sobel-low
 occlusion:
   z-bias: 1
   z-scale: 4
   step-distance: 0.3
 smooth:
-  scale: 1
-ctm-count-x: 8
-ctm-count-y: 8
-ctm-type: repeat
+  scale: 1.5
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8
