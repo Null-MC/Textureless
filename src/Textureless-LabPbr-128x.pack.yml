@@ -1,3 +1,4 @@
+edition: java
 format: 6
 description: No Textures! PBR shader required.
 tags: 128x LabPBR
@@ -34,4 +35,3 @@ texture-scale: 8
 auto-generate-occlusion: true
 occlusion-quality: 0.1
 occlusion-power: 0.5
-edition: Java

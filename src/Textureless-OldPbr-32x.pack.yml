@@ -1,8 +1,9 @@
+edition: java
 format: 6
 description: No Textures! PBR shader required.
-tags: 32x LabPBR
+tags: 32x OldPBR
 encoding:
-  format: legacy
+  format: old-pbr
   sampler: nearest
   alpha: {}
   diffuse-red: {}
@@ -30,4 +31,3 @@ texture-scale: 2
 auto-generate-occlusion: true
 occlusion-quality: 0.1
 occlusion-power: 2
-edition: Java

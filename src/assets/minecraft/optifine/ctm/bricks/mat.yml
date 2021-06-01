@@ -1,7 +1,6 @@
 wrap-x: true
 wrap-y: true
-alpha:
-  value: 255
+alpha: {}
 height:
   shift: -0.1
   scale: 0.4
@@ -9,9 +8,9 @@ normal:
   method: sobel-high
   noise: 6
 occlusion:
+  step-distance: 0.3
   z-bias: 1
   z-scale: 4
-  step-distance: 0.3
 smooth:
   scale: 1.5
 ctm:

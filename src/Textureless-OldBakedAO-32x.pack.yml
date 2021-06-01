@@ -1,8 +1,9 @@
+edition: java
 format: 6
 description: No Textures! PBR shader required.
-tags: 32x MollyVX
+tags: 32x OldPBR BakedAO
 encoding:
-  format: legacy
+  format: old-pbr
   sampler: nearest
   alpha: {}
   diffuse-red:
@@ -59,4 +60,3 @@ diffuse-occlusion-strength: 0.5
 auto-generate-occlusion: true
 occlusion-quality: 0.1
 occlusion-power: 2
-edition: Java

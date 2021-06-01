@@ -1,9 +1,9 @@
+edition: java
 format: 6
 description: No Textures! PBR shader required.
-tags: 32x MollyVX
+tags: 64x LabPBR BakedAO
 encoding:
   format: lab-1.3
-  sampler: nearest
   alpha: {}
   diffuse-red:
     texture: albedo
@@ -59,8 +59,7 @@ encoding:
   emissive: {}
 block-texture-size: 64
 texture-scale: 4
-auto-generate-occlusion: true
 diffuse-occlusion-strength: 0.5
+auto-generate-occlusion: true
 occlusion-quality: 0.1
 occlusion-power: 1
-edition: Java
