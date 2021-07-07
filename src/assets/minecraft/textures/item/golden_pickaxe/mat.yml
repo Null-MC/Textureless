@@ -1,8 +1,11 @@
 texture-size: 16
+wrap-x: false
+wrap-y: false
 height:
   value: 0
 normal:
-  filter: sobel3
+  method: sobel3
+  strength: 0.6
 occlusion:
-  z-bias: 0
   step-distance: 0.15
+  z-bias: 0

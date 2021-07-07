@@ -1,6 +1,7 @@
 publish-inventory: true
 wrap-x: true
 wrap-y: false
+color-tint: '#559833'
 albedo:
   value-red: 148
   value-green: 148
@@ -9,16 +10,14 @@ height:
   scale: 0.3
   edge-fade-y: 0.1
 normal:
+  method: sobel-low
   strength: 0.4
   noise: 8
-  filter: sobel-low
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 6
-  step-distance: 0.2
-smooth: {}
 f0:
   value: 0.02
 sss:
   value: 0.2
-create-inventory: true

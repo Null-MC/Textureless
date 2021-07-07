@@ -1,0 +1,11 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  filter: sobel-low
+occlusion:
+  z-bias: 0
+  z-scale: 4
+  step-distance: 0.15

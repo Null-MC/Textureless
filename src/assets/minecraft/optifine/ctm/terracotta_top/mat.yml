@@ -1,5 +1,6 @@
 wrap-x: true
 wrap-y: true
+color-tint: '#9d664b'
 alpha:
   value: 255
 albedo:
@@ -12,16 +13,16 @@ height:
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
+  method: sobel3
   noise: 3
-  filter: sobel3
 occlusion:
-  z-scale: 4
   step-distance: 0.25
+  z-scale: 4
 smooth:
   scale: 0.2
 f0:
   value: 0.053
-porosity: {}
-ctm-count-x: 8
-ctm-count-y: 8
-ctm-type: repeat
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8

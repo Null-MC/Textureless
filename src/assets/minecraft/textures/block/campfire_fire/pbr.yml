@@ -1,3 +1,4 @@
 height:
   value: 0
-emissive: {}
+occlusion:
+  value: 0

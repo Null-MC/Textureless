@@ -5,19 +5,17 @@ albedo:
   value-red: 117
   value-green: 168
   value-blue: 253
-height: {}
 normal:
+  method: sobel-high
   strength: 1.6
   noise: 4
-  filter: sobel-high
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 6
-  step-distance: 0.2
 smooth:
-  value: 1.0
+  value: 0.75
 f0:
-  value: 0.02
+  value: 0.017
 sss:
   value: 0.6
-create-inventory: true

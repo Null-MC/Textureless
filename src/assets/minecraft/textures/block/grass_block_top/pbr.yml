@@ -1,4 +1,5 @@
 publish-inventory: true
+color-tint: '#559833'
 alpha:
   value: 255
 albedo:
@@ -11,14 +12,12 @@ normal:
   strength: 0.4
   noise: 4
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 1
-  step-distance: 0.15
 smooth:
   scale: 0.45
 f0:
   value: 0.017
-porosity: {}
 sss:
   value: 0.15
-create-inventory: true

@@ -12,19 +12,19 @@ height:
   edge-fade-x: 3
   edge-fade-y: 3
 normal:
+  method: sobel-low
   strength: 2
   noise: 4
-  filter: sobel-low
 occlusion:
-  z-scale: 4
   step-distance: 0.2
-smooth: {}
+  z-scale: 4
 f0:
   value: 0.03
 porosity:
-  scale: 0.3
+  scale: 0.6
 sss:
   scale: 0.24
-ctm-count-x: 8
-ctm-count-y: 8
-ctm-type: repeat
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8

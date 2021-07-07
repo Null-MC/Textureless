@@ -1,6 +1,4 @@
 publish-inventory: true
-alpha:
-  value: 255
 albedo:
   value-red: 200
   value-green: 204
@@ -8,16 +6,13 @@ albedo:
 height:
   scale: 0.5
 normal:
+  method: sobel-high
   strength: 0.8
-  filter: sobel-high
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 2
-  step-distance: 0.15
-smooth: {}
 metal:
-  value: 255
+  value: 230
 porosity:
   value: 0
-emissive: {}
-create-inventory: true

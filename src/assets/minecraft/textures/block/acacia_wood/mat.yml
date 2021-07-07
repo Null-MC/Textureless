@@ -1,6 +1,4 @@
 publish-inventory: true
-alpha:
-  value: 255
 albedo:
   value-red: 104
   value-green: 97
@@ -17,8 +15,6 @@ occlusion:
   z-scale: 3
 smooth:
   value: 0.01
-metal:
-  value: 0
 f0:
   value: 0.03
 porosity:

@@ -1,3 +1,5 @@
+wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 albedo:
@@ -8,17 +10,16 @@ height:
   value: 0
   scale: 0.8
 normal:
+  method: sobel3
   strength: 1.5
   noise: 3
-  filter: sobel3
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 8
-  step-distance: 0.2
-smooth: {}
+smooth:
+  scale: 0.8
 metal:
   value: 230
 porosity:
   value: 0
-wrap-x: false
-wrap-y: false

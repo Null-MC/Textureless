@@ -1,4 +1,5 @@
 publish-inventory: true
+color-tint: '#619961'
 albedo:
   value-red: 148
   value-green: 148
@@ -9,13 +10,12 @@ normal:
   strength: 0.8
   noise: 3
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
 smooth:
   value: 0.08
 f0:
   value: 0.017
 sss:
   value: 0.1
-create-inventory: true

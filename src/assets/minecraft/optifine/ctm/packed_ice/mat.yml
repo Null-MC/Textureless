@@ -10,15 +10,15 @@ height:
   edge-fade-x: 3
   edge-fade-y: 3
 normal:
+  method: sobel-high
   strength: 2
-  filter: sobel-high
 occlusion:
+  step-distance: 0.15
   z-bias: 1
   z-scale: 6
-  step-distance: 0.15
 f0:
   value: 0.017
-sss: {}
-ctm-count-x: 8
-ctm-count-y: 8
-ctm-type: repeat
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8

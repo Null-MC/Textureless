@@ -1,17 +1,17 @@
 publish-inventory: true
+color-tint: '#559833'
 height:
   value: 0
 normal:
+  method: sobel3
   strength: 0.8
-  filter: sobel3
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
 smooth:
   scale: 2
 f0:
   value: 0.017
 sss:
   scale: 1.4
-create-inventory: true

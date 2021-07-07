@@ -1,25 +1,22 @@
 alpha:
   value: 255
-albedo: {}
 height:
   shift: -0.2
   scale: 0.2
-  edge-fade-x: 4
-  edge-fade-y: 4
+  edge-fade-x: 2
+  edge-fade-y: 2
 normal:
-  strength: 2
   method: sobel3
+  strength: 2
   noise: 6
 occlusion:
+  step-distance: 0.3
   z-bias: 1
   z-scale: 1
-  step-distance: 0.3
 smooth:
   scale: 0.8
 f0:
   value: 0.01
-porosity: {}
-sss: {}
 ctm:
   type: repeat
   count-x: 8

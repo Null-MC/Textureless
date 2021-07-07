@@ -1,3 +1,4 @@
+publish-inventory: true
 alpha:
   value: 255
 albedo:
@@ -7,17 +8,16 @@ albedo:
 height:
   scale: 0.4
 normal:
+  method: sobel-low
   strength: 0.7
   noise: 2
-  filter: sobel-low
 occlusion:
+  step-distance: 0.2
   z-bias: 1
   z-scale: 3
-  step-distance: 0.2
 smooth:
-  value: 0.02
+  value: 0.1
 f0:
   value: 0.07
 porosity:
   value: 0.63
-create-inventory: true

@@ -13,13 +13,13 @@ normal:
   strength: 2
   noise: 6
 occlusion:
-  z-scale: 3
   step-distance: 0.15
-smooth: {}
+  z-scale: 3
 f0:
   value: 0.02
 sss:
   scale: 0.8
-ctm-count-x: 8
-ctm-count-y: 8
-ctm-type: repeat
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8

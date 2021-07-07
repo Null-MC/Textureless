@@ -1,4 +1,5 @@
 publish-inventory: true
+color-tint: '#80a755'
 albedo:
   value-red: 148
   value-green: 148
@@ -6,14 +7,12 @@ albedo:
 height:
   value: 0
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 6
-  step-distance: 0.2
-smooth: {}
 f0:
   value: 0.017
 sss:
   value: 0.4
-create-inventory: true

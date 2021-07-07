@@ -16,7 +16,9 @@ specular: {}
 smooth: {}
 rough: {}
 metal: {}
-f0: {}
+f0:
+  max-value: 0.9
+  range-max: 229
 porosity: {}
 sss: {}
 emissive: {}

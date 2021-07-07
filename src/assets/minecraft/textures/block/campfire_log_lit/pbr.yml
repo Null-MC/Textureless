@@ -2,8 +2,8 @@ alpha:
   value: 255
 height:
   value: 0
-normal:
-  noise: 8
+occlusion:
+  value: 0
 smooth:
   value: 0.0
 porosity:

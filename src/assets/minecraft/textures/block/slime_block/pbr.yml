@@ -5,17 +5,15 @@ albedo:
   value-red: 112
   value-green: 192
   value-blue: 93
-height: {}
 normal:
   strength: 2
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 smooth:
   value: 0.71
 f0:
   value: 0.02
 sss:
   value: 0.6
-create-inventory: true

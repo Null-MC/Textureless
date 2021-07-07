@@ -1,3 +1,6 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: true
 alpha:
   value: 255
 albedo:
@@ -9,22 +12,17 @@ height:
   scale: 0.5
   edge-fade-x: 1
 normal:
+  method: sobel3
   strength: 0.6
   noise: 3
   curve-x: 90
-  filter: sobel3
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 3
-  step-distance: 0.2
 smooth:
   value: 0.01
-metal:
-  value: 0
 f0:
   value: 0.03
 porosity:
   value: 0.63
-create-inventory: true
-wrap-x: false
-wrap-y: true

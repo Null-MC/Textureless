@@ -11,14 +11,10 @@ height:
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
-  filter: sobel-high
+  method: sobel-high
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 2
-  step-distance: 0.15
-smooth: {}
 metal:
-  value: 255
-porosity: {}
-emissive: {}
-create-inventory: true
+  value: 231

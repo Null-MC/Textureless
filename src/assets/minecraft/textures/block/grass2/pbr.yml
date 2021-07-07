@@ -1,6 +1,7 @@
 publish-inventory: true
 wrap-x: false
 wrap-y: false
+color-tint: '#559833'
 albedo:
   value-red: 128
   value-green: 128
@@ -8,7 +9,7 @@ albedo:
 height:
   scale: 0.05
 normal:
-  filter: sobel3
+  method: sobel3
 occlusion:
   scale: 0.2
 smooth:
@@ -17,4 +18,3 @@ f0:
   value: 0.01
 sss:
   value: 0.5
-create-inventory: true
