@@ -1,24 +1,24 @@
+publish-inventory: true
 alpha:
   texture: alpha.png
-height:
-  texture: height.png
-  value: 0
 albedo:
   value-red: 255
   value-green: 255
   value-blue: 255
+height:
+  texture: height.png
+  value: 0
 normal:
+  method: sobel-low
   strength: 0.7
-  filter: sobel-low
 occlusion:
-  quality: 0.1
+  texture: occlusion.png
+  step-distance: 0.2
   z-bias: 0.02
   z-scale: 1
-  step-distance: 0.2
 smooth:
   texture: smooth.png
 f0:
   value: 0.04
 porosity:
   value: 0
-create-inventory: true

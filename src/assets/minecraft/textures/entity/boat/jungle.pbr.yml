@@ -10,14 +10,13 @@ height:
   texture: height.png
   scale: 0.12
 normal:
+  method: sobel-low
   strength: 0.5
   noise: 1
-  filter: sobel-low
 occlusion:
-  quality: 0.1
+  texture: occlusion.png
   z-bias: 0.1
   z-scale: 2
-  steps: 6
 smooth:
   value: 0.1
 f0:

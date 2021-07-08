@@ -1,4 +1,6 @@
 texture-size: 16
+wrap-x: false
+wrap-y: false
 height:
   value: 0
 normal:

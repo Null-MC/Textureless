@@ -1,3 +1,5 @@
+texture-width: 128
+texture-height: 64
 alpha:
   texture: alpha.png
 albedo:
@@ -8,19 +10,17 @@ height:
   texture: height.png
   scale: 0.12
 normal:
+  method: sobel-low
   strength: 0.5
   noise: 1
-  filter: sobel-low
 occlusion:
-  quality: 0.1
+  texture: occlusion.png
+  step-distance: 0.2
   z-bias: 0.02
   z-scale: 1
-  step-distance: 0.2
 smooth:
   value: 0.1
 f0:
   value: 0.04
 porosity:
   value: 0.6
-texture-width: 128
-texture-height: 64

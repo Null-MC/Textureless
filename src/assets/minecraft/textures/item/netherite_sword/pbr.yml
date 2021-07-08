@@ -1,15 +1,14 @@
 publish-inventory: true
 texture-size: 16
-wrap-x: true
-wrap-y: true
+wrap-x: false
+wrap-y: false
 height:
   value: 0
 normal:
-  filter: sobel3
+  method: sobel3
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 4
-  step-distance: 0.15
 smooth:
   scale: 0.88
-create-inventory: true

@@ -1,16 +1,16 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
 albedo:
   value-red: 103
   value-green: 162
   value-blue: 95
-height: {}
 normal:
+  method: sobel3
   strength: 2
-  filter: sobel3
 occlusion:
   value: 0
 smooth:
   value: 0.9
 f0:
   value: 0.03
-sss: {}
-texture-size: 16

@@ -1,12 +1,9 @@
+wrap-x: false
+wrap-y: false
 height:
   value: 0
-normal:
-  value-x: 0.5
-  value-y: 0.5
-  value-z: 1.0
 occlusion:
-  value: 0.0
+  step-distance: 0.15
+  z-scale: 3
 smooth:
   value: 0.08
-sss:
-  value: 0.71

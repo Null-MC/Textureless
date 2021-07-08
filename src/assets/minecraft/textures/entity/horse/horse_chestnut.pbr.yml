@@ -7,9 +7,10 @@ height:
 normal:
   strength: 0.4
 occlusion:
+  texture: horse_occlusion.png
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 smooth:
   texture: horse_smooth.png
 metal:

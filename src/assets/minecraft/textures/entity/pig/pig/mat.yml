@@ -7,15 +7,15 @@ height:
 normal:
   method: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 4
-  step-distance: 0.15
 smooth:
   value: 0.16
 f0:
   value: 0.017
 sss:
-  value: 0.1
+  value: 0.08
 filters:
 - name: head-up
   left: 0.125
