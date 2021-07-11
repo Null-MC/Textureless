@@ -1,0 +1,12 @@
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  strength: 1.5
+smooth:
+  value: 0.6
+metal:
+  value: 255

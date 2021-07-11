@@ -3,20 +3,19 @@ texture-height: 32
 wrap-x: false
 wrap-y: false
 albedo:
-  value-red: 230
-  value-green: 179
-  value-blue: 51
+  value-red: 248
+  value-green: 205
+  value-blue: 77
 height:
   value: 0
 normal:
+  method: sobel3
   strength: 0.8
-  filter: sobel3
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 smooth:
   value: 0.9
 metal:
-  value: 255
-porosity: {}
+  value: 231

@@ -1,20 +1,19 @@
+wrap-x: false
+wrap-y: false
 height:
   value: 0
 normal:
+  method: sobel3
   noise: 1
   curve-x: 30
   curve-y: 30
-  filter: sobel-low
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0.02
   z-scale: 3
-  step-distance: 0.2
 smooth:
   value: 0.08
 f0:
   value: 0.04
 sss:
   scale: 0.4
-wrap-x: false
-wrap-y: false

@@ -1,0 +1,16 @@
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: false
+albedo:
+  value-red: 177
+  value-green: 177
+  value-blue: 177
+height:
+  value: 0
+occlusion:
+  value: 0
+smooth:
+  value: 0.2
+f0:
+  value: 0.309

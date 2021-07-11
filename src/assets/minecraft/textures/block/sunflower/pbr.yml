@@ -1,23 +1,21 @@
+wrap-x: false
+wrap-y: false
 albedo:
-  value-red: 61
-  value-green: 134
-  value-blue: 35
+  value-red: 99
+  value-green: 149
+  value-blue: 58
 height:
   value: 0
 normal:
-  strength: 0.6
-  filter: sobel-low
+  method: sobel3
 occlusion:
-  quality: 0.1
-  z-bias: 0
-  z-scale: 0.5
   step-distance: 0.2
+  z-bias: 0
+  z-scale: 2
 smooth:
   value: 0.1
 f0:
   value: 0.04
-wrap-x: false
-wrap-y: false
 parts:
 - name: sunflower_top
   left: 0

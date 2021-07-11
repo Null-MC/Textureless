@@ -1,0 +1,16 @@
+texture-width: 64
+texture-height: 32
+albedo:
+  value-red: 196
+  value-green: 199
+  value-blue: 199
+height:
+  value: 0
+normal:
+  method: sobel-low
+occlusion:
+  value: 0
+smooth:
+  value: 0.7
+metal:
+  value: 230
