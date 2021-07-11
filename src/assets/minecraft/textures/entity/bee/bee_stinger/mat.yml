@@ -1,0 +1,9 @@
+texture-size: 16
+albedo:
+  value-red: 48
+  value-green: 43
+  value-blue: 55
+occlusion:
+  value: 0
+smooth:
+  value: 0.5
