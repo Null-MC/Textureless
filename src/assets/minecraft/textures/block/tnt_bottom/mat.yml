@@ -1,11 +1,13 @@
 alpha:
   value: 255
 height:
-  value: 0
+  scale: 0.2
+normal:
+  method: sobel-high
 occlusion:
   value: 0
 smooth:
-  value: 0.1
+  value: 0.2
 f0:
   value: 0.04
 porosity:
