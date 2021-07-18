@@ -1,19 +1,16 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
 alpha:
   value: 255
 height:
-  shift: -0.1
-  scale: 0.8
-  edge-fade-x: 0.2
+  shift: -0.08
+  edge-fade-x: 0.4
+  edge-fade-y: 0.4
 normal:
-  strength: 0.7
+  method: sobel-low
   curve-x: 90
-  filter: sobel-high
 occlusion:
+  step-distance: 0.2
   z-bias: 1
   z-scale: 3
-  step-distance: 0.2
-smooth: {}
-porosity: {}
-create-inventory: true
-wrap-x: false
-wrap-y: false

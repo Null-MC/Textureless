@@ -8,26 +8,39 @@ tags: ''
 encoding:
   image: tga
   format: rtx
-  alpha: {}
-  diffuse-red: {}
-  diffuse-green: {}
-  diffuse-blue: {}
-  albedo-red: {}
-  albedo-green: {}
-  albedo-blue: {}
-  height: {}
-  occlusion: {}
-  normal-x: {}
-  normal-y: {}
-  normal-z: {}
-  specular: {}
-  smooth: {}
-  rough: {}
-  metal: {}
-  f0: {}
-  porosity: {}
-  sss: {}
-  emissive: {}
+  diffuse-red:
+    texture: albedo
+    color: red
+    min-value: 0
+    max-value: 255
+    range-min: 0
+    range-max: 255
+    shift: 0
+    power: 1
+  diffuse-green:
+    texture: albedo
+    color: green
+    min-value: 0
+    max-value: 255
+    range-min: 0
+    range-max: 255
+    shift: 0
+    power: 1
+  diffuse-blue:
+    texture: albedo
+    color: blue
+    min-value: 0
+    max-value: 255
+    range-min: 0
+    range-max: 255
+    shift: 0
+    power: 1
+  albedo-red:
+    texture: none
+  albedo-green:
+    texture: none
+  albedo-blue:
+    texture: none
 block-texture-size: 32
 texture-scale: 2
 auto-generate-occlusion: true

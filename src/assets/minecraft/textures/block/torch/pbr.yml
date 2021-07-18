@@ -1,19 +1,14 @@
 publish-inventory: true
 wrap-x: false
 wrap-y: false
-albedo: {}
 height:
   value: 0
 normal:
+  method: sobel-low
   strength: 0.4
   noise: 1
-  filter: sobel-low
 occlusion:
-  z-bias: 0
   step-distance: 0.15
+  z-bias: 0
 f0:
   value: 0.04
-porosity: {}
-emissive:
-  scale: 0.6
-create-inventory: true
