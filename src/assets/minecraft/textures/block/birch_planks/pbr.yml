@@ -1,19 +1,16 @@
 publish-inventory: true
-alpha:
+opacity:
   value: 255
 height:
   scale: 0.3
 normal:
-  strength: 0.5
-  filter: sobel-high
+  method: sobel-low
+  strength: 0.3
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
-smooth:
-  scale: 0.6
-metal: {}
 f0:
   value: 0.044
-porosity: {}
-create-inventory: true
+porosity:
+  scale: 0.6
