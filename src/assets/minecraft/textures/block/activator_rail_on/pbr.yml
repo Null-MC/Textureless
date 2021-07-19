@@ -1,0 +1,11 @@
+publish-inventory: true
+wrap-x: false
+height:
+  scale: 0.2
+  edge-fade-x: 0.1
+normal:
+  method: sobel-low
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 4

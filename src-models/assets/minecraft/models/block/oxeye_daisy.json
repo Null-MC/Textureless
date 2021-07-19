@@ -1,0 +1,7 @@
+{
+	"parent": "block/flowers",
+	"textures": {
+		"flower": "block/oxeye_daisy",
+		"particle": "block/oxeye_daisy_inventory"
+	}
+}

@@ -1,0 +1,6 @@
+{
+   "parent": "block/leaves_alt_MQ",
+    "textures": {
+        "all": "block/dark_oak_leaves"
+    }
+}

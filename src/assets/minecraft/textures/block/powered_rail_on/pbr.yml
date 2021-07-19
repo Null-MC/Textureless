@@ -1,10 +1,10 @@
-alpha:
-  value: 255
-height: {}
+publish-inventory: true
+height:
+  scale: 0.2
+  edge-fade-x: 0.1
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
-  z-bias: 1
-  z-scale: 2
   step-distance: 0.15
-wrap-y: false
+  z-bias: 0
+  z-scale: 4

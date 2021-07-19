@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+    	{
+	      "model": "block/oxeye_daisy"
+	    },
+    	{
+	      "model": "block/oxeye_daisy",
+	      "y": 90
+	    },
+    	{
+	      "model": "block/oxeye_daisy",
+	      "y": 180
+	    },
+    	{
+	      "model": "block/oxeye_daisy",
+	      "y": 270
+	    }
+    ]
+  }
+}

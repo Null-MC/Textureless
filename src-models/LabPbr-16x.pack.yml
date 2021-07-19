@@ -1,0 +1,33 @@
+edition: java
+format: 6
+name: Textureless-Models-LabPbr-16x
+description: Better models for Textureless
+tags: 16x LabPBR
+encoding:
+  format: lab-1.3
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
+  height:
+    sampler: average
+  occlusion:
+    sampler: average
+  normal-x:
+    sampler: average
+  normal-y:
+    sampler: average
+  normal-z:
+    sampler: average
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 16
+auto-generate-occlusion: true
+occlusion-quality: 0.1
+occlusion-power: 1

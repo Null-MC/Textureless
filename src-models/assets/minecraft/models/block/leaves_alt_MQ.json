@@ -1,0 +1,45 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#all"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 0],
+			"to": [3, 16, 16],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#all", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#all", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-2, -2, 8],
+			"to": [18, 18, 8],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#all", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-3, 8, -3],
+			"to": [19, 8, 19],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#all", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0}
+			}
+		},
+		{
+			"from": [13, 0, 0],
+			"to": [13, 16, 16],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [17, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+    	{
+	      "model": "block/grass"
+	    },
+    	{
+	      "model": "block/grass",
+	      "y": 90
+	    },
+    	{
+	      "model": "block/grass",
+	      "y": 180
+	    },
+    	{
+	      "model": "block/grass",
+	      "y": 270
+	    }
+    ]
+  }
+}

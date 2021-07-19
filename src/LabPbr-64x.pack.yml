@@ -1,0 +1,35 @@
+edition: java
+format: 6
+name: Textureless-LabPbr-64x
+description: No Textures! PBR shader required.
+tags: 64x LabPBR
+encoding:
+  format: lab-1.3
+  sampler: nearest
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
+  height:
+    sampler: bilinear
+  occlusion:
+    sampler: bilinear
+  normal-x:
+    sampler: bilinear
+  normal-y:
+    sampler: bilinear
+  normal-z:
+    sampler: bilinear
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 64
+texture-scale: 4
+auto-generate-occlusion: true
+occlusion-quality: 0.1
+occlusion-power: 1

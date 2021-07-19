@@ -1,0 +1,19 @@
+wrap-x: false
+wrap-y: false
+color-tint: '#559833'
+albedo:
+  value-red: 128
+  value-green: 128
+  value-blue: 128
+height:
+  scale: 0.05
+normal:
+  method: sobel3
+occlusion:
+  scale: 0.2
+smooth:
+  value: 0.16
+f0:
+  value: 0.01
+sss:
+  value: 0.5

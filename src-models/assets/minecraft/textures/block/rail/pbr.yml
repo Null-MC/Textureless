@@ -1,0 +1,10 @@
+alpha:
+  value: 255
+height: {}
+normal:
+  filter: sobel-low
+occlusion:
+  z-bias: 1
+  z-scale: 2
+  step-distance: 0.15
+wrap-y: false

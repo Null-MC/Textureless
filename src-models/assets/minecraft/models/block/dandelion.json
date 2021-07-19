@@ -1,0 +1,7 @@
+{
+	"parent": "block/flowers",
+	"textures": {
+		"flower": "block/dandelion",
+		"particle": "block/dandelion_inventory"
+	}
+}

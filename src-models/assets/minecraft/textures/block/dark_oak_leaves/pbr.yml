@@ -1,0 +1,17 @@
+publish-inventory: true
+color-tint: '#507A32'
+color:
+  value-red: 128
+  value-green: 128
+  value-blue: 128
+height:
+  value: 0
+normal:
+  method: sobel3
+  strength: 2
+occlusion:
+  step-distance: 0.4
+  z-bias: 0
+  z-scale: 6
+f0:
+  value: 0.017
