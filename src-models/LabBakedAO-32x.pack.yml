@@ -1,21 +1,18 @@
 edition: java
-format: 6
+format: 7
 name: Textureless-Models-LabBakedAO-32x
 description: Better models for Textureless
 tags: 32x LabPBR BakedAO
 encoding:
   format: lab-1.3
   opacity: {}
-  color-red:
-    texture: none
-  color-green:
-    texture: none
-  color-blue:
-    texture: none
+  color-red: {}
+  color-green: {}
+  color-blue: {}
   height:
     sampler: bilinear
   occlusion:
-    range-min: 255
+    max-value: 0
   normal-x: {}
   normal-y: {}
   normal-z: {}
@@ -31,5 +28,6 @@ block-texture-size: 32
 texture-scale: 2
 diffuse-occlusion-strength: 0.5
 auto-generate-occlusion: true
+bake-occlusion-to-color: true
 occlusion-quality: 0.1
 occlusion-power: 2

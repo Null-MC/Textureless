@@ -1,22 +1,18 @@
 edition: java
-format: 6
+format: 7
 name: Textureless-LabBakedAO-64x
 description: No Textures! PBR shader required.
 tags: 64x LabPBR BakedAO
 encoding:
   format: lab-1.3
   opacity: {}
-  color-red:
-    texture: none
-  color-green:
-    texture: none
-  color-blue:
-    texture: none
+  color-red: {}
+  color-green: {}
+  color-blue: {}
   height:
     sampler: bilinear
   occlusion:
-    texture: none
-    sampler: bilinear
+    max-value: 0
   normal-x:
     sampler: bilinear
   normal-y:
@@ -35,5 +31,6 @@ block-texture-size: 64
 texture-scale: 4
 diffuse-occlusion-strength: 0.5
 auto-generate-occlusion: true
+bake-occlusion-to-color: true
 occlusion-quality: 0.1
 occlusion-power: 1

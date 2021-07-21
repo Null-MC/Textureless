@@ -1,5 +1,5 @@
 edition: java
-format: 6
+format: 7
 name: Textureless-LabPbr-128x
 description: No Textures! PBR shader required.
 tags: 128x LabPBR

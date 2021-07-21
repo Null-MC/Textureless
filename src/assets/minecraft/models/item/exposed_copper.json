@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block/exposed_copper_inventory"
+  }
+}

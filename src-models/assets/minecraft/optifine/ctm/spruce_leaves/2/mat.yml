@@ -1,0 +1,15 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
+color-tint: '#619961'
+height:
+  value: 0
+normal:
+  method: sobel3
+  noise: 3
+occlusion:
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 3
+f0:
+  value: 0.017

@@ -1,7 +1,7 @@
 publish-inventory: true
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 5
   value-green: 2
   value-blue: 2
@@ -15,5 +15,7 @@ occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 6
+smooth:
+  scale: 0.7
 f0:
   value: 0.141

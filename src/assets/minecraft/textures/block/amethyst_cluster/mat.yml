@@ -1,0 +1,20 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
+color:
+  value-red: 103
+  value-green: 74
+  value-blue: 161
+height:
+  texture: alpha.png
+  scale: 0.1
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  method: sobel3
+  strength: 2
+  noise: 12
+smooth:
+  value: 0.95
+f0:
+  value: 0.08

@@ -1,0 +1,7 @@
+{
+	"parent": "block/flowers",
+	"textures": {
+		"flower": "block/cornflower",
+		"particle": "block/cornflower_inventory"
+	}
+}

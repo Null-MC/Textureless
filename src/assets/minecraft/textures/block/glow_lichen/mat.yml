@@ -1,0 +1,10 @@
+publish-inventory: true
+normal:
+  method: sobel-low
+  noise: 12
+occlusion:
+  z-scale: 3
+sss:
+  value: 0.3
+emissive:
+  scale: 1.5

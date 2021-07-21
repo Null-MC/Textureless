@@ -1,0 +1,6 @@
+wrap-x: false
+wrap-y: false
+normal:
+  method: sobel3
+f0:
+  value: 0.04

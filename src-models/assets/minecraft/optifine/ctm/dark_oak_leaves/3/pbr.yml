@@ -1,0 +1,19 @@
+publish-inventory: true
+color-tint: '#59AE30'
+color:
+  value-red: 186
+  value-green: 99
+  value-blue: 189
+normal:
+  method: sobel-low
+occlusion:
+  value: 0
+  step-distance: 0.4
+  z-bias: 0
+  z-scale: 6
+smooth:
+  value: 0.02
+f0:
+  value: 0.04
+porosity:
+  value: 0.5

@@ -1,12 +1,15 @@
 publish-inventory: true
-alpha:
+wrap-x: false
+wrap-y: false
+opacity:
   value: 255
 height:
   shift: -0.06
   scale: 0.4
+  edge-fade-x: 0.6
+  edge-fade-y: 0.6
 normal:
-  method: sobel3
-  strength: 0.4
+  method: sobel-high
   curve-x: 90
   curve-y: 90
 occlusion:
@@ -22,4 +25,4 @@ porosity:
 sss:
   value: 0.01
 emissive:
-  scale: 0.4
+  scale: 1.2

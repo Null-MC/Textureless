@@ -4,12 +4,11 @@ wrap-x: false
 wrap-y: false
 height:
   value: 0
-occlusion:
-  value: 0
-smooth:
-  value: 0.16
-sss:
-  value: 0.08
+normal:
+  method: sobel3
+  strength: 2
+f0:
+  value: 0.04
 filters:
 - name: head-top
   left: 0.046875
@@ -53,7 +52,6 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
-
 - name: bill-top
   left: 0.25
   top: 0
@@ -96,7 +94,6 @@ filters:
   height: 0.0625
   normal-curve-x: 90
   normal-curve-y: 90
-
 - name: body-front
   left: 0.09375
   top: 0.28125

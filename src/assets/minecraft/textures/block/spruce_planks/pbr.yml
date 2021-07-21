@@ -1,23 +1,18 @@
 publish-inventory: true
-alpha:
+opacity:
   value: 255
-albedo:
-  value-red: 115
-  value-green: 85
-  value-blue: 49
 height:
   scale: 0.6
 normal:
+  method: sobel-high
   strength: 0.5
-  filter: sobel-high
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 6
-  step-distance: 0.15
 smooth:
-  scale: 0.45
+  scale: 0.5
 f0:
   value: 0.03
 porosity:
-  value: 0.65
-create-inventory: true
+  scale: 1.3

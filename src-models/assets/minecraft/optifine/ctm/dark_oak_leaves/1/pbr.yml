@@ -1,0 +1,18 @@
+publish-inventory: true
+color-tint: '#59AE30'
+color:
+  scale-red: 0.6
+  scale-green: 0.5
+  scale-blue: 0.8
+height:
+  value: 0
+normal:
+  method: sobel-low
+occlusion:
+  step-distance: 0.4
+  z-bias: 0
+  z-scale: 6
+smooth:
+  scale: 0.5
+f0:
+  value: 0.04

@@ -1,0 +1,18 @@
+publish-inventory: true
+color:
+  value-red: 126
+  value-green: 92
+  value-blue: 184
+height:
+  shift: -0.1
+  scale: 0.8
+normal:
+  method: sobel-low
+  strength: 2
+  noise: 12
+smooth:
+  value: 0.95
+f0:
+  value: 0.08
+sss:
+  value: 0.7
