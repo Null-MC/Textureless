@@ -5,8 +5,7 @@ height:
   texture: horse_height.png
   value: 0
 normal:
-  method: sobel3
-  strength: 0.4
+  method: sobel-low
 occlusion:
   texture: horse_occlusion.png
   step-distance: 0.15
