@@ -1,0 +1,7 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  method: sobel3

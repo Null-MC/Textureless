@@ -1,0 +1,10 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  method: sobel-low
+occlusion:
+  step-distance: 0.15
+  z-scale: 2
