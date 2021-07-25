@@ -7,3 +7,5 @@ normal:
 occlusion:
   step-distance: 0.15
   z-scale: 3
+sss:
+  scale: 0.4
