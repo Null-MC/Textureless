@@ -1,6 +1,6 @@
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 178
   value-green: 195
   value-blue: 206
@@ -11,10 +11,13 @@ height:
   edge-fade-y: 3
 normal:
   strength: 2
-  noise: 6
+  noise: 10
 occlusion:
   step-distance: 0.15
   z-scale: 3
+smooth:
+  shift: 0.4
+  scale: 0.7
 f0:
   value: 0.02
 sss:

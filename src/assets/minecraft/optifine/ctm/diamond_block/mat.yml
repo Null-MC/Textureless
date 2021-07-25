@@ -16,10 +16,9 @@ occlusion:
 smooth:
   value: 1
   scale: 1.5
-metal: {}
 f0:
   value: 0.172
-sss: {}
-ctm-count-x: 4
-ctm-count-y: 4
-ctm-type: repeat
+ctm:
+  type: repeat
+  count-x: 4
+  count-y: 4

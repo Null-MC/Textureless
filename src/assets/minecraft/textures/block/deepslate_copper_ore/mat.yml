@@ -1,0 +1,9 @@
+publish-inventory: true
+height:
+  scale: 0.2
+normal:
+  method: sobel3
+  strength: 0.5
+occlusion:
+  step-distance: 0.15
+  z-scale: 3

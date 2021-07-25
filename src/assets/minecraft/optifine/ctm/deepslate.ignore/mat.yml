@@ -1,0 +1,23 @@
+color:
+  value-red: 98
+  value-green: 98
+  value-blue: 102
+height:
+  shift: -0.16
+  scale: 0.5
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  method: sobel-high
+  strength: 3
+occlusion:
+  step-distance: 0.15
+  z-scale: 8
+f0:
+  value: 0.04
+porosity:
+  value: 0.5
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8

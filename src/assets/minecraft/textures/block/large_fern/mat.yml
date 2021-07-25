@@ -1,0 +1,35 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
+color-tint: '#79C05A'
+color:
+  value-red: 148
+  value-green: 148
+  value-blue: 148
+height:
+  texture: alpha.png
+  scale: 0.1
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  method: sobel3
+occlusion:
+  step-distance: 0.15
+  z-scale: 4
+smooth:
+  value: 0.35
+f0:
+  value: 0.02
+sss:
+  scale: 0.5
+parts:
+- name: large_fern_top
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: large_fern_bottom
+  left: 0
+  top: 16
+  width: 16
+  height: 16

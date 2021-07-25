@@ -1,6 +1,4 @@
 color-tint: '#91BD59'
-alpha:
-  value: 255
 height:
   shift: -0.2
   scale: 0.2

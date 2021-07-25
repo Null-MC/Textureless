@@ -1,0 +1,17 @@
+wrap-x: false
+wrap-y: false
+height:
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  method: sobel-low
+  strength: 2
+occlusion:
+  step-distance: 0.15
+  z-scale: 3
+smooth:
+  value: 0.4
+f0:
+  value: 0.02

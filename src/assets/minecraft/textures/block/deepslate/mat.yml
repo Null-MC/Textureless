@@ -1,0 +1,17 @@
+publish-inventory: true
+color:
+  value-red: 98
+  value-green: 98
+  value-blue: 102
+height:
+  scale: 0.2
+normal:
+  method: sobel3
+  strength: 0.5
+occlusion:
+  step-distance: 0.15
+  z-scale: 3
+f0:
+  value: 0.04
+porosity:
+  value: 0.5
