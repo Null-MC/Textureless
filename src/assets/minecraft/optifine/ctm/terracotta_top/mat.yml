@@ -1,17 +1,14 @@
 wrap-x: true
 wrap-y: true
 color-tint: '#9d664b'
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 255
   value-green: 255
   value-blue: 255
 height:
-  shift: -0.1
-  scale: 0.2
-  edge-fade-x: 2
-  edge-fade-y: 2
+  value: 0
 normal:
   method: sobel3
   noise: 3

@@ -1,4 +1,5 @@
 texture-size: 16
+bake-occlusion-to-color: true
 height:
   value: 0
 normal:

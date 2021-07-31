@@ -1,0 +1,18 @@
+opacity:
+  value: 255
+color:
+  value-red: 104
+  value-green: 103
+  value-blue: 108
+height:
+  value: 0
+normal:
+  noise: 1
+occlusion:
+  value: 0
+smooth:
+  value: 0.6
+metal:
+  value: 230
+porosity:
+  value: 0

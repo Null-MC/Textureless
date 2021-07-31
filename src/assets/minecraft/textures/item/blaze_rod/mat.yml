@@ -1,0 +1,15 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
+bake-occlusion-to-color: true
+height:
+  value: 0
+normal:
+  method: sobel-high
+  strength: 2
+smooth:
+  value: 0.6
+f0:
+  value: 0.04
+emissive:
+  value: 0.8

@@ -1,23 +1,23 @@
 wrap-x: true
 wrap-y: true
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 195
   value-green: 106
   value-blue: 35
 height:
-  shift: -0.5
-  scale: 0.2
-  edge-fade-x: 3
-  edge-fade-y: 3
+  shift: -0.32
+  scale: 0.3
+  edge-fade-x: 4
+  edge-fade-y: 4
 normal:
+  method: sobel-low
   strength: 2
   noise: 4
-  filter: sobel-low
 occlusion:
-  z-scale: 4
   step-distance: 0.2
+  z-scale: 4
 smooth:
   scale: 0.8
 f0:
@@ -26,6 +26,7 @@ porosity:
   scale: 0.4
 sss:
   scale: 0.12
-ctm-count-x: 8
-ctm-count-y: 8
-ctm-type: repeat
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8

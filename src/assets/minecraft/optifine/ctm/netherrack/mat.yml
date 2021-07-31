@@ -1,0 +1,14 @@
+height:
+  shift: -0.6
+  scale: 0.4
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  method: sobel-low
+  strength: 2
+f0:
+  value: 0.03
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8

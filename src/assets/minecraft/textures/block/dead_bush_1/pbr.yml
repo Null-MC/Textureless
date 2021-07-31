@@ -1,0 +1,24 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
+color:
+  value-red: 140
+  value-green: 140
+  value-blue: 140
+height:
+  texture: opacity.png
+  scale: 0.05
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  method: sobel-high
+  strength: 2
+  noise: 3
+occlusion:
+  z-scale: 12
+smooth:
+  value: 0.08
+f0:
+  value: 0.03
+porosity:
+  value: 0.5

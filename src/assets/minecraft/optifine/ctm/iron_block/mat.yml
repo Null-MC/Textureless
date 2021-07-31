@@ -8,6 +8,9 @@ occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 2
+smooth:
+  shift: 0.6
+  scale: 0.6
 metal:
   value: 230
 porosity:

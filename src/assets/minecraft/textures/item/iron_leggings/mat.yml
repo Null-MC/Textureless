@@ -1,0 +1,15 @@
+texture-size: 16
+bake-occlusion-to-color: true
+color:
+  value-red: 200
+  value-green: 204
+  value-blue: 209
+height:
+  value: 0
+normal:
+  method: sobel-high
+  strength: 3
+smooth:
+  value: 0.8
+metal:
+  value: 230

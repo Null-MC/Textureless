@@ -1,14 +1,13 @@
-height:
-  value: 0
-normal:
-  filter: sobel-low
-occlusion:
-  quality: 0.1
-  z-bias: 0.2
-  z-scale: 2
-  steps: 4
-smooth:
-  scale: 0.8
 texture-size: 16
 wrap-x: false
 wrap-y: false
+bake-occlusion-to-color: true
+height:
+  value: 0
+normal:
+  method: sobel-low
+occlusion:
+  z-bias: 0.2
+  z-scale: 2
+smooth:
+  scale: 0.8

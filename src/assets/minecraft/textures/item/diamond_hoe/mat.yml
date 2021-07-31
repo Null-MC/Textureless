@@ -1,6 +1,7 @@
 texture-size: 16
 wrap-x: false
 wrap-y: false
+bake-occlusion-to-color: true
 height:
   value: 0
 occlusion:

@@ -1,27 +1,25 @@
 opacity:
   value: 255
 color:
-  value-red: 178
-  value-green: 195
-  value-blue: 206
+  value-red: 198
+  value-green: 221
+  value-blue: 236
 height:
-  shift: -0.14
-  scale: 0.5
-  edge-fade-x: 3
-  edge-fade-y: 3
+  shift: -0.24
+  scale: 0.4
+  edge-fade-x: 4
+  edge-fade-y: 4
 normal:
-  strength: 2
-  noise: 10
+  strength: 1.5
+  noise: 16
 occlusion:
+  scale: 0.7
   step-distance: 0.15
   z-scale: 3
 smooth:
-  shift: 0.4
-  scale: 0.7
+  shift: 0.2
 f0:
   value: 0.02
-sss:
-  scale: 0.8
 ctm:
   type: repeat
   count-x: 8

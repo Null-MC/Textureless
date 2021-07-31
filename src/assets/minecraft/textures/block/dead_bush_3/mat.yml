@@ -1,0 +1,23 @@
+wrap-x: false
+wrap-y: false
+color:
+  value-red: 160
+  value-green: 155
+  value-blue: 150
+height:
+  texture: opacity.png
+  scale: 0.05
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  method: sobel-low
+  strength: 2
+  noise: 4
+occlusion:
+  z-scale: 12
+smooth:
+  value: 0.08
+f0:
+  value: 0.04
+porosity:
+  value: 0.6

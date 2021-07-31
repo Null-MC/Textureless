@@ -1,0 +1,17 @@
+publish-inventory: true
+height:
+  scale: 0.3
+  edge-fade-x: 0.1
+normal:
+  method: sobel-low
+  noise: 2
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 9
+smooth:
+  value: 0.05
+f0:
+  value: 0.03
+porosity:
+  value: 0.6

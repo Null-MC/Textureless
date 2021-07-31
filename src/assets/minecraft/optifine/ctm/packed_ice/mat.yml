@@ -1,9 +1,7 @@
-alpha:
-  value: 255
-albedo:
-  value-red: 194
-  value-green: 214
-  value-blue: 251
+color:
+  value-red: 125
+  value-green: 157
+  value-blue: 196
 height:
   shift: -0.02
   scale: 0.3
@@ -12,12 +10,19 @@ height:
 normal:
   method: sobel-high
   strength: 2
+  noise: 2
 occlusion:
+  scale: 0.5
   step-distance: 0.15
   z-bias: 1
   z-scale: 6
+smooth:
+  scale: 0.8
 f0:
-  value: 0.017
+  value: 0.08
+sss:
+  shift: 0.3
+  scale: 0.7
 ctm:
   type: repeat
   count-x: 8

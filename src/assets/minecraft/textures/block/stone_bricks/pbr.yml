@@ -1,15 +1,13 @@
 publish-inventory: true
-alpha:
-  value: 255
-albedo:
+color:
   value-red: 116
   value-green: 115
   value-blue: 115
 height:
   scale: 0.7
 normal:
-  method: sobel3
-  strength: 0.6
+  method: sobel-high
+  strength: 2
   noise: 2
 occlusion:
   step-distance: 0.15

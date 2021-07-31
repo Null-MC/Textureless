@@ -1,9 +1,8 @@
 color-tint: '#91BD59'
 height:
+  value: 0
   shift: -0.2
   scale: 0.2
-  edge-fade-x: 2
-  edge-fade-y: 2
 normal:
   method: sobel3
   strength: 2

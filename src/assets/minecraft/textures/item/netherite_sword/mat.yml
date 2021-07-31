@@ -1,0 +1,15 @@
+bake-occlusion-to-color: true
+publish-inventory: true
+texture-size: 16
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  method: sobel3
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 4
+smooth:
+  scale: 0.88

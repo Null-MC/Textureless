@@ -1,14 +1,14 @@
 texture-size: 16
 wrap-x: false
 wrap-y: false
+bake-occlusion-to-color: true
 height:
   value: 0
 normal:
-  filter: sobel3
+  method: sobel3
 occlusion:
-  z-scale: 4
   step-distance: 0.15
-smooth: {}
+  z-scale: 4
 f0:
   value: 0.03
 porosity:
