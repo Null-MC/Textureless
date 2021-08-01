@@ -5,6 +5,7 @@ height:
   texture: horse_height.png
   value: 0
 normal:
+  texture: horse_normal.png
   method: sobel-low
 occlusion:
   texture: horse_occlusion.png
@@ -292,7 +293,6 @@ filters:
   width: 0.140625
   height: 0.140625
   normal-curve-y: 90
-
 - name: bit-top
   left: 0.484375
   top: 0.078125
