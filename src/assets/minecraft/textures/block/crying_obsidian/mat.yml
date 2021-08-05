@@ -1,17 +1,18 @@
-alpha:
+publish-inventory: true
+opacity:
   value: 255
-albedo: {}
 height:
   scale: 0.5
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 6
-  step-distance: 0.15
-smooth: {}
+smooth:
+  shift: -0.35
+  scale: 2
 f0:
-  value: 0.04
+  value: 0.047
 porosity:
   value: 0
-create-inventory: true

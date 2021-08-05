@@ -1,23 +1,17 @@
 publish-inventory: true
 opacity:
   value: 255
-color:
-  value-red: 21
-  value-green: 14
-  value-blue: 35
 height:
   scale: 0.5
 normal:
   method: sobel-low
-  strength: 2
+  strength: 3
 occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 3
 smooth:
-  shift: -0.4
-  scale: 1.5
+  shift: -0.35
+  scale: 2
 f0:
   value: 0.047
-porosity:
-  value: 0
