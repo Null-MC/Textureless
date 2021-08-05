@@ -1,0 +1,19 @@
+publish-inventory: true
+color:
+  value-red: 230
+  value-green: 245
+  value-blue: 255
+height:
+  scale: 0.3
+normal:
+  noise: 6
+  strength: 0.7
+occlusion:
+  step-distance: 0.15
+  z-scale: 1
+smooth:
+  value: 0.6
+f0:
+  value: 0.02
+sss:
+  value: 1

@@ -1,0 +1,21 @@
+opacity:
+  value: 255
+color:
+  value-red: 145
+  value-green: 100
+  value-blue: 76
+height:
+  scale: 0.2
+normal:
+  method: sobel3
+  strength: 0.4
+  noise: 0
+occlusion:
+  step-distance: 0.15
+  z-scale: 2
+smooth:
+  value: 0.06
+f0:
+  value: 0.02
+sss:
+  value: 0.24

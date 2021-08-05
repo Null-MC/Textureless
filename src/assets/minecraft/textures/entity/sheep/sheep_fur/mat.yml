@@ -54,14 +54,14 @@ filters:
 - name: body-front
   left: 0.53125
   top: 0.25
-  width: 0.140625
+  width: 0.125
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
 - name: body-back
-  left: 0.671875
+  left: 0.65625
   top: 0.25
-  width: 0.140625
+  width: 0.125
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90

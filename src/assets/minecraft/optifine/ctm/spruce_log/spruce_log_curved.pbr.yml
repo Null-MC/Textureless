@@ -1,20 +1,22 @@
-alpha:
+wrap-x: false
+opacity:
   value: 255
-albedo:
+color:
   value-red: 61
   value-green: 40
   value-blue: 18
 height:
   texture: height.png
-  scale: 0.6
+  value: 0
+  shift: -0.16
+  scale: 0.4
   edge-fade-x: 1
 normal:
+  method: sobel3
   strength: 0.6
   noise: 2
   curve-x: 90
-  filter: sobel3
 occlusion:
-  quality: 0.1
   z-bias: 0.1
   z-scale: 3
 smooth:
@@ -23,7 +25,6 @@ f0:
   value: 0.03
 porosity:
   value: 0.55
-wrap-x: false
 parts:
 - name: 4
   left: 0

@@ -1,7 +1,3 @@
-wrap-x: true
-wrap-y: true
-opacity:
-  value: 255
 color:
   value-red: 195
   value-green: 106

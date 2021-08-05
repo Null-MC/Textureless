@@ -1,4 +1,4 @@
-albedo:
+color:
   value-red: 146
   value-green: 228
   value-blue: 247
@@ -8,11 +8,12 @@ height:
   edge-fade-x: 4
   edge-fade-y: 4
 normal:
-  filter: sobel-high
+  method: sobel-high
+  strength: 3
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 3
-  step-distance: 0.2
 smooth:
   value: 1
   scale: 1.5

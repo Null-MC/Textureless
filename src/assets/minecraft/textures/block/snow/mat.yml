@@ -1,21 +1,20 @@
 publish-inventory: true
-alpha:
+opacity:
   value: 255
-albedo:
-  value-red: 178
-  value-green: 195
-  value-blue: 206
+color:
+  value-red: 198
+  value-green: 221
+  value-blue: 236
 height:
   scale: 0.7
 normal:
+  noise: 16
   strength: 2
-  noise: 2
 occlusion:
   step-distance: 0.15
   z-scale: 3
 smooth:
-  value: 0.5
+  shift: 0.3
+  scale: 0.7
 f0:
   value: 0.02
-sss:
-  value: 1

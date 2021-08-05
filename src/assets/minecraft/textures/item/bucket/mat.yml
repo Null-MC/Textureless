@@ -1,0 +1,19 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
+bake-occlusion-to-color: true
+color:
+  value-red: 200
+  value-green: 204
+  value-blue: 209
+height:
+  value: 0
+normal:
+  method: sobel3
+  strength: 2
+occlusion:
+  z-scale: 8
+smooth:
+  value: 0.6
+metal:
+  value: 230

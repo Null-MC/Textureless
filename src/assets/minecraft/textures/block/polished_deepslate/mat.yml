@@ -1,0 +1,25 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
+color:
+  value-red: 73
+  value-green: 73
+  value-blue: 74
+height:
+  scale: 0.04
+  edge-fade-x: 1.5
+  edge-fade-y: 1.5
+normal:
+  noise: 1
+  method: sobel-high
+  strength: 0.16
+occlusion:
+  scale: 0.6
+  step-distance: 0.15
+  z-scale: 1
+smooth:
+  scale: 0.9
+f0:
+  value: 0.03
+porosity:
+  value: 0.2
