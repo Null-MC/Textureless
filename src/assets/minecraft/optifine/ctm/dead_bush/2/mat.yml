@@ -1,18 +1,18 @@
 wrap-x: false
 wrap-y: false
 color:
-  value-red: 160
-  value-green: 155
-  value-blue: 150
+  value-red: 190
+  value-green: 185
+  value-blue: 180
 height:
   texture: opacity.png
   scale: 0.05
   edge-fade-x: 0.1
   edge-fade-y: 0.1
 normal:
+  noise: 4
   method: sobel-low
   strength: 2
-  noise: 4
 occlusion:
   z-scale: 12
 smooth:

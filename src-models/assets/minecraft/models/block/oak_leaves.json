@@ -1,5 +1,5 @@
 {
-   "parent": "block/leaves_template",
+   "parent": "block/leaves_ctm_template",
     "textures": {
         "all": "block/oak_leaves"
     }
