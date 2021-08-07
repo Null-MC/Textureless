@@ -1,10 +1,10 @@
 {
     "parent": "block/cube_bottom_top",
     "textures": {
-        "particle": "block/dirt",
+        "particle": "block/dirt_inventory",
         "top": "block/podzol_top",
-        "bottom": "block/dirt",
-        "side": "block/dirt",
+        "bottom": "block/coarse_dirt",
+        "side": "block/coarse_dirt",
         "overlay": "block/podzol_side_overlay"
     },
     "elements": [
