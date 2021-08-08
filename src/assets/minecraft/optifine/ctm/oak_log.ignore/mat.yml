@@ -1,0 +1,30 @@
+height:
+  shift: -0.16
+  scale: 0.2
+  edge-fade-x: 1
+normal:
+  noise: 2
+  method: sobel3
+occlusion:
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 5
+smooth:
+  value: 0.02
+f0:
+  value: 0.03
+porosity:
+  value: 0.7
+ctm:
+  type: repeat
+  count-x: 3
+  count-y: 3
+filters:
+- width: 0.333333
+  normal-curve-x: 90
+- left: 0.333333
+  width: 0.333333
+  normal-curve-x: 90
+- left: 0.666666
+  width: 0.333333
+  normal-curve-x: 90

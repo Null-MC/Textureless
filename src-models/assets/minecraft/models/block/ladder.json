@@ -1,8 +1,8 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/ladder_inventory",
-		"texture": "block/ladder"
+		"particle": "block/ladder_alt",
+		"texture": "block/ladder_alt"
 	},
 	"elements": [
 		{

@@ -4,9 +4,9 @@ height:
   shift: -0.2
   scale: 0.2
 normal:
+  noise: 9
   method: sobel3
-  strength: 2
-  noise: 6
+  strength: 3
 occlusion:
   step-distance: 0.15
   z-bias: 0
