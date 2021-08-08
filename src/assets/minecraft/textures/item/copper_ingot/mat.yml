@@ -3,9 +3,9 @@ wrap-x: false
 wrap-y: false
 bake-occlusion-to-color: true
 color:
-  value-red: 200
-  value-green: 204
-  value-blue: 209
+  value-red: 243
+  value-green: 162
+  value-blue: 137
 height:
   value: 0
 normal:
@@ -13,11 +13,10 @@ normal:
   method: sobel3
   strength: 4
 occlusion:
-  scale: 0.7
   step-distance: 0.15
   z-bias: 0
   z-scale: 9
 smooth:
   value: 0.75
 metal:
-  value: 230
+  value: 234

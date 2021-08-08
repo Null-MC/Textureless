@@ -1,4 +1,8 @@
 color-tint: '#91BD59'
+color:
+  scale-red: 0.8
+  scale-green: 0.9
+  scale-blue: 0.9
 height:
   value: 0
   shift: -0.2
@@ -16,7 +20,7 @@ smooth:
 f0:
   value: 0.01
 sss:
-  scale: 2
+  scale: 0.6
 ctm:
   type: repeat
   count-x: 8

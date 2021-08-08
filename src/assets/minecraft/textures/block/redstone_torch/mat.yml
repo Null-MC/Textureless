@@ -1,16 +1,10 @@
-albedo: {}
+wrap-x: false
+wrap-y: false
 height:
   value: 0
 normal:
-  strength: 0.4
   noise: 1
-  filter: sobel-low
+  method: sobel-low
+  strength: 0.4
 occlusion:
   value: 0
-f0:
-  value: 0.04
-porosity: {}
-emissive:
-  scale: 0.3
-wrap-x: false
-wrap-y: false

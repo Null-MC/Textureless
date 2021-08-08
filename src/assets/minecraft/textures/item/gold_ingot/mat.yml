@@ -9,9 +9,9 @@ color:
 height:
   value: 0
 normal:
+  noise: 1
   method: sobel3
   strength: 4
-  noise: 1
 occlusion:
   step-distance: 0.15
   z-bias: 0
@@ -19,4 +19,4 @@ occlusion:
 smooth:
   value: 0.75
 metal:
-  value: 255
+  value: 231
