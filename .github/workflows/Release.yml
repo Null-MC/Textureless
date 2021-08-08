@@ -49,6 +49,20 @@ jobs:
           name: Textureless-OldPbr-32x
           path: Textureless-OldPbr-32x.zip
 
+  Publish-RTX-32x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/BRtx-32x.pack.yml" -z "//content/Textureless-RTX-32x.zip"
+      - name: Upload RTX 32x
+        uses: actions/upload-artifact@v2
+        with:
+          name: Textureless-RTX-32x
+          path: Textureless-RTX-32x.zip
+
   Publish-Models-LabPbr-32x:
     runs-on: ubuntu-latest
     steps:
@@ -107,6 +121,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: Textureless-OldPbr-32x
+      - name: Download RTX 32x
+        uses: actions/download-artifact@v2
+        with:
+          name: Textureless-RTX-32x
       - name: Download Models LabPbr 32x
         uses: actions/download-artifact@v2
         with:
@@ -153,6 +171,15 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Textureless-OldPbr-32x.zip
           asset_name: Textureless-OldPbr-32x.zip
+          asset_content_type: application/zip
+      - name: Upload RTX 32x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-RTX-32x.zip
+          asset_name: Textureless-RTX-32x.zip
           asset_content_type: application/zip
 
       - name: Upload Models LabPbr 32x
