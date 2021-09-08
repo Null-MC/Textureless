@@ -1,0 +1,96 @@
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  method: sobel-low
+occlusion:
+  z-scale: 4
+smooth:
+  value: 0.3
+f0:
+  value: 0.26
+filters:
+- name: body-top
+  left: 0.1875
+  top: 0
+  width: 0.1875
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: body-bottom
+  left: 0.375
+  top: 0
+  width: 0.1875
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: body-right
+  left: 0
+  top: 0.375
+  width: 0.1875
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: body-front
+  left: 0.1875
+  top: 0.375
+  width: 0.1875
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: body-left
+  left: 0.375
+  top: 0.375
+  width: 0.1875
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: body-back
+  left: 0.5625
+  top: 0.375
+  width: 0.1875
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+
+- name: tentacle-top
+  left: 0.78125
+  top: 0
+  width: 0.03125
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: tentacle-bottom
+  left: 0.8125
+  top: 0
+  width: 0.03125
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: tentacle-right
+  left: 0.75
+  top: 0.0625
+  width: 0.03125
+  height: 0.5625
+  normal-curve-x: 90
+- name: tentacle-front
+  left: 0.78125
+  top: 0.0625
+  width: 0.03125
+  height: 0.5625
+  normal-curve-x: 90
+- name: tentacle-left
+  left: 0.8125
+  top: 0.0625
+  width: 0.03125
+  height: 0.5625
+  normal-curve-x: 90
+- name: tentacle-back
+  left: 0.84375
+  top: 0.0625
+  width: 0.03125
+  height: 0.5625
+  normal-curve-x: 90

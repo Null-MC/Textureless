@@ -1,0 +1,25 @@
+publish-inventory: true
+wrap-x: false
+wrap-y: false
+opacity:
+  scale: 0.08
+color:
+  value-red: 231
+  value-green: 235
+  value-blue: 236
+height:
+  scale: 0.03
+normal:
+  method: sobel3
+  strength: 0.01
+occlusion:
+  value: 0
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 1
+smooth:
+  value: 0.6
+f0:
+  value: 0.05
+sss:
+  value: 1

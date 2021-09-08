@@ -6,6 +6,9 @@ color:
   value-red: 128
   value-green: 128
   value-blue: 128
+  scale-red: 0.8
+  scale-green: 0.9
+  scale-blue: 0.9
 height:
   scale: 0.05
   edge-fade-x: 0.1

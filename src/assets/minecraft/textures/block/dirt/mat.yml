@@ -7,6 +7,6 @@ normal:
   noise: 4
   method: sobel-high
 occlusion:
-  step-distance: 0.15
+  step-distance: 0.2
   z-bias: 0
   z-scale: 3

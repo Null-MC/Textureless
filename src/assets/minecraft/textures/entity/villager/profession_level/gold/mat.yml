@@ -1,20 +1,20 @@
 texture-size: 64
-albedo:
+color:
   value-red: 248
   value-green: 205
   value-blue: 77
-height:
-  value: 0
-normal:
-  strength: 2
-  filter: sobel3
 occlusion:
-  z-bias: 0
-  z-scale: 3
-  step-distance: 0.15
+  value: 0
 smooth:
   value: 0.9
 metal:
-  value: 255
-f0: {}
-sss: {}
+  value: 231
+filters:
+- left: 0.171875
+  top: 0.84375
+  width: 0.03125
+  height: 0.046875
+  normal-curve-x: 120
+  normal-curve-y: 120
+  normal-radius-x: 0.7
+  normal-radius-y: 0.5

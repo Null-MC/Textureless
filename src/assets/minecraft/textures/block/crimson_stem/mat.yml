@@ -1,16 +1,17 @@
 publish-inventory: true
 wrap-x: false
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.02
   scale: 0.2
   edge-fade-x: 0.5
 normal:
-  method: sobel-low
-  strength: 0.3
   noise: 3
   curve-x: 90
+  radius-x: 0.6
+  method: sobel-low
+  strength: 0.3
 occlusion:
   step-distance: 0.2
   z-bias: 0

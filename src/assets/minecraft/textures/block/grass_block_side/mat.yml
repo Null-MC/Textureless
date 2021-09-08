@@ -1,0 +1,16 @@
+publish-inventory: true
+wrap-y: false
+opacity:
+  value: 255
+height:
+  scale: 0.2
+  edge-fade-y: 1
+normal:
+  noise: 4
+  method: sobel-high
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 3
+sss:
+  scale: 0.1

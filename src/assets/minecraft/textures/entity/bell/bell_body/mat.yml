@@ -1,61 +1,93 @@
 texture-size: 32
 wrap-x: false
 wrap-y: false
-albedo:
-  value-red: 194
-  value-green: 167
-  value-blue: 120
+color:
+  value-red: 133
+  value-green: 102
+  value-blue: 65
 height:
   scale: 0.5
 normal:
+  noise: 1
   method: sobel-high
   strength: 0.5
 occlusion:
   step-distance: 0.15
   z-scale: 6
-smooth:
-  value: 0.4
 metal:
-  value: 255
+  value: 234
 filters:
 - name: top-up
   left: 0.375
   top: 0
   width: 0.1875
   height: 0.1875
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
 - name: top-east
   left: 0
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
+  normal-curve-top: -90
+  normal-curve-bottom: 90
+  normal-radius-x: 0.8
+  normal-radius-top: 0.3
+  normal-radius-bottom: 0.7
 - name: top-south
   left: 0.1875
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
+  normal-curve-top: -90
+  normal-curve-bottom: 90
+  normal-radius-x: 0.8
+  normal-radius-top: 0.3
+  normal-radius-bottom: 0.7
 - name: top-west
   left: 0.375
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
+  normal-curve-top: -90
+  normal-curve-bottom: 90
+  normal-radius-x: 0.8
+  normal-radius-top: 0.3
+  normal-radius-bottom: 0.7
 - name: top-north
   left: 0.5625
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
-- name: bottom-down
+  normal-curve-top: -90
+  normal-curve-bottom: 90
+  normal-radius-x: 0.8
+  normal-radius-top: 0.3
+  normal-radius-bottom: 0.7
+- name: bottom-down-1
+  left: 0.25
+  top: 0.40625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: bottom-down-2
   left: 0.28125
   top: 0.4375
   width: 0.1875
   height: 0.1875
   normal-curve-x: -90
   normal-curve-y: -90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.6
 - name: bottom-up
   left: 0.5
   top: 0.40625
@@ -63,31 +95,37 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
 - name: bottom-east
   left: 0
   top: 0.65625
   width: 0.25
   height: 0.0625
   normal-curve-x: 90
-  normal-curve-y: 180
+  normal-curve-y: 90
+  normal-radius-x: 0.5
 - name: bottom-south
   left: 0.25
   top: 0.65625
   width: 0.25
   height: 0.0625
   normal-curve-x: 90
-  normal-curve-y: 180
+  normal-curve-y: 90
+  normal-radius-x: 0.5
 - name: bottom-west
   left: 0.5
   top: 0.65625
   width: 0.25
   height: 0.0625
   normal-curve-x: 90
-  normal-curve-y: 180
+  normal-curve-y: 90
+  normal-radius-x: 0.5
 - name: bottom-north
   left: 0.75
   top: 0.65625
   width: 0.25
   height: 0.0625
   normal-curve-x: 90
-  normal-curve-y: 180
+  normal-curve-y: 90
+  normal-radius-x: 0.5

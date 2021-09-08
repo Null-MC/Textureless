@@ -1,18 +1,20 @@
 wrap-x: false
 wrap-y: false
-alpha:
+opacity:
   value: 255
 height:
   scale: 0.2
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
-  strength: 0.5
   curve-x: 90
   curve-y: 90
+  radius-x: 0.6
+  radius-y: 0.6
+  strength: 0.5
 occlusion:
-  z-scale: 4
   step-distance: 0.15
+  z-scale: 4
 smooth:
   scale: 0.5
 f0:

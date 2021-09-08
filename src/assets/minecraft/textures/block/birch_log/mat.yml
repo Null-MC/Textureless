@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 opacity:
   value: 255
@@ -6,9 +6,9 @@ height:
   scale: 0.2
   edge-fade-x: 0.8
 normal:
-  method: sobel-high
   noise: 1
   curve-x: 90
+  method: sobel-high
 occlusion:
   step-distance: 0.15
   z-bias: 0

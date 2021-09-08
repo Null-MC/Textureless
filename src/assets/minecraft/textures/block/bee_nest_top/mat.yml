@@ -1,17 +1,19 @@
-alpha:
+publish-inventory: true
+opacity:
   value: 255
 height:
   shift: -0.05
   scale: 0.3
 normal:
-  strength: 0.3
   curve-x: 60
   curve-y: 60
-  filter: sobel-high
+  radius-x: 0.4
+  radius-y: 0.4
+  method: sobel-high
+  strength: 0.3
 occlusion:
+  step-distance: 0.2
   z-bias: 1
   z-scale: 3
-  step-distance: 0.2
 sss:
   scale: 0.2
-create-inventory: true

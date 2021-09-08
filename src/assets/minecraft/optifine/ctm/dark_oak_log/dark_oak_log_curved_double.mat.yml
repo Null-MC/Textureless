@@ -1,0 +1,30 @@
+wrap-x: false
+color:
+  texture: color_double.png
+height:
+  texture: height_double.png
+  shift: -0.2
+  scale: 0.26
+  edge-fade-x: 1
+normal:
+  noise: 7
+  curve-x: 90
+occlusion:
+  z-scale: 3
+smooth:
+  value: 0
+f0:
+  value: 0.03
+porosity:
+  value: 0.55
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 16
+  height: 16
+- name: 3
+  left: 16
+  top: 0
+  width: 16
+  height: 16

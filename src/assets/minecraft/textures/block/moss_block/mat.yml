@@ -1,0 +1,12 @@
+publish-inventory: true
+height:
+  scale: 0.14
+normal:
+  noise: 20
+  method: sobel3
+occlusion:
+  z-scale: 4
+smooth:
+  value: 0.06
+f0:
+  value: 0.02

@@ -1,6 +1,8 @@
-alpha:
+publish-item: true
+wrap-x: false
+opacity:
   value: 255
-albedo:
+color:
   value-red: 88
   value-green: 70
   value-blue: 26
@@ -8,20 +10,18 @@ height:
   scale: 0.12
   edge-fade-x: 1
 normal:
-  strength: 0.3
   noise: 2
   curve-x: 90
-  filter: sobel-high
+  radius-x: 0.5
+  method: sobel-high
+  strength: 0.3
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 1
-  step-distance: 0.2
 smooth:
   value: 0.02
-metal: {}
 f0:
   value: 0.04
 porosity:
   value: 0.4
-create-inventory: true
-wrap-x: false

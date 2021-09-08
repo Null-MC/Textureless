@@ -4,9 +4,9 @@ opacity:
 height:
   scale: 0.4
 normal:
-  method: sobel-high
+  noise: 2
+  method: sobel-low
   strength: 0.5
-  noise: 1
 occlusion:
   step-distance: 0.15
   z-bias: 0

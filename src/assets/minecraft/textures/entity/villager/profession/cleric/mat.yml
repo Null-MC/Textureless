@@ -4,11 +4,12 @@ wrap-y: false
 height:
   value: 0
 normal:
-  filter: sobel-low
+  method: sobel-low
+  strength: 0.1
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 filters:
 - name: headwear-right
   left: 0.5
@@ -16,28 +17,24 @@ filters:
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
 - name: headwear-front
   left: 0.625
   top: 0.125
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
 - name: headwear-left
   left: 0.75
   top: 0.125
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
 - name: headwear-back
   left: 0.875
   top: 0.125
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
 - name: bodywear-top
   left: 0.09375
   top: 0.59375
@@ -45,31 +42,39 @@ filters:
   height: 0.09375
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.6
 - name: bodywear-right
   left: 0
   top: 0.6875
   width: 0.09375
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 90
+  normal-radius-y: 0.24
 - name: bodywear-front
   left: 0.09375
   top: 0.6875
   width: 0.125
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.24
 - name: bodywear-left
   left: 0.21875
   top: 0.6875
   width: 0.09375
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 90
+  normal-radius-y: 0.24
 - name: bodywear-back
   left: 0.3125
   top: 0.6875
   width: 0.125
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.24

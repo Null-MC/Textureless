@@ -1,17 +1,21 @@
 publish-inventory: true
 wrap-x: false
 wrap-y: false
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 248
   value-green: 205
   value-blue: 77
 height:
-  edge-fade-x: 2
-  edge-fade-y: 2
+  value: 0
 normal:
-  method: sobel-high
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.1
+  radius-y: 0.1
+  method: sobel3
+  strength: 0.4
 occlusion:
   step-distance: 0.15
   z-bias: 0

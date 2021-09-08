@@ -1,8 +1,8 @@
-color-tint: '#91BD59'
 color:
   scale-red: 0.8
   scale-green: 0.9
   scale-blue: 0.9
+  preview-tint: '#91BD59'
 height:
   value: 0
   shift: -0.2

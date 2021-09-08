@@ -1,22 +1,21 @@
-alpha:
+publish-inventory: true
+wrap-y: false
+opacity:
   value: 255
 height:
   shift: -0.05
   scale: 0.8
   edge-fade-x: 0.4
 normal:
-  strength: 0.8
   curve-x: 90
   curve-y: 60
-  filter: sobel3
+  radius-x: 0.4
+  radius-y: 0.3
+  method: sobel3
+  strength: 0.8
 occlusion:
+  step-distance: 0.2
   z-bias: 1
   z-scale: 4
-  step-distance: 0.2
-smooth: {}
-f0: {}
-porosity: {}
 sss:
   scale: 0.2
-create-inventory: true
-wrap-y: false

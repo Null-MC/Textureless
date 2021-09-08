@@ -1,0 +1,21 @@
+height:
+  shift: -0.6
+  scale: 0.2
+  edge-fade-x: 2
+  edge-fade-y: 2
+  edge-fade-strength: 0.7
+normal:
+  noise: 4
+  method: sobel-high
+  strength: 4
+occlusion:
+  step-distance: 0.2
+  z-scale: 5
+smooth:
+  scale: 0.3
+f0:
+  value: 0.03
+ctm:
+  type: repeat
+  count-x: 3
+  count-y: 3

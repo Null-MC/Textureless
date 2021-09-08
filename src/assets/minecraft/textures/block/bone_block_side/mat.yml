@@ -1,7 +1,7 @@
-create-inventory: true
-alpha:
+publish-inventory: true
+opacity:
   value: 255
-albedo:
+color:
   value-red: 227
   value-green: 223
   value-blue: 204
@@ -10,6 +10,7 @@ height:
 normal:
   noise: 1
   curve-x: 90
+  radius-x: 0.25
 occlusion:
   value: 0.0
 porosity:

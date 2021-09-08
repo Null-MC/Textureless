@@ -1,9 +1,9 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: true
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 104
   value-green: 97
   value-blue: 88
@@ -12,10 +12,10 @@ height:
   scale: 0.5
   edge-fade-x: 1
 normal:
-  method: sobel3
-  strength: 0.6
   noise: 3
   curve-x: 90
+  method: sobel3
+  strength: 0.6
 occlusion:
   step-distance: 0.2
   z-bias: 0

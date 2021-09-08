@@ -4,12 +4,12 @@ opacity:
 height:
   scale: 0.3
 normal:
-  method: sobel-low
-  strength: 0.7
   noise: 3
+  method: sobel-low
+  strength: 0.5
 occlusion:
-  step-distance: 0.15
+  step-distance: 0.2
   z-bias: 0
-  z-scale: 3
+  z-scale: 5
 emissive:
   scale: 0.3

@@ -1,0 +1,18 @@
+publish-inventory: true
+color:
+  value-red: 243
+  value-green: 162
+  value-blue: 137
+smooth:
+  value: 0.8
+metal:
+  value: 234
+filters:
+- width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- top: 0.25
+  width: 0.125
+  height: 0.75
+  normal-curve-x: 90

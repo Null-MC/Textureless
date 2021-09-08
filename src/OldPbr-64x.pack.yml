@@ -1,0 +1,35 @@
+edition: java
+format: 7
+name: Textureless-OldPbr-64x
+description: No Textures! PBR shader required.
+tags: 64x OldPBR
+encoding:
+  format: old-pbr
+  sampler: nearest
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
+  height:
+    sampler: bilinear
+  occlusion: {}
+  normal-x:
+    sampler: bilinear
+  normal-y:
+    sampler: bilinear
+  normal-z:
+    sampler: bilinear
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 64
+texture-scale: 4
+auto-generate-occlusion: false
+bake-occlusion-to-color: true
+occlusion-quality: 0.1
+occlusion-power: 2

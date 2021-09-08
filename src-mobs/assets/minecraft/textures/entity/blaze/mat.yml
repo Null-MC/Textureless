@@ -1,0 +1,10 @@
+texture-width: 64
+texture-height: 32
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+occlusion:
+  value: 0
+f0:
+  value: 0.04

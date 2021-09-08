@@ -1,5 +1,9 @@
 publish-inventory: true
 color-tint: '#79C05A'
+color:
+  scale-red: 0.8
+  scale-green: 0.8
+  scale-blue: 0.8
 height:
   value: 0
 normal:

@@ -1,20 +1,21 @@
 publish-inventory: true
-alpha:
+opacity:
   value: 255
-albedo: {}
 height:
   scale: 0.4
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
-  strength: 0.4
   curve-x: 90
   curve-y: 90
-  filter: sobel-low
+  radius-x: 0.6
+  radius-y: 0.6
+  method: sobel-low
+  strength: 0.4
 occlusion:
+  step-distance: 0.2
   z-bias: 1
   z-scale: 2
-  step-distance: 0.2
 smooth:
   value: 0.15
 f0:
@@ -23,4 +24,3 @@ porosity:
   value: 0
 sss:
   value: 0.01
-create-inventory: true

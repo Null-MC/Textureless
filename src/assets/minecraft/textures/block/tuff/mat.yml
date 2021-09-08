@@ -1,0 +1,14 @@
+publish-inventory: true
+normal:
+  noise: 4
+  method: sobel3
+occlusion:
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 2
+smooth:
+  value: 0.05
+f0:
+  value: 0.04
+porosity:
+  value: 0.8

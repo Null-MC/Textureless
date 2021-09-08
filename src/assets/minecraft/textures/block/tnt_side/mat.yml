@@ -1,9 +1,14 @@
+publish-inventory: true
 wrap-y: false
-alpha:
+opacity:
   value: 255
 height:
   scale: 0.4
 normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
   method: sobel-high
 occlusion:
   z-scale: 4
@@ -11,4 +16,3 @@ f0:
   value: 0.04
 porosity:
   value: 0.6
-publish-inventory: true

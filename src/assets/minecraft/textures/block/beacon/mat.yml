@@ -1,14 +1,16 @@
-create-inventory: true
-alpha:
+publish-inventory: true
+opacity:
   value: 255
-albedo:
+color:
   value-red: 73
   value-green: 213
   value-blue: 204
 normal:
   curve-x: 90
   curve-y: 90
-  filter: sobel3
+  radius-x: 0.25
+  radius-y: 0.25
+  method: sobel3
 occlusion:
   value: 0
 smooth:

@@ -1,0 +1,28 @@
+height:
+  scale: 0.5
+  edge-fade-x: 0.8
+  edge-fade-y: 0.8
+normal:
+  method: sobel-low
+  strength: 1.5
+occlusion:
+  z-bias: 2
+  z-scale: 1
+smooth:
+  shift: 2
+  scale: 0.3
+metal:
+  value: 231
+porosity:
+  value: 0
+ctm:
+  type: repeat
+  count-x: 8
+  count-y: 8
+filters:
+- name: block
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2

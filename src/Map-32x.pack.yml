@@ -1,0 +1,32 @@
+edition: java
+format: 7
+name: Textureless-Map-32x
+description: For external map usage only.
+tags: 32x
+encoding:
+  format: color
+  sampler: nearest
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
+  height:
+    sampler: bilinear
+  occlusion: {}
+  normal-x: {}
+  normal-y: {}
+  normal-z: {}
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 32
+texture-scale: 2
+auto-generate-occlusion: true
+bake-occlusion-to-color: true
+occlusion-quality: 0.1
+occlusion-power: 2

@@ -1,16 +1,18 @@
 publish-inventory: true
 opacity:
   value: 255
+height:
+  scale: 0.8
 normal:
+  noise: 2
   method: sobel3
   strength: 0.7
-  noise: 2
 occlusion:
   step-distance: 0.15
   z-scale: 3
 smooth:
   scale: 0.4
 f0:
-  value: 0.04
+  value: 0.03
 porosity:
   value: 0.4

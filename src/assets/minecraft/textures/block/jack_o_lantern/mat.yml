@@ -9,9 +9,11 @@ height:
   edge-fade-x: 0.6
   edge-fade-y: 0.6
 normal:
-  method: sobel-high
   curve-x: 90
   curve-y: 90
+  radius-x: 0.6
+  radius-y: 0.6
+  method: sobel-high
 occlusion:
   step-distance: 0.2
   z-bias: 0

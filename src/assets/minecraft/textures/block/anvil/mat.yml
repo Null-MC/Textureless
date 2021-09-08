@@ -1,0 +1,14 @@
+color:
+  value-red: 66
+  value-green: 66
+  value-blue: 66
+height:
+  value: 0
+normal:
+  noise: 6
+occlusion:
+  value: 0
+smooth:
+  value: 0.36
+metal:
+  value: 230

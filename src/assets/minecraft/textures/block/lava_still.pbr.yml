@@ -1,16 +1,16 @@
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 217
   value-green: 111
   value-blue: 32
 height:
+  value: 0
+occlusion:
   value: 0
 smooth:
   value: 0
 porosity:
   value: 0
 emissive:
-  value: 0.78
-occlusion:
-  value: 0
+  value: 0.5

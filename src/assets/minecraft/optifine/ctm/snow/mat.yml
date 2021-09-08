@@ -10,8 +10,8 @@ height:
   edge-fade-x: 4
   edge-fade-y: 4
 normal:
-  strength: 1.5
   noise: 16
+  strength: 1.5
 occlusion:
   scale: 0.7
   step-distance: 0.15

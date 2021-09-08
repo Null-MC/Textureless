@@ -1,12 +1,11 @@
 wrap-x: true
 wrap-y: true
-alpha: {}
 height:
   shift: -0.1
   scale: 0.4
 normal:
-  method: sobel-high
   noise: 6
+  method: sobel-high
 occlusion:
   step-distance: 0.3
   z-bias: 1

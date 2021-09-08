@@ -3,10 +3,11 @@ color:
   value-green: 228
   value-blue: 247
 height:
-  shift: -0.25
-  scale: 0.2
-  edge-fade-x: 4
-  edge-fade-y: 4
+  shift: -0.4
+  scale: 2
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
+  edge-fade-strength: 0.7
 normal:
   method: sobel-high
   strength: 3
@@ -15,8 +16,7 @@ occlusion:
   z-bias: 0
   z-scale: 3
 smooth:
-  value: 1
-  scale: 1.5
+  shift: 0.36
 f0:
   value: 0.172
 ctm:

@@ -1,15 +1,15 @@
 texture-size: 64
 wrap-x: false
 wrap-y: false
-alpha:
+opacity:
   texture: alpha.png
 height:
   texture: height.png
   value: 0
 normal:
+  noise: 2
   method: sobel-high
   strength: 2
-  noise: 2
 occlusion:
   texture: occlusion.png
   step-distance: 0.3
@@ -21,3 +21,190 @@ f0:
   texture: f0.png
 porosity:
   texture: porosity.png
+filters:
+- name: head-top
+  left: 0.09375
+  top: 0
+  width: 0.25
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.8
+- name: head-bottom
+  left: 0.34375
+  top: 0
+  width: 0.25
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.8
+- name: head-right
+  left: 0
+  top: 0.09375
+  width: 0.09375
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-top: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.4
+- name: head-front
+  left: 0.09375
+  top: 0.09375
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-top: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: head-left
+  left: 0.34375
+  top: 0.09375
+  width: 0.09375
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-top: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.4
+- name: foot-top
+  left: 0.09375
+  top: 0.34375
+  width: 0.25
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.8
+- name: foot-bottom
+  left: 0.34375
+  top: 0.34375
+  width: 0.25
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.8
+- name: foot-right
+  left: 0
+  top: 0.4375
+  width: 0.09375
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.4
+- name: foot-front
+  left: 0.09375
+  top: 0.4375
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: foot-left
+  left: 0.34375
+  top: 0.4375
+  width: 0.09375
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.4
+- name: foot-leg-right-right
+  left: 0.78125
+  top: 0.046875
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: foot-leg-right-front
+  left: 0.828125
+  top: 0.046875
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: foot-leg-right-left
+  left: 0.875
+  top: 0.046875
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: foot-leg-right-back
+  left: 0.921875
+  top: 0.046875
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-right-right
+  left: 0.78125
+  top: 0.140625
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-right-front
+  left: 0.828125
+  top: 0.140625
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-right-left
+  left: 0.875
+  top: 0.140625
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-right-back
+  left: 0.921875
+  top: 0.140625
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: foot-leg-left-right
+  left: 0.78125
+  top: 0.234375
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: foot-leg-left-front
+  left: 0.828125
+  top: 0.234375
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: foot-leg-left-left
+  left: 0.875
+  top: 0.234375
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: foot-leg-left-back
+  left: 0.921875
+  top: 0.234375
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-left-right
+  left: 0.78125
+  top: 0.328125
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-left-front
+  left: 0.828125
+  top: 0.328125
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-left-left
+  left: 0.875
+  top: 0.328125
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90
+- name: head-leg-left-back
+  left: 0.921875
+  top: 0.328125
+  width: 0.046875
+  height: 0.046875
+  normal-curve-x: 90

@@ -11,6 +11,6 @@ normal:
 occlusion:
   step-distance: 0.2
   z-bias: 0
-  z-scale: 10
+  z-scale: 5
 porosity:
   scale: 0.6
