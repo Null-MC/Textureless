@@ -1,0 +1,26 @@
+height:
+  value: 0
+normal:
+  noise: 6
+  strength: 2
+f0:
+  value: 0.05
+filters:
+- name: Top
+  left: 0.25
+  top: 0.6875
+  width: 0.5
+  height: 0.3125
+  normal-curve-x: 120
+- name: Middle
+  left: 0.1875
+  top: 0.3125
+  width: 0.625
+  height: 0.375
+  normal-curve-x: 120
+- name: Bottom
+  left: 0.125
+  top: 0
+  width: 0.75
+  height: 0.3125
+  normal-curve-x: 120

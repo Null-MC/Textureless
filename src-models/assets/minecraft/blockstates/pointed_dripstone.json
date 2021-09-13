@@ -1,0 +1,84 @@
+{
+  "variants": {
+    "thickness=base,vertical_direction=down": [
+      {
+        "model": "block/pointed_dripstone_down_base"
+      },
+      {
+        "model": "block/pointed_dripstone_down_base_alt"
+      }
+    ],
+    "thickness=base,vertical_direction=up": [
+      {
+        "model": "block/pointed_dripstone_up_base"
+      },
+      {
+        "model": "block/pointed_dripstone_up_base_alt"
+      }
+    ],
+    "thickness=frustum,vertical_direction=down": [
+      {
+        "model": "block/pointed_dripstone_down_frustum"
+      },
+      {
+        "model": "block/pointed_dripstone_down_frustum_alt"
+      }
+    ],
+    "thickness=frustum,vertical_direction=up": [
+      {
+        "model": "block/pointed_dripstone_up_frustum"
+      },
+      {
+        "model": "block/pointed_dripstone_up_frustum_alt"
+      }
+    ],
+    "thickness=middle,vertical_direction=down": [
+      {
+        "model": "block/pointed_dripstone_down_middle"
+      },
+      {
+        "model": "block/pointed_dripstone_down_middle_alt"
+      }
+    ],
+    "thickness=middle,vertical_direction=up": [
+      {
+        "model": "block/pointed_dripstone_up_middle"
+      },
+      {
+        "model": "block/pointed_dripstone_up_middle_alt"
+      }
+    ],
+    "thickness=tip,vertical_direction=down": [
+      {
+        "model": "block/pointed_dripstone_down_tip"
+      },
+      {
+        "model": "block/pointed_dripstone_down_tip_alt"
+      }
+    ],
+    "thickness=tip,vertical_direction=up": [
+      {
+        "model": "block/pointed_dripstone_up_tip"
+      },
+      {
+        "model": "block/pointed_dripstone_up_tip_alt"
+      }
+    ],
+    "thickness=tip_merge,vertical_direction=down": [
+      {
+        "model": "block/pointed_dripstone_down_tip_merge"
+      },
+      {
+        "model": "block/pointed_dripstone_down_tip_merge_alt"
+      }
+    ],
+    "thickness=tip_merge,vertical_direction=up": [
+      {
+        "model": "block/pointed_dripstone_up_tip_merge"
+      },
+      {
+        "model": "block/pointed_dripstone_up_tip_merge_alt"
+      }
+    ]
+  }
+}
