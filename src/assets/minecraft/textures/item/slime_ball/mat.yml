@@ -1,11 +1,11 @@
 texture-size: 16
 wrap-x: false
 wrap-y: false
-bake-occlusion-to-color: true
 color:
   value-red: 103
   value-green: 162
   value-blue: 95
+  bake-occlusion: true
 normal:
   method: sobel3
   strength: 2

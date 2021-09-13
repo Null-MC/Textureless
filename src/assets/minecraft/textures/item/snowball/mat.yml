@@ -1,14 +1,14 @@
-publish-inventory: true
+publish-item: true
 texture-size: 16
-bake-occlusion-to-color: true
 color:
   value-red: 209
   value-green: 228
   value-blue: 228
+  bake-occlusion: true
 normal:
+  noise: 5
   method: sobel3
   strength: 2
-  noise: 5
 smooth:
   value: 0.8
 f0:

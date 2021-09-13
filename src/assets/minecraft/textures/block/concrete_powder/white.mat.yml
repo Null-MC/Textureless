@@ -1,0 +1,18 @@
+albedo:
+  value-red: 207
+  value-green: 213
+  value-blue: 214
+height:
+  texture: height.png
+  scale: 0.1
+normal:
+  noise: 6
+  method: sobel-high
+  strength: 0.5
+occlusion:
+  texture: occlusion.png
+f0:
+  value: 0.03
+porosity:
+  value: 1
+publish-item: true

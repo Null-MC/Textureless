@@ -1,14 +1,14 @@
 texture-size: 16
-bake-occlusion-to-color: true
 color:
   value-red: 200
   value-green: 204
   value-blue: 209
+  bake-occlusion: true
 height:
   value: 0
 normal:
-  method: sobel3
   noise: 4
+  method: sobel3
 occlusion:
   step-distance: 0.15
   z-bias: 0

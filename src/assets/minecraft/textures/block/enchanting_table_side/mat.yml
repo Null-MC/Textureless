@@ -1,0 +1,17 @@
+publish-item: true
+wrap-y: false
+height:
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 2
+filters:
+- name: side
+  top: 0.25
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2

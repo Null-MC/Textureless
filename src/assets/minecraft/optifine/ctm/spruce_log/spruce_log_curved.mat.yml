@@ -1,0 +1,21 @@
+wrap-x: false
+color:
+  texture: color.png
+height:
+  texture: height.png
+  shift: -0.2
+  scale: 0.26
+  edge-fade-x: 1
+normal:
+  noise: 7
+  curve-x: 120
+  radius-x: 0.7
+  method: sobel3
+occlusion:
+  texture: occlusion.png
+smooth:
+  value: 0
+f0:
+  value: 0.03
+porosity:
+  value: 0.55

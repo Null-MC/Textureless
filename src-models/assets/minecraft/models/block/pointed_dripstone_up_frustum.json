@@ -1,0 +1,48 @@
+{
+  "ambientocclusion": true,
+	"textures": {
+		"particle": "block/pointed_dripstone_up_frustum",
+		"cross": "block/pointed_dripstone_up_frustum"
+	},
+	"elements": [
+		{
+			"name": "top",
+			"from": [4, 11, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 5], "texture": "#cross"},
+				"east": {"uv": [4, 0, 12, 5], "texture": "#cross"},
+				"south": {"uv": [4, 0, 12, 5], "texture": "#cross"},
+				"west": {"uv": [4, 0, 12, 5], "texture": "#cross"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#cross", "cullface": "up"},
+				"down": {"uv": [0, 0, 6, 6], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "middle",
+			"from": [3, 5, 3],
+			"to": [13, 11, 13],
+			"faces": {
+				"north": {"uv": [3, 5, 13, 11], "texture": "#cross"},
+				"east": {"uv": [3, 5, 13, 11], "texture": "#cross"},
+				"south": {"uv": [3, 5, 13, 11], "texture": "#cross"},
+				"west": {"uv": [3, 5, 13, 11], "texture": "#cross"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#cross"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [2, 0, 2],
+			"to": [14, 5, 14],
+			"faces": {
+				"north": {"uv": [2, 11, 14, 16], "texture": "#cross"},
+				"east": {"uv": [2, 11, 14, 16], "texture": "#cross"},
+				"south": {"uv": [2, 11, 14, 16], "texture": "#cross"},
+				"west": {"uv": [2, 11, 14, 16], "texture": "#cross"},
+				"up": {"uv": [3, 6, 13, 16], "texture": "#cross"},
+				"down": {"uv": [3, 6, 13, 16], "texture": "#cross", "cullface": "down"}
+			}
+		}
+	]
+}

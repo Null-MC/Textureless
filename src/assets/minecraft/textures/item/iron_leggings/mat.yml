@@ -1,9 +1,9 @@
 texture-size: 16
-bake-occlusion-to-color: true
 color:
   value-red: 200
   value-green: 204
   value-blue: 209
+  bake-occlusion: true
 height:
   value: 0
 normal:

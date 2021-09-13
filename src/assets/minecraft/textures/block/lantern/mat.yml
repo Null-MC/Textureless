@@ -1,15 +1,37 @@
-texture-width: 16
-texture-height: 16
 wrap-x: false
 wrap-y: false
 height:
   scale: 0.8
 normal:
-  filter: sobel3
+  method: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
-smooth: {}
 porosity:
   value: 0
+filters:
+- name: side
+  left: 0
+  top: 0.125
+  width: 0.375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.3
+- name: top
+  left: 0
+  top: 0.5625
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: glass
+  left: 0.0625
+  top: 0.1875
+  width: 0.25
+  height: 0.3125
+  normal-curve-x: 90

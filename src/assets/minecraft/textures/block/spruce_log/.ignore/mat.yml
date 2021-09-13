@@ -1,3 +1,5 @@
+publish-item: true
+wrap-x: false
 opacity:
   value: 255
 color:
@@ -5,17 +7,16 @@ color:
   value-green: 40
   value-blue: 18
 height:
-  texture: height.png
-  value: 0
-  shift: -0.2
-  scale: 0.4
+  scale: 0.6
   edge-fade-x: 1
 normal:
+  noise: 2
+  curve-x: 90
   method: sobel3
   strength: 0.6
-  noise: 2
 occlusion:
-  z-bias: 0.1
+  step-distance: 0.15
+  z-bias: 0
   z-scale: 3
 smooth:
   value: 0.01
@@ -23,9 +24,3 @@ f0:
   value: 0.03
 porosity:
   value: 0.55
-parts:
-- name: 2
-  left: 0
-  top: 0
-  width: 16
-  height: 16

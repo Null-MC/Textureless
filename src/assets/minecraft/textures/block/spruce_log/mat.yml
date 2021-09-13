@@ -1,25 +1,20 @@
 publish-item: true
 wrap-x: false
-opacity:
-  value: 255
-color:
-  value-red: 61
-  value-green: 40
-  value-blue: 18
 height:
-  scale: 0.6
+  shift: -0.2
+  scale: 0.26
   edge-fade-x: 1
 normal:
-  noise: 2
+  noise: 7
   curve-x: 90
+  radius-x: 0.7
   method: sobel3
-  strength: 0.6
 occlusion:
-  step-distance: 0.15
+  step-distance: 0.2
   z-bias: 0
   z-scale: 3
 smooth:
-  value: 0.01
+  value: 0
 f0:
   value: 0.03
 porosity:
