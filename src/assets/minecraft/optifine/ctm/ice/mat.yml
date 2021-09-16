@@ -1,4 +1,4 @@
-albedo:
+color:
   value-red: 93
   value-green: 122
   value-blue: 149
@@ -8,6 +8,7 @@ height:
   edge-fade-x: 3
   edge-fade-y: 3
 normal:
+  noise: 1
   method: sobel-high
   strength: 2
 occlusion:
@@ -15,7 +16,7 @@ occlusion:
   z-bias: 1
   z-scale: 8
 smooth:
-  scale: 0.8
+  scale: 0.9
 f0:
   value: 0.017
 ctm:

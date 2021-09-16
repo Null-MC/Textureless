@@ -5,9 +5,76 @@ wrap-y: false
 height:
   value: 0
 normal:
+  noise: 3
   method: sobel3
   strength: 1.5
 smooth:
   value: 0.6
 metal:
   value: 255
+filters:
+- name: Body-East
+  left: 0.25
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+- name: Body-North
+  left: 0.3125
+  top: 0.625
+  width: 0.125
+  height: 0.375
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: Body-West
+  left: 0.4375
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+- name: Body-South
+  left: 0.5
+  top: 0.625
+  width: 0.125
+  height: 0.375
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: Leg-Up
+  left: 0.0625
+  top: 0.5
+  width: 0.0625
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: Leg-East
+  left: 0
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Leg-North
+  left: 0.0625
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Leg-West
+  left: 0.125
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Leg-South
+  left: 0.1875
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4

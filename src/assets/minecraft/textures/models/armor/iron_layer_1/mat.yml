@@ -2,18 +2,177 @@ texture-width: 64
 texture-height: 32
 wrap-x: false
 wrap-y: false
-albedo:
+color:
   value-red: 194
   value-green: 194
   value-blue: 194
 height:
   value: 0
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 2
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 smooth:
-  value: 0.65
+  value: 0.8
 metal:
-  value: 230
-porosity: {}
+  value: 231
+filters:
+- name: Head1-Up
+  left: 0.125
+  top: 0
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: Head1-East
+  left: 0
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: Head1-North
+  left: 0.125
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: Head1-West
+  left: 0.25
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: Head1-South
+  left: 0.375
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: Body-East
+  left: 0.25
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Body-North
+  left: 0.3125
+  top: 0.625
+  width: 0.125
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.6
+  normal-radius-top: 0.4
+- name: Body-West
+  left: 0.4375
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Body-South
+  left: 0.5
+  top: 0.625
+  width: 0.125
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.6
+  normal-radius-top: 0.4
+- name: Leg-Down
+  left: 0.125
+  top: 0.5
+  width: 0.0625
+  height: 0.125
+- name: Leg-East
+  left: 0
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Leg-North
+  left: 0.0625
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Leg-West
+  left: 0.125
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Leg-South
+  left: 0.1875
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Arm-Up
+  left: 0.6875
+  top: 0.5
+  width: 0.0625
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: Arm-East
+  left: 0.625
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Arm-North
+  left: 0.6875
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Arm-West
+  left: 0.75
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4
+- name: Arm-South
+  left: 0.8125
+  top: 0.625
+  width: 0.0625
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.4

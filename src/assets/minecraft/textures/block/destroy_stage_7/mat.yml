@@ -1,0 +1,12 @@
+wrap-x: false
+wrap-y: false
+color:
+  value-red: 60
+  value-green: 60
+  value-blue: 60
+height:
+  scale: 0.16
+normal:
+  noise: 16
+  method: sobel-high
+  strength: 2
