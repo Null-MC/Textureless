@@ -21,6 +21,34 @@ jobs:
           name: Textureless-LabPbr-32x
           path: Textureless-LabPbr-32x.zip
 
+  Publish-LabPbr-64x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/LabPbr-64x.pack.yml" -z "//content/Textureless-LabPbr-64x.zip"
+      - name: Upload LabPbr 64x
+        uses: actions/upload-artifact@v2
+        with:
+          name: Textureless-LabPbr-64x
+          path: Textureless-LabPbr-64x.zip
+
+  Publish-LabPbr-16x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/LabPbr-16x.pack.yml" -z "//content/Textureless-LabPbr-16x.zip"
+      - name: Upload LabPbr 16x
+        uses: actions/upload-artifact@v2
+        with:
+          name: Textureless-LabPbr-16x
+          path: Textureless-LabPbr-16x.zip
+
   Publish-LabBakedAO-32x:
     runs-on: ubuntu-latest
     steps:
@@ -77,6 +105,34 @@ jobs:
           name: Textureless-Models-LabPbr-32x
           path: Textureless-Models-LabPbr-32x.zip
 
+  Publish-Models-LabPbr-64x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src-models/LabPbr-64x.pack.yml" -z "//content/Textureless-Models-LabPbr-64x.zip"
+      - name: Upload Models LabPbr 64x
+        uses: actions/upload-artifact@v2
+        with:
+          name: Textureless-Models-LabPbr-64x
+          path: Textureless-Models-LabPbr-64x.zip
+
+  Publish-Models-LabPbr-16x:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src-models/LabPbr-16x.pack.yml" -z "//content/Textureless-Models-LabPbr-16x.zip"
+      - name: Upload Models LabPbr 16x
+        uses: actions/upload-artifact@v2
+        with:
+          name: Textureless-Models-LabPbr-16x
+          path: Textureless-Models-LabPbr-16x.zip
+
   Publish-Models-LabBakedAO-32x:
     runs-on: ubuntu-latest
     steps:
@@ -107,12 +163,30 @@ jobs:
 
   Create-Release:
     runs-on: ubuntu-latest
-    needs: [Publish-LabPbr-32x, Publish-LabBakedAO-32x, Publish-OldPbr-32x, Publish-Models-LabPbr-32x, Publish-Models-LabBakedAO-32x, Publish-Models-OldPbr-32x]
+    needs:
+      - Publish-LabPbr-32x
+      - Publish-LabPbr-64x
+      - Publish-LabPbr-16x
+      - Publish-LabBakedAO-32x
+      - Publish-OldPbr-32x
+      - Publish-Models-LabPbr-32x
+      - Publish-Models-LabPbr-64x
+      - Publish-Models-LabPbr-16x
+      - Publish-Models-LabBakedAO-32x
+      - Publish-Models-OldPbr-32x
     steps:
       - name: Download LabPbr 32x
         uses: actions/download-artifact@v2
         with:
           name: Textureless-LabPbr-32x
+      - name: Download LabPbr 64x
+        uses: actions/download-artifact@v2
+        with:
+          name: Textureless-LabPbr-64x
+      - name: Download LabPbr 16x
+        uses: actions/download-artifact@v2
+        with:
+          name: Textureless-LabPbr-16x
       - name: Download LabBakedAO 32x
         uses: actions/download-artifact@v2
         with:
@@ -129,6 +203,14 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: Textureless-Models-LabPbr-32x
+      - name: Download Models LabPbr 64x
+        uses: actions/download-artifact@v2
+        with:
+          name: Textureless-Models-LabPbr-64x
+      - name: Download Models LabPbr 16x
+        uses: actions/download-artifact@v2
+        with:
+          name: Textureless-Models-LabPbr-16x
       - name: Download Models LabBakedAO 32x
         uses: actions/download-artifact@v2
         with:
@@ -153,6 +235,24 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Textureless-LabPbr-32x.zip
           asset_name: Textureless-LabPbr-32x.zip
+          asset_content_type: application/zip
+      - name: Upload LabPbr 64x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-LabPbr-64x.zip
+          asset_name: Textureless-LabPbr-64x.zip
+          asset_content_type: application/zip
+      - name: Upload LabPbr 16x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-LabPbr-16x.zip
+          asset_name: Textureless-LabPbr-16x.zip
           asset_content_type: application/zip
       - name: Upload LabBakedAO 32x
         uses: actions/upload-release-asset@v1
@@ -190,6 +290,24 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Textureless-Models-LabPbr-32x.zip
           asset_name: Textureless-Models-LabPbr-32x.zip
+          asset_content_type: application/zip
+      - name: Upload Models LabPbr 64x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-Models-LabPbr-64x.zip
+          asset_name: Textureless-Models-LabPbr-64x.zip
+          asset_content_type: application/zip
+      - name: Upload Models LabPbr 16x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Textureless-Models-LabPbr-16x.zip
+          asset_name: Textureless-Models-LabPbr-16x.zip
           asset_content_type: application/zip
       - name: Upload Models LabBakedAO 32x
         uses: actions/upload-release-asset@v1
