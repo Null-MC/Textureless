@@ -9,6 +9,7 @@ height:
 normal:
   noise: 7
   curve-x: 90
+  radius-x: 0.5
   method: sobel3
 occlusion:
   step-distance: 0.2

@@ -1,16 +1,16 @@
-publish-inventory: true
-color-tint: '#559833'
-alpha:
+publish-item: true
+opacity:
   value: 255
-albedo:
+color:
   value-red: 138
   value-green: 138
   value-blue: 138
+  preview-tint: '#79C05A'
 height:
   scale: 0.25
 normal:
-  strength: 0.4
   noise: 4
+  strength: 0.4
 occlusion:
   step-distance: 0.15
   z-bias: 0

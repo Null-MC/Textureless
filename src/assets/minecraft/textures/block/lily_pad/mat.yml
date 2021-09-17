@@ -1,9 +1,9 @@
-publish-inventory: true
-color-tint: '#559833'
-albedo:
+publish-item: true
+color:
   value-red: 163
   value-green: 163
   value-blue: 163
+  preview-tint: '#71C35C'
 height:
   scale: 0.4
   edge-fade-x: 0.01

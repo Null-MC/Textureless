@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 height:
@@ -7,7 +7,7 @@ height:
 normal:
   noise: 2
   curve-x: 90
-  radius-x: 0.2
+  radius-x: 0.4
   method: sobel-low
   strength: 0.6
 occlusion:

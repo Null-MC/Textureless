@@ -1,9 +1,15 @@
-publish-inventory: true
+publish-item: true
 height:
   scale: 0.4
   edge-fade-x: 0.1
   edge-fade-y: 0.1
+normal:
+  noise: 1
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
 smooth:
-  scale: 0.7
+  scale: 0.8
 metal:
   value: 234

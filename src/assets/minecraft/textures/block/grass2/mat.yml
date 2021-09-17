@@ -1,7 +1,6 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
-color-tint: '#559833'
 color:
   value-red: 128
   value-green: 128
@@ -9,6 +8,7 @@ color:
   scale-red: 0.8
   scale-green: 0.9
   scale-blue: 0.9
+  preview-tint: '#79C05A'
 height:
   scale: 0.05
   edge-fade-x: 0.1

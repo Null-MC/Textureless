@@ -1,8 +1,10 @@
-publish-inventory: true
+publish-item: true
 color:
   value-red: 243
   value-green: 162
   value-blue: 137
+normal:
+  noise: 1
 smooth:
   value: 0.8
 metal:

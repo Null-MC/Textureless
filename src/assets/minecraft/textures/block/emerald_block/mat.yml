@@ -1,16 +1,19 @@
-publish-inventory: true
-alpha:
+publish-item: true
+opacity:
   value: 255
-albedo:
+color:
   value-red: 46
   value-green: 197
   value-blue: 85
+  scale-red: 0.6
+  scale-green: 0.6
+  scale-blue: 0.6
 height:
   scale: 0.3
 normal:
+  noise: 2
   method: sobel-low
   strength: 0.4
-  noise: 2
 occlusion:
   step-distance: 0.15
   z-bias: 0

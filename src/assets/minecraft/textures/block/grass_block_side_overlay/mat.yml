@@ -1,18 +1,18 @@
-publish-inventory: true
+publish-item: true
 wrap-x: true
 wrap-y: false
-color-tint: '#559833'
-albedo:
+color:
   value-red: 148
   value-green: 148
   value-blue: 148
+  preview-tint: '#79C05A'
 height:
   scale: 0.3
   edge-fade-y: 0.1
 normal:
+  noise: 8
   method: sobel-low
   strength: 0.4
-  noise: 8
 occlusion:
   step-distance: 0.2
   z-bias: 0

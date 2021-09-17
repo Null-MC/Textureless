@@ -1,11 +1,11 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
-color-tint: '#79C05A'
 color:
   value-red: 148
   value-green: 148
   value-blue: 148
+  preview-tint: '#79C05A'
 height:
   texture: alpha.png
   scale: 0.1

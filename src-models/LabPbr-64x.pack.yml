@@ -5,13 +5,12 @@ description: Better models for Textureless
 tags: 64x LabPBR
 encoding:
   format: lab-1.3
-  sampler: nearest
+  sampler: bicubic
   opacity: {}
   color-red: {}
   color-green: {}
   color-blue: {}
-  height:
-    sampler: bilinear
+  height: {}
   occlusion: {}
   normal-x: {}
   normal-y: {}
@@ -19,8 +18,10 @@ encoding:
   specular: {}
   smooth: {}
   rough: {}
-  metal: {}
-  f0: {}
+  metal:
+    sampler: nearest
+  f0:
+    sampler: nearest
   porosity: {}
   sss: {}
   emissive: {}

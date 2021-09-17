@@ -1,15 +1,27 @@
-alpha:
+publish-item: true
+wrap-y: false
+opacity:
   value: 255
 height:
   scale: 0.5
 normal:
+  method: sobel-low
   strength: 1.5
-  filter: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
-smooth: {}
-porosity: {}
-create-inventory: true
-wrap-y: false
+filters:
+- name: Head
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.1
+  normal-radius-top: 0.4
+- name: Base
+  top: 0.25
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.1
+  normal-radius-y: 0.1

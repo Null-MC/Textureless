@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 color:
@@ -8,14 +8,14 @@ color:
 height:
   scale: 0.8
 normal:
+  noise: 6
   method: sobel3
   strength: 1.5
-  noise: 6
 occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 6
 smooth:
-  scale: 0.7
+  shift: -0.4
 f0:
   value: 0.141

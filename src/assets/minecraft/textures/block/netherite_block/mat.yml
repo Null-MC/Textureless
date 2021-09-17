@@ -1,21 +1,23 @@
-publish-inventory: true
-alpha:
+publish-item: true
+opacity:
   value: 255
-albedo: {}
 height:
   scale: 0.2
 normal:
-  strength: 0.6
   noise: 2
-  filter: sobel-low
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+  method: sobel-low
+  strength: 0.6
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 smooth:
   scale: 0.8
 metal:
   value: 255
 porosity:
   value: 0
-create-inventory: true

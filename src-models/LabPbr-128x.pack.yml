@@ -1,16 +1,17 @@
 edition: java
 format: 7
-name: Textureless-LabPbr-128x
-description: No Textures! PBR shader required.
+name: Textureless-Models-LabPbr-128x
+description: Better models for Textureless
 tags: 128x LabPBR
 encoding:
   format: lab-1.3
-  sampler: bicubic
+  sampler: nearest
   opacity: {}
   color-red: {}
   color-green: {}
   color-blue: {}
-  height: {}
+  height:
+    sampler: bilinear
   occlusion: {}
   normal-x: {}
   normal-y: {}
@@ -18,10 +19,8 @@ encoding:
   specular: {}
   smooth: {}
   rough: {}
-  metal:
-    sampler: nearest
-  f0:
-    sampler: nearest
+  metal: {}
+  f0: {}
   porosity: {}
   sss: {}
   emissive: {}
@@ -29,4 +28,4 @@ block-texture-size: 128
 texture-scale: 8
 auto-generate-occlusion: false
 occlusion-quality: 0.1
-occlusion-power: 0.5
+occlusion-power: 2
