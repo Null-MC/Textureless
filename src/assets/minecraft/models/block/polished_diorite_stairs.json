@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "block/polished_diorite",
+    "top": "block/polished_diorite_slab",
+    "side": "block/polished_diorite_slab",
+    "particle": "block/polished_diorite_inventory"
+  }
+}

@@ -1,10 +1,10 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 color:
-  value-red: 149
-  value-green: 149
-  value-blue: 149
+  value-red: 129
+  value-green: 129
+  value-blue: 129
 height:
   scale: 0.12
   edge-fade-x: 2
@@ -21,14 +21,16 @@ f0:
 porosity:
   value: 0.2
 filters:
-- height: 0.5
-  normal-curve-x: 60
-  normal-curve-y: 60
-  normal-radius-x: 0.15
-  normal-radius-y: 0.15
-- top: 0.5
+- name: Top
   height: 0.5
-  normal-curve-x: 60
-  normal-curve-y: 60
+  normal-curve-x: 90
+  normal-curve-y: 90
   normal-radius-x: 0.15
-  normal-radius-y: 0.15
+  normal-radius-y: 0.3
+- name: Bottom
+  top: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.3

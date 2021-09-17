@@ -1,16 +1,15 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
-color:
-  value-red: 131
-  value-green: 134
-  value-blue: 134
 height:
+  shift: -0.08
   scale: 0.2
+  edge-fade-x: 1
+  edge-fade-y: 1
 normal:
   noise: 2
-  curve-x: 60
-  curve-y: 60
+  curve-x: 90
+  curve-y: 90
   radius-x: 0.15
   radius-y: 0.15
   method: sobel-high

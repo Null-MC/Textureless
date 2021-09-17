@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "block/polished_blackstone",
+    "top": "block/polished_blackstone",
+    "side": "block/polished_blackstone_slab",
+    "particle": "block/polished_blackstone_inventory"
+  }
+}

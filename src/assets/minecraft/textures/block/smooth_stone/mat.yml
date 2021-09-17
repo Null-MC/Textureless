@@ -1,18 +1,18 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 color:
-  value-red: 149
-  value-green: 149
-  value-blue: 149
+  value-red: 129
+  value-green: 129
+  value-blue: 129
 height:
   scale: 0.12
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
   noise: 2
-  curve-x: 60
-  curve-y: 60
+  curve-x: 90
+  curve-y: 90
   radius-x: 0.15
   radius-y: 0.15
   method: sobel-high

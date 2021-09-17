@@ -8,10 +8,6 @@ height:
   edge-fade-y: 1
 normal:
   noise: 2
-  curve-x: 90
-  curve-y: 90
-  radius-x: 0.15
-  radius-y: 0.15
   method: sobel-high
   strength: 0.3
 occlusion:
@@ -24,3 +20,17 @@ f0:
   value: 0.05
 porosity:
   value: 0.1
+filters:
+- name: Top
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.3
+- name: Bottom
+  top: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.3

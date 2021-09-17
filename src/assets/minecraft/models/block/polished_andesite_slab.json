@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "block/polished_andesite",
+    "top": "block/polished_andesite",
+    "side": "block/polished_andesite_slab",
+    "particle": "polished_andesite_inventory"
+  }
+}

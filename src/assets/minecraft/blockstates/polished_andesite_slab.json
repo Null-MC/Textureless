@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "block/polished_andesite_slab"
+    },
+    "type=double": {
+      "model": "block/polished_andesite_slab_double"
+    },
+    "type=top": {
+      "model": "block/polished_andesite_slab_top"
+    }
+  }
+}

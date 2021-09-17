@@ -19,3 +19,5 @@ occlusion:
   z-scale: 5
 metal:
   value: 255
+emissive:
+  scale: 0.3

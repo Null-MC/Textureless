@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "block/polished_andesite",
+    "top": "block/polished_andesite_slab",
+    "side": "block/polished_andesite_slab",
+    "particle": "block/polished_andesite_inventory"
+  }
+}
