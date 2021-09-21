@@ -1,0 +1,19 @@
+publish-item: true
+height:
+  shift: -0.1
+  scale: 0.36
+normal:
+  noise: 5
+  method: sobel-high
+  strength: 2
+occlusion:
+  step-distance: 0.2
+  z-bias: 1
+  z-scale: 1.5
+smooth:
+  shift: 0.1
+  scale: 0.8
+f0:
+  value: 0.05
+porosity:
+  value: 0.7

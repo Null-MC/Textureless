@@ -1,10 +1,13 @@
 texture-size: 64
 height:
-  value: 0
+  scale: 0.6
 normal:
   noise: 2
+  method: sobel-low
+  strength: 0.5
 occlusion:
-  value: 0
+  step-distance: 0.1
+  z-scale: 10
 filters:
 - name: Base-Down
   left: 0.21875

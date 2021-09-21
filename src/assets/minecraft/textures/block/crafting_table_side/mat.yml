@@ -1,12 +1,18 @@
 wrap-x: false
 wrap-y: false
-alpha:
+opacity:
   value: 255
 height:
   scale: 0.2
+  edge-fade-x: 0.1
   edge-fade-y: 1
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
-  z-scale: 3
   step-distance: 0.15
+  z-scale: 3
+filters:
+- normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.2
+  normal-radius-top: 0.2

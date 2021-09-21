@@ -1,0 +1,8 @@
+texture-width: 64
+texture-height: 32
+smooth:
+  value: 0.6
+f0:
+  value: 0.02
+emissive:
+  scale: 0.2

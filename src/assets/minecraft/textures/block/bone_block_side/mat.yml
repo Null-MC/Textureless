@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 color:
@@ -6,12 +6,15 @@ color:
   value-green: 223
   value-blue: 204
 height:
-  value: 0
+  scale: 0.5
+  edge-fade-x: 2
 normal:
-  noise: 1
+  noise: 5
   curve-x: 90
-  radius-x: 0.25
+  radius-x: 0.3
+  method: sobel-low
 occlusion:
-  value: 0.0
+  scale: 0.2
+  z-scale: 1
 porosity:
   value: 0.71

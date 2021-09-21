@@ -1,25 +1,24 @@
-alpha:
+publish-item: true
+wrap-x: false
+opacity:
   value: 255
-albedo: {}
 height:
   shift: -0.02
   scale: 0.2
 normal:
-  strength: 0.3
   noise: 3
-  filter: sobel-low
+  method: sobel-low
+  strength: 0.3
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0
   z-scale: 20
-  step-distance: 0.2
-smooth: {}
+smooth:
+  shift: 0.2
+  scale: 0.8
 f0:
   value: 0.04
-porosity: {}
 sss:
   scale: 1.5
 emissive:
   scale: 0.5
-create-inventory: true
-wrap-x: false

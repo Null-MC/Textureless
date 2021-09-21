@@ -1,10 +1,17 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
+height:
+  edge-fade-x: 0.1
+  edge-fade-y: 0.01
 normal:
+  noise: 1
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.15
+  radius-y: 0.15
   method: sobel-high
   strength: 1.2
-  noise: 1
 occlusion:
   step-distance: 0.5
   z-bias: 0
