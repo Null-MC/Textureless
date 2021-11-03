@@ -1,0 +1,17 @@
+edition: java
+format: 7
+name: Textureless-VPbr-32x
+description: PBR for Vanilla Fabulous shaders
+tags: AlphaPBR 32x
+encoding:
+  format: alpha-pbr
+  sampler: nearest
+block-texture-size: 32
+item-texture-size: 32
+texture-scale: 1
+auto-generate-normal: false
+auto-generate-occlusion: false
+bake-occlusion-to-color: true
+occlusion-quality: 0.14
+occlusion-power: 2
+publish-connected: false
