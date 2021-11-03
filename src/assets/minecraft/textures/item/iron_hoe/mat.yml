@@ -1,5 +1,5 @@
-texture-size: 16
-bake-occlusion-to-color: true
+color:
+  bake-occlusion: true
 height:
   value: 0
 normal:

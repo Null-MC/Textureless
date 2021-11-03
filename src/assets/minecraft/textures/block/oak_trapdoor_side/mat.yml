@@ -1,7 +1,8 @@
-publish-inventory: true
-alpha:
+publish-item: true
+model: oak_trapdoor_top
+opacity:
   value: 255
-albedo:
+color:
   value-red: 101
   value-green: 80
   value-blue: 44
@@ -13,3 +14,18 @@ f0:
   value: 0.03
 porosity:
   value: 0.2
+filters:
+- name: Top
+  top: 0.15625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.55
+- name: Bottom
+  top: 0.65625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.45

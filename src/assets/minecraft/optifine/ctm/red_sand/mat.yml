@@ -8,9 +8,9 @@ height:
   edge-fade-x: 4
   edge-fade-y: 4
 normal:
+  noise: 4
   method: sobel-low
   strength: 2
-  noise: 4
 occlusion:
   step-distance: 0.2
   z-scale: 4
@@ -23,6 +23,7 @@ porosity:
 sss:
   scale: 0.12
 ctm:
-  type: repeat
-  count-x: 8
-  count-y: 8
+  method: repeat
+  width: 8
+  height: 8
+  match-tiles: red_sand

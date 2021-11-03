@@ -1,5 +1,5 @@
-texture-width: 64
-texture-height: 32
+texture-width: 128
+texture-height: 64
 wrap-x: false
 wrap-y: false
 color:
@@ -7,7 +7,7 @@ color:
   value-green: 194
   value-blue: 194
 height:
-  value: 0
+  scale: 0
 normal:
   noise: 3
   method: sobel-low
@@ -19,7 +19,7 @@ occlusion:
 smooth:
   value: 0.8
 metal:
-  value: 231
+  value: 230
 filters:
 - name: Head1-Up
   left: 0.125

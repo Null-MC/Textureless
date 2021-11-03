@@ -11,16 +11,21 @@ height:
   edge-fade-y: 4
 normal:
   noise: 16
-  strength: 1.5
+  method: sobel9
+  strength: 0.6
 occlusion:
   scale: 0.7
-  step-distance: 0.15
-  z-scale: 3
+  step-distance: 0.1
+  z-scale: 4
 smooth:
   shift: 0.2
 f0:
   value: 0.02
+sss:
+  shift: 0.4
+  scale: 0.72
 ctm:
-  type: repeat
-  count-x: 8
-  count-y: 8
+  method: repeat
+  width: 8
+  height: 8
+  match-tiles: snow

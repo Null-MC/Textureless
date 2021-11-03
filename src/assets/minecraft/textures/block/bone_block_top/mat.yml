@@ -13,7 +13,7 @@ normal:
   curve-y: 90
   radius-x: 0.3
   radius-y: 0.3
-  method: sobel3
+  method: sobel5
 occlusion:
   step-distance: 0.2
   z-bias: 0

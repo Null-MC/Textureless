@@ -1,13 +1,17 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
+model: entity/bed
 opacity:
   texture: alpha.png
 height:
   texture: height.png
-  value: 0
+  scale: 0
 normal:
-  method: sobel3
+  texture: normal.png
+  noise: 3
+  method: sobel5
+  strength: 2
 occlusion:
   texture: occlusion.png
   step-distance: 0.3
@@ -110,7 +114,6 @@ filters:
   normal-curve-bottom: 90
   normal-radius-x: 0.8
   normal-radius-y: 0.4
-
 - name: foot-leg-right-right
   left: 0.78125
   top: 0.046875
@@ -135,7 +138,6 @@ filters:
   width: 0.046875
   height: 0.046875
   normal-curve-x: 90
-
 - name: head-leg-right-right
   left: 0.78125
   top: 0.140625
@@ -160,7 +162,6 @@ filters:
   width: 0.046875
   height: 0.046875
   normal-curve-x: 90
-
 - name: foot-leg-left-right
   left: 0.78125
   top: 0.234375
@@ -185,7 +186,6 @@ filters:
   width: 0.046875
   height: 0.046875
   normal-curve-x: 90
-
 - name: head-leg-left-right
   left: 0.78125
   top: 0.328125

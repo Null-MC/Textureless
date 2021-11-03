@@ -9,10 +9,12 @@ color:
 height:
   texture: alpha.png
   scale: 0.1
-  edge-fade-x: 0.1
-  edge-fade-y: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
+  noise: 16
+  method: sobel5
+  strength: 1.2
 occlusion:
   step-distance: 0.15
   z-scale: 4
@@ -26,10 +28,10 @@ parts:
 - name: large_fern_top
   left: 0
   top: 0
-  width: 16
-  height: 16
+  width: 32
+  height: 32
 - name: large_fern_bottom
   left: 0
-  top: 16
-  width: 16
-  height: 16
+  top: 32
+  width: 32
+  height: 32

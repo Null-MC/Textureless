@@ -9,7 +9,9 @@ height:
   edge-fade-x: 0.01
   edge-fade-y: 0.01
 normal:
-  method: sobel-high
+  noise: 4
+  method: sobel5
+  strength: 0.7
 occlusion:
   step-distance: 0.15
   z-bias: 0

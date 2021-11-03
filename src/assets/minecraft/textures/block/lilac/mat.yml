@@ -1,3 +1,4 @@
+model-type: cross
 height:
   value: 0
 occlusion:
@@ -8,12 +9,12 @@ sss:
   value: 0.71
 parts:
 - name: lilac_top
+  left: 0
   top: 0
-  left: 0
-  width: 16
-  height: 16
+  width: 32
+  height: 32
 - name: lilac_bottom
-  top: 16
   left: 0
-  width: 16
-  height: 16
+  top: 32
+  width: 32
+  height: 32

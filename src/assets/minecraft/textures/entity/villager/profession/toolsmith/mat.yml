@@ -1,14 +1,14 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
 height:
   value: 0
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 5
-  step-distance: 0.15
 filters:
 - name: bodywear-top
   left: 0.09375

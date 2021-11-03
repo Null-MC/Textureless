@@ -1,5 +1,6 @@
 height:
-  scale: 0.7
+  shift: -0.1
+  scale: 0.36
   edge-fade-x: 0.5
   edge-fade-y: 0.5
   edge-fade-strength: 0.7
@@ -8,9 +9,9 @@ normal:
   method: sobel-high
   strength: 3
 occlusion:
-  step-distance: 0.2
+  step-distance: 0.1
   z-bias: 0
-  z-scale: 6
+  z-scale: 8
 smooth:
   scale: 0.7
 f0:
@@ -18,6 +19,7 @@ f0:
 sss:
   scale: 0.5
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
+  method: repeat
+  width: 4
+  height: 4
+  match-tiles: mossy_stone_bricks

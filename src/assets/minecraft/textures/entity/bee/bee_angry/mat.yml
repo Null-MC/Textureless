@@ -1,16 +1,15 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
-height:
-  value: 0
+model: entity/bee
 normal:
-  strength: 0.8
-  method: sobel-low
   noise: 2
+  method: sobel-low
+  strength: 0.8
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 f0:
   value: 0.03
 sss:

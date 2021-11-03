@@ -1,12 +1,13 @@
-texture-width: 128
-texture-height: 64
+texture-width: 256
+texture-height: 128
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  scale: 0
 normal:
+  noise: 2
   method: sobel3
-  strength: 2
+  strength: 3
 occlusion:
   z-scale: 3
 smooth:

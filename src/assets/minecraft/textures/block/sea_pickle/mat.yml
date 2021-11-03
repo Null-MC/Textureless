@@ -1,0 +1,68 @@
+wrap-x: false
+wrap-y: false
+normal:
+  noise: 6
+occlusion:
+  value: 0
+smooth:
+  value: 0.3
+f0:
+  value: 0.02
+sss:
+  value: 0.1
+emissive:
+  scale: 0.2
+filters:
+- name: Body-Up
+  left: 0.25
+  top: 0.0625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: Body-Down
+  left: 0.5
+  top: 0.0625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: Body-East
+  top: 0.3125
+  width: 0.25
+  height: 0.6875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.15
+- name: Body-North
+  left: 0.25
+  top: 0.3125
+  width: 0.25
+  height: 0.6875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.15
+- name: Body-West
+  left: 0.5
+  top: 0.3125
+  width: 0.25
+  height: 0.6875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.15
+- name: Body-South
+  left: 0.75
+  top: 0.3125
+  width: 0.25
+  height: 0.6875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.15

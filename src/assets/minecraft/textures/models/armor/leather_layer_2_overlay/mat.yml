@@ -1,13 +1,13 @@
-texture-width: 64
-texture-height: 32
+texture-width: 128
+texture-height: 64
 wrap-x: false
 wrap-y: false
-albedo:
+color:
   value-red: 86
   value-green: 52
   value-blue: 30
 height:
-  value: 0
+  scale: 0
 occlusion:
   value: 0
 smooth:

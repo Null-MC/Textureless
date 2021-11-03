@@ -1,9 +1,10 @@
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.15
 normal:
-  strength: 0.6
+  method: sobel3
 occlusion:
   step-distance: 0.15
   z-scale: 3

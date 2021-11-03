@@ -1,15 +1,15 @@
-texture-width: 64
-texture-height: 32
+texture-width: 128
+texture-height: 64
 wrap-x: false
 wrap-y: false
+model-file: entity/enderman
 height:
-  value: 0
+  scale: 0
 normal:
-  noise: 1
+  noise: 3
   method: sobel-low
-  strength: 0.8
 occlusion:
-  value: 0
+  z-scale: 3
 smooth:
   value: 0.6
 f0:

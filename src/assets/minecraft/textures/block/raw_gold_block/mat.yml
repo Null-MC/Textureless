@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 color:
   value-red: 223
   value-green: 175
@@ -6,10 +6,8 @@ color:
 height:
   scale: 0.6
 normal:
-  method: sobel-high
-  strength: 2
-  noise: 10
-smooth:
-  scale: 0.8
+  noise: 12
+  method: sobel3
+  strength: 1.6
 metal:
   value: 231

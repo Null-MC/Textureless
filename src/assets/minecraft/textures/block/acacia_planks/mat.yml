@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 height:
@@ -15,4 +15,4 @@ smooth:
 f0:
   value: 0.03
 porosity:
-  value: 0.4
+  value: 0

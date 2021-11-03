@@ -1,0 +1,28 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  method: sobel-high
+  strength: 2
+occlusion:
+  value: 0
+smooth:
+  value: 0.28
+f0:
+  value: 0.035
+filters:
+- name: Stick
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+- name: Top
+  top: 0.375
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5

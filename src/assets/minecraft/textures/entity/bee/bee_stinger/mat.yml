@@ -1,4 +1,4 @@
-texture-size: 16
+texture-size: 32
 albedo:
   value-red: 48
   value-green: 43

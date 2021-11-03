@@ -1,11 +1,11 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 height:
   shift: -0.06
   scale: 0.4
-  edge-fade-x: 0.5
-  edge-fade-y: 0.5
+  edge-fade-x: 1
+  edge-fade-y: 1
 normal:
   curve-x: 90
   curve-y: 90

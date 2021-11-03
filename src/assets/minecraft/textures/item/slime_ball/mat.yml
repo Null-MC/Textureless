@@ -1,4 +1,3 @@
-texture-size: 16
 wrap-x: false
 wrap-y: false
 color:
@@ -6,7 +5,10 @@ color:
   value-green: 162
   value-blue: 95
   bake-occlusion: true
+height:
+  scale: 0
 normal:
+  noise: 1
   method: sobel3
   strength: 2
 smooth:

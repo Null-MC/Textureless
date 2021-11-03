@@ -6,12 +6,13 @@ normal:
   method: sobel-high
   strength: 2
 occlusion:
-  step-distance: 0.15
+  step-distance: 0.1
   z-bias: 0
-  z-scale: 4
+  z-scale: 8
 f0:
   value: 0.03
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
+  method: repeat
+  width: 4
+  height: 4
+  match-tiles: cracked_stone_bricks

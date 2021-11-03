@@ -1,10 +1,12 @@
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.18
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
 normal:
   noise: 4
-  filter: sobel3
+  method: sobel5
 occlusion:
   step-distance: 0.15
-sss: {}

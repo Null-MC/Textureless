@@ -1,15 +1,16 @@
-alpha:
+model-file: block\farmland_moist_4
+opacity:
   value: 255
 height:
   texture: height.png
   scale: 0.4
 normal:
-  strength: 0.5
   noise: 3
+  strength: 0.5
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 6
-  step-distance: 0.2
 smooth:
   value: 0.26
 f0:

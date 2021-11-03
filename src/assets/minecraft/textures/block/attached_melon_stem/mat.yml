@@ -1,16 +1,17 @@
 wrap-x: false
 wrap-y: false
-albedo:
+color:
   value-red: 128
   value-green: 128
   value-blue: 128
+  preview-tint: '#e0c81c'
 height:
   value: 0
 normal:
   noise: 6
 occlusion:
-  z-scale: 2
   step-distance: 0.15
+  z-scale: 2
 smooth:
   value: 0.08
 f0:

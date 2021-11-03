@@ -1,7 +1,9 @@
 wrap-x: false
 wrap-y: false
+model-type: lantern
+model-file: template_lantern
 height:
-  scale: 0.8
+  scale: 0.5
 normal:
   method: sobel-low
 occlusion:

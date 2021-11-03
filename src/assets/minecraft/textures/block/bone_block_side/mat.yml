@@ -11,7 +11,7 @@ height:
 normal:
   noise: 5
   curve-x: 90
-  radius-x: 0.3
+  radius-x: 0.25
   method: sobel-low
 occlusion:
   scale: 0.2

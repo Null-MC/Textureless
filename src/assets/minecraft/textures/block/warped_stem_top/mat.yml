@@ -1,21 +1,19 @@
-alpha:
+publish-item: true
+opacity:
   value: 255
-albedo: {}
 height:
   scale: 0.5
 normal:
-  strength: 0.8
-  noise: 2
-  filter: sobel-high
+  noise: 3
+  method: sobel-high
+  strength: 2
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
 smooth:
   value: 0.3
 f0:
   value: 0.04
 porosity:
   value: 0.12
-create-inventory: true

@@ -1,7 +1,7 @@
-bake-occlusion-to-color: true
-texture-size: 16
 wrap-x: false
 wrap-y: false
+color:
+  bake-occlusion: true
 height:
   value: 0
 normal:

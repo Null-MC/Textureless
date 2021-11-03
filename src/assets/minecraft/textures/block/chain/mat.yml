@@ -1,13 +1,14 @@
-create-inventory: true
-albedo:
+publish-item: true
+model-file: chain
+color:
   value-red: 197
   value-green: 200
   value-blue: 200
 height:
-  scale: 0.2
+  scale: 0.4
 normal:
+  method: sobel-low
   strength: 0.6
-  filter: sobel-low
 occlusion:
   value: 0
 smooth:

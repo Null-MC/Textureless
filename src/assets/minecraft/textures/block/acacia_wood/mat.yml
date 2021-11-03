@@ -1,14 +1,14 @@
-publish-inventory: true
-albedo:
+publish-item: true
+color:
   value-red: 104
   value-green: 97
   value-blue: 88
 height:
-  scale: 0.6
+  scale: 0.3
 normal:
-  method: sobel3
-  strength: 0.6
   noise: 3
+  method: sobel3
+  strength: 0.8
 occlusion:
   step-distance: 0.2
   z-bias: 1

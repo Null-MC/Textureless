@@ -1,14 +1,13 @@
+publish-item: true
+texture-size: 128
+wrap-x: false
+wrap-y: false
 height:
   scale: 0.6
 normal:
-  strength: 1.5
-  filter: sobel-high
+  method: sobel-high
+  strength: 2
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0.02
   z-scale: 3
-  step-distance: 0.2
-create-inventory: true
-texture-size: 64
-wrap-x: false
-wrap-y: false

@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 color:
   value-red: 126
   value-green: 92
@@ -7,12 +7,14 @@ height:
   shift: -0.1
   scale: 0.8
 normal:
-  method: sobel-low
-  strength: 2
   noise: 12
+  method: sobel5
+  strength: 1.2
 smooth:
   value: 0.95
 f0:
   value: 0.08
 sss:
   value: 0.7
+emissive:
+  scale: 0.6

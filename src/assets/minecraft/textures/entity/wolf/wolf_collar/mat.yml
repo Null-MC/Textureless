@@ -1,9 +1,10 @@
-texture-width: 64
-texture-height: 32
-albedo:
+texture-width: 128
+texture-height: 64
+color:
   value-red: 184
   value-green: 184
   value-blue: 184
+  preview-tint: '#FF0000'
 occlusion:
   value: 0
 smooth:

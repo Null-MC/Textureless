@@ -1,14 +1,16 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
+model: entity/bed
 opacity:
   texture: alpha.png
 height:
   texture: height.png
-  value: 0
+  scale: 0
 normal:
-  noise: 2
-  method: sobel-high
+  texture: normal.png
+  noise: 3
+  method: sobel5
   strength: 2
 occlusion:
   texture: occlusion.png

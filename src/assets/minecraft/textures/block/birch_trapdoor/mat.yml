@@ -1,9 +1,12 @@
+publish-item: true
 normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.12
+  radius-y: 0.12
+  method: sobel-low
   strength: 0.8
-  filter: sobel-low
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
-create-inventory: true

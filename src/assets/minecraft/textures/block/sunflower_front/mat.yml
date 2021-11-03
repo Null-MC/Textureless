@@ -1,12 +1,13 @@
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.15
 normal:
-  method: sobel3
-  noise: 1
+  noise: 8
   curve-x: 30
   curve-y: 30
+  method: sobel3
 occlusion:
   step-distance: 0.2
   z-bias: 0.02

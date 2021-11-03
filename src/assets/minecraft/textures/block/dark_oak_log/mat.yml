@@ -4,7 +4,7 @@ opacity:
   value: 255
 height:
   shift: -0.2
-  scale: 0.26
+  scale: 0.16
   edge-fade-x: 1
 normal:
   noise: 7

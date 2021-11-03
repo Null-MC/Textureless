@@ -1,7 +1,8 @@
-texture-width: 64
-texture-height: 128
+texture-width: 128
+texture-height: 256
 wrap-x: false
 wrap-y: false
+model-file: entity/witch
 height:
   value: 0
 normal:
@@ -9,6 +10,8 @@ normal:
   strength: 2
 occlusion:
   z-scale: 3
+smooth:
+  scale: 0.6
 emissive:
   scale: 0.2
 filters:

@@ -1,5 +1,7 @@
-texture-width: 64
-texture-height: 32
+texture-width: 128
+texture-height: 64
+wrap-x: false
+wrap-y: false
 smooth:
   value: 0.6
 f0:

@@ -4,13 +4,15 @@ color:
   scale-blue: 0.9
   preview-tint: '#91BD59'
 height:
-  value: 0
-  shift: -0.2
+  shift: -0.36
   scale: 0.2
+  edge-fade-x: 4
+  edge-fade-y: 4
+  edge-fade-strength: 0.8
 normal:
   noise: 9
-  method: sobel3
-  strength: 3
+  method: sobel5
+  strength: 2
 occlusion:
   step-distance: 0.15
   z-bias: 0
@@ -22,6 +24,7 @@ f0:
 sss:
   scale: 0.6
 ctm:
-  type: repeat
-  count-x: 8
-  count-y: 8
+  method: repeat
+  width: 8
+  height: 8
+  match-tiles: grass_block_top

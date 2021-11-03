@@ -1,5 +1,5 @@
-texture-width: 64
-texture-height: 32
+texture-width: 128
+texture-height: 64
 wrap-x: false
 wrap-y: false
 color:
@@ -8,7 +8,7 @@ color:
   value-blue: 120
   preview-tint: '#835432'
 height:
-  value: 0
+  scale: 0
 normal:
   noise: 16
 occlusion:

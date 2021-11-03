@@ -1,7 +1,8 @@
-texture-size: 32
-wrap-x: false
-wrap-y: false
+texture-size: 64
+wrap-x: true
+wrap-y: true
 height:
-  value: 0
+  scale: 0
 normal:
+  noise: 6
   method: sobel3

@@ -1,16 +1,19 @@
-publish-inventory: true
-color-tint: '#48B518'
-albedo:
+publish-item: true
+color:
   value-red: 148
   value-green: 148
   value-blue: 148
+  preview-tint: '#59AE30'
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
-  strength: 2
+  noise: 6
+  method: sobel5
 occlusion:
-  step-distance: 0.4
+  step-distance: 0.1
   z-bias: 0
   z-scale: 6
 f0:

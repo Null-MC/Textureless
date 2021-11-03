@@ -1,5 +1,6 @@
 wrap-x: false
 wrap-y: false
+model: cross
 color:
   value-red: 190
   value-green: 185

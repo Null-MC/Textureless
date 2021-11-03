@@ -1,11 +1,10 @@
-texture-size: 16
 color:
   value-red: 200
   value-green: 204
   value-blue: 209
   bake-occlusion: true
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel-high
   strength: 3

@@ -1,20 +1,27 @@
-publish-inventory: true
-alpha:
-  value: 255
-albedo:
+publish-item: true
+color:
   value-red: 197
   value-green: 200
   value-blue: 200
-height:
-  value: 0
 normal:
+  method: sobel3
   strength: 0.6
-  filter: sobel3
-occlusion:
-  z-bias: 0
-  z-scale: 3
-  step-distance: 0.15
 smooth:
   value: 0.7
 metal:
   value: 230
+filters:
+- name: Top
+  top: 0.15625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.55
+- name: Bottom
+  top: 0.65625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.45

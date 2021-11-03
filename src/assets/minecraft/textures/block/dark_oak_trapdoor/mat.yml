@@ -1,21 +1,24 @@
-alpha:
+publish-item: true
+opacity:
   value: 255
-albedo:
+color:
   value-red: 81
   value-green: 53
   value-blue: 25
 height:
-  scale: 0.8
+  scale: 1.2
 normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.12
+  radius-y: 0.12
+  method: sobel-high
   strength: 2
-  filter: sobel-high
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0
   z-scale: 6
-  step-distance: 0.2
 f0:
   value: 0.03
 porosity:
   value: 0.2
-create-inventory: true

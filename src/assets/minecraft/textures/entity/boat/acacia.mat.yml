@@ -1,0 +1,28 @@
+texture-width: 256
+texture-height: 128
+wrap-x: false
+wrap-y: false
+opacity:
+  texture: alpha.png
+color:
+  value-red: 168
+  value-green: 90
+  value-blue: 50
+height:
+  texture: height.png
+  scale: 0
+normal:
+  noise: 1
+  method: sobel-high
+  strength: 0.5
+occlusion:
+  texture: occlusion.png
+  step-distance: 0.2
+  z-bias: 0.02
+  z-scale: 1
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity:
+  value: 0.6

@@ -1,15 +1,34 @@
-albedo: {}
+model-type: cross
 height:
-  value: 0
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.1
 normal:
-  filter: sobel-low
+  noise: 6
+  method: sobel-low
 occlusion:
-  quality: 0.1
+  value: 0
+  step-distance: 0.2
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
 smooth:
-  value: 0.08
-f0:
   value: 0.04
-sss: {}
+f0:
+  value: 0.02
+filters:
+- name: 1
+  left: 0.0625
+  width: 0.125
+  normal-curve-x: 180
+- name: 2
+  left: 0.3125
+  width: 0.125
+  normal-curve-x: 180
+- name: 3
+  left: 0.5625
+  width: 0.125
+  normal-curve-x: 180
+- name: 4
+  left: 0.8125
+  width: 0.125
+  normal-curve-x: 180

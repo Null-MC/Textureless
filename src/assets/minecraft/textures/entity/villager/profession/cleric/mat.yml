@@ -1,11 +1,10 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
 height:
   value: 0
 normal:
   method: sobel-low
-  strength: 0.1
 occlusion:
   step-distance: 0.15
   z-bias: 0

@@ -1,17 +1,19 @@
 wrap-x: false
 wrap-y: false
-albedo:
+model-type: cross
+color:
   value-red: 128
   value-green: 128
   value-blue: 128
+  preview-tint: '#a1d814'
 height:
   value: 0
 normal:
-  strength: 2
   noise: 6
+  strength: 2
 occlusion:
-  z-scale: 3
   step-distance: 0.15
+  z-scale: 3
 smooth:
   value: 0.02
 f0:

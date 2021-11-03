@@ -1,4 +1,6 @@
-albedo:
+wrap-x: false
+wrap-y: false
+color:
   value-red: 105
   value-green: 143
   value-blue: 42

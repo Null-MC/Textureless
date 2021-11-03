@@ -1,9 +1,9 @@
-publish-inventory: true
+publish-item: true
 height:
   scale: 0.5
 normal:
-  method: sobel-high
-  strength: 2
-  noise: 8
+  noise: 12
+  method: sobel3
+  strength: 1.6
 metal:
   value: 234

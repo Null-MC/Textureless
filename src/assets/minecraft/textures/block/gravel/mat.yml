@@ -1,11 +1,12 @@
-publish-inventory: true
+publish-item: true
+model-type: cross
 opacity:
   value: 255
 height:
   scale: 0.2
 normal:
-  method: sobel-high
   noise: 6
+  method: sobel-high
 occlusion:
   step-distance: 0.15
   z-bias: 0

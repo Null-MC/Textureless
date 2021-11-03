@@ -1,11 +1,10 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 height:
   value: 0
 normal:
   method: sobel-low
-  strength: 0.5
 occlusion:
   step-distance: 0.2
   z-bias: 0

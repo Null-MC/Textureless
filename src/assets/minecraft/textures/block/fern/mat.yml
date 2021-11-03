@@ -1,6 +1,7 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
+model-type: cross
 color:
   value-red: 148
   value-green: 148
@@ -11,6 +12,10 @@ height:
   scale: 0.1
   edge-fade-x: 0.1
   edge-fade-y: 0.1
+normal:
+  noise: 16
+  method: sobel5
+  strength: 0.6
 occlusion:
   step-distance: 0.15
   z-scale: 4

@@ -1,14 +1,15 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
 height:
   value: 0
 normal:
-  filter: sobel-low
+  method: sobel3
+  strength: 2
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 smooth:
   value: 0.02
 f0:
@@ -58,7 +59,6 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
-
 - name: bodywear-top
   left: 0.09375
   top: 0.59375
@@ -94,7 +94,6 @@ filters:
   height: 0.3125
   normal-curve-x: 90
   normal-curve-y: 90
-
 - name: leg-top
   left: 0.0625
   top: 0.34375
@@ -133,7 +132,6 @@ filters:
   width: 0.0625
   height: 0.1875
   normal-curve-x: 90
-
 - name: arm-top
   left: 0.75
   top: 0.34375
@@ -172,7 +170,6 @@ filters:
   width: 0.0625
   height: 0.125
   normal-curve-x: 90
-
 - name: idk-top
   left: 0.6875
   top: 0.59375

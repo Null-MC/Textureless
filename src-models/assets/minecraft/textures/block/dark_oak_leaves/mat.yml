@@ -1,16 +1,20 @@
-publish-inventory: true
-color-tint: '#507A32'
+publish-item: true
+model: assets\minecraft\models\block\dark_oak_leaves.json
 color:
   value-red: 128
   value-green: 128
   value-blue: 128
+  preview-tint: '#59AE30'
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
-  strength: 2
+  noise: 6
+  method: sobel5
 occlusion:
-  step-distance: 0.4
+  step-distance: 0.1
   z-bias: 0
   z-scale: 6
 f0:

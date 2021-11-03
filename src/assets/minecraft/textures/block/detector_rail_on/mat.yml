@@ -1,4 +1,5 @@
-publish-inventory: true
+publish-item: true
+model-file: rail
 height:
   scale: 0.2
   edge-fade-x: 0.1

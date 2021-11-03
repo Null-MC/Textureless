@@ -1,8 +1,7 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
-height:
-  value: 0
+model: entity/bee
 normal:
   method: sobel-low
   strength: 0.8

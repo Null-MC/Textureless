@@ -9,6 +9,7 @@ normal:
 f0:
   value: 0.03
 ctm:
-  type: repeat
-  count-x: 8
-  count-y: 8
+  method: repeat
+  width: 8
+  height: 8
+  match-tiles: netherrack

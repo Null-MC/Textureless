@@ -26,7 +26,8 @@ encoding:
   sss: {}
   emissive: {}
 block-texture-size: 128
-texture-scale: 8
+item-texture-size: 128
+texture-scale: 4
 auto-generate-occlusion: false
 occlusion-quality: 0.1
 occlusion-power: 0.5

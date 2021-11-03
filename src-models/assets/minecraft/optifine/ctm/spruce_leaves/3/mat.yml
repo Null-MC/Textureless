@@ -1,16 +1,16 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
-color-tint: '#619961'
 color:
   value-red: 117
   value-green: 70
   value-blue: 95
+  preview-tint: '#619961'
 height:
-  value: 0
+  scale: 0
 normal:
-  method: sobel3
   noise: 3
+  method: sobel3
 occlusion:
   value: 0
   step-distance: 0.2

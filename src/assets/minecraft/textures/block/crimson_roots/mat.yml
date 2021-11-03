@@ -1,12 +1,14 @@
-albedo:
+wrap-x: false
+wrap-y: false
+color:
   value-red: 123
   value-green: 7
   value-blue: 45
 height:
   value: 0
+occlusion:
+  value: 0.0
 smooth:
   value: 0.2
 sss:
   value: 0.31
-occlusion:
-  value: 0.0

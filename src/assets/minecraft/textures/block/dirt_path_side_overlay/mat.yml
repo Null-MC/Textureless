@@ -1,23 +1,27 @@
-publish-inventory: true
+publish-item: true
 wrap-x: true
 wrap-y: false
-albedo:
-  value-red: 185
-  value-green: 149
-  value-blue: 82
+color:
+  value-red: 113
+  value-green: 94
+  value-blue: 63
 height:
-  scale: 0.3
+  shift: -0.1
+  scale: 0.2
   edge-fade-y: 0.1
 normal:
-  strength: 0.5
   noise: 3
-occlusion:
-  value: 0
+  method: sobel-low
+  strength: 2
 smooth:
-  value: 0.2
+  value: 0.05
 f0:
-  value: 0.04
+  value: 0.06
 porosity:
-  value: 0.1
-sss: {}
-create-inventory: true
+  value: 0.9
+filters:
+- name: Area
+  top: 0.0625
+  height: 0.9375
+  normal-curve-top: 60
+  normal-radius-top: 0.25

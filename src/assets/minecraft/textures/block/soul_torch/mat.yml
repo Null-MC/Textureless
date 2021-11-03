@@ -1,7 +1,6 @@
 publish-inventory: true
 wrap-x: false
 wrap-y: false
-albedo: {}
 height:
   value: 0
 normal:
@@ -12,7 +11,14 @@ occlusion:
   value: 0
 f0:
   value: 0.04
-porosity: {}
 emissive:
   scale: 0.45
-create-inventory: true
+filters:
+- name: Torch
+  left: 0.4375
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-bottom: 0.2

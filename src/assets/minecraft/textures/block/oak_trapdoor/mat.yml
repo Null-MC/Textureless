@@ -1,4 +1,5 @@
-albedo:
+publish-item: true
+color:
   value-red: 101
   value-green: 80
   value-blue: 44
@@ -6,16 +7,18 @@ height:
   scale: 0.4
 normal:
   noise: 1
-  filter: sobel-low
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.12
+  radius-y: 0.12
+  method: sobel-low
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
 smooth:
   value: 0.08
 f0:
   value: 0.03
 porosity:
   value: 0.2
-create-inventory: true

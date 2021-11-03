@@ -1,16 +1,15 @@
-alpha:
+publish-item: true
+wrap-x: false
+wrap-y: false
+opacity:
   value: 255
 height:
   scale: 0.8
 normal:
-  strength: 0.6
-  filter: sobel-high
+  method: sobel-high
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 5
-  step-distance: 0.15
 porosity:
   value: 0
-create-inventory: true
-wrap-x: false
-wrap-y: false

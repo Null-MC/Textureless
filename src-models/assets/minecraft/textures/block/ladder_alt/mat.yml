@@ -1,4 +1,6 @@
-publish-inventory: true
+publish-item: true
+model-type: file
+model-file: ladder
 smooth:
   scale: 0.7
 f0:

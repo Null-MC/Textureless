@@ -8,3 +8,12 @@ normal:
   strength: 0.4
 occlusion:
   value: 0
+filters:
+- name: Torch
+  left: 0.4375
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-bottom: 0.2

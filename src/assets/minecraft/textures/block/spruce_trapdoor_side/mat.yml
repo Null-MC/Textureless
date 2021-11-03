@@ -1,19 +1,34 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
-alpha:
+model: spruce_trapdoor_top
+opacity:
   value: 255
-albedo:
+color:
   value-red: 106
   value-green: 79
   value-blue: 44
 height:
   scale: 0.25
 normal:
+  method: sobel-high
   strength: 0.6
-  filter: sobel-high
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 2
-  step-distance: 0.15
-create-inventory: true
+filters:
+- name: Top
+  top: 0.15625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.55
+- name: Bottom
+  top: 0.65625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.45

@@ -10,10 +10,10 @@ parts:
 - name: peony_top
   top: 0
   left: 0
-  width: 16
-  height: 16
+  width: 32
+  height: 32
 - name: peony_bottom
-  top: 16
+  top: 32
   left: 0
-  width: 16
-  height: 16
+  width: 32
+  height: 32

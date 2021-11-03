@@ -9,7 +9,7 @@ color:
   value-blue: 88
 height:
   shift: -0.06
-  scale: 0.5
+  scale: 0.3
   edge-fade-x: 1
 normal:
   noise: 3

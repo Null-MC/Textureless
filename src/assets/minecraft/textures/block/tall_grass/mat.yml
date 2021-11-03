@@ -1,34 +1,35 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 color:
   value-red: 128
   value-green: 128
   value-blue: 128
+  preview-tint: '#79C05A'
 height:
-  scale: 0.05
-  edge-fade-x: 0.1
-  edge-fade-y: 0.1
+  scale: 0.06
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
+  noise: 6
+  method: sobel5
 occlusion:
-  value: 0
-  step-distance: 0.15
+  step-distance: 0.1
   z-scale: 2
 smooth:
   value: 0.16
 f0:
-  value: 0.01
+  value: 0.02
 sss:
   value: 0.6
 parts:
 - name: tall_grass_top
   left: 0
   top: 0
-  width: 16
-  height: 16
+  width: 32
+  height: 32
 - name: tall_grass_bottom
   left: 0
-  top: 16
-  width: 16
-  height: 16
+  top: 32
+  width: 32
+  height: 32

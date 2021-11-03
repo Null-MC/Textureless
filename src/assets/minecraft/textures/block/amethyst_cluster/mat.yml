@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 color:
@@ -11,10 +11,12 @@ height:
   edge-fade-x: 0.1
   edge-fade-y: 0.1
 normal:
-  method: sobel3
-  strength: 2
   noise: 12
+  method: sobel9
+  strength: 0.3
 smooth:
   value: 0.95
 f0:
   value: 0.08
+emissive:
+  scale: 0.6

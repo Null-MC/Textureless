@@ -1,6 +1,17 @@
 wrap-x: false
 wrap-y: false
+model: cornflower
+height:
+  scale: 0.15
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
 normal:
-  method: sobel3
+  noise: 6
+  method: sobel5
+  strength: 2
+occlusion:
+  z-scale: 2
 f0:
   value: 0.04
+sss:
+  scale: 0.6

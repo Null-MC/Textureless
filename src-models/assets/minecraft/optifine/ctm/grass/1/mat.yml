@@ -1,10 +1,10 @@
 wrap-x: false
 wrap-y: false
-color-tint: '#559833'
-albedo:
+color:
   value-red: 128
   value-green: 128
   value-blue: 128
+  preview-tint: '#7CBD6B'
 height:
   scale: 0.05
 normal:

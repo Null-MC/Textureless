@@ -15,9 +15,10 @@ metal:
 porosity:
   value: 0
 ctm:
-  type: repeat
-  count-x: 8
-  count-y: 8
+  method: repeat
+  width: 8
+  height: 8
+  match-tiles: iron_block
 filters:
 - name: block
   tile: true

@@ -1,13 +1,11 @@
-bake-occlusion-to-color: true
-publish-inventory: true
-texture-size: 16
 wrap-x: false
 wrap-y: false
+color:
+  bake-occlusion: true
 height:
   value: 0
 normal:
   method: sobel3
-  strength: 0.7
 occlusion:
   step-distance: 0.15
   z-bias: 0

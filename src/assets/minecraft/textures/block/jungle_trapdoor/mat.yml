@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 height:
@@ -6,8 +6,12 @@ height:
   edge-fade-x: 0.1
   edge-fade-y: 0.1
 normal:
-  filter: sobel3
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.12
+  radius-y: 0.12
+  method: sobel3
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 4
-  step-distance: 0.15

@@ -1,8 +1,8 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  scale: 0
 smooth:
   value: 0.1
 sss:

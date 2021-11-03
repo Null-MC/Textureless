@@ -1,11 +1,14 @@
-create-inventory: true
-height:
-  value: 0
-normal:
-  strength: 2
-  filter: sobel-high
-occlusion:
-  z-scale: 6
-  step-distance: 0.15
+publish-item: true
 wrap-x: false
 wrap-y: false
+height:
+  texture: alpha.png
+  scale: 0.2
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 6
+  method: sobel5
+occlusion:
+  step-distance: 0.15
+  z-scale: 6

@@ -1,0 +1,22 @@
+publish-item: true
+height:
+  shift: -0.12
+  scale: 0.4
+  edge-fade-x: 4
+  edge-fade-y: 4
+  edge-fade-strength: 0.8
+normal:
+  noise: 3
+  method: sobel3
+  strength: 1.8
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 2
+f0:
+  value: 0.03
+ctm:
+  method: repeat
+  width: 4
+  height: 4
+  match-tiles: dirt_path_top

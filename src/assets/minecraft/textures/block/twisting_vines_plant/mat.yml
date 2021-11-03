@@ -1,15 +1,20 @@
-create-inventory: true
-albedo:
+publish-item: true
+model: cross
+color:
   value-red: 20
   value-green: 144
   value-blue: 123
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.15
+  edge-fade-x: 0.01
 normal:
-  filter: sobel3
+  noise: 6
+  method: sobel5
+  strength: 0.8
 occlusion:
-  z-scale: 5
   step-distance: 0.2
+  z-scale: 5
 smooth:
   value: 0.6
 f0:

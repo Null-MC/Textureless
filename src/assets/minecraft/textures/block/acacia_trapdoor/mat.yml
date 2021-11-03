@@ -1,20 +1,19 @@
-albedo: {}
+publish-item: true
+wrap-x: false
+wrap-y: false
 height:
   shift: -0.14
   scale: 0.6
   edge-fade-x: 0.15
   edge-fade-y: 0.15
 normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.12
+  radius-y: 0.12
+  method: sobel-high
   strength: 0.6
-  filter: sobel-high
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0
   z-scale: 5
-  step-distance: 0.2
-smooth: {}
-metal: {}
-porosity: {}
-create-inventory: true
-wrap-x: false
-wrap-y: false

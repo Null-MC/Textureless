@@ -1,16 +1,19 @@
-publish-inventory: true
-color-tint: '#619961'
+publish-item: true
 color:
   value-red: 128
   value-green: 138
   value-blue: 148
+  preview-tint: '#68A464'
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  strength: 0.8
-  noise: 3
+  noise: 12
+  method: sobel5
 occlusion:
-  step-distance: 0.2
+  step-distance: 0.1
   z-bias: 0
   z-scale: 5
 smooth:

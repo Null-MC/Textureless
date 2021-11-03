@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 color:
@@ -7,6 +7,8 @@ color:
   value-blue: 236
 height:
   scale: 0.03
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
 normal:
   method: sobel3
   strength: 0.01

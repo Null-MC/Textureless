@@ -1,11 +1,12 @@
-publish-inventory: true
-color-tint: '#80a755'
-albedo:
+publish-item: true
+color:
   value-red: 148
   value-green: 148
   value-blue: 148
+  preview-tint: '#6BA941'
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.15
 normal:
   method: sobel-low
 occlusion:

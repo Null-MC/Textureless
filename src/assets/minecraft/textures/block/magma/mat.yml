@@ -1,11 +1,12 @@
-publish-inventory: true
-alpha:
+publish-item: true
+opacity:
   value: 255
 height:
   scale: 0.3
 normal:
-  method: sobel-low
-  strength: 0.5
+  noise: 8
+  method: sobel5
+  strength: 0.8
 occlusion:
   step-distance: 0.15
   z-bias: 0

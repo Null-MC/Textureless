@@ -1,25 +1,29 @@
 color:
-  value-red: 146
-  value-green: 228
-  value-blue: 247
+  value-red: 113
+  value-green: 179
+  value-blue: 218
 height:
-  shift: -0.4
-  scale: 2
-  edge-fade-x: 0.5
-  edge-fade-y: 0.5
-  edge-fade-strength: 0.7
+  shift: -0.28
+  scale: 0.8
+  edge-fade-x: 1
+  edge-fade-y: 1
+  edge-fade-strength: 0.85
 normal:
-  method: sobel-high
+  noise: 16
+  method: sobel3
   strength: 3
 occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 3
 smooth:
-  shift: 0.36
+  shift: 0.2
 f0:
   value: 0.172
+sss:
+  shift: 0.5
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
+  method: repeat
+  width: 3
+  height: 3
+  match-tiles: diamond_block

@@ -1,20 +1,22 @@
-albedo:
+wrap-x: false
+wrap-y: false
+color:
   value-red: 131
   value-green: 28
   value-blue: 32
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  strength: 1.5
   noise: 4
+  method: sobel5
 occlusion:
+  step-distance: 0.2
   z-bias: 0.02
   z-scale: 12
-  step-distance: 0.2
 smooth:
   value: 0.4
 f0:
   value: 0.08
-sss: {}
-wrap-x: false
-wrap-y: false

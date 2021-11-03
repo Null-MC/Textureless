@@ -1,19 +1,22 @@
-albedo:
+publish-item: true
+color:
   value-red: 197
   value-green: 200
   value-blue: 200
 height:
   scale: 0.3
 normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.12
+  radius-y: 0.12
+  method: sobel-low
   strength: 0.8
-  filter: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
-smooth: {}
 metal:
   value: 230
 porosity:
   value: 0
-create-inventory: true

@@ -1,20 +1,18 @@
-alpha:
+wrap-x: false
+wrap-y: true
+opacity:
   value: 255
-albedo:
+color:
   value-red: 95
   value-green: 145
   value-blue: 31
 height:
-  value: 0
+  scale: 0
 normal:
-  strength: 0.3
-  filter: sobel-high
+  method: sobel-high
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 2
-  step-distance: 0.2
 smooth:
   value: 0.24
-sss: {}
-wrap-x: false
-wrap-y: true

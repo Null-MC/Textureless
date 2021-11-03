@@ -1,15 +1,18 @@
-albedo: {}
-height:
-  value: 0
-normal:
-  filter: sobel3
-occlusion:
-  z-bias: 0
-  z-scale: 4
-  step-distance: 0.2
-smooth: {}
-f0:
-  value: 0.017
-create-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
+model-type: cross
+height:
+  texture: alpha.png
+  scale: 0.2
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 6
+  method: sobel5
+occlusion:
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 4
+f0:
+  value: 0.017

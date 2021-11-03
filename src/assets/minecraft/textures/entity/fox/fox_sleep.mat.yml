@@ -1,5 +1,5 @@
-texture-width: 48
-texture-height: 32
+texture-width: 96
+texture-height: 64
 wrap-x: false
 wrap-y: false
 opacity:

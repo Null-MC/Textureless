@@ -1,14 +1,23 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 height:
   value: 0
 normal:
+  noise: 1
   method: sobel-low
   strength: 0.4
-  noise: 1
 occlusion:
   step-distance: 0.15
   z-bias: 0
 f0:
   value: 0.04
+filters:
+- name: Torch
+  left: 0.4375
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-bottom: 0.2

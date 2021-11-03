@@ -1,14 +1,17 @@
 publish-item: true
 height:
-  scale: 0.2
+  scale: 0.4
   edge-fade-x: 0.5
   edge-fade-strength: 0.5
 normal:
-  noise: 8
+  noise: 6
+  method: sobel3
+  strength: 0.6
 occlusion:
-  z-scale: 2
+  step-distance: 0.2
+  z-scale: 3
 smooth:
-  value: 0.2
+  value: 0.1
 f0:
   value: 0.03
 porosity:

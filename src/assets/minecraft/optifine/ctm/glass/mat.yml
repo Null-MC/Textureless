@@ -1,23 +1,22 @@
 wrap-x: true
 wrap-y: true
-alpha: {}
-albedo:
+color:
   value-red: 180
   value-green: 215
   value-blue: 221
 height:
   value: 0
 normal:
-  strength: 0.7
   method: sobel-low
+  strength: 0.7
 occlusion:
+  step-distance: 0.2
   z-bias: 0.02
   z-scale: 0.5
-  step-distance: 0.2
-smooth: {}
 f0:
   value: 0.04
 porosity:
   value: 0
 ctm:
-  type: compact
+  method: compact
+  match-tiles: glass

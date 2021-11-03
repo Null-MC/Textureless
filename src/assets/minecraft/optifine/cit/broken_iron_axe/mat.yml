@@ -1,0 +1,14 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+bake-occlusion-to-color: true
+height:
+  value: 0
+normal:
+  method: sobel-low
+  strength: 0.5
+occlusion:
+  z-bias: 0.2
+  z-scale: 2
+smooth:
+  scale: 0.8

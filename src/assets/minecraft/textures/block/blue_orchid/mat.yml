@@ -2,10 +2,14 @@ publish-item: true
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
-  strength: 0.5
+  noise: 8
+  method: sobel5
+  strength: 0.8
 occlusion:
   step-distance: 0.2
   z-bias: 0

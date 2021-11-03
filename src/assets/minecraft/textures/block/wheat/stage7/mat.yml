@@ -1,15 +1,19 @@
 wrap-x: false
 wrap-y: false
+model: crop
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.2
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  strength: 2
-  noise: 6
-  filter: sobel3
+  noise: 20
+  method: sobel5
+  strength: 1.6
 occlusion:
+  step-distance: 0.3
   z-bias: 0
   z-scale: 6
-  step-distance: 0.3
 smooth:
   value: 0.02
 f0:

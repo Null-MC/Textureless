@@ -1,10 +1,14 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  texture: alpha.png
+  scale: 0.15
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
+  noise: 12
+  method: sobel5
 occlusion:
   step-distance: 0.15
   z-bias: 0

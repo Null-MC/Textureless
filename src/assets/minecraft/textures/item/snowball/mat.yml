@@ -1,10 +1,11 @@
 publish-item: true
-texture-size: 16
 color:
   value-red: 209
   value-green: 228
   value-blue: 228
   bake-occlusion: true
+height:
+  scale: 0
 normal:
   noise: 5
   method: sobel3

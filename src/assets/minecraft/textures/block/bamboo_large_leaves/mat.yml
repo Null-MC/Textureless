@@ -1,10 +1,9 @@
-albedo:
+wrap-x: false
+wrap-y: false
+color:
   value-red: 95
   value-green: 145
   value-blue: 31
-height:
-  value: 0
-occlusion: {}
 smooth:
   value: 0.24
 f0:

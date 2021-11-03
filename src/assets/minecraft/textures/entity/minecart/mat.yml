@@ -1,17 +1,13 @@
-height:
-  scale: 0.3
-normal:
-  strength: 0.5
-  filter: sobel-low
-occlusion:
-  quality: 0.1
-  z-bias: 0.1
-  z-scale: 2
-  steps: 4
-smooth: {}
-metal:
-  value: 230
-texture-width: 64
-texture-height: 32
+texture-width: 128
+texture-height: 64
 wrap-x: false
 wrap-y: false
+height:
+  scale: 0
+normal:
+  method: sobel-high
+occlusion:
+  z-bias: 0.1
+  z-scale: 2
+metal:
+  value: 230

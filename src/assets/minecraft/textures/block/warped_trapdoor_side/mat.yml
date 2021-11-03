@@ -7,3 +7,18 @@ albedo:
   value-blue: 121
 f0:
   value: 0.03
+filters:
+- name: Top
+  top: 0.15625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.55
+- name: Bottom
+  top: 0.65625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.12
+  normal-radius-y: 0.45

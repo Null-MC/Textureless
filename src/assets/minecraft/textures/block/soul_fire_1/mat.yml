@@ -1,2 +1,5 @@
+wrap-x: false
+wrap-y: false
+model-type: cross
 emissive:
   scale: 0.8

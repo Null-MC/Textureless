@@ -1,12 +1,11 @@
-texture-size: 32
+texture-size: 64
 wrap-x: false
 wrap-y: false
-alpha: {}
+height:
+  scale: 0
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
-smooth: {}
 f0:
   value: 0.053
-sss: {}

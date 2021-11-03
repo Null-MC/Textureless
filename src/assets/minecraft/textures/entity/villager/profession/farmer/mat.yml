@@ -1,8 +1,6 @@
-texture-size: 64
+texture-size: 128
 wrap-x: false
 wrap-y: false
-height:
-  value: 0
 occlusion:
   value: 0
 smooth:
@@ -75,7 +73,6 @@ filters:
   height: 0.28125
   normal-curve-x: 90
   normal-curve-y: 90
-
 - name: headwear2-top
   left: 0.484375
   top: 0.75

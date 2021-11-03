@@ -1,10 +1,26 @@
-alpha:
+wrap-y: false
+model-type: file
+model-file: assets\minecraft\models\block\powered_rail.json
+opacity:
   value: 255
-height: {}
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 1
   z-scale: 2
-  step-distance: 0.15
-wrap-y: false
+filters:
+- name: Rail-Up
+  top: 0.125
+  height: 0.125
+  normal-curve-y: 90
+  normal-radius-y: 0.6
+- name: Rail-East
+  top: 0.25
+  height: 0.125
+  normal-curve-top: 45
+  normal-radius-y: 0.6
+- name: Rail-West
+  height: 0.125
+  normal-curve-bottom: 45
+  normal-radius-y: 0.6

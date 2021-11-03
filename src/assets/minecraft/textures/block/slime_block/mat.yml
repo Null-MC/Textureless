@@ -1,11 +1,12 @@
-publish-inventory: true
-alpha:
+publish-item: true
+opacity:
   value: 200
-albedo:
+color:
   value-red: 112
   value-green: 192
   value-blue: 93
 normal:
+  method: sobel5
   strength: 2
 occlusion:
   step-distance: 0.15

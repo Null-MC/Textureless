@@ -9,6 +9,7 @@ normal:
   noise: 1
   curve-x: 90
   method: sobel-high
+  strength: 2
 occlusion:
   step-distance: 0.15
   z-bias: 0

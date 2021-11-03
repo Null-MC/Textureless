@@ -1,3 +1,5 @@
+model-type: file
+model-file: assets\minecraft\models\block\pointed_dripstone_down_tip.json
 height:
   value: 0
 normal:
