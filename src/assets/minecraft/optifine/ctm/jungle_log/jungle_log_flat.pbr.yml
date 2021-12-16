@@ -1,6 +1,6 @@
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   value-red: 88
   value-green: 70
   value-blue: 26
@@ -9,25 +9,23 @@ height:
   scale: 0.4
   edge-fade-x: 1
 normal:
-  strength: 0.5
   noise: 2
-  filter: sobel-high
+  method: sobel-high
+  strength: 0.5
 occlusion:
-  quality: 0.1
+  step-distance: 0.1
   z-bias: 0
   z-scale: 4
-  step-distance: 0.1
 smooth:
   value: 0.06
-metal:
-  value: 0
 f0:
   value: 0.04
 porosity:
   value: 0.4
+ctm: {}
 parts:
 - name: 2
   left: 0
   top: 0
-  width: 16
-  height: 16
+  width: 32
+  height: 32

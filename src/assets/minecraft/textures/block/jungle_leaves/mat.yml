@@ -1,10 +1,9 @@
-publish-inventory: true
-color-tint: '#48B518'
+publish-item: true
+tint-color: '#48B518'
 height:
-  value: 0
+  scale: 0
 normal:
-  method: sobel3
-  strength: 1.5
+  method: sobel5
 occlusion:
   step-distance: 0.2
   z-bias: 0
@@ -13,3 +12,4 @@ smooth:
   scale: 0.52
 f0:
   value: 0.017
+ctm: {}

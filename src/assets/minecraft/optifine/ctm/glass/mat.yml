@@ -1,5 +1,4 @@
-wrap-x: true
-wrap-y: true
+blend-mode: transparent
 color:
   value-red: 180
   value-green: 215
@@ -15,8 +14,6 @@ occlusion:
   z-scale: 0.5
 f0:
   value: 0.04
-porosity:
-  value: 0
 ctm:
-  method: compact
+  method: of-compact
   match-tiles: glass

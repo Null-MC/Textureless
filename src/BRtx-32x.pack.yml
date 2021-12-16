@@ -6,7 +6,6 @@ name: Textureless-RTX-32x
 description: No Textures! RTX required.
 tags: ''
 encoding:
-  image: tga
   format: rtx
   opacity: {}
   color-red: {}

@@ -1,19 +1,30 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
 height:
-  value: 0
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 12
+  method: sobel5
 occlusion:
-  value: 0
+  step-distance: 0.15
+  z-scale: 6
 smooth:
-  value: 0.08
-sss:
-  value: 0.78
+  scale: 0.5
+f0:
+  value: 0.017
+ctm: {}
 parts:
 - name: peony_top
-  top: 0
   left: 0
+  top: 0
   width: 32
   height: 32
 - name: peony_bottom
-  top: 32
   left: 0
+  top: 32
   width: 32
   height: 32

@@ -1,23 +1,33 @@
 publish-item: true
 wrap-x: true
 wrap-y: false
+model: cube_all
+tint-color: '#79C05A'
 color:
-  value-red: 148
-  value-green: 148
-  value-blue: 148
-  preview-tint: '#79C05A'
+  _-preview-tint: '#79C05A'
+  value-red: 122
+  value-green: 122
+  value-blue: 122
+  scale-red: 0.8
+  scale-green: 0.9
+  scale-blue: 0.9
 height:
   scale: 0.3
   edge-fade-y: 0.1
 normal:
   noise: 8
-  method: sobel-low
-  strength: 0.4
+  curve-y: 140
+  radius-y: 0.2
+  method: sobel3
+  strength: 2
 occlusion:
-  step-distance: 0.2
+  step-distance: 0.15
   z-bias: 0
-  z-scale: 6
+  z-scale: 3
+smooth:
+  scale: 0.4
 f0:
-  value: 0.02
+  value: 0.01
 sss:
   value: 0.2
+ctm: {}

@@ -28,5 +28,5 @@ block-texture-size: 32
 item-texture-size: 32
 texture-scale: 1
 auto-generate-occlusion: true
-occlusion-quality: 0.14
-occlusion-power: 2
+occlusion-quality: 0.2
+occlusion-power: 1

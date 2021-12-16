@@ -1,5 +1,7 @@
 wrap-x: true
 wrap-y: true
+color:
+  bake-occlusion: false
 height:
   shift: -0.1
   scale: 0.4
@@ -13,7 +15,7 @@ occlusion:
 smooth:
   scale: 1.5
 ctm:
-  method: repeat
+  method: of-repeat
   width: 8
   height: 8
   match-tiles: bricks

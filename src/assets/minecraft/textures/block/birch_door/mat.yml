@@ -1,14 +1,18 @@
+publish-item: true
 height:
   shift: -0.02
+  scale: 0.6
 normal:
-  filter: sobel-high
+  noise: 3
+  method: sobel3
 occlusion:
-  z-bias: 1
-  z-scale: 6
   step-distance: 0.2
+  z-scale: 4
+f0:
+  value: 0.04
 porosity:
   value: 0.2
-create-inventory: true
+ctm: {}
 parts:
 - name: birch_door_top
   left: 0

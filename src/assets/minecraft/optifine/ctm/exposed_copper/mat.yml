@@ -1,0 +1,26 @@
+publish-item: false
+height:
+  scale: 0.5
+  edge-fade-x: 0.8
+  edge-fade-y: 0.8
+normal:
+  noise: 1
+  method: sobel-high
+  strength: 2
+occlusion:
+  z-scale: 4
+metal:
+  value: 234
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: exposed_copper
+  placeholder: false
+filters:
+- name: default
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.15

@@ -3,25 +3,26 @@ color:
   value-green: 106
   value-blue: 35
 height:
-  shift: -0.32
-  scale: 0.3
+  shift: -0.25
+  scale: 0.16
   edge-fade-x: 4
   edge-fade-y: 4
 normal:
-  noise: 4
-  method: sobel-low
-  strength: 2
+  noise: 8
+  method: sobel5
 occlusion:
   step-distance: 0.2
   z-scale: 4
 smooth:
-  scale: 0.8
+  shift: 0.1
+  scale: 0.9
 f0:
   value: 0.03
 porosity:
-  scale: 0.4
+  shift: 2.5
+  scale: 0.2
 sss:
-  scale: 0.12
+  value: 0
 ctm:
   method: repeat
   width: 8
