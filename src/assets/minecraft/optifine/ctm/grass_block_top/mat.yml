@@ -1,8 +1,9 @@
+tint-color: '#91BD59'
 color:
-  scale-red: 0.8
-  scale-green: 0.9
+  _-preview-tint: '#91BD59'
+  scale-red: 0.9
+  scale-green: 0.94
   scale-blue: 0.9
-  preview-tint: '#91BD59'
 height:
   shift: -0.36
   scale: 0.2
@@ -24,7 +25,7 @@ f0:
 sss:
   scale: 0.6
 ctm:
-  method: repeat
+  method: of-repeat
   width: 8
   height: 8
   match-tiles: grass_block_top

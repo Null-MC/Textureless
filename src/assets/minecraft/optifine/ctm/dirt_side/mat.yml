@@ -1,0 +1,26 @@
+publish-item: false
+height:
+  shift: -0.25
+  scale: 0.2
+  edge-fade-x: 3
+  edge-fade-y: 3
+normal:
+  noise: 10
+  method: sobel3
+  strength: 4
+occlusion:
+  step-distance: 0.2
+  z-bias: 3
+  z-scale: 9
+smooth:
+  value: 0.1
+f0:
+  value: 0.03
+porosity:
+  value: 0.6
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: dirt
+  placeholder: false

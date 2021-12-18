@@ -6,13 +6,13 @@ height:
 normal:
   noise: 6
   method: sobel3
-  strength: 0.6
 occlusion:
-  step-distance: 0.2
-  z-scale: 3
+  step-distance: 0.1
+  z-scale: 2
 smooth:
   value: 0.1
 f0:
   value: 0.03
 porosity:
   value: 0.9
+ctm: {}

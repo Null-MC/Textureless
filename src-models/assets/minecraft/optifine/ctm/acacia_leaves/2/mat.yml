@@ -3,7 +3,7 @@ wrap-x: false
 wrap-y: false
 model: acacia_leaves
 blend-mode: cutout
-tint-color: '#619961'
+tint-color: '#AEA42A '
 height:
   scale: 0
 normal:
@@ -13,6 +13,10 @@ occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 3
+smooth:
+  scale: 0.5
 f0:
   value: 0.017
+sss:
+  scale: 0.7
 ctm: {}

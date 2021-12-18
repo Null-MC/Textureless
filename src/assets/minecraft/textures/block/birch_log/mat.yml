@@ -3,16 +3,19 @@ wrap-x: false
 opacity:
   value: 255
 height:
-  scale: 0.2
+  scale: 0.1
   edge-fade-x: 0.8
 normal:
-  noise: 1
+  noise: 2
   curve-x: 90
   method: sobel-high
-  strength: 2
+  strength: 0.6
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 2
+  step-distance: 0.2
+  z-bias: 5
+  z-scale: 1
+smooth:
+  scale: 0.6
 f0:
   value: 0.03
+ctm: {}

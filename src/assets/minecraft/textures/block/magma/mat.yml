@@ -1,15 +1,16 @@
 publish-item: true
-opacity:
-  value: 255
 height:
-  scale: 0.3
+  shift: -0.2
+  scale: 0.5
 normal:
   noise: 8
   method: sobel5
-  strength: 0.8
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 8
+  step-distance: 0.2
+  z-bias: 3
+  z-scale: 6
+smooth:
+  scale: 0.8
 porosity:
   value: 0
+ctm: {}

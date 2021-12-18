@@ -1,14 +1,18 @@
 publish-item: true
+tint-color: '#6BA941'
 color:
+  _-preview-tint: '#6BA941'
   value-red: 148
   value-green: 148
   value-blue: 148
-  preview-tint: '#6BA941'
 height:
-  texture: alpha.png
-  scale: 0.15
+  texture: opacity.png
+  scale: 0.1
 normal:
-  method: sobel-low
+  noise: 4
+  curve-x: 90
+  curve-y: 90
+  method: sobel5
 occlusion:
   step-distance: 0.2
   z-bias: 0
@@ -17,3 +21,4 @@ f0:
   value: 0.017
 sss:
   value: 0.4
+ctm: {}

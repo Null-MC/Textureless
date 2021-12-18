@@ -1,25 +1,22 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
-model-type: cross
-color:
-  value-red: 220
-  value-green: 220
-  value-blue: 190
 height:
   texture: opacity.png
   scale: 0.05
   edge-fade-x: 0.1
   edge-fade-y: 0.1
 normal:
-  noise: 3
-  method: sobel-high
-  strength: 2
+  noise: 6
+  method: sobel5
 occlusion:
-  z-scale: 12
+  step-distance: 0.1
+  z-bias: 5
+  z-scale: 4
 smooth:
   value: 0.08
 f0:
   value: 0.03
 porosity:
   value: 0.5
+ctm: {}

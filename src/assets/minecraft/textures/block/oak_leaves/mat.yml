@@ -1,17 +1,21 @@
-publish-inventory: true
-color-tint: '#48B518'
-albedo:
+publish-item: true
+tint-color: '#48B518'
+color:
   value-red: 148
   value-green: 148
   value-blue: 148
 height:
-  value: 0
+  texture: opacity.png
+  scale: 0.1
 normal:
-  method: sobel3
-  strength: 2
+  noise: 3
+  curve-x: 90
+  curve-y: 90
+  method: sobel5
 occlusion:
   step-distance: 0.4
   z-bias: 0
   z-scale: 6
 f0:
   value: 0.017
+ctm: {}

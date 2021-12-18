@@ -1,10 +1,7 @@
 wrap-x: false
 wrap-y: false
 model: cross
-color:
-  value-red: 190
-  value-green: 185
-  value-blue: 180
+blend-mode: cutout
 height:
   texture: opacity.png
   scale: 0.05
@@ -22,3 +19,4 @@ f0:
   value: 0.04
 porosity:
   value: 0.6
+ctm: {}

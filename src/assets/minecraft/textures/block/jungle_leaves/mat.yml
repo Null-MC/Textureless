@@ -1,8 +1,12 @@
 publish-item: true
 tint-color: '#48B518'
 height:
-  scale: 0
+  texture: opacity.png
+  scale: 0.1
 normal:
+  noise: 3
+  curve-x: 90
+  curve-y: 90
   method: sobel5
 occlusion:
   step-distance: 0.2
