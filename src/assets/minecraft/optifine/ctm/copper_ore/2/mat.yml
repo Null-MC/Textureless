@@ -1,0 +1,10 @@
+publish-item: false
+normal:
+  noise: 3
+  method: sobel3
+  strength: 2
+occlusion:
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 15
+ctm: {}

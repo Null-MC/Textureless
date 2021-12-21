@@ -1,7 +1,8 @@
+publish: true
 texture-size: 128
 wrap-x: false
 wrap-y: false
-model-file: entity/chest
+model: entity/chest
 height:
   scale: 0.6
 normal:
@@ -11,6 +12,7 @@ normal:
 occlusion:
   step-distance: 0.1
   z-scale: 10
+ctm: {}
 filters:
 - name: Base-Down
   left: 0.21875

@@ -1,0 +1,37 @@
+model: sugar_cane_stage1
+blend-mode: cutout
+normal:
+  noise: 6
+f0:
+  value: 0.02
+ctm: {}
+filters:
+- name: west
+  left: 0
+  width: 0.0625
+  normal-curve-x: 90
+- name: south
+  left: 0.09375
+  width: 0.0625
+  normal-curve-x: 90
+- name: east
+  left: 0.1875
+  width: 0.0625
+  normal-curve-x: 90
+- name: north
+  left: 0.28125
+  width: 0.0625
+  normal-curve-x: 90
+- name: up
+  left: 0.90625
+  width: 0.0625
+  height: 0.0625
+  normal-curve-x: 120
+  normal-curve-y: 120
+- name: down
+  left: 0.90625
+  top: 0.09375
+  width: 0.0625
+  height: 0.0625
+  normal-curve-x: 120
+  normal-curve-y: 120

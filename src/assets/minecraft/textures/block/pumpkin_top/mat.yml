@@ -1,6 +1,4 @@
-publish-inventory: true
-opacity:
-  value: 255
+publish-item: true
 height:
   scale: 0.4
   edge-fade-x: 2
@@ -10,17 +8,11 @@ normal:
   curve-y: 90
   radius-x: 0.6
   radius-y: 0.6
-  method: sobel-low
-  strength: 0.4
+  method: sobel3
 occlusion:
   step-distance: 0.2
   z-bias: 1
   z-scale: 2
-smooth:
-  value: 0.15
-f0:
-  value: 0.03
 porosity:
   value: 0
-sss:
-  value: 0.01
+ctm: {}

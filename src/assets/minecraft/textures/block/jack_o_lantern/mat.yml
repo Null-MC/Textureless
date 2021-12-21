@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 opacity:
@@ -13,18 +13,17 @@ normal:
   curve-y: 90
   radius-x: 0.6
   radius-y: 0.6
-  method: sobel-high
+  method: sobel3
 occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 2
-smooth:
-  value: 0.15
 f0:
-  value: 0.03
+  value: 0.02
 porosity:
   value: 0
 sss:
   value: 0.01
 emissive:
   scale: 1.2
+ctm: {}

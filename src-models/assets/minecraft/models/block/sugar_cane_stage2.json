@@ -1,0 +1,6 @@
+{
+	"parent": "block/template_sugar_cane",
+	"textures": {
+		"all": "block/sugar_cane_stage2"
+	}
+}

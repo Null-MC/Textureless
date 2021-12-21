@@ -1,10 +1,8 @@
-publish-inventory: true
-opacity:
-  value: 255
+publish-item: true
 color:
-  value-red: 187
-  value-green: 112
-  value-blue: 34
+  value-red: 202
+  value-green: 119
+  value-blue: 31
 height:
   scale: 0.2
   edge-fade-x: 0.5
@@ -12,18 +10,14 @@ height:
 normal:
   curve-x: 90
   curve-y: 90
-  radius-x: 0.6
-  radius-y: 0.6
-  strength: 0.4
+  method: sobel5
 occlusion:
-  step-distance: 0.2
-  z-bias: 0
+  step-distance: 0.1
   z-scale: 2
 smooth:
-  value: 0.15
+  value: 0.4
 f0:
-  value: 0.03
-porosity:
-  value: 0
+  value: 0.02
 sss:
-  value: 0.01
+  value: 0.05
+ctm: {}
