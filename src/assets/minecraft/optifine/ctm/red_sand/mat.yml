@@ -15,7 +15,7 @@ occlusion:
   z-scale: 4
 smooth:
   shift: 0.1
-  scale: 0.9
+  scale: 0.76
 f0:
   value: 0.03
 porosity:
@@ -24,7 +24,7 @@ porosity:
 sss:
   value: 0
 ctm:
-  method: repeat
+  method: of-repeat
   width: 8
   height: 8
   match-tiles: red_sand

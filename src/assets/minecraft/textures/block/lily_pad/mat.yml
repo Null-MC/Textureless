@@ -1,9 +1,10 @@
 publish-item: true
+tint-color: '#71C35C'
 color:
+  _-preview-tint: '#71C35C'
   value-red: 163
   value-green: 163
   value-blue: 163
-  preview-tint: '#71C35C'
 height:
   scale: 0.4
   edge-fade-x: 0.01
@@ -11,12 +12,13 @@ height:
 normal:
   noise: 4
   method: sobel5
-  strength: 0.7
+  strength: 0.5
 occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 3
 smooth:
-  value: 0.6
+  value: 0.55
 f0:
   value: 0.03
+ctm: {}

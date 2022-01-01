@@ -7,11 +7,12 @@ height:
   scale: 0.4
 normal:
   noise: 6
-  method: sobel-high
+  method: sobel-low
+  strength: 0.5
 occlusion:
-  step-distance: 0.3
-  z-bias: 1
-  z-scale: 4
+  step-distance: 0.2
+  z-bias: 0.2
+  z-scale: 3
 smooth:
   scale: 1.5
 ctm:

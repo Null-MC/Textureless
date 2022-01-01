@@ -1,52 +1,52 @@
 {
   "variants": {
     "age=0": {
-      "model": "block/sugar_cane_stage0"
+      "model": "block/sugar_cane_stage1"
     },
     "age=1": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=2": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=3": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=4": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=5": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=6": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=7": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=8": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=9": {
-      "model": "block/sugar_cane_stage1"
+      "model": "block/sugar_cane_stage0"
     },
     "age=10": {
-      "model": "block/sugar_cane_stage2"
+      "model": "block/sugar_cane_stage0"
     },
     "age=11": {
-      "model": "block/sugar_cane_stage2"
+      "model": "block/sugar_cane_stage1"
     },
     "age=12": {
-      "model": "block/sugar_cane_stage2"
+      "model": "block/sugar_cane_stage1"
     },
     "age=13": {
-      "model": "block/sugar_cane_stage2"
+      "model": "block/sugar_cane_stage1"
     },
     "age=14": {
-      "model": "block/sugar_cane_stage2"
+      "model": "block/sugar_cane_stage1"
     },
     "age=15": {
-      "model": "block/sugar_cane_stage2"
+      "model": "block/sugar_cane_stage1"
     }
   }
 }

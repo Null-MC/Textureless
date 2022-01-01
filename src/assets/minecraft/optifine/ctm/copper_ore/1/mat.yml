@@ -6,5 +6,5 @@ normal:
 occlusion:
   step-distance: 0.2
   z-bias: 0
-  z-scale: 5
+  z-scale: 10
 ctm: {}

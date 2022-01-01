@@ -1,0 +1,6 @@
+{
+  "parent": "block/deepslate_bricks",
+  "textures": {
+    "all": "block/deepslate_bricks_inventory"
+  }
+}

@@ -1,4 +1,4 @@
-publish-item: true
+publish-item: false
 height:
   scale: 0.2
   edge-fade-x: 0.5

@@ -1,17 +1,11 @@
 publish-inventory: true
-alpha:
-  value: 255
 height:
-  scale: 0.6
+  scale: 0.2
+  edge-fade-x: 0.5
+  edge-fade-strength: 0.5
 normal:
-  strength: 1
-  noise: 3
-  filter: sobel3
+  noise: 8
 occlusion:
-  z-bias: 0
-  z-scale: 3
-  step-distance: 0.15
-smooth: {}
-f0: {}
-porosity: {}
-create-inventory: true
+  z-scale: 2
+sss:
+  scale: 0.5

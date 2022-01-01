@@ -1,4 +1,4 @@
-publish-item: true
+publish-item: false
 height:
   scale: 0.2
   edge-fade-x: 0.5
@@ -8,8 +8,9 @@ normal:
 occlusion:
   z-scale: 2
 smooth:
-  value: 0.2
+  value: 0.3
 f0:
   value: 0.03
 porosity:
   value: 0.6
+ctm: {}

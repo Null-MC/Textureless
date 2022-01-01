@@ -1,21 +1,16 @@
-publish-inventory: true
-opacity:
-  value: 255
-color:
-  value-red: 129
-  value-green: 129
-  value-blue: 129
+publish-item: true
 height:
-  scale: 0.6
+  scale: 0.2
+  edge-fade-x: 0.5
+  edge-fade-strength: 0.5
 normal:
-  noise: 3
-  method: sobel3
-  strength: 1
+  noise: 8
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 6
+  z-scale: 2
+smooth:
+  value: 0.3
 f0:
   value: 0.03
 porosity:
-  value: 0.85
+  value: 0.6
+ctm: {}

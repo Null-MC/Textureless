@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "block/leaves",
   "textures": {
-    "layer0": "block/jungle_leaves_inventory"
+    "all": "block/jungle_leaves_inventory"
   }
 }

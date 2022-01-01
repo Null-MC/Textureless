@@ -1,0 +1,26 @@
+color:
+  value-red: 58
+  value-green: 58
+  value-blue: 61
+height:
+  shift: -0.08
+  scale: 0.4
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  method: sobel5
+  strength: 1.5
+occlusion:
+  step-distance: 0.2
+  z-bias: 0.2
+  z-scale: 16
+f0:
+  value: 0.041
+porosity:
+  value: 0.4
+ctm:
+  method: of-repeat
+  width: 6
+  height: 6
+  match-tiles: smooth_basalt
+  placeholder: false

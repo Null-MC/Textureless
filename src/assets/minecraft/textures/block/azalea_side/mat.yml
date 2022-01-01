@@ -1,0 +1,19 @@
+color:
+  value-red: 90
+  value-green: 111
+  value-blue: 47
+normal:
+  noise: 4
+smooth:
+  value: 0.2
+f0:
+  value: 0.017
+sss:
+  value: 0.4
+ctm: {}
+filters:
+- name: default
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4

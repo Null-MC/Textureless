@@ -1,0 +1,18 @@
+blend-mode: cutout
+color:
+  value-red: 90
+  value-green: 111
+  value-blue: 47
+normal:
+  noise: 4
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.4
+  radius-y: 0.4
+smooth:
+  value: 0.2
+f0:
+  value: 0.017
+sss:
+  value: 0.4
+ctm: {}

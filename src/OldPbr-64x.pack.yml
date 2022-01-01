@@ -1,5 +1,5 @@
 edition: java
-format: 7
+format: 8
 name: Textureless-OldPbr-64x
 description: No Textures! PBR shader required.
 tags: 64x OldPBR

@@ -1,12 +1,12 @@
-create-inventory: true
-alpha:
+publish-item: false
+opacity:
   value: 255
 height:
   scale: 0.8
 normal:
+  method: sobel-low
   strength: 3
-  filter: sobel-low
 occlusion:
-  z-scale: 3
   step-distance: 0.15
-emissive: {}
+  z-scale: 3
+ctm: {}

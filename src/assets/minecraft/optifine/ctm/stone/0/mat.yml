@@ -7,7 +7,7 @@ color:
   value-blue: 129
 normal:
   noise: 3
-  method: sobel-high
+  method: sobel3
   strength: 2
 occlusion:
   step-distance: 0.2

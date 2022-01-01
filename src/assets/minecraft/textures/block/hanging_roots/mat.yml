@@ -1,0 +1,16 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+height:
+  scale: 0
+normal:
+  noise: 12
+  method: sobel3
+occlusion:
+  step-distance: 0.1
+  z-scale: 3
+f0:
+  value: 0.03
+porosity:
+  value: 0.7
+ctm: {}

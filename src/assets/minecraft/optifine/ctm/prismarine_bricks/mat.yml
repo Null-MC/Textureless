@@ -14,6 +14,8 @@ f0:
 porosity:
   value: 0
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: prismarine_bricks
+  placeholder: true

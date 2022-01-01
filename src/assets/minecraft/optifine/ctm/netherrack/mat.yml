@@ -1,3 +1,8 @@
+publish-item: true
+color:
+  scale-red: 0.6
+  scale-green: 0.3
+  scale-blue: 0.2
 height:
   shift: -0.6
   scale: 0.4
@@ -9,7 +14,7 @@ normal:
 f0:
   value: 0.03
 ctm:
-  method: repeat
+  method: of-repeat
   width: 8
   height: 8
   match-tiles: netherrack

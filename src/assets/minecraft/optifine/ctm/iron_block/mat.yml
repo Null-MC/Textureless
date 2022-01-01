@@ -1,3 +1,4 @@
+publish-item: true
 height:
   scale: 0.5
   edge-fade-x: 0.8
@@ -15,7 +16,7 @@ metal:
 porosity:
   value: 0
 ctm:
-  method: repeat
+  method: of-repeat
   width: 8
   height: 8
   match-tiles: iron_block
