@@ -1,0 +1,35 @@
+publish-item: true
+model: cobblestone_wall_south
+color:
+  value-red: 129
+  value-green: 129
+  value-blue: 129
+height:
+  scale: 0.05
+normal:
+  noise: 6
+  method: sobel-low
+  strength: 0.5
+occlusion:
+  step-distance: 0.1
+  z-scale: 1
+smooth:
+  value: 0.1
+f0:
+  value: 0.03
+porosity:
+  value: 0.8
+ctm: {}
+filters:
+- name: left
+  width: 0.125
+  normal-curve-right: 45
+- name: middle
+  left: 0.125
+  width: 0.375
+  normal-curve-x: 90
+  normal-radius-x: 0.5
+- name: right
+  left: 0.5
+  width: 0.125
+  normal-curve-left: 45

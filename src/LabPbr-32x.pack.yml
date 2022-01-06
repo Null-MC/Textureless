@@ -27,6 +27,6 @@ encoding:
 block-texture-size: 32
 item-texture-size: 32
 texture-scale: 1
-auto-generate-occlusion: true
+auto-generate-occlusion: false
 occlusion-quality: 0.2
 occlusion-power: 1

@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/azalea_leaves"
+      },
+      {
+        "model": "block/azalea_leaves",
+        "y": 90
+      },
+      {
+        "model": "block/azalea_leaves",
+        "y": 180
+      },
+      {
+        "model": "block/azalea_leaves",
+        "y": 270
+      },
+      {
+        "model": "block/azalea_leaves",
+        "z": 90
+      },
+      {
+        "model": "block/azalea_leaves",
+        "x": 90
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+texture-width: 64
+texture-height: 64
+wrap-x: true
+wrap-y: true
+color:
+  input-red:
+    sampler: bicubic
+  input-green:
+    sampler: bicubic
+  input-blue:
+    sampler: bicubic
+f0:
+  value: 0.053
+emissive:
+  input:
+    sampler: bicubic
+ctm: {}

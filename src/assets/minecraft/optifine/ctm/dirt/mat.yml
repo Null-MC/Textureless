@@ -1,4 +1,4 @@
-publish-item: false
+publish-item: true
 height:
   shift: -0.12
   scale: 0.2
@@ -19,3 +19,4 @@ ctm:
   width: 8
   height: 8
   match-tiles: dirt
+  placeholder: true

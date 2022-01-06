@@ -1,0 +1,22 @@
+publish-item: true
+height:
+  shift: -0.12
+  scale: 0.2
+  edge-fade-x: 3
+  edge-fade-y: 3
+normal:
+  noise: 6
+  method: sobel3
+  strength: 1.5
+occlusion:
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 12
+smooth:
+  scale: 0.8
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: podzol_top
+  placeholder: true

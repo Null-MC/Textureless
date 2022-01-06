@@ -1,0 +1,19 @@
+texture-width: 32
+wrap-x: false
+opacity:
+  scale: 0.2
+  input:
+    sampler: bilinear
+height:
+  scale: 0
+normal:
+  noise: 4
+  method: sobel5
+  strength: 2
+occlusion:
+  z-bias: 0.2
+smooth:
+  value: 0.6
+f0:
+  value: 0.017
+ctm: {}

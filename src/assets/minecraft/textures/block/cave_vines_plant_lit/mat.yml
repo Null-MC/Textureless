@@ -1,0 +1,14 @@
+wrap-x: false
+model: cross
+height:
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.01
+normal:
+  noise: 4
+  method: sobel5
+sss:
+  scale: 1.6
+emissive:
+  scale: 0.2
+ctm: {}

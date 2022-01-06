@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_topped_wall_north",
+	"textures": {
+		"wall": "block/bricks",
+		"particle": "block/bricks_inventory"
+	}
+}

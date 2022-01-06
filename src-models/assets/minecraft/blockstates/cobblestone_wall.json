@@ -13,8 +13,7 @@
         "north": "low"
       },
       "apply": {
-        "model": "block/cobblestone_wall_north",
-        "uvlock": true
+        "model": "block/cobblestone_wall_north"
       }
     },
     {
@@ -23,8 +22,7 @@
       },
       "apply": {
         "model": "block/cobblestone_wall_north",
-        "y": 90,
-        "uvlock": true
+        "y": 90
       }
     },
     {
@@ -32,8 +30,7 @@
         "south": "low"
       },
       "apply": {
-        "model": "block/cobblestone_wall_south",
-        "uvlock": true
+        "model": "block/cobblestone_wall_south"
       }
     },
     {
@@ -42,8 +39,7 @@
       },
       "apply": {
         "model": "block/cobblestone_wall_south",
-        "y": 90,
-        "uvlock": true
+        "y": 90
       }
     },
     {

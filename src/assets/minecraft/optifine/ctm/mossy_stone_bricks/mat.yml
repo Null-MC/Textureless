@@ -1,3 +1,4 @@
+publish-item: true
 height:
   shift: -0.1
   scale: 0.36
@@ -19,7 +20,8 @@ f0:
 sss:
   scale: 0.5
 ctm:
-  method: repeat
+  method: of-repeat
   width: 4
   height: 4
   match-tiles: mossy_stone_bricks
+  placeholder: true

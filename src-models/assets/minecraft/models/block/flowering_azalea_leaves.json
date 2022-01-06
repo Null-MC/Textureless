@@ -1,0 +1,6 @@
+{
+   "parent": "block/leaves_ctm_template",
+    "textures": {
+        "all": "block/flowering_azalea_leaves"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_topped_wall_south",
+	"textures": {
+		"wall": "block/nether_bricks",
+		"particle": "block/nether_bricks_inventory"
+	}
+}

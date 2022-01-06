@@ -1,18 +1,18 @@
 publish-item: true
-color:
-  scale-red: 0.6
-  scale-green: 0.3
-  scale-blue: 0.2
 height:
-  shift: -0.6
-  scale: 0.4
-  edge-fade-x: 1
-  edge-fade-y: 1
+  shift: -0.5
+  scale: 0.5
+  edge-fade-x: 0.6
+  edge-fade-y: 0.6
 normal:
-  method: sobel-low
-  strength: 2
-f0:
-  value: 0.03
+  method: sobel5
+  strength: 0.8
+occlusion:
+  step-distance: 0.1
+  z-bias: 0.2
+  z-scale: 6
+sss:
+  scale: 3
 ctm:
   method: of-repeat
   width: 8
