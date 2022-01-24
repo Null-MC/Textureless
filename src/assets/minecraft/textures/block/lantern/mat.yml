@@ -1,17 +1,15 @@
 wrap-x: false
 wrap-y: false
-model-type: lantern
-model-file: template_lantern
 height:
   scale: 0.5
 normal:
   method: sobel-low
+  strength: 1.5
 occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 3
-porosity:
-  value: 0
+ctm: {}
 filters:
 - name: side
   left: 0

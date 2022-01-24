@@ -2,7 +2,7 @@ texture-width: 128
 texture-height: 64
 wrap-x: false
 wrap-y: false
-model-file: entity/enderman
+model: entity/enderman
 height:
   scale: 0
 normal:
@@ -16,6 +16,9 @@ f0:
   value: 0.02
 sss:
   value: 0.25
+emissive:
+  scale: 0.2
+ctm: {}
 filters:
 - name: Head-Up
   left: 0.125

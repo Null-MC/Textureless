@@ -1,15 +1,17 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
-model-file: cross
+model: cross
+blend-mode: cutout
+tint-color: '#79C05A'
 color:
+  _-preview-tint: '#79C05A'
   value-red: 128
   value-green: 128
   value-blue: 128
   scale-red: 0.8
   scale-green: 0.9
   scale-blue: 0.9
-  preview-tint: '#79C05A'
 height:
   scale: 0.05
   edge-fade-x: 0.1
@@ -24,3 +26,4 @@ f0:
   value: 0.01
 sss:
   value: 0.5
+ctm: {}

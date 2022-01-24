@@ -1,22 +1,22 @@
-publish-inventory: true
-alpha:
+publish-item: true
+opacity:
   value: 210
-albedo:
-  value-red: 251
-  value-green: 188
-  value-blue: 66
+color:
+  value-red: 211
+  value-green: 145
+  value-blue: 44
 height:
   scale: 0.6
 normal:
   strength: 2
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 4
-  step-distance: 0.15
 smooth:
-  value: 0.72
+  value: 0.86
 f0:
-  value: 0.036
+  value: 0.028
 sss:
-  value: 0.6
-create-inventory: true
+  value: 0.9
+ctm: {}

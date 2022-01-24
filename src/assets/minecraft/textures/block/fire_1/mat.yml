@@ -1,5 +1,22 @@
+texture-size: 32
 wrap-x: false
 wrap-y: false
-model-type: cross
+model: cross
+opacity:
+  input:
+    sampler: bicubic
+color:
+  input-red:
+    sampler: bicubic
+  input-green:
+    sampler: bicubic
+  input-blue:
+    sampler: bicubic
 occlusion:
   value: 0
+emissive:
+  shift: 0.5
+  scale: 0.65
+  input:
+    sampler: bicubic
+ctm: {}

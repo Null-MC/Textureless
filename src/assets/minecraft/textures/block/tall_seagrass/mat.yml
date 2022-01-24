@@ -1,0 +1,32 @@
+wrap-x: false
+wrap-y: false
+opacity:
+  input:
+    sampler: bilinear
+color:
+  value-red: 43
+  value-green: 93
+  value-blue: 14
+height:
+  scale: 0
+normal:
+  noise: 2
+  method: sobel5
+smooth:
+  value: 0.7
+f0:
+  value: 0.017
+sss:
+  value: 0.6
+ctm: {}
+parts:
+- name: tall_seagrass_top
+  left: 0
+  top: 0
+  width: 32
+  height: 32
+- name: tall_seagrass_bottom
+  left: 0
+  top: 32
+  width: 32
+  height: 32

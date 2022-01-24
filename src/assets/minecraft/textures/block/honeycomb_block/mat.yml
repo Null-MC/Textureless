@@ -1,14 +1,15 @@
-alpha:
+publish-item: true
+opacity:
   value: 255
 height:
   scale: 0.36
 normal:
-  strength: 0.5
+  method: sobel5
+  strength: 0.2
 occlusion:
-  z-bias: 0
-  z-scale: 5
   step-distance: 0.15
+  z-bias: 2
+  z-scale: 4
 smooth:
   value: 0.35
-sss: {}
-create-inventory: true
+ctm: {}

@@ -1,9 +1,20 @@
 wrap-x: false
 wrap-y: false
+model: cross_mirrored
 height:
-  value: 0
+  texture: opacity.png
+  scale: 0.06
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 6
+  method: sobel5
+  strength: 0.6
 occlusion:
   step-distance: 0.15
   z-scale: 3
 smooth:
   value: 0.08
+f0:
+  value: 0.017
+ctm: {}

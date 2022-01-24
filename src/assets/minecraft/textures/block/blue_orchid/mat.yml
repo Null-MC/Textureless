@@ -1,6 +1,7 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
+model: cross_mirrored
 height:
   texture: alpha.png
   scale: 0.1
@@ -18,3 +19,4 @@ smooth:
   scale: 0.5
 f0:
   value: 0.017
+ctm: {}

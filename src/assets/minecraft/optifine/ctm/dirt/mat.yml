@@ -14,6 +14,8 @@ occlusion:
   z-scale: 9
 smooth:
   scale: 0.8
+porosity:
+  shift: 0.3
 ctm:
   method: of-repeat
   width: 8

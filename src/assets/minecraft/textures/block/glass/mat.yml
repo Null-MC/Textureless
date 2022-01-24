@@ -1,16 +1,20 @@
-create-inventory: true
-albedo:
+publish-item: true
+blend-mode: transparent
+color:
   value-red: 180
   value-green: 215
   value-blue: 221
+height:
+  scale: 0.3
 normal:
+  method: sobel-low
   strength: 0.7
-  filter: sobel-low
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 2
-  step-distance: 0.2
 f0:
   value: 0.04
 porosity:
   value: 0
+ctm: {}

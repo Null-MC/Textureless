@@ -3,11 +3,108 @@ texture-height: 64
 wrap-x: false
 wrap-y: false
 height:
-  scale: 0
+  scale: 0.8
 normal:
-  method: sobel-high
+  noise: 1
+  method: sobel-low
+  strength: 2
 occlusion:
-  z-bias: 0.1
-  z-scale: 2
+  step-distance: 0.1
+  z-scale: 4
+smooth:
+  scale: 0.8
 metal:
   value: 230
+f0:
+  value: 0.07
+ctm: {}
+filters:
+- name: wall-south
+  left: 0.03125
+  top: 0.0625
+  width: 0.25
+  height: 0.25
+- name: wall-north
+  left: 0.3125
+  top: 0.0625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-top: 30
+  normal-radius-x: 0.16
+  normal-radius-top: 0.24
+- name: base-north
+  top: 0.375
+  width: 0.03125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.16
+- name: base-south
+  left: 0.34375
+  top: 0.375
+  width: 0.03125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.16
+- name: base-up
+  left: 0.375
+  top: 0.375
+  width: 0.3125
+  height: 0.5
+- name: base-down
+  left: 0.03125
+  top: 0.375
+  width: 0.3125
+  height: 0.5
+- name: wall-up
+  left: 0.03125
+  top: 0
+  width: 0.25
+  height: 0.0625
+  normal-curve-x: 120
+  normal-curve-y: 120
+  normal-radius-x: 0.16
+  normal-radius-y: 0.8
+- name: wall-down
+  left: 0.28125
+  top: 0
+  width: 0.25
+  height: 0.0625
+- name: wall-west
+  left: 0
+  top: 0.0625
+  width: 0.03125
+  height: 0.25
+  normal-curve-left: 45
+  normal-curve-right: 30
+  normal-curve-top: 30
+  normal-radius-top: 0.24
+- name: wall-east
+  left: 0.28125
+  top: 0.0625
+  width: 0.03125
+  height: 0.25
+  normal-curve-left: 30
+  normal-curve-right: 45
+  normal-curve-top: 30
+  normal-radius-top: 0.24
+- name: base-west
+  left: 0.03125
+  top: 0.3125
+  width: 0.3125
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.16
+- name: base-east
+  left: 0.34375
+  top: 0.3125
+  width: 0.3125
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.16

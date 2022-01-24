@@ -12,7 +12,8 @@ color:
   scale-green: 0.94
   scale-blue: 0.9
 height:
-  scale: 0.3
+  texture: opacity.png
+  scale: 0.1
   edge-fade-y: 0.1
 normal:
   noise: 8

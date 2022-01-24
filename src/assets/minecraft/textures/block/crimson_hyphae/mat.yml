@@ -1,24 +1,23 @@
 publish-item: true
 wrap-x: false
-opacity:
-  value: 255
 height:
   shift: -0.02
   scale: 0.2
+  edge-fade-x: 1
 normal:
-  noise: 3
-  method: sobel-low
-  strength: 0.3
+  noise: 6
+  radius-x: 0.6
+  method: sobel3
 occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 20
 smooth:
-  shift: 0.2
-  scale: 0.8
+  value: 0.22
 f0:
-  value: 0.04
+  value: 0.07
 sss:
-  scale: 1.5
+  value: 0
 emissive:
   scale: 0.5
+ctm: {}

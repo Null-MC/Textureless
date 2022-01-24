@@ -1,12 +1,18 @@
 publish-item: true
+model: birch_trapdoor_open
+height:
+  scale: 0.6
 normal:
   curve-x: 90
   curve-y: 90
   radius-x: 0.12
   radius-y: 0.12
-  method: sobel-low
+  method: sobel3
   strength: 0.8
 occlusion:
-  step-distance: 0.2
+  step-distance: 0.1
   z-bias: 0
   z-scale: 5
+f0:
+  value: 0.04
+ctm: {}

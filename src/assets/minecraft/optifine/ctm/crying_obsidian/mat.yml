@@ -1,0 +1,20 @@
+height:
+  scale: 0.5
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  noise: 6
+occlusion:
+  step-distance: 0.1
+  z-scale: 20
+f0:
+  value: 0.047
+sss:
+  shift: 0.4
+emissive:
+  scale: 0.8
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: crying_obsidian

@@ -1,26 +1,25 @@
-alpha:
+publish-item: true
+opacity:
   value: 255
-albedo:
-  value-red: 167
-  value-green: 140
-  value-blue: 13
 height:
-  scale: 0.2
+  shift: -0.16
+  scale: 0.4
+  edge-fade-x: 2
+  edge-fade-y: 2
 normal:
-  strength: 0.1
   noise: 4
   curve-x: 40
   curve-y: 40
-  filter: sobel3
+  method: sobel3
+  strength: 0.1
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 2
-  step-distance: 0.15
 smooth:
   value: 0.08
 f0:
   value: 0.04
-porosity:
-  value: 0.85
-sss: {}
-create-inventory: true
+sss:
+  value: 0.2
+ctm: {}

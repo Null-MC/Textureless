@@ -2,13 +2,17 @@ texture-width: 128
 texture-height: 64
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel3
   strength: 2
 f0:
   value: 0.04
+sss:
+  scale: 0.3
+ctm: {}
 filters:
 - name: head-top
   left: 0.046875

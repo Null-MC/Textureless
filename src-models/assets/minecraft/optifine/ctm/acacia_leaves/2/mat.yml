@@ -5,10 +5,11 @@ model: acacia_leaves
 blend-mode: cutout
 tint-color: '#AEA42A '
 height:
-  scale: 0
+  texture: opacity.png
+  scale: 0.1
 normal:
-  noise: 3
-  method: sobel3
+  noise: 12
+  method: sobel5
 occlusion:
   step-distance: 0.2
   z-bias: 0

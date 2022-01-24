@@ -1,0 +1,21 @@
+blend-mode: transparent
+color:
+  value-red: 255
+  value-green: 255
+  value-blue: 255
+height:
+  scale: 0
+normal:
+  method: sobel-low
+  strength: 0.7
+occlusion:
+  step-distance: 0.2
+  z-bias: 0.02
+  z-scale: 0.5
+smooth:
+  scale: 0.8
+f0:
+  value: 0.04
+ctm:
+  method: of-compact
+  match-tiles: white_stained_glass orange_stained_glass magenta_stained_glass light_blue_stained_glass yellow_stained_glass lime_stained_glass pink_stained_glass gray_stained_glass light_gray_stained_glass cyan_stained_glass purple_stained_glass blue_stained_glass brown_stained_glass green_stained_glass red_stained_glass black_stained_glass

@@ -1,23 +1,23 @@
-alpha:
+wrap-x: false
+opacity:
   value: 255
-albedo:
+color:
   value-red: 138
   value-green: 102
   value-blue: 58
-height: {}
 normal:
-  strength: 0.5
   curve-x: 20
   curve-y: 20
-  filter: sobel-high
+  method: sobel-high
+  strength: 0.5
 occlusion:
+  step-distance: 0.25
   z-bias: 1
   z-scale: 3
-  step-distance: 0.25
 smooth:
   value: 0.08
 f0:
   value: 0.04
 porosity:
-  value: 0.59
-wrap-x: false
+  value: 0.9
+ctm: {}

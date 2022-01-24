@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "block/stained_glass/light_blue"
-  }
-}

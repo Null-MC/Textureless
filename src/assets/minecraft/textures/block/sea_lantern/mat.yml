@@ -2,17 +2,21 @@ publish-item: true
 opacity:
   value: 255
 height:
-  scale: 0.5
+  shift: -0.2
+  scale: 2
 normal:
   curve-x: 90
   curve-y: 90
   radius-x: 0.1
   radius-y: 0.1
-  method: sobel-low
-  strength: 1.2
+  method: sobel5
+  strength: 3
 occlusion:
   step-distance: 0.15
   z-bias: 1
   z-scale: 8
 porosity:
   value: 0
+emissive:
+  scale: 0.2
+ctm: {}

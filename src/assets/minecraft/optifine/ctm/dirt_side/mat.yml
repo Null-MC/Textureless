@@ -22,5 +22,5 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: dirt grass_block_side
+  match-tiles: dirt grass_block_side grass_block_snow
   placeholder: false

@@ -4,6 +4,7 @@ opacity:
 height:
   scale: 0.24
   edge-fade-x: 0.7
+  edge-fade-y: 1
 normal:
   noise: 2
   curve-x: 90
@@ -18,5 +19,4 @@ smooth:
   value: 0.08
 f0:
   value: 0.04
-porosity:
-  value: 0.85
+ctm: {}

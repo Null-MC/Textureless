@@ -1,6 +1,7 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 height:
   value: 0
 occlusion:
@@ -11,3 +12,4 @@ f0:
   value: 0.04
 sss:
   value: 0.1
+ctm: {}

@@ -4,7 +4,7 @@ color:
   value-green: 215
   value-blue: 221
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel-low
   strength: 0.7
@@ -12,6 +12,8 @@ occlusion:
   step-distance: 0.2
   z-bias: 0.02
   z-scale: 0.5
+smooth:
+  scale: 0.9
 f0:
   value: 0.04
 ctm:

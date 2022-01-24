@@ -1,12 +1,12 @@
-alpha:
+opacity:
   value: 255
-albedo: {}
-height: {}
 normal:
+  method: sobel-low
   strength: 0.4
-  filter: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 4
-  step-distance: 0.15
-smooth: {}
+emissive:
+  scale: 0.7
+ctm: {}

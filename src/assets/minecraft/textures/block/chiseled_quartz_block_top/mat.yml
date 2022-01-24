@@ -1,0 +1,22 @@
+publish-item: true
+color:
+  value-red: 236
+  value-green: 232
+  value-blue: 226
+height:
+  scale: 0.3
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 0.2
+occlusion:
+  step-distance: 0.1
+  z-bias: 0
+  z-scale: 2
+smooth:
+  shift: 0.2
+f0:
+  value: 0.035
+porosity:
+  value: 0
+ctm: {}

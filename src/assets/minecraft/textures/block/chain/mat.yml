@@ -1,19 +1,22 @@
 publish-item: true
-model-file: chain
+model: chain
 color:
   value-red: 197
   value-green: 200
   value-blue: 200
 height:
-  scale: 0.4
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
+  noise: 4
   method: sobel-low
-  strength: 0.6
 occlusion:
-  value: 0
+  step-distance: 0.1
+  z-scale: 2
 smooth:
   value: 0.82
 metal:
   value: 230
-porosity:
-  value: 0.0
+ctm: {}
