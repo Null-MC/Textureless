@@ -2,10 +2,16 @@ texture-width: 256
 texture-height: 128
 wrap-x: false
 wrap-y: false
-color:
-  texture: polarbear.png
+height:
+  scale: 0
+normal:
+  noise: 3
+  method: sobel-high
+  strength: 2
 occlusion:
-  value: 0
+  step-distance: 0.02
+  z-bias: 0.5
+  z-scale: 2
 smooth:
   value: 0.08
 sss:
@@ -17,151 +23,197 @@ filters:
   top: 0
   width: 0.0546875
   height: 0.109375
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: head-down
   left: 0.109375
   top: 0
   width: 0.0546875
   height: 0.109375
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: head-north
   left: 0.0546875
   top: 0.109375
   width: 0.0546875
   height: 0.109375
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: head-south
   left: 0.1640625
   top: 0.109375
   width: 0.0546875
   height: 0.109375
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: head-west
   left: 0.109375
   top: 0.109375
   width: 0.0546875
   height: 0.109375
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: head-east
   left: 0
   top: 0.109375
   width: 0.0546875
   height: 0.109375
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: head2-up
   left: 0.0234375
   top: 0.6875
   width: 0.0390625
   height: 0.046875
+  normal-curve-x: 90
+  normal-curve-bottom: 45
 - name: head2-down
   left: 0.0625
   top: 0.6875
   width: 0.0390625
   height: 0.046875
+  normal-curve-x: 90
+  normal-curve-bottom: 45
 - name: head2-north
   left: 0.0234375
   top: 0.734375
   width: 0.0390625
   height: 0.046875
-- name: head2-south
-  left: 0.0859375
-  top: 0.734375
-  width: 0.0390625
-  height: 0.046875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: head2-west
   left: 0.0625
   top: 0.734375
   width: 0.0234375
   height: 0.046875
+  normal-curve-left: 45
+  normal-curve-y: 90
 - name: head2-east
   left: 0
   top: 0.734375
   width: 0.0234375
   height: 0.046875
+  normal-curve-right: 45
+  normal-curve-y: 90
 - name: head3-up
   left: 0.2109375
   top: 0
   width: 0.015625
   height: 0.015625
+  normal-curve-x: 90
+  normal-curve-y: 120
 - name: head3-down
   left: 0.2265625
   top: 0
   width: 0.015625
   height: 0.015625
+  normal-curve-x: 90
+  normal-curve-y: 120
 - name: head3-north
   left: 0.2109375
   top: 0.015625
   width: 0.015625
   height: 0.03125
+  normal-curve-x: -60
+  normal-curve-y: -60
 - name: head3-south
   left: 0.234375
   top: 0.015625
   width: 0.015625
   height: 0.03125
+  normal-curve-x: 60
+  normal-curve-y: 60
 - name: head3-west
   left: 0.2265625
   top: 0.015625
   width: 0.0078125
   height: 0.03125
+  normal-curve-x: 120
+  normal-curve-y: 90
 - name: head3-east
   left: 0.203125
   top: 0.015625
   width: 0.0078125
   height: 0.03125
+  normal-curve-x: 120
+  normal-curve-y: 90
 - name: body_sub_1-up
   left: 0.0859375
   top: 0.296875
   width: 0.109375
   height: 0.171875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_1-down
   left: 0.1953125
   top: 0.296875
   width: 0.109375
   height: 0.171875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_1-north
   left: 0.0859375
   top: 0.46875
   width: 0.109375
   height: 0.21875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_1-south
   left: 0.28125
   top: 0.46875
   width: 0.109375
   height: 0.21875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_1-west
   left: 0.1953125
   top: 0.46875
   width: 0.0859375
   height: 0.21875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_1-east
   left: 0
   top: 0.46875
   width: 0.0859375
   height: 0.21875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_12-up
   left: 0.3828125
   top: 0
   width: 0.09375
   height: 0.15625
-- name: body_sub_12-down
-  left: 0.4765625
-  top: 0
-  width: 0.09375
-  height: 0.15625
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_12-north
   left: 0.3828125
   top: 0.15625
   width: 0.09375
   height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_12-south
   left: 0.5546875
   top: 0.15625
   width: 0.09375
   height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_12-west
   left: 0.4765625
   top: 0.15625
   width: 0.078125
   height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: body_sub_12-east
   left: 0.3046875
   top: 0.15625
   width: 0.078125
   height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: leg1-up
   left: 0.453125
   top: 0.34375
@@ -172,26 +224,32 @@ filters:
   top: 0.34375
   width: 0.03125
   height: 0.125
+  normal-curve-x: 40
+  normal-curve-y: 40
 - name: leg1-north
   left: 0.453125
   top: 0.46875
   width: 0.03125
   height: 0.15625
+  normal-curve-x: 90
 - name: leg1-south
   left: 0.546875
   top: 0.46875
   width: 0.03125
   height: 0.15625
+  normal-curve-x: 90
 - name: leg1-west
   left: 0.484375
   top: 0.46875
   width: 0.0625
   height: 0.15625
+  normal-curve-x: 90
 - name: leg1-east
   left: 0.390625
   top: 0.46875
   width: 0.0625
   height: 0.15625
+  normal-curve-x: 90
 - name: leg3-up
   left: 0.4375
   top: 0.625
@@ -202,23 +260,29 @@ filters:
   top: 0.625
   width: 0.03125
   height: 0.09375
+  normal-curve-x: 40
+  normal-curve-y: 40
 - name: leg3-north
   left: 0.4375
   top: 0.71875
   width: 0.03125
   height: 0.15625
+  normal-curve-x: 90
 - name: leg3-south
   left: 0.515625
   top: 0.71875
   width: 0.03125
   height: 0.15625
+  normal-curve-x: 90
 - name: leg3-west
   left: 0.46875
   top: 0.71875
   width: 0.046875
   height: 0.15625
+  normal-curve-x: 90
 - name: leg3-east
   left: 0.390625
   top: 0.71875
   width: 0.046875
   height: 0.15625
+  normal-curve-x: 90

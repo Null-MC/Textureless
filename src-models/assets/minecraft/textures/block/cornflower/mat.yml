@@ -2,6 +2,7 @@ wrap-x: false
 wrap-y: false
 model: cornflower
 height:
+  texture: opacity.png
   scale: 0.15
   edge-fade-x: 0.1
   edge-fade-y: 0.1
@@ -15,3 +16,4 @@ f0:
   value: 0.04
 sss:
   scale: 0.6
+ctm: {}

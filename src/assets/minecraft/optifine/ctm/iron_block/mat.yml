@@ -20,6 +20,7 @@ ctm:
   width: 8
   height: 8
   match-tiles: iron_block
+  placeholder: true
 filters:
 - name: block
   tile: true

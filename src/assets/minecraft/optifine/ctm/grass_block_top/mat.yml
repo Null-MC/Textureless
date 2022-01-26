@@ -1,9 +1,5 @@
+publish-item: true
 tint-color: '#91BD59'
-color:
-  _-preview-tint: '#91BD59'
-  scale-red: 0.9
-  scale-green: 0.94
-  scale-blue: 0.9
 height:
   shift: -0.36
   scale: 0.2
@@ -23,9 +19,10 @@ smooth:
 f0:
   value: 0.01
 sss:
-  scale: 0.6
+  scale: 0.4
 ctm:
   method: of-repeat
   width: 8
   height: 8
   match-tiles: grass_block_top
+  placeholder: true

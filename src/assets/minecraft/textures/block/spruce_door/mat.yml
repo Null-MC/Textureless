@@ -1,17 +1,22 @@
-alpha:
+publish-item: true
+opacity:
   value: 255
 height:
   scale: 0.25
+  edge-fade-x: 0.1
 normal:
-  strength: 0.25
-  filter: sobel-low
+  noise: 1
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.12
+  radius-y: 0.06
+  method: sobel-low
+  strength: 1.6
 occlusion:
+  step-distance: 0.1
   z-bias: 0
   z-scale: 2
-  step-distance: 0.15
-smooth:
-  scale: 0.6
-create-inventory: true
+ctm: {}
 parts:
 - name: spruce_door_top
   left: 0

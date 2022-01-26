@@ -1,0 +1,17 @@
+blend-mode: cutout
+height:
+  scale: 0
+normal:
+  noise: 6
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.4
+  radius-y: 0.4
+  method: sobel5
+occlusion:
+  step-distance: 0.1
+smooth:
+  value: 0.35
+f0:
+  value: 0.017
+ctm: {}

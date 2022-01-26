@@ -4,11 +4,12 @@ opacity:
 normal:
   noise: 8
 smooth:
-  value: 0.4
+  value: 0.3
 metal:
   value: 230
 porosity:
   value: 0.6
+ctm: {}
 filters:
 - name: head-top
   left: 0.0625

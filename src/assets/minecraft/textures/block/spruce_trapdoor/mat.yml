@@ -4,6 +4,7 @@ opacity:
 height:
   scale: 0.25
 normal:
+  noise: 1
   curve-x: 90
   curve-y: 90
   radius-x: 0.12
@@ -11,6 +12,7 @@ normal:
   method: sobel-high
   strength: 0.6
 occlusion:
-  step-distance: 0.15
+  step-distance: 0.1
   z-bias: 0
   z-scale: 2
+ctm: {}

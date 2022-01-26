@@ -1,22 +1,22 @@
+publish-item: true
 blend-mode: transparent
 color:
-  value-red: 93
-  value-green: 122
-  value-blue: 149
+  value-red: 133
+  value-green: 148
+  value-blue: 156
 height:
   shift: -0.02
   scale: 0.3
   edge-fade-x: 3
   edge-fade-y: 3
 normal:
-  noise: 4
-  method: sobel5
+  noise: 2
+  method: sobel3
+  strength: 3
 occlusion:
   step-distance: 0.15
   z-bias: 1
   z-scale: 8
-smooth:
-  scale: 0.9
 f0:
   value: 0.017
 ctm:
@@ -24,3 +24,4 @@ ctm:
   width: 8
   height: 8
   match-tiles: ice
+  placeholder: true

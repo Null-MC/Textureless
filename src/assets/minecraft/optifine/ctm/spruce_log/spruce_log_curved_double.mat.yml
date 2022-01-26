@@ -1,0 +1,36 @@
+wrap-x: false
+color:
+  texture: color_double.png
+height:
+  texture: height_double.png
+  shift: -0.2
+  scale: 0.26
+  edge-fade-x: 1
+normal:
+  texture: normal_curved_double.png
+  noise: 8
+  curve-x: 90
+  method: sobel3
+  strength: 1.5
+occlusion:
+  texture: occlusion_curved_double.png
+  step-distance: 0.1
+  z-scale: 4
+smooth:
+  value: 0.1
+f0:
+  value: 0.03
+porosity:
+  value: 0.8
+ctm: {}
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 32
+  height: 32
+- name: 3
+  left: 32
+  top: 0
+  width: 32
+  height: 32

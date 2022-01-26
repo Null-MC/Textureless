@@ -1,6 +1,4 @@
 wrap-y: false
-model-type: file
-model-file: assets\minecraft\models\block\powered_rail_on.json
 opacity:
   value: 255
 normal:
@@ -9,6 +7,7 @@ occlusion:
   step-distance: 0.15
   z-bias: 1
   z-scale: 2
+ctm: {}
 filters:
 - name: Rail-Up
   top: 0.125

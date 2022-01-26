@@ -1,4 +1,4 @@
-publish-item: false
+publish-item: true
 color:
   scale-red: 0.8
   scale-green: 0.8
@@ -22,7 +22,7 @@ ctm:
   width: 4
   height: 4
   match-tiles: oxidized_copper
-  placeholder: false
+  placeholder: true
 filters:
 - name: default
   tile: true

@@ -1,3 +1,4 @@
+publish-item: true
 color:
   value-red: 113
   value-green: 179
@@ -23,7 +24,8 @@ f0:
 sss:
   shift: 0.5
 ctm:
-  method: repeat
+  method: of-repeat
   width: 3
   height: 3
   match-tiles: diamond_block
+  placeholder: true

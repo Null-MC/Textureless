@@ -1,0 +1,17 @@
+wrap-y: false
+height:
+  scale: 0
+normal:
+  noise: 6
+  method: sobel5
+occlusion:
+  step-distance: 0.1
+f0:
+  value: 0.017
+ctm: {}
+filters:
+- name: default
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4

@@ -1,3 +1,4 @@
+publish-item: true
 color:
   value-red: 27
   value-green: 24
@@ -20,3 +21,4 @@ ctm:
   width: 8
   height: 8
   match-tiles: obsidian
+  placeholder: true

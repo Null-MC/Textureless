@@ -2,22 +2,23 @@ texture-width: 128
 texture-height: 64
 wrap-x: false
 wrap-y: false
-albedo:
+blend-mode: cutout
+color:
   value-red: 95
   value-green: 111
   value-blue: 128
 height:
-  value: 0
+  scale: 0
 normal:
-  strength: 2
   noise: 1
-  filter: sobel-low
+  method: sobel-low
+  strength: 2
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
 smooth:
   value: 0.45
 f0:
   value: 0.03
-sss: {}
+ctm: {}

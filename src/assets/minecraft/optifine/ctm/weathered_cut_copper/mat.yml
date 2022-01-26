@@ -1,4 +1,4 @@
-publish-item: false
+publish-item: true
 height:
   scale: 0.3
 normal:
@@ -18,7 +18,7 @@ ctm:
   width: 4
   height: 4
   match-tiles: weathered_cut_copper
-  placeholder: false
+  placeholder: true
 filters:
 - name: top-left
   left: 0

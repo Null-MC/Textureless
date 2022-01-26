@@ -1,22 +1,20 @@
-alpha:
-  value: 255
-albedo:
+publish-item: true
+color:
   value-red: 186
   value-green: 99
   value-blue: 29
 height:
   scale: 0.12
 normal:
-  strength: 0.2
-  noise: 2
+  noise: 4
+  method: sobel9
+  strength: 0.1
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 2
-  step-distance: 0.15
-smooth:
-  scale: 0.9
 f0:
-  value: 0.07
+  value: 0.03
 porosity:
-  value: 0.78
-create-inventory: true
+  value: 0.76
+ctm: {}

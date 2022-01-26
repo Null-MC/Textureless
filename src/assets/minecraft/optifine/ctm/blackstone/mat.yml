@@ -1,0 +1,29 @@
+publish-item: true
+color:
+  value-red: 42
+  value-green: 36
+  value-blue: 41
+height:
+  texture: bump.png
+  scale: 0.3
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  method: sobel5
+  strength: 4
+occlusion:
+  step-distance: 0.1
+  z-bias: 0
+  z-scale: 20
+smooth:
+  scale: 0.3
+f0:
+  value: 0.04
+porosity:
+  value: 0.6
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: blackstone blackstone_top
+  placeholder: true

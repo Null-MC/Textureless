@@ -1,3 +1,4 @@
+publish-item: true
 opacity:
   value: 255
 color:
@@ -25,7 +26,8 @@ sss:
   shift: 0.4
   scale: 0.72
 ctm:
-  method: repeat
+  method: of-repeat
   width: 8
   height: 8
   match-tiles: snow
+  placeholder: true

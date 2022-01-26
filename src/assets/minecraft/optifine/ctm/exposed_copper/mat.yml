@@ -1,4 +1,4 @@
-publish-item: false
+publish-item: true
 height:
   scale: 0.5
   edge-fade-x: 0.8
@@ -16,7 +16,7 @@ ctm:
   width: 4
   height: 4
   match-tiles: exposed_copper
-  placeholder: false
+  placeholder: true
 filters:
 - name: default
   tile: true

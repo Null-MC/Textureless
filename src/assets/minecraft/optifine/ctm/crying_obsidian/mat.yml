@@ -1,3 +1,4 @@
+publish-item: true
 height:
   scale: 0.5
   edge-fade-x: 2
@@ -18,3 +19,4 @@ ctm:
   width: 8
   height: 8
   match-tiles: crying_obsidian
+  placeholder: true

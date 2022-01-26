@@ -1,11 +1,17 @@
+wrap-y: false
 color:
   value-red: 90
   value-green: 111
   value-blue: 47
+height:
+  scale: 0
 normal:
-  noise: 4
+  noise: 6
+  method: sobel5
+occlusion:
+  step-distance: 0.1
 smooth:
-  value: 0.2
+  value: 0.35
 f0:
   value: 0.017
 sss:

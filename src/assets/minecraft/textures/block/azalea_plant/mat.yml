@@ -1,1 +1,11 @@
-{}
+wrap-y: false
+height:
+  scale: 0
+normal:
+  noise: 6
+  method: sobel5
+occlusion:
+  step-distance: 0.1
+f0:
+  value: 0.03
+ctm: {}

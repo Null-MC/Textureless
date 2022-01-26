@@ -1,10 +1,13 @@
 wrap-x: false
 wrap-y: false
+model: cross_mirrored
+blend-mode: cutout
+tint-color: '#7CBD6B'
 color:
+  _-preview-tint: '#7CBD6B'
   value-red: 128
   value-green: 128
   value-blue: 128
-  preview-tint: '#7CBD6B'
 height:
   scale: 0.05
 normal:
@@ -17,3 +20,4 @@ f0:
   value: 0.01
 sss:
   value: 0.6
+ctm: {}

@@ -1,12 +1,14 @@
 texture-size: 256
+blend-mode: opaque
 normal:
   noise: 4
 smooth:
-  value: 0.5
+  value: 0.4
 metal:
   value: 230
 porosity:
   value: 0.3
+ctm: {}
 filters:
 - name: head-top
   left: 0.0625

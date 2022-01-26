@@ -7,13 +7,24 @@ height:
   scale: 0.26
   edge-fade-x: 1
 normal:
-  noise: 7
+  texture: normal.png
+  noise: 8
   method: sobel3
+  strength: 1.5
 occlusion:
   texture: occlusion.png
+  step-distance: 0.1
+  z-scale: 4
 smooth:
-  value: 0
+  value: 0.1
 f0:
   value: 0.03
 porosity:
-  value: 0.55
+  value: 0.8
+ctm: {}
+parts:
+- name: 2
+  left: 0
+  top: 0
+  width: 32
+  height: 32

@@ -1,6 +1,6 @@
 wrap-x: true
 wrap-y: true
-color-tint: '#9d664b'
+tint-color: '#9d664b'
 opacity:
   value: 255
 color:
@@ -10,8 +10,8 @@ color:
 height:
   value: 0
 normal:
-  method: sobel3
   noise: 3
+  method: sobel3
 occlusion:
   step-distance: 0.25
   z-scale: 4
@@ -20,6 +20,7 @@ smooth:
 f0:
   value: 0.053
 ctm:
-  type: repeat
-  count-x: 8
-  count-y: 8
+  method: of-repeat
+  width: 8
+  height: 8
+  placeholder: true

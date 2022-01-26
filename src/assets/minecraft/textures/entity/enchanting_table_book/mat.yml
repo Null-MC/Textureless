@@ -3,13 +3,14 @@ texture-height: 64
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  scale: 0
 normal:
   noise: 2
   method: sobel-high
   strength: 2
 occlusion:
   z-scale: 2
+ctm: {}
 filters:
 - name: Cover-Right-Front
   left: 0

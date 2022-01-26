@@ -6,7 +6,7 @@ color:
   value-green: 102
   value-blue: 65
 height:
-  scale: 2
+  scale: 3
 normal:
   noise: 1
   method: sobel-high
@@ -16,6 +16,7 @@ occlusion:
   z-scale: 6
 metal:
   value: 234
+ctm: {}
 filters:
 - name: top-up
   left: 0.375
@@ -24,52 +25,42 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5
 - name: top-east
   left: 0
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
-  normal-curve-top: -90
-  normal-curve-bottom: 90
-  normal-radius-x: 0.8
-  normal-radius-top: 0.3
-  normal-radius-bottom: 0.7
+  normal-curve-top: -45
+  normal-curve-bottom: 45
+  normal-radius-top: 0.4
 - name: top-south
   left: 0.1875
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
-  normal-curve-top: -90
-  normal-curve-bottom: 90
-  normal-radius-x: 0.8
-  normal-radius-top: 0.3
-  normal-radius-bottom: 0.7
+  normal-curve-top: -45
+  normal-curve-bottom: 45
+  normal-radius-top: 0.4
 - name: top-west
   left: 0.375
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
-  normal-curve-top: -90
-  normal-curve-bottom: 90
-  normal-radius-x: 0.8
-  normal-radius-top: 0.3
-  normal-radius-bottom: 0.7
+  normal-curve-top: -45
+  normal-curve-bottom: 45
+  normal-radius-top: 0.4
 - name: top-north
   left: 0.5625
   top: 0.1875
   width: 0.1875
   height: 0.21875
   normal-curve-x: 90
-  normal-curve-top: -90
-  normal-curve-bottom: 90
-  normal-radius-x: 0.8
-  normal-radius-top: 0.3
-  normal-radius-bottom: 0.7
+  normal-curve-top: -45
+  normal-curve-bottom: 45
+  normal-radius-top: 0.4
 - name: bottom-down-1
   left: 0.25
   top: 0.40625

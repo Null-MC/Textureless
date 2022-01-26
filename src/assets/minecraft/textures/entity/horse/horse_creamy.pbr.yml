@@ -3,7 +3,7 @@ wrap-x: false
 wrap-y: false
 height:
   texture: horse_height.png
-  value: 0
+  scale: 0
 normal:
   texture: horse_normal.png
   strength: 0.4
@@ -20,6 +20,7 @@ f0:
   texture: horse_f0.png
 sss:
   texture: horse_sss.png
+ctm: {}
 filters:
 - name: head-top
   left: 0.109375

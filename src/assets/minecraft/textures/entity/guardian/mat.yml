@@ -1,6 +1,7 @@
 texture-size: 128
+blend-mode: cutout
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel3
 occlusion:
@@ -13,6 +14,7 @@ f0:
   value: 0.053
 emissive:
   scale: 3
+ctm: {}
 filters:
 - name: body-top
   left: 0.25

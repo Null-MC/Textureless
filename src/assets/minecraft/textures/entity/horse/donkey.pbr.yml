@@ -1,8 +1,6 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
-height:
-  value: 0
 occlusion:
   value: 0
 smooth:
@@ -11,3 +9,4 @@ f0:
   value: 0.04
 sss:
   value: 0.05
+ctm: {}

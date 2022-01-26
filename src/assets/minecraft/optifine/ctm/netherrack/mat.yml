@@ -18,3 +18,4 @@ ctm:
   width: 8
   height: 8
   match-tiles: netherrack
+  placeholder: true

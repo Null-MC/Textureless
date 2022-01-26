@@ -8,19 +8,16 @@ color:
   value-red: 122
   value-green: 122
   value-blue: 122
-  scale-red: 0.9
-  scale-green: 0.94
-  scale-blue: 0.9
 height:
   texture: opacity.png
   scale: 0.1
   edge-fade-y: 0.1
 normal:
   noise: 8
-  curve-y: 140
-  radius-y: 0.2
+  curve-y: 90
+  radius-y: 0.4
   method: sobel3
-  strength: 2
+  strength: 1
 occlusion:
   step-distance: 0.15
   z-bias: 0

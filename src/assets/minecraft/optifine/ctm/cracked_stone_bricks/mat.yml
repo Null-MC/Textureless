@@ -1,3 +1,4 @@
+publish-item: true
 height:
   shift: -0.1
   scale: 0.36
@@ -12,7 +13,8 @@ occlusion:
 f0:
   value: 0.03
 ctm:
-  method: repeat
+  method: of-repeat
   width: 4
   height: 4
   match-tiles: cracked_stone_bricks
+  placeholder: true

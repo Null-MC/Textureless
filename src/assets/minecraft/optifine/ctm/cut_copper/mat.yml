@@ -1,4 +1,4 @@
-publish-item: false
+publish-item: true
 color:
   value-red: 240
   value-green: 147
@@ -17,7 +17,7 @@ ctm:
   width: 4
   height: 4
   match-tiles: cut_copper
-  placeholder: false
+  placeholder: true
 filters:
 - name: top-left
   left: 0
