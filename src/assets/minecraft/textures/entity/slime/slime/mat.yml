@@ -1,19 +1,22 @@
-texture-width: 128
-texture-height: 64
+texture-width: 256
+texture-height: 128
 wrap-x: false
 wrap-y: false
+model: entity/slime_full
+blend-mode: transparent
 height:
   scale: 0
 normal:
-  method: sobel3
+  method: sobel5
+  strength: 0.7
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 3
+  step-distance: 0.05
+  z-bias: 0.5
+  z-scale: 4
 smooth:
   value: 0.6
 f0:
-  value: 0.02
+  value: 0.017
 sss:
   value: 0.8
 ctm: {}
@@ -23,166 +26,232 @@ filters:
   top: 0.5
   width: 0.09375
   height: 0.1875
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
 - name: body-down
   left: 0.1875
   top: 0.5
   width: 0.09375
   height: 0.1875
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
 - name: body-north
   left: 0.09375
   top: 0.6875
   width: 0.09375
   height: 0.1875
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
 - name: body-south
   left: 0.28125
   top: 0.6875
   width: 0.09375
   height: 0.1875
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
 - name: body-west
   left: 0.1875
   top: 0.6875
   width: 0.09375
   height: 0.1875
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
 - name: body-east
   left: 0
   top: 0.6875
   width: 0.09375
   height: 0.1875
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
 - name: right_eye-up
   left: 0.53125
   top: 0
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: right_eye-down
   left: 0.5625
   top: 0
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: right_eye-north
   left: 0.53125
   top: 0.0625
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: right_eye-south
   left: 0.59375
   top: 0.0625
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: right_eye-west
   left: 0.5625
   top: 0.0625
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: right_eye-east
   left: 0.5
   top: 0.0625
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: left_eye-up
   left: 0.53125
   top: 0.125
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: left_eye-down
   left: 0.5625
   top: 0.125
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: left_eye-north
   left: 0.53125
   top: 0.1875
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: left_eye-south
   left: 0.59375
   top: 0.1875
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: left_eye-west
   left: 0.5625
   top: 0.1875
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: left_eye-east
   left: 0.5
   top: 0.1875
   width: 0.03125
   height: 0.0625
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: mouth-up
   left: 0.515625
   top: 0.25
   width: 0.015625
   height: 0.03125
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: mouth-down
   left: 0.53125
   top: 0.25
   width: 0.015625
   height: 0.03125
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: mouth-north
   left: 0.515625
   top: 0.28125
   width: 0.015625
   height: 0.03125
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: mouth-south
   left: 0.546875
   top: 0.28125
   width: 0.015625
   height: 0.03125
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: mouth-west
   left: 0.53125
   top: 0.28125
   width: 0.015625
   height: 0.03125
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: mouth-east
   left: 0.5
   top: 0.28125
   width: 0.015625
   height: 0.03125
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: gel-up
+  left: 0.125
+  top: 0
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: gel-down
+  left: 0.25
+  top: 0
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: gel-north
+  left: 0.125
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: gel-south
+  left: 0.375
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: gel-west
+  left: 0.25
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: gel-east
+  left: 0
+  top: 0.25
+  width: 0.125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4

@@ -1,3 +1,18 @@
 texture-size: 128
+wrap-x: false
+wrap-y: false
+height:
+  scale: 0
+normal:
+  noise: 6
+  method: sobel5
+  strength: 5
+occlusion:
+  step-distance: 0.15
+  z-bias: 0.8
+  z-scale: 4
 f0:
   value: 0.03
+sss:
+  scale: 2
+ctm: {}

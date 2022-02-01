@@ -6,7 +6,7 @@ height:
   scale: 0
 normal:
   method: sobel-high
-  strength: 4
+  strength: 8
 occlusion:
   z-scale: 2
 f0:
@@ -20,8 +20,6 @@ filters:
   height: 0.125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5
 - name: head-bottom
   left: 0.25
   top: 0
@@ -29,8 +27,6 @@ filters:
   height: 0.125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5
 - name: head-right
   left: 0
   top: 0.125
@@ -38,8 +34,6 @@ filters:
   height: 0.125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5
 - name: head-front
   left: 0.125
   top: 0.125
@@ -47,8 +41,6 @@ filters:
   height: 0.125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5
 - name: head-left
   left: 0.25
   top: 0.125
@@ -56,8 +48,6 @@ filters:
   height: 0.125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5
 - name: head-back
   left: 0.375
   top: 0.125
@@ -65,8 +55,6 @@ filters:
   height: 0.125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5
 - name: body-top
   left: 0.3125
   top: 0.25

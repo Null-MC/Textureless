@@ -1,0 +1,28 @@
+publish-item: true
+color:
+  value-red: 70
+  value-green: 71
+  value-blue: 74
+height:
+  shift: -0.02
+  scale: 0.4
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  noise: 3
+  method: sobel3
+  strength: 8
+occlusion:
+  scale: 0.7
+  step-distance: 0.3
+  z-scale: 48
+f0:
+  value: 0.082
+porosity:
+  value: 0.2
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: deepslate_top
+  placeholder: true

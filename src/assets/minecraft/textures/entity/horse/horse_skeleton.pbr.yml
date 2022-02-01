@@ -1,6 +1,7 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 occlusion:
   value: 0
 smooth:

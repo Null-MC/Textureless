@@ -2,13 +2,14 @@ texture-width: 128
 texture-height: 64
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 height:
   texture: alpha.png
   scale: 0.08
 normal:
+  noise: 4
   method: sobel-high
   strength: 2
-  noise: 4
 occlusion:
   step-distance: 0.15
   z-bias: 0
@@ -19,6 +20,7 @@ porosity:
   value: 0.71
 emissive:
   scale: 0.5
+ctm: {}
 filters:
 - name: head-top
   left: 0.125

@@ -3,6 +3,9 @@ color:
   value-red: 180
   value-green: 215
   value-blue: 221
+  scale-red: 0.6
+  scale-green: 0.6
+  scale-blue: 0.6
 height:
   scale: 0
 normal:

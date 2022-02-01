@@ -1,12 +1,26 @@
 texture-size: 128
-albedo:
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
   value-red: 234
   value-green: 234
   value-blue: 234
+height:
+  scale: 0
 normal:
-  noise: 2
+  noise: 6
+  method: sobel5
+  strength: 0.3
+occlusion:
+  scale: 0.2
+  step-distance: 0.15
+  z-bias: 0.8
+  z-scale: 4
 smooth:
   value: 0.2
 f0:
   value: 0.03
-sss: {}
+sss:
+  scale: 2
+ctm: {}

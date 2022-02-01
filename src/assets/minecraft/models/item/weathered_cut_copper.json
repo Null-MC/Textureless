@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block/weathered_cut_copper_inventory"
+  }
+}

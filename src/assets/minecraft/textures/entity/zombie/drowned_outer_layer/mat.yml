@@ -1,6 +1,7 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 height:
   value: 0
 normal:
@@ -10,6 +11,7 @@ occlusion:
   z-scale: 4
 smooth:
   scale: 0.8
+ctm: {}
 filters:
 - name: head-top
   left: 0.125

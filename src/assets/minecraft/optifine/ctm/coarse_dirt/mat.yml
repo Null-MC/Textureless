@@ -1,25 +1,17 @@
 publish-item: true
-color:
-  value-red: 129
-  value-green: 91
-  value-blue: 63
 height:
-  shift: -0.4
-  scale: 0.2
-  edge-fade-x: 5
-  edge-fade-y: 5
+  scale: 0.4
+  edge-fade-x: 2
+  edge-fade-y: 2
 normal:
   noise: 10
   method: sobel-high
   strength: 3
 occlusion:
-  step-distance: 0.2
-  z-bias: 0.2
-  z-scale: 4
-smooth:
-  value: 0.2
+  step-distance: 0.15
+  z-scale: 12
 f0:
-  value: 0.05
+  value: 0.04
 porosity:
   value: 0.9
 ctm:

@@ -1,6 +1,7 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 height:
   scale: 0
 smooth:
@@ -9,6 +10,7 @@ sss:
   value: 0.08
 emissive:
   scale: 0.3
+ctm: {}
 filters:
 - name: head-top
   left: 0.125

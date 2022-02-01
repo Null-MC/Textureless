@@ -3,14 +3,10 @@ wrap-y: false
 opacity:
   value: 255
 height:
-  scale: 0.2
-  edge-fade-x: 2
-  edge-fade-y: 2
+  scale: 0
 normal:
   curve-x: 90
   curve-y: 90
-  radius-x: 0.6
-  radius-y: 0.6
   strength: 0.5
 occlusion:
   step-distance: 0.15
@@ -20,4 +16,5 @@ smooth:
 f0:
   value: 0.017
 sss:
-  value: 0.04
+  value: 0.1
+ctm: {}

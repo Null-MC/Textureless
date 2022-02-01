@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/dirt",
   "textures": {
-    "all": "block/dirt_inventory"
+    "side": "block/dirt_side_inventory",
+    "end": "block/dirt_inventory"
   }
 }

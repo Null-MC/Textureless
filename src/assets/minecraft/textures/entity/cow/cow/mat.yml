@@ -14,7 +14,7 @@ occlusion:
 f0:
   value: 0.017
 sss:
-  scale: 0.2
+  scale: 0.6
 ctm: {}
 filters:
 - name: head-top
@@ -103,8 +103,6 @@ filters:
   height: 0.3125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.4
-  normal-radius-y: 0.8
 - name: body-back
   left: 0.625
   top: 0.125
@@ -112,8 +110,6 @@ filters:
   height: 0.3125
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.4
-  normal-radius-y: 0.8
 - name: body-right
   left: 0.28125
   top: 0.4375
@@ -121,7 +117,6 @@ filters:
   height: 0.5625
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.8
   normal-radius-y: 0.6
 - name: body-bottom
   left: 0.4375
@@ -130,8 +125,7 @@ filters:
   height: 0.5625
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.4
+  normal-radius-y: 0.6
 - name: body-left
   left: 0.625
   top: 0.4375
@@ -139,7 +133,6 @@ filters:
   height: 0.5625
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.8
   normal-radius-y: 0.6
 - name: body-top
   left: 0.78125
@@ -148,40 +141,47 @@ filters:
   height: 0.5625
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.4
+  normal-radius-y: 0.6
 - name: leg-top
   left: 0.0625
   top: 0.5
   width: 0.0625
   height: 0.125
-  normal-curve-x: 180
-  normal-curve-y: 180
+  normal-curve-x: 90
+  normal-curve-y: 90
 - name: leg-right
   left: 0
   top: 0.625
   width: 0.0625
   height: 0.375
   normal-curve-x: 90
+  normal-curve-y: 90
   normal-radius-x: 0.7
+  normal-radius-y: 0.3
 - name: leg-front
   left: 0.0625
   top: 0.625
   width: 0.0625
   height: 0.375
   normal-curve-x: 90
+  normal-curve-y: 90
   normal-radius-x: 0.7
+  normal-radius-y: 0.3
 - name: leg-left
   left: 0.125
   top: 0.625
   width: 0.0625
   height: 0.375
   normal-curve-x: 90
+  normal-curve-y: 90
   normal-radius-x: 0.7
+  normal-radius-y: 0.3
 - name: leg-back
   left: 0.1875
   top: 0.625
   width: 0.0625
   height: 0.375
   normal-curve-x: 90
+  normal-curve-y: 90
   normal-radius-x: 0.7
+  normal-radius-y: 0.3

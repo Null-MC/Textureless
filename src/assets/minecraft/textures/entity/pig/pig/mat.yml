@@ -1,23 +1,23 @@
 texture-width: 128
 texture-height: 64
 wrap-x: false
-wrap-y: true
+wrap-y: false
 height:
   scale: 0
 normal:
   noise: 1.5
   method: sobel-low
-  strength: 2
+  strength: 8
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 4
+  step-distance: 0.05
+  z-bias: 0.5
+  z-scale: 8
 smooth:
   value: 0.16
 f0:
   value: 0.017
 sss:
-  value: 0.08
+  value: 0.2
 ctm: {}
 filters:
 - name: head-up
@@ -27,8 +27,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.6
 - name: head-down
   left: 0.25
   top: 0
@@ -36,8 +34,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.6
 - name: head-east
   left: 0
   top: 0.25
@@ -45,8 +41,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.6
 - name: head-north
   left: 0.125
   top: 0.25
@@ -54,8 +48,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.6
 - name: head-west
   left: 0.25
   top: 0.25
@@ -63,8 +55,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.6
 - name: head-south
   left: 0.375
   top: 0.25
@@ -72,8 +62,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.6
-  normal-radius-y: 0.6
 - name: torso-north
   left: 0.5625
   top: 0.25
@@ -81,8 +69,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.7
 - name: torso-south
   left: 0.71875
   top: 0.25
@@ -90,8 +76,6 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.7
 - name: torso-east
   left: 0.4375
   top: 0.5
@@ -99,8 +83,7 @@ filters:
   height: 0.5
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.7
-  normal-radius-y: 0.3
+  normal-radius-y: 0.5
 - name: torso-down
   left: 0.5625
   top: 0.5
@@ -108,8 +91,7 @@ filters:
   height: 0.5
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.3
+  normal-radius-y: 0.5
 - name: torso-west
   left: 0.71875
   top: 0.5
@@ -117,8 +99,7 @@ filters:
   height: 0.5
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.7
-  normal-radius-y: 0.3
+  normal-radius-y: 0.5
 - name: torso-up
   left: 0.84375
   top: 0.5
@@ -126,8 +107,7 @@ filters:
   height: 0.5
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.3
+  normal-radius-y: 0.5
 - name: foot-east
   left: 0
   top: 0.625

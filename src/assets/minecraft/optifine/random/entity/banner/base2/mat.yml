@@ -1,0 +1,27 @@
+texture-size: 128
+wrap-x: false
+wrap-y: false
+model: entity/banner
+blend-mode: cutout
+color:
+  value-red: 234
+  value-green: 234
+  value-blue: 234
+height:
+  scale: 0
+normal:
+  noise: 6
+  method: sobel5
+  strength: 0.7
+occlusion:
+  scale: 0.4
+  step-distance: 0.15
+  z-bias: 0.8
+  z-scale: 4
+smooth:
+  value: 0.2
+f0:
+  value: 0.03
+sss:
+  scale: 2
+ctm: {}

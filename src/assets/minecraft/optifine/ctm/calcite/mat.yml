@@ -1,0 +1,23 @@
+publish-item: true
+height:
+  shift: -0.08
+  scale: 0.4
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  noise: 6
+  strength: 8
+occlusion:
+  step-distance: 0.2
+  z-bias: 0.2
+  z-scale: 24
+f0:
+  value: 0.053
+sss:
+  scale: 0.7
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: calcite
+  placeholder: true

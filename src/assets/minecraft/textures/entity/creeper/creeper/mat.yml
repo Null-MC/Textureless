@@ -10,10 +10,9 @@ occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 3
-smooth:
-  scale: 0.7
 f0:
   value: 0.027
+ctm: {}
 filters:
 - name: head-top
   left: 0.125
@@ -85,6 +84,7 @@ filters:
   height: 0.375
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.7
 - name: body-left
   left: 0.4375
   top: 0.625
@@ -99,6 +99,7 @@ filters:
   height: 0.375
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.7
 - name: leg-top
   left: 0.0625
   top: 0.5

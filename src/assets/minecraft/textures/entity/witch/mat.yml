@@ -2,9 +2,9 @@ texture-width: 128
 texture-height: 256
 wrap-x: false
 wrap-y: false
-model-file: entity/witch
+model: entity/witch
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel-low
   strength: 2
@@ -14,6 +14,7 @@ smooth:
   scale: 0.6
 emissive:
   scale: 0.2
+ctm: {}
 filters:
 - name: Head-Up
   left: 0.125

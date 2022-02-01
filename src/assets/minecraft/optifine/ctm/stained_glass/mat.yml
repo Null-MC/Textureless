@@ -1,8 +1,8 @@
 blend-mode: transparent
 color:
-  value-red: 255
-  value-green: 255
-  value-blue: 255
+  value-red: 128
+  value-green: 128
+  value-blue: 128
 height:
   scale: 0
 normal:

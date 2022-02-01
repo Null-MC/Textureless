@@ -1,7 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube_column",
   "textures": {
     "particle": "block/dirt_inventory",
-    "all": "block/dirt"
+    "side": "block/dirt_side",
+    "end": "block/dirt"
   }
 }

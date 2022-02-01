@@ -4,18 +4,17 @@ wrap-x: false
 wrap-y: false
 blend-mode: cutout
 height:
-  texture: alpha.png
-  scale: 0.0
+  scale: 0.8
 normal:
   noise: 2
   method: sobel-high
-  strength: 2
+  strength: 4
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 2
+  step-distance: 0.1
+  z-bias: 0.5
+  z-scale: 4
 smooth:
-  value: 0.2
+  value: 0.1
 f0:
   value: 0.03
 porosity:

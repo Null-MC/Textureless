@@ -6,13 +6,13 @@ color:
   value-green: 163
   value-blue: 163
 height:
-  scale: 0.4
+  scale: 0.2
   edge-fade-x: 0.01
   edge-fade-y: 0.01
 normal:
   noise: 4
   method: sobel5
-  strength: 0.5
+  strength: 0.3
 occlusion:
   step-distance: 0.15
   z-bias: 0
