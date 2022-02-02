@@ -1,6 +1,0 @@
-{
-  "parent": "block/purple_carpet",
-  "textures": {
-    "wool": "block/wool/purple_inventory"
-  }
-}

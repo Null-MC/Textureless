@@ -6,11 +6,13 @@ height:
   scale: 0
 normal:
   noise: 2
-  method: sobel3
-  strength: 2
+  method: sobel-low
+  strength: 6
 occlusion:
   step-distance: 0.15
   z-scale: 2
+smooth:
+  scale: 0.5
 ctm: {}
 filters:
 - name: head-top
@@ -111,6 +113,8 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-top: 0.5
+  normal-radius-bottom: 0.2
 - name: body-front
   left: 0.34375
   top: 0.40625
@@ -118,6 +122,9 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-top: 0.5
+  normal-radius-bottom: 0.2
 - name: body-left
   left: 0.46875
   top: 0.40625
@@ -125,6 +132,8 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-top: 0.5
+  normal-radius-bottom: 0.2
 - name: body-back
   left: 0.5625
   top: 0.40625
@@ -132,6 +141,9 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-top: 0.5
+  normal-radius-bottom: 0.2
 - name: bodywear-top
   left: 0.09375
   top: 0.59375
@@ -232,37 +244,43 @@ filters:
   width: 0.0625
   height: 0.125
   normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.5
 - name: arm-front
   left: 0.75
   top: 0.40625
   width: 0.0625
   height: 0.125
   normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.5
 - name: arm-right
   left: 0.8125
   top: 0.40625
   width: 0.0625
   height: 0.125
   normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.5
 - name: arm-back
   left: 0.875
   top: 0.40625
   width: 0.0625
   height: 0.125
   normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.5
 - name: idk-top
   left: 0.6875
   top: 0.59375
   width: 0.125
   height: 0.0625
-  normal-curve-x: 90
   normal-curve-y: 90
 - name: idk-bottom
   left: 0.8125
   top: 0.59375
   width: 0.125
   height: 0.0625
-  normal-curve-x: 90
   normal-curve-y: 90
 - name: idk-right
   left: 0.625
@@ -276,7 +294,6 @@ filters:
   top: 0.65625
   width: 0.125
   height: 0.0625
-  normal-curve-x: 90
   normal-curve-y: 90
 - name: idk-left
   left: 0.8125
@@ -290,5 +307,4 @@ filters:
   top: 0.65625
   width: 0.125
   height: 0.0625
-  normal-curve-x: 90
   normal-curve-y: 90

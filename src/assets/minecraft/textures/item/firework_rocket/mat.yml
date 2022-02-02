@@ -1,0 +1,21 @@
+publish-item: false
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
+  bake-occlusion: true
+height:
+  scale: 0
+normal:
+  method: sobel3
+  strength: 2
+occlusion:
+  step-distance: 0.15
+  z-scale: 4
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity:
+  value: 0.9
+ctm: {}

@@ -1,14 +1,21 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
+height:
+  scale: 0
+normal:
+  noise: 6
+  method: sobel-low
+  strength: 4
 occlusion:
-  value: 0
-smooth:
-  value: 0.02
+  step-distance: 0.05
+  z-scale: 3
 f0:
   value: 0.04
 porosity:
   value: 160
+ctm: {}
 filters:
 - name: headwear-top
   left: 0.625
@@ -23,60 +30,51 @@ filters:
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 45
 - name: headwear-front
   left: 0.625
   top: 0.125
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 45
 - name: headwear-left
   left: 0.75
   top: 0.125
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 45
 - name: headwear-back
   left: 0.875
   top: 0.125
   width: 0.125
   height: 0.15625
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-top: 45
 - name: bodywear-right
   left: 0
   top: 0.6875
   width: 0.09375
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
 - name: bodywear-front
   left: 0.09375
   top: 0.6875
   width: 0.125
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
+  normal-radius-x: 0.5
 - name: bodywear-left
   left: 0.21875
   top: 0.6875
   width: 0.09375
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
 - name: bodywear-back
   left: 0.3125
   top: 0.6875
   width: 0.125
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-y: 90
-- name: headwear2-top
-  left: 0.484375
-  top: 0.75
-  width: 0.25
-  height: 0.25
-  normal-curve-x: 20
-  normal-curve-y: 20
+  normal-radius-x: 0.5

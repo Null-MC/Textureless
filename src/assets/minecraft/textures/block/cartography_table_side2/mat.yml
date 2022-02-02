@@ -1,0 +1,9 @@
+height:
+  shift: -0.1
+  scale: 0.3
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  curve-x: 90
+  radius-x: 0.2
+ctm: {}

@@ -1,6 +1,3 @@
 {
-  "parent": "block/carpet",
-  "textures": {
-    "wool": "block/moss_block_inventory"
-  }
+  "parent": "block/moss_carpet_inventory"
 }

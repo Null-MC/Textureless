@@ -1,4 +1,5 @@
 texture-size: 128
+blend-mode: cutout
 color:
   value-red: 112
   value-green: 251
@@ -11,6 +12,7 @@ f0:
   value: 0.17
 sss:
   scale: 1
+ctm: {}
 filters:
 - left: 0.171875
   top: 0.84375

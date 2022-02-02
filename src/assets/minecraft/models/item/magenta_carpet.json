@@ -1,6 +1,0 @@
-{
-  "parent": "block/magenta_carpet",
-  "textures": {
-    "wool": "block/wool/magenta_inventory"
-  }
-}

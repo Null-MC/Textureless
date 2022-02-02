@@ -1,0 +1,82 @@
+texture-size: 128
+blend-mode: cutout
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity:
+  value: 0.9
+ctm: {}
+filters:
+- name: bodywear-top
+  left: 0.09375
+  top: 0.59375
+  width: 0.125
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: bodywear-bottom
+  left: 0.21875
+  top: 0.59375
+  width: 0.125
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: bodywear-right
+  left: 0
+  top: 0.6875
+  width: 0.09375
+  height: 0.28125
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.5
+- name: bodywear-front
+  left: 0.09375
+  top: 0.6875
+  width: 0.125
+  height: 0.28125
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.5
+  normal-radius-top: 0.5
+- name: bodywear-left
+  left: 0.21875
+  top: 0.6875
+  width: 0.09375
+  height: 0.28125
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-top: 0.5
+- name: bodywear-back
+  left: 0.3125
+  top: 0.6875
+  width: 0.125
+  height: 0.28125
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.5
+  normal-radius-top: 0.5
+- name: headwear-north
+  left: 0.625
+  top: 0.125
+  width: 0.125
+  height: 0.15625
+  normal-curve-x: 90
+- name: headwear-south
+  left: 0.875
+  top: 0.125
+  width: 0.125
+  height: 0.15625
+  normal-curve-x: 90
+- name: headwear-west
+  left: 0.75
+  top: 0.125
+  width: 0.125
+  height: 0.15625
+  normal-curve-x: 90
+- name: headwear-east
+  left: 0.5
+  top: 0.125
+  width: 0.125
+  height: 0.15625
+  normal-curve-x: 90

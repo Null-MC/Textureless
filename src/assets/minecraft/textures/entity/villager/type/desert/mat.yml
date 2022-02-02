@@ -1,14 +1,24 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
+height:
+  scale: 0
+normal:
+  noise: 6
+  method: sobel-high
+  strength: 4
 occlusion:
-  value: 0
+  step-distance: 0.1
+  z-bias: 0.5
+  z-scale: 3
 smooth:
-  value: 0.02
+  value: 0.08
 f0:
   value: 0.04
 porosity:
-  value: 160
+  value: 0.8
+ctm: {}
 filters:
 - name: head-top
   left: 0.125

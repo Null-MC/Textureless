@@ -1,14 +1,20 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 height:
-  value: 0
+  scale: 0
 normal:
-  method: sobel-low
+  noise: 3
+  method: sobel5
+  strength: 0.8
 occlusion:
-  step-distance: 0.15
+  step-distance: 0.05
   z-bias: 0
   z-scale: 3
+f0:
+  value: 0.021
+ctm: {}
 filters:
 - name: headwear-right
   left: 0.5
@@ -41,39 +47,38 @@ filters:
   height: 0.09375
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.7
-  normal-radius-y: 0.6
+  normal-radius-x: 0.5
 - name: bodywear-right
   left: 0
   top: 0.6875
   width: 0.09375
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-top: 90
-  normal-radius-y: 0.24
+  normal-curve-top: 45
+  normal-radius-top: 0.5
 - name: bodywear-front
   left: 0.09375
   top: 0.6875
   width: 0.125
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-top: 90
-  normal-radius-x: 0.7
-  normal-radius-y: 0.24
+  normal-curve-top: 45
+  normal-radius-x: 0.5
+  normal-radius-top: 0.5
 - name: bodywear-left
   left: 0.21875
   top: 0.6875
   width: 0.09375
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-top: 90
-  normal-radius-y: 0.24
+  normal-curve-top: 45
+  normal-radius-top: 0.5
 - name: bodywear-back
   left: 0.3125
   top: 0.6875
   width: 0.125
   height: 0.28125
   normal-curve-x: 90
-  normal-curve-top: 90
-  normal-radius-x: 0.7
-  normal-radius-y: 0.24
+  normal-curve-top: 45
+  normal-radius-x: 0.5
+  normal-radius-top: 0.5

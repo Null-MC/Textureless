@@ -1,0 +1,15 @@
+height:
+  scale: 0.3
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  method: sobel-high
+  strength: 2
+occlusion:
+  step-distance: 0.1
+  z-scale: 4
+f0:
+  value: 0.04
+porosity:
+  value: 0.7
+ctm: {}
