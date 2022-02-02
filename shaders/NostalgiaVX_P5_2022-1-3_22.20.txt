@@ -1,0 +1,7 @@
+labEmissionMode=2
+voxelPT_ReflectionsEnabled=true
+pomEnabled=true
+subsurfaceScatterMode=3
+resourcepackReflectionsEnabled=true
+textureAoEnabled=true
+slopeNormalCalculation=true

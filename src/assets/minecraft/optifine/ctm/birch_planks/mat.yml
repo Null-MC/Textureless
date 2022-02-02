@@ -1,0 +1,20 @@
+publish-item: true
+height:
+  shift: -0.03
+  scale: 0.25
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 0.5
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 3
+f0:
+  value: 0.04
+ctm:
+  method: of-repeat
+  width: 4
+  height: 2
+  match-tiles: birch_planks
+  placeholder: true

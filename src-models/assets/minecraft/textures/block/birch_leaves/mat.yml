@@ -1,10 +1,5 @@
 publish-item: true
 tint-color: '#6BA941'
-color:
-  _-preview-tint: '#6BA941'
-  value-red: 200
-  value-green: 200
-  value-blue: 200
 height:
   texture: opacity.png
   scale: 0.1

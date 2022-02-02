@@ -1,19 +1,18 @@
 publish-item: true
-model-file: birch_trapdoor_top
-opacity:
-  value: 255
+model: birch_trapdoor_top
 color:
   value-red: 199
-  value-green: 184
-  value-blue: 130
+  value-green: 172
+  value-blue: 136
 occlusion:
   value: 0
 smooth:
   value: 0.1
 f0:
-  value: 0.03
+  value: 0.04
 porosity:
-  value: 0.4
+  value: 0.5
+ctm: {}
 filters:
 - name: Top
   top: 0.15625

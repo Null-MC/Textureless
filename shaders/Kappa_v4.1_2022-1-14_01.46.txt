@@ -1,0 +1,10 @@
+ssptEmissionMode=2
+blocklightBaseTemp=2400
+pomEnabled=true
+directionalLMEnabled=true
+subsurfaceScatterMode=3
+resourcepackReflectionsEnabled=true
+ssptFullRangeRT=true
+textureAoEnabled=true
+reflectionCaptureEnabled=true
+slopeNormalCalculation=true

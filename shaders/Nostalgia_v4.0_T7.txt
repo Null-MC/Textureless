@@ -1,0 +1,11 @@
+ssptEmissionMode=2
+ssptEnabled=true
+subsurfaceScatterMode=3
+resourcepackReflectionsEnabled=true
+ssptFullRangeRT=true
+textureAoEnabled=true
+contactShadowsEnabled=true
+pomEnabled=true
+directionalLMEnabled=true
+reflectionCaptureEnabled=true
+slopeNormalCalculation=true
