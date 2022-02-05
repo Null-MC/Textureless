@@ -1,20 +1,25 @@
-create-inventory: true
-albedo:
-  value-red: 95
-  value-green: 64
-  value-blue: 24
+publish-item: true
+wrap-y: false
+blend-mode: cutout
+color:
+  value-red: 65
+  value-green: 44
+  value-blue: 18
 height:
   scale: 0.2
+  edge-fade-y: 0.01
 normal:
-  strength: 0.4
-  noise: 4
-  filter: sobel3
+  noise: 24
+  curve-y: 120
+  radius-y: 0.4
+  method: sobel3
+  strength: 3
 occlusion:
   value: 0
 smooth:
-  value: 0
+  value: 0.1
 f0:
   value: 0.04
 porosity:
   value: 0.6
-wrap-y: false
+ctm: {}

@@ -1,37 +1,36 @@
-opacity:
-  value: 255
 color:
-  value-red: 88
-  value-green: 70
-  value-blue: 26
+  texture: color_double.png
 height:
   texture: height_double.png
   shift: -0.08
-  scale: 0.4
-  edge-fade-x: 1
+  scale: 0.2
+  edge-fade-x: 0.8
 normal:
-  noise: 2
+  texture: normal_double.png
+  noise: 12
   curve-x: 90
-  method: sobel-high
-  strength: 0.5
+  method: sobel3
 occlusion:
+  texture: occlusion_double.png
   step-distance: 0.1
   z-bias: 0
   z-scale: 4
 smooth:
-  value: 0.06
+  texture: smooth_double.png
 f0:
   value: 0.04
 porosity:
-  value: 0.4
+  texture: porosity_double.png
+sss:
+  texture: sss_double.png
 ctm: {}
 parts:
-- name: 1
+- name: left
   left: 0
   top: 0
   width: 32
   height: 32
-- name: 3
+- name: right
   left: 32
   top: 0
   width: 32

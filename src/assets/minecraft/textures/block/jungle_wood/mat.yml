@@ -1,23 +1,16 @@
-publish-inventory: true
-alpha:
-  value: 255
-albedo:
-  value-red: 88
-  value-green: 70
-  value-blue: 26
+publish-item: true
 height:
-  scale: 0.5
+  shift: -0.08
+  scale: 0.2
+  edge-fade-x: 0.8
 normal:
-  method: sobel-high
-  strength: 0.5
-  noise: 2
+  noise: 12
+  method: sobel3
 occlusion:
-  step-distance: 0.15
+  step-distance: 0.1
   z-bias: 0
-  z-scale: 3
-smooth:
-  value: 0.01
+  z-scale: 4
 f0:
   value: 0.04
-porosity:
-  value: 0.4
+sss:
+  scale: 0.3

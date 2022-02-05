@@ -1,0 +1,59 @@
+{
+  "variants": {
+    "axis=y": [
+      {
+        "model": "block/oak_log"
+      },
+      {
+        "model": "block/oak_log",
+        "y": 90
+      },
+      {
+        "model": "block/oak_log",
+        "y": 180
+      },
+      {
+        "model": "block/oak_log",
+        "y": 270
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "block/oak_log_horizontal",
+        "y": 90
+      },
+      {
+        "model": "block/oak_log_horizontal",
+        "y": 90,
+        "x": 90
+      },
+      {
+        "model": "block/oak_log_horizontal",
+        "y": 90,
+        "x": 180
+      },
+      {
+        "model": "block/oak_log_horizontal",
+        "y": 90,
+        "x": 270
+      }
+    ],
+    "axis=x": [
+      {
+        "model": "block/oak_log_horizontal"
+      },
+      {
+        "model": "block/oak_log_horizontal",
+        "x": 90
+      },
+      {
+        "model": "block/oak_log_horizontal",
+        "x": 180
+      },
+      {
+        "model": "block/oak_log_horizontal",
+        "x": 270
+      }
+    ]
+  }
+}

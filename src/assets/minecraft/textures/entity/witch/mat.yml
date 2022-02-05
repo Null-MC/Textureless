@@ -3,11 +3,12 @@ texture-height: 256
 wrap-x: false
 wrap-y: false
 model: entity/witch
+blend-mode: cutout
 height:
   scale: 0
 normal:
   method: sobel-low
-  strength: 2
+  strength: 5
 occlusion:
   z-scale: 3
 smooth:

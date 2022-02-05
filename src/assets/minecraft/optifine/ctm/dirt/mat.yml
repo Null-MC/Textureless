@@ -1,13 +1,13 @@
 publish-item: true
 height:
-  shift: -0.12
-  scale: 0.2
-  edge-fade-x: 3
-  edge-fade-y: 3
+  shift: -0.1
+  scale: 0.3
+  edge-fade-x: 1
+  edge-fade-y: 1
 normal:
   noise: 6
   method: sobel3
-  strength: 1.5
+  strength: 2
 occlusion:
   step-distance: 0.2
   z-bias: 3

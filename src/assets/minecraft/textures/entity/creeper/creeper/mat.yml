@@ -3,7 +3,7 @@ texture-height: 64
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  scale: 0.4
 normal:
   method: sobel-high
 occlusion:
@@ -12,6 +12,8 @@ occlusion:
   z-scale: 3
 f0:
   value: 0.027
+emissive:
+  scale: 0.14
 ctm: {}
 filters:
 - name: head-top

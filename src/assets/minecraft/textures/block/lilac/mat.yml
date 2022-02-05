@@ -1,12 +1,17 @@
-model-type: cross
+publish-item: true
+wrap-x: false
+wrap-y: false
+model: tall_grass
 height:
-  value: 0
+  scale: 0
+normal:
+  noise: 16
+  method: sobel3
 occlusion:
-  value: 0
-smooth:
-  value: 0.2
-sss:
-  value: 0.71
+  step-distance: 0.1
+f0:
+  value: 0.017
+ctm: {}
 parts:
 - name: lilac_top
   left: 0

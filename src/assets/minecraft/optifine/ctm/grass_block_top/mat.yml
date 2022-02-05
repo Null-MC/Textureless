@@ -1,4 +1,5 @@
 publish-item: true
+blend-mode: cutout
 tint-color: '#91BD59'
 height:
   shift: -0.36

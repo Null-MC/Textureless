@@ -1,0 +1,23 @@
+wrap-x: false
+wrap-y: false
+model: cross_mirrored
+blend-mode: cutout
+tint-color: '#7CBD6B'
+color:
+  _-preview-tint: '#7CBD6B'
+  value-red: 134
+  value-green: 138
+  value-blue: 134
+height:
+  scale: 0.05
+normal:
+  method: sobel3
+occlusion:
+  scale: 0.2
+smooth:
+  value: 0.16
+f0:
+  value: 0.01
+sss:
+  value: 0.5
+ctm: {}

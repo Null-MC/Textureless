@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 wrap-y: false
 opacity:
   value: 255
@@ -14,3 +14,4 @@ occlusion:
   z-scale: 3
 sss:
   scale: 0.1
+ctm: {}

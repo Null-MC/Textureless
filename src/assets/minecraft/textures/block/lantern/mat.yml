@@ -1,7 +1,5 @@
 wrap-x: false
 wrap-y: false
-height:
-  scale: 0.5
 normal:
   method: sobel-low
   strength: 1.5

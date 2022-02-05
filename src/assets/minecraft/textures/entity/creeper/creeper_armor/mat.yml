@@ -1,0 +1,13 @@
+texture-width: 128
+texture-height: 64
+blend-mode: cutout
+opacity:
+  input:
+    sampler: bilinear
+color:
+  input-red:
+    sampler: bicubic
+  input-green:
+    sampler: bicubic
+  input-blue:
+    sampler: bicubic

@@ -1,0 +1,24 @@
+publish-item: true
+height:
+  shift: -0.03
+  scale: 0.4
+normal:
+  noise: 3
+  method: sobel-high
+  strength: 3
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 3
+smooth:
+  scale: 0.4
+f0:
+  value: 0.04
+porosity:
+  scale: 1.5
+ctm:
+  method: of-repeat
+  width: 4
+  height: 2
+  match-tiles: oak_planks
+  placeholder: true

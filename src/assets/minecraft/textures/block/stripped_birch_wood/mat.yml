@@ -1,17 +1,11 @@
 publish-item: true
 wrap-x: true
 wrap-y: true
-opacity:
-  value: 255
-color:
-  value-red: 199
-  value-green: 172
-  value-blue: 136
 height:
   scale: 0.06
 normal:
   noise: 2
-  method: sobel5
+  method: sobel3
   strength: 0.2
 occlusion:
   scale: 0.3

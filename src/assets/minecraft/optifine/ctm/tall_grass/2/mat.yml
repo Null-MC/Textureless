@@ -1,0 +1,39 @@
+publish-item: false
+wrap-x: false
+wrap-y: false
+model: tall_grass
+blend-mode: cutout
+tint-color: '#79C05A'
+color:
+  _-preview-tint: '#79C05A'
+  value-red: 138
+  value-green: 132
+  value-blue: 120
+height:
+  scale: 0.06
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 6
+  method: sobel5
+occlusion:
+  step-distance: 0.15
+  z-scale: 4
+smooth:
+  value: 0.16
+f0:
+  value: 0.02
+sss:
+  value: 0.6
+ctm: {}
+parts:
+- name: 2_top
+  left: 0
+  top: 0
+  width: 32
+  height: 32
+- name: 2_bottom
+  left: 0
+  top: 32
+  width: 32
+  height: 32

@@ -1,7 +1,5 @@
 publish-item: true
 wrap-x: false
-opacity:
-  value: 255
 height:
   scale: 0.1
   edge-fade-x: 0.8

@@ -3,8 +3,8 @@
     "textures": {
         "particle": "block/dirt_inventory",
         "top": "block/podzol_top",
-        "bottom": "block/coarse_dirt",
-        "side": "block/coarse_dirt",
+        "bottom": "block/dirt",
+        "side": "block/dirt_side",
         "overlay": "block/podzol_side_overlay"
     },
     "elements": [

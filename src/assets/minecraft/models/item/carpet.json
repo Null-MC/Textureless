@@ -1,3 +1,6 @@
 {
-  "parent": "block/carpet_inventory"
+  "parent": "block/carpet",
+  "textures": {
+    "wool": "block/wool_inventory"
+  }
 }

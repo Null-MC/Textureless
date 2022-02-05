@@ -1,0 +1,33 @@
+color:
+  texture: color.png
+height:
+  texture: height.png
+  shift: -0.08
+  scale: 0.2
+  edge-fade-x: 0.8
+normal:
+  texture: normal.png
+  noise: 12
+  curve-x: 90
+  method: sobel3
+occlusion:
+  texture: occlusion.png
+  step-distance: 0.1
+  z-bias: 0
+  z-scale: 4
+smooth:
+  texture: smooth.png
+f0:
+  value: 0.04
+porosity:
+  texture: porosity.png
+sss:
+  texture: sss.png
+  scale: 0.3
+ctm: {}
+parts:
+- name: 4
+  left: 0
+  top: 0
+  width: 32
+  height: 32

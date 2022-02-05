@@ -1,7 +1,5 @@
 publish-item: true
 wrap-x: false
-opacity:
-  value: 255
 height:
   shift: -0.2
   scale: 0.26
@@ -19,5 +17,5 @@ smooth:
 f0:
   value: 0.03
 porosity:
-  value: 0.55
+  value: 0.9
 ctm: {}

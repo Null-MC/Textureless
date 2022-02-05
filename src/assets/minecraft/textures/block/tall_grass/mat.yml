@@ -1,11 +1,12 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
+tint-color: '#79C05A'
 color:
+  _-preview-tint: '#79C05A'
   value-red: 128
   value-green: 128
   value-blue: 128
-  preview-tint: '#79C05A'
 height:
   scale: 0.06
   edge-fade-x: 0.01
@@ -14,14 +15,15 @@ normal:
   noise: 6
   method: sobel5
 occlusion:
-  step-distance: 0.1
-  z-scale: 2
+  step-distance: 0.15
+  z-scale: 4
 smooth:
   value: 0.16
 f0:
   value: 0.02
 sss:
   value: 0.6
+ctm: {}
 parts:
 - name: tall_grass_top
   left: 0

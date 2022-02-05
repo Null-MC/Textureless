@@ -1,0 +1,32 @@
+wrap-x: false
+wrap-y: false
+color:
+  value-red: 164
+  value-green: 106
+  value-blue: 58
+height:
+  scale: 0
+normal:
+  noise: 6
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity:
+  value: 0.08
+ctm: {}
+filters:
+- name: end
+  left: 0
+  top: 0
+  width: 0.4375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: side
+  left: 0.4375
+  top: 0.25
+  width: 0.5
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-y: 90

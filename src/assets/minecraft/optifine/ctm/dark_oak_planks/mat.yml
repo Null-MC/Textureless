@@ -1,0 +1,24 @@
+publish-item: true
+height:
+  shift: -0.03
+  scale: 0.4
+normal:
+  noise: 4
+  method: sobel-high
+  strength: 3
+occlusion:
+  step-distance: 0.1
+  z-bias: 3
+  z-scale: 5
+smooth:
+  scale: 0.2
+f0:
+  value: 0.04
+porosity:
+  scale: 2
+ctm:
+  method: of-repeat
+  width: 4
+  height: 2
+  match-tiles: dark_oak_planks
+  placeholder: true

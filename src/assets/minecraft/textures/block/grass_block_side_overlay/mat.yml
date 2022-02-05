@@ -1,7 +1,7 @@
 publish-item: true
 wrap-x: true
 wrap-y: false
-model: cube_all
+model: grass_block_overlay
 tint-color: '#79C05A'
 color:
   _-preview-tint: '#79C05A'

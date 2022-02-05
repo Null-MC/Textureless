@@ -1,14 +1,9 @@
-publish-item: true
-model: jungle_leaves
+publish-item: false
+model: leaves_template
 blend-mode: cutout
-tint-color: '#30BB0B'
-color:
-  _-preview-tint: '#48B518'
-  scale-red: 0.8
-  scale-green: 0.8
-  scale-blue: 0.8
+tint-color: '#48B518'
 height:
-  texture: alpha.png
+  texture: opacity.png
   scale: 0.08
   edge-fade-x: 0.01
   edge-fade-y: 0.01

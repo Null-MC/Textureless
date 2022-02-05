@@ -1,0 +1,18 @@
+publish-item: true
+height:
+  scale: 0.5
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 2
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 3
+smooth:
+  value: 0.08
+f0:
+  value: 0.04
+porosity:
+  value: 0.12
+ctm: {}

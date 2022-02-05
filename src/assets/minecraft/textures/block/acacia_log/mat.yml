@@ -1,8 +1,6 @@
 publish-item: true
 wrap-x: false
 wrap-y: true
-opacity:
-  value: 255
 color:
   value-red: 104
   value-green: 97
@@ -26,3 +24,4 @@ f0:
   value: 0.03
 porosity:
   value: 0.63
+ctm: {}
