@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src/LabPbr-32x.pack.yml'
-          zip: 'Textureless-LabPbr-32x.zip'
+          profile: src/LabPbr-32x.pack.yml
+          zip: Textureless-LabPbr-32x.zip
       - name: Upload LabPbr 32x
         uses: actions/upload-artifact@v2
         with:
@@ -27,8 +27,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src/LabPbr-64x.pack.yml'
-          zip: 'Textureless-LabPbr-64x.zip'
+          profile: src/LabPbr-64x.pack.yml
+          zip: Textureless-LabPbr-64x.zip
       - name: Upload LabPbr 64x
         uses: actions/upload-artifact@v2
         with:
@@ -41,8 +41,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src/LabPbr-16x.pack.yml'
-          zip: 'Textureless-LabPbr-16x.zip'
+          profile: src/LabPbr-16x.pack.yml
+          zip: Textureless-LabPbr-16x.zip
       - name: Upload LabPbr 16x
         uses: actions/upload-artifact@v2
         with:
@@ -55,8 +55,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src/LabBakedAO-32x.pack.yml'
-          zip: 'Textureless-LabBakedAO-32x.zip'
+          profile: src/LabBakedAO-32x.pack.yml
+          zip: Textureless-LabBakedAO-32x.zip
       - name: Upload LabBakedAO 32x
         uses: actions/upload-artifact@v2
         with:
@@ -69,8 +69,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src/OldPbr-32x.pack.yml'
-          zip: 'Textureless-OldPbr-32x.zip'
+          profile: src/OldPbr-32x.pack.yml
+          zip: Textureless-OldPbr-32x.zip
       - name: Upload OldPbr 32x
         uses: actions/upload-artifact@v2
         with:
@@ -83,8 +83,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src/BRtx-32x.pack.yml'
-          zip: 'Textureless-RTX-32x.zip'
+          profile: src/BRtx-32x.pack.yml
+          zip: Textureless-RTX-32x.zip
       - name: Upload RTX 32x
         uses: actions/upload-artifact@v2
         with:
@@ -97,8 +97,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src-models/LabPbr-32x.pack.yml'
-          zip: 'Textureless-Models-LabPbr-32x.zip'
+          profile: src-models/LabPbr-32x.pack.yml
+          zip: Textureless-Models-LabPbr-32x.zip
       - name: Upload Models LabPbr 32x
         uses: actions/upload-artifact@v2
         with:
@@ -111,8 +111,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src-models/LabPbr-64x.pack.yml'
-          zip: 'Textureless-Models-LabPbr-64x.zip'
+          profile: src-models/LabPbr-64x.pack.yml
+          zip: Textureless-Models-LabPbr-64x.zip
       - name: Upload Models LabPbr 64x
         uses: actions/upload-artifact@v2
         with:
@@ -125,8 +125,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src-models/LabPbr-16x.pack.yml'
-          zip: 'Textureless-Models-LabPbr-16x.zip'
+          profile: src-models/LabPbr-16x.pack.yml
+          zip: Textureless-Models-LabPbr-16x.zip
       - name: Upload Models LabPbr 16x
         uses: actions/upload-artifact@v2
         with:
@@ -139,8 +139,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src-models/LabBakedAO-32x.pack.yml'
-          zip: 'Textureless-Models-LabBakedAO-32x.zip'
+          profile: src-models/LabBakedAO-32x.pack.yml
+          zip: Textureless-Models-LabBakedAO-32x.zip
       - name: Upload Models LabBakedAO 32x
         uses: actions/upload-artifact@v2
         with:
@@ -153,8 +153,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: 'src-models/OldPbr-32x.pack.yml'
-          zip: 'Textureless-Models-OldPbr-32x.zip'
+          profile: src-models/OldPbr-32x.pack.yml
+          zip: Textureless-Models-OldPbr-32x.zip
       - name: Upload Models OldPbr 32x
         uses: actions/upload-artifact@v2
         with:
