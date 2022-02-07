@@ -1,0 +1,17 @@
+alpha:
+  value: 255
+albedo:
+  value-red: 45
+  value-green: 47
+  value-blue: 143
+normal:
+  noise: 0.6
+occlusion:
+  value: 0
+smooth:
+  texture: smooth.png
+f0:
+  value: 0.067
+porosity:
+  value: 0.47
+publish-inventory: true

@@ -1,0 +1,27 @@
+publish-item: true
+color:
+  value-red: 148
+  value-green: 148
+  value-blue: 148
+height:
+  scale: 0.05
+  auto-level: true
+normal:
+  noise: 2
+  method: sobel-high
+  strength: 3
+occlusion:
+  scale: 0.2
+  step-distance: 0.15
+  z-bias: 0.6
+  z-scale: 3
+smooth:
+  scale: 0.35
+f0:
+  value: 0.072
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: white_concrete orange_concrete magenta_concrete light_blue_concrete yellow_concrete lime_concrete pink_concrete gray_concrete light_gray_concrete cyan_concrete purple_concrete blue_concrete brown_concrete green_concrete red_concrete black_concrete
+  placeholder: true
