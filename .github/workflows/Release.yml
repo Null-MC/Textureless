@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src/LabPbr-32x.pack.yml'
           zip: 'Textureless-LabPbr-32x.zip'
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src/LabPbr-64x.pack.yml'
           zip: 'Textureless-LabPbr-64x.zip'
@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src/LabPbr-16x.pack.yml'
           zip: 'Textureless-LabPbr-16x.zip'
@@ -53,7 +53,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src/LabBakedAO-32x.pack.yml'
           zip: 'Textureless-LabBakedAO-32x.zip'
@@ -67,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src/OldPbr-32x.pack.yml'
           zip: 'Textureless-OldPbr-32x.zip'
@@ -81,7 +81,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src/BRtx-32x.pack.yml'
           zip: 'Textureless-RTX-32x.zip'
@@ -95,7 +95,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src-models/LabPbr-32x.pack.yml'
           zip: 'Textureless-Models-LabPbr-32x.zip'
@@ -109,7 +109,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src-models/LabPbr-64x.pack.yml'
           zip: 'Textureless-Models-LabPbr-64x.zip'
@@ -123,7 +123,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src-models/LabPbr-16x.pack.yml'
           zip: 'Textureless-Models-LabPbr-16x.zip'
@@ -137,7 +137,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src-models/LabBakedAO-32x.pack.yml'
           zip: 'Textureless-Models-LabBakedAO-32x.zip'
@@ -151,7 +151,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: https://github.com/null511/PixelGraph.GitHubAction.git@v1
+      - uses: actions/PixelGraph-Publish@v1.0.1
         with:
           profile: 'src-models/OldPbr-32x.pack.yml'
           zip: 'Textureless-Models-OldPbr-32x.zip'
