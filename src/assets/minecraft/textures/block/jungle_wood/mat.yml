@@ -1,4 +1,8 @@
 publish-item: true
+color:
+  scale-red: 0.7
+  scale-green: 0.7
+  scale-blue: 0.7
 height:
   shift: -0.08
   scale: 0.2
@@ -10,7 +14,10 @@ occlusion:
   step-distance: 0.1
   z-bias: 0
   z-scale: 4
+smooth:
+  scale: 0.5
 f0:
   value: 0.04
 sss:
   scale: 0.3
+ctm: {}

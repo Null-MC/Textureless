@@ -1,0 +1,49 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"all": "block/fern",
+		"particle": "block/fern_inventory"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 0, 20],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 0, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#all", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0, -4],
+			"to": [16, 0, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 0, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#all", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 2, 0],
+			"to": [20, 2, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 2, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#all", "tintindex": 0},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#all", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-4, 2, 0],
+			"to": [8, 2, 16],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 2, 8], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#all", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#all", "tintindex": 0}
+			}
+		}
+	]
+}

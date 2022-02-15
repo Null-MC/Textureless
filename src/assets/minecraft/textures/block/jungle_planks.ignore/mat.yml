@@ -1,6 +1,10 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
+color:
+  scale-red: 0.7
+  scale-green: 0.7
+  scale-blue: 0.7
 height:
   scale: 0.8
 normal:
@@ -17,3 +21,4 @@ f0:
   value: 0.03
 porosity:
   scale: 0.6
+ctm: {}

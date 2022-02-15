@@ -3,21 +3,18 @@ texture-height: 64
 wrap-x: false
 wrap-y: false
 height:
+  texture: bump.png
   scale: 0
 normal:
-  noise: 1.5
-  method: sobel-low
-  strength: 8
+  noise: 3
+  method: sobel3
+  strength: 3
 occlusion:
   step-distance: 0.05
-  z-bias: 0.5
-  z-scale: 8
-smooth:
-  value: 0.16
+  z-bias: 2
+  z-scale: 12
 f0:
-  value: 0.017
-sss:
-  value: 0.2
+  value: 0.03
 ctm: {}
 filters:
 - name: head-up

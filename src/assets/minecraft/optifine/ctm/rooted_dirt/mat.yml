@@ -1,18 +1,16 @@
 publish-item: true
 height:
-  texture: bump.png
-  shift: -0.12
-  scale: 0.2
-  edge-fade-x: 3
-  edge-fade-y: 3
+  scale: 0.16
+  edge-fade-x: 2
+  edge-fade-y: 2
 normal:
   noise: 6
   method: sobel3
-  strength: 1.5
+  strength: 2
 occlusion:
-  step-distance: 0.2
-  z-bias: 3
-  z-scale: 9
+  step-distance: 0.15
+  z-bias: 2
+  z-scale: 12
 smooth:
   scale: 0.8
 f0:

@@ -3,7 +3,7 @@ wrap-x: false
 wrap-y: false
 model: acacia_leaves
 blend-mode: cutout
-tint-color: '#AEA42A '
+tint-color: '#9ea06d'
 height:
   texture: opacity.png
   scale: 0.1

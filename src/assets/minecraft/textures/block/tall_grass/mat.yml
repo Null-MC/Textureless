@@ -1,28 +1,22 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
-tint-color: '#79C05A'
-color:
-  _-preview-tint: '#79C05A'
-  value-red: 128
-  value-green: 128
-  value-blue: 128
+tint-color: '#b3e471'
 height:
-  scale: 0.06
+  texture: opacity.png
+  scale: 0.05
   edge-fade-x: 0.01
   edge-fade-y: 0.01
 normal:
-  noise: 6
+  noise: 3
   method: sobel5
 occlusion:
-  step-distance: 0.15
-  z-scale: 4
-smooth:
-  value: 0.16
+  scale: 0.6
+  step-distance: 0.1
+  z-bias: 0.2
+  z-scale: 6
 f0:
-  value: 0.02
-sss:
-  value: 0.6
+  value: 0.03
 ctm: {}
 parts:
 - name: tall_grass_top

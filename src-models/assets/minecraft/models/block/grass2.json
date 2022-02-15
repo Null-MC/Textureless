@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_grass2",
+	"textures": {
+		"grass": "block/grass",
+		"particle": "block/grass_inventory"
+	}
+}

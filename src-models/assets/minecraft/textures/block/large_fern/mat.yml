@@ -1,0 +1,39 @@
+wrap-x: false
+wrap-y: false
+tint-color: '#c0e99e'
+height:
+  texture: opacity.png
+  scale: 0.05
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 8
+  method: sobel3
+  strength: 2
+occlusion:
+  step-distance: 0.15
+  z-bias: 2
+  z-scale: 6
+smooth:
+  scale: 0.4
+f0:
+  value: 0.03
+ctm: {}
+parts:
+- name: large_fern_top
+  width: 32
+  height: 32
+- name: large_fern_bottom
+  top: 32
+  width: 32
+  height: 32
+filters:
+- name: top
+  height: 0.5
+  normal-curve-x: 60
+  normal-curve-y: 20
+- name: bottom
+  top: 0.5
+  height: 0.5
+  normal-curve-x: 60
+  normal-curve-y: 20

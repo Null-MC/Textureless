@@ -15,7 +15,7 @@ occlusion:
   step-distance: 0.1
   z-scale: 2
 smooth:
-  value: 0.4
+  value: 0.3
 f0:
   value: 0.02
 sss:

@@ -2,25 +2,26 @@ publish-item: true
 blend-mode: cutout
 tint-color: '#91BD59'
 height:
-  shift: -0.36
-  scale: 0.2
-  edge-fade-x: 4
-  edge-fade-y: 4
+  shift: -0.2
+  scale: 0.34
+  edge-fade-x: 2
+  edge-fade-y: 2
   edge-fade-strength: 0.8
 normal:
-  noise: 9
+  noise: 16
   method: sobel5
   strength: 2
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 4
+  scale: 0.6
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 20
 smooth:
   scale: 0.8
 f0:
-  value: 0.01
+  value: 0.017
 sss:
-  scale: 0.4
+  scale: 0.5
 ctm:
   method: of-repeat
   width: 8

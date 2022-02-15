@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "half=lower": [
+      {
+        "model": "block/tall_grass_bottom"
+      },
+      {
+        "model": "block/tall_grass_bottom",
+        "y": 90
+      },
+      {
+        "model": "block/tall_grass_bottom",
+        "y": 180
+      },
+      {
+        "model": "block/tall_grass_bottom",
+        "y": 270
+      }
+    ],
+    "half=upper": [
+      {
+        "model": "block/tall_grass_top"
+      },
+      {
+        "model": "block/tall_grass_top",
+        "y": 90
+      },
+      {
+        "model": "block/tall_grass_top",
+        "y": 180
+      },
+      {
+        "model": "block/tall_grass_top",
+        "y": 270
+      }
+    ]
+  }
+}

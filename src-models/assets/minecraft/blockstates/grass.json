@@ -15,6 +15,21 @@
     	{
 	      "model": "block/grass",
 	      "y": 270
+	    },
+    	{
+	      "model": "block/grass2"
+	    },
+    	{
+	      "model": "block/grass2",
+	      "y": 90
+	    },
+    	{
+	      "model": "block/grass2",
+	      "y": 180
+	    },
+    	{
+	      "model": "block/grass2",
+	      "y": 270
 	    }
     ]
   }

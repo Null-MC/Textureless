@@ -1,6 +1,5 @@
 publish-item: true
-color:
-  preview-tint: '#559833'
+tint-color: '#559833'
 height:
   scale: 0.2
   edge-fade-x: 0.01
@@ -18,3 +17,4 @@ f0:
   value: 0.017
 sss:
   scale: 2.1
+ctm: {}

@@ -2,22 +2,19 @@ wrap-x: false
 wrap-y: false
 model: cross_mirrored
 blend-mode: cutout
-tint-color: '#7CBD6B'
-color:
-  _-preview-tint: '#7CBD6B'
-  value-red: 134
-  value-green: 138
-  value-blue: 134
+tint-color: '#b3e471'
 height:
+  texture: opacity.png
   scale: 0.05
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
+  noise: 3
+  method: sobel5
 occlusion:
-  scale: 0.2
-smooth:
-  value: 0.16
+  scale: 0.6
+  step-distance: 0.15
+  z-bias: 0.2
 f0:
-  value: 0.01
-sss:
-  value: 0.5
+  value: 0.03
 ctm: {}

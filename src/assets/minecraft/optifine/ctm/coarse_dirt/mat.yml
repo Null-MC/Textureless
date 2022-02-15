@@ -9,6 +9,7 @@ normal:
   strength: 3
 occlusion:
   step-distance: 0.15
+  z-bias: 2
   z-scale: 12
 f0:
   value: 0.04

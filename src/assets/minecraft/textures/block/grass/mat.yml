@@ -1,25 +1,20 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
-color:
-  value-red: 128
-  value-green: 128
-  value-blue: 128
-  scale-red: 0.8
-  scale-green: 0.9
-  scale-blue: 0.9
-  preview-tint: '#79C05A'
+tint-color: '#b3e471'
 height:
+  texture: opacity.png
   scale: 0.05
-  edge-fade-x: 0.1
-  edge-fade-y: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  method: sobel3
+  noise: 3
+  method: sobel5
 occlusion:
-  scale: 0.2
-smooth:
-  value: 0.16
+  scale: 0.6
+  step-distance: 0.1
+  z-bias: 0.2
+  z-scale: 6
 f0:
-  value: 0.01
-sss:
-  value: 0.6
+  value: 0.03
+ctm: {}

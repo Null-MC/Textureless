@@ -1,5 +1,8 @@
 color:
   texture: color_double.png
+  scale-red: 0.7
+  scale-green: 0.7
+  scale-blue: 0.7
 height:
   texture: height_double.png
   shift: -0.08
@@ -17,6 +20,7 @@ occlusion:
   z-scale: 4
 smooth:
   texture: smooth_double.png
+  scale: 0.5
 f0:
   value: 0.04
 porosity:

@@ -1,21 +1,29 @@
-publish-inventory: true
-wrap-x: false
+publish-item: true
+wrap-x: true
 opacity:
   value: 255
 color:
-  value-red: 204
-  value-green: 197
-  value-blue: 186
+  value-red: 218
+  value-green: 187
+  value-blue: 155
 height:
-  scale: 0.3
+  shift: -0.1
+  scale: 0.35
   edge-fade-x: 1
 normal:
+  noise: 2
   curve-x: 90
   radius-x: 0.4
+  method: sobel5
 occlusion:
   step-distance: 0.15
-  z-scale: 3
+  z-bias: 0.4
+  z-scale: 16
 smooth:
   value: 0.14
 f0:
   value: 0.017
+sss:
+  shift: 0.16
+  scale: 0.6
+ctm: {}

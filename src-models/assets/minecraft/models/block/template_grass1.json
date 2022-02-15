@@ -1,0 +1,49 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"grass": "block/grass",
+		"particle": "block/grass_inventory"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 1.8],
+			"to": [4, 16, 16.2],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#grass", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2.8, 0, 12],
+			"to": [17.2, 16, 12],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#grass", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5, 0, 2.8],
+			"to": [5, 16, 17.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#grass", "tintindex": 0}
+			}
+		},
+		{
+			"from": [11, 0, -0.2],
+			"to": [11, 16, 14.2],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#grass", "tintindex": 0},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#grass", "tintindex": 0}
+			}
+		}
+	]
+}

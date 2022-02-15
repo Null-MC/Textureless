@@ -1,6 +1,10 @@
 publish-item: true
 wrap-x: true
 wrap-y: true
+color:
+  scale-red: 0.7
+  scale-green: 0.7
+  scale-blue: 0.7
 height:
   scale: 0.06
 normal:
@@ -13,6 +17,8 @@ occlusion:
   step-distance: 0.15
   z-bias: 10
   z-scale: 2
+smooth:
+  scale: 0.5
 f0:
   value: 0.044
 porosity:

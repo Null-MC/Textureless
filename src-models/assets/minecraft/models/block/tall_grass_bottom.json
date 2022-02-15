@@ -1,0 +1,6 @@
+{
+	"parent": "block/template_grass1",
+	"textures": {
+		"grass": "block/tall_grass_bottom"
+	}
+}

@@ -1,0 +1,23 @@
+publish-item: true
+model: cube_all
+height:
+  shift: -0.06
+  scale: 0.3
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  noise: 4
+  method: sobel3
+  strength: 2
+occlusion:
+  step-distance: 0.15
+  z-bias: 0.2
+  z-scale: 16
+f0:
+  value: 0.04
+ctm:
+  method: of-repeat
+  width: 3
+  height: 3
+  match-tiles: red_mushroom_block
+  placeholder: true

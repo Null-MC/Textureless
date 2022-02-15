@@ -1,0 +1,16 @@
+publish-item: true
+height:
+  texture: bump.png
+  scale: 0.4
+  auto-level: true
+normal:
+  method: sobel3
+  strength: 2
+f0:
+  value: 0.04
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: dripstone_block
+  placeholder: true

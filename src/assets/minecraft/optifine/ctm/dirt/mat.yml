@@ -9,9 +9,9 @@ normal:
   method: sobel3
   strength: 2
 occlusion:
-  step-distance: 0.2
-  z-bias: 3
-  z-scale: 9
+  step-distance: 0.15
+  z-bias: 2
+  z-scale: 12
 smooth:
   scale: 0.8
 porosity:
