@@ -1,5 +1,5 @@
 publish-item: true
-wrap-x: false
+wrap-x: true
 height:
   shift: -0.2
   scale: 0.16

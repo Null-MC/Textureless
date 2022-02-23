@@ -1,0 +1,23 @@
+publish-item: true
+height:
+  scale: 0.4
+  auto-level: false
+  edge-fade-x: 1
+  edge-fade-y: 1
+  edge-fade-strength: 0.6
+normal:
+  noise: 12
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 4
+smooth:
+  shift: 0.1
+f0:
+  value: 0.04
+ctm:
+  method: of-repeat
+  width: 6
+  height: 6
+  match-tiles: gravel
+  placeholder: true
