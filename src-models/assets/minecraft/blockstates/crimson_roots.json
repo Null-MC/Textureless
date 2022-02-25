@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "": [
+    	{
+	      "model": "block/crimson_roots"
+	    },
+    	{
+	      "model": "block/crimson_roots",
+	      "y": 90
+	    },
+    	{
+	      "model": "block/crimson_roots",
+	      "y": 180
+	    },
+    	{
+	      "model": "block/crimson_roots",
+	      "y": 270
+	    },
+    	{
+	      "model": "block/crimson_roots2"
+	    },
+    	{
+	      "model": "block/crimson_roots2",
+	      "y": 90
+	    },
+    	{
+	      "model": "block/crimson_roots2",
+	      "y": 180
+	    },
+    	{
+	      "model": "block/crimson_roots2",
+	      "y": 270
+	    }
+    ]
+  }
+}

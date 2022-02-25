@@ -10,8 +10,8 @@ occlusion:
   z-bias: 2
   z-scale: 1
 smooth:
-  shift: 0.7
-  scale: 0.5
+  shift: 2.6
+  scale: 0.2
 metal:
   value: 231
 porosity:

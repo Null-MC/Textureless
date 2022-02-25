@@ -1,17 +1,23 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
 opacity:
   value: 255
 height:
-  shift: -0.08
-  edge-fade-x: 0.4
-  edge-fade-y: 0.4
+  shift: -0.12
+  scale: 0.5
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
 normal:
+  noise: 1
   curve-x: 90
+  curve-y: 90
   radius-x: 0.4
+  radius-y: 0.16
   method: sobel-low
+  strength: 4
 occlusion:
-  step-distance: 0.2
+  step-distance: 0.1
   z-bias: 1
-  z-scale: 3
+  z-scale: 6
+ctm: {}

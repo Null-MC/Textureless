@@ -4,17 +4,19 @@ color:
   value-green: 148
   value-blue: 148
 height:
-  scale: 0.05
+  texture: bump.png
+  shift: -0.02
+  scale: 0.06
   auto-level: true
 normal:
-  noise: 2
+  noise: 3
   method: sobel-high
-  strength: 3
+  strength: 2
 occlusion:
-  scale: 0.2
-  step-distance: 0.15
-  z-bias: 0.6
-  z-scale: 3
+  scale: 0.6
+  step-distance: 0.1
+  z-bias: 2
+  z-scale: 20
 smooth:
   scale: 0.35
 f0:

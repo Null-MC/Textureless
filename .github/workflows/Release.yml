@@ -336,8 +336,24 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: Textureless-LabPbr-32x
+      - run: mv 'Textureless-LabPbr-32x.zip' 'Textureless-LabPbr-32x-v${{ github.event.inputs.version }}.zip'
       - name: Upload LabPbr 32x
         run: |
           curl -X POST \
-            -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x", gameVersions: [8203]}' \
-            -F 'file=@Textureless-LabPbr-32x.zip' 'https://minecraft.curseforge.com/api/projects/469686/upload-file?token=${{secrets.CF_API_TOKEN}}'
+            -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x v${{ github.event.inputs.version }}", gameVersions: [8203]}' \
+            -F 'file=@Textureless-LabPbr-32x-v${{ github.event.inputs.version }}.zip' 'https://minecraft.curseforge.com/api/projects/469686/upload-file?token=${{secrets.CF_API_TOKEN}}'
+
+  Upload-Models-CurseForge:
+    runs-on: ubuntu-latest
+    needs: Create-Release
+    steps:
+      - name: Download LabPbr Models 32x
+        uses: actions/download-artifact@v2
+        with:
+          name: Textureless-Models-LabPbr-32x
+      - run: mv 'Textureless-Models-LabPbr-32x.zip' 'Textureless-Models-LabPbr-32x-v${{ github.event.inputs.version }}.zip'
+      - name: Upload LabPbr Models 32x
+        run: |
+          curl -X POST \
+            -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x v${{ github.event.inputs.version }}", gameVersions: [8203]}' \
+            -F 'file=@Textureless-Models-LabPbr-32x-v${{ github.event.inputs.version }}.zip' 'https://minecraft.curseforge.com/api/projects/582743/upload-file?token=${{secrets.CF_API_TOKEN}}'

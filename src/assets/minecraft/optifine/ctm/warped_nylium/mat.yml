@@ -1,0 +1,24 @@
+publish-item: true
+blend-mode: cutout
+height:
+  shift: -0.14
+  scale: 0.4
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  noise: 5
+  method: sobel3
+  strength: 0.6
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 5
+smooth:
+  shift: 0.15
+  scale: 0.7
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: warped_nylium
+  placeholder: true

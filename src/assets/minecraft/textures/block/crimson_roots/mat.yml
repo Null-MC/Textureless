@@ -1,14 +1,19 @@
+publish-item: true
 wrap-x: false
 wrap-y: false
-color:
-  value-red: 123
-  value-green: 7
-  value-blue: 45
 height:
-  value: 0
+  texture: opacity.png
+  scale: 0.05
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 3
+  method: sobel5
 occlusion:
-  value: 0.0
-smooth:
-  value: 0.2
-sss:
-  value: 0.31
+  scale: 0.6
+  step-distance: 0.1
+  z-bias: 0.2
+  z-scale: 6
+f0:
+  value: 0.03
+ctm: {}

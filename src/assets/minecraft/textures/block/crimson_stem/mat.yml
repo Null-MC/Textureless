@@ -7,7 +7,6 @@ height:
 normal:
   noise: 6
   curve-x: 90
-  radius-x: 0.6
   method: sobel3
 occlusion:
   step-distance: 0.2
@@ -19,5 +18,4 @@ f0:
   value: 0.07
 sss:
   value: 0
-emissive:
-  scale: 0.5
+ctm: {}

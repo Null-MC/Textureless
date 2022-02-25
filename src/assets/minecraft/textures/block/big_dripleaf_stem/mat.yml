@@ -1,0 +1,22 @@
+wrap-x: false
+color:
+  value-red: 84
+  value-green: 106
+  value-blue: 46
+height:
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.01
+normal:
+  method: sobel5
+  strength: 2
+occlusion:
+  step-distance: 0.1
+  z-scale: 12
+smooth:
+  value: 0.2
+f0:
+  value: 0.04
+sss:
+  value: 0.2
+ctm: {}

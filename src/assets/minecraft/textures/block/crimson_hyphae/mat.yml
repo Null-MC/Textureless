@@ -18,6 +18,4 @@ f0:
   value: 0.07
 sss:
   value: 0
-emissive:
-  scale: 0.5
 ctm: {}

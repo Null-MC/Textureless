@@ -9,8 +9,8 @@ normal:
 occlusion:
   z-scale: 0.2
 smooth:
-  shift: 0.6
-  scale: 0.6
+  shift: 4
+  scale: 0.2
 metal:
   value: 230
 porosity:

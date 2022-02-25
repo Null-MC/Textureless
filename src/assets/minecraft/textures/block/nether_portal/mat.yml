@@ -1,0 +1,15 @@
+opacity:
+  input:
+    sampler: bilinear
+color:
+  input-red:
+    sampler: bilinear
+  input-green:
+    sampler: bilinear
+  input-blue:
+    sampler: bilinear
+emissive:
+  scale: 4
+  input:
+    sampler: bilinear
+ctm: {}

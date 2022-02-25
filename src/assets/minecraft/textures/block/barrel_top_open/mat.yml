@@ -1,21 +1,24 @@
-wrap-x: false
+publish-item: true
+wrap-x: true
+wrap-y: true
 opacity:
   value: 255
-color:
-  value-red: 138
-  value-green: 102
-  value-blue: 58
+height:
+  scale: 0.8
 normal:
-  curve-x: 20
-  curve-y: 20
-  method: sobel-high
-  strength: 0.5
+  noise: 4
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.16
+  radius-y: 0.16
+  method: sobel-low
+  strength: 4
 occlusion:
-  step-distance: 0.25
-  z-bias: 1
-  z-scale: 3
+  step-distance: 0.1
+  z-bias: 0.6
+  z-scale: 6
 smooth:
-  value: 0.08
+  value: 0.043
 f0:
   value: 0.04
 porosity:

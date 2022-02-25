@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_grass1",
+	"textures": {
+		"grass": "block/crimson_roots",
+		"particle": "block/crimson_roots_inventory"
+	}
+}
