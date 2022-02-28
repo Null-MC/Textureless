@@ -1,18 +1,10 @@
 publish-item: true
 height:
-  shift: -0.5
+  shift: -0.04
   scale: 0.5
-  edge-fade-x: 0.6
-  edge-fade-y: 0.6
-normal:
-  method: sobel5
-  strength: 0.8
-occlusion:
-  step-distance: 0.1
-  z-bias: 0.2
-  z-scale: 6
-sss:
-  scale: 3
+  edge-fade-x: 1
+  edge-fade-y: 1
+  edge-fade-strength: 0.7
 ctm:
   method: of-repeat
   width: 8

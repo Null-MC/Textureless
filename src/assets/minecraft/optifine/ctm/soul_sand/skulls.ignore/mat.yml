@@ -1,0 +1,27 @@
+publish-item: true
+height:
+  shift: -0.1
+  scale: 0.3
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  noise: 8
+  method: sobel3
+  strength: 3
+occlusion:
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 24
+f0:
+  value: 0.04
+porosity:
+  shift: 2.5
+  scale: 0.2
+sss:
+  value: 0
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: soul_sand
+  placeholder: true

@@ -1,0 +1,30 @@
+publish-item: true
+height:
+  scale: 0.1
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  noise: 6
+  method: sobel-low
+  strength: 4
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 12
+smooth:
+  shift: 0.2
+  scale: 0.4
+f0:
+  value: 0.04
+porosity:
+  value: 0.71
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: bone_block_side
+  placeholder: true
+filters:
+- name: default
+  tile: true
+  normal-curve-x: 90

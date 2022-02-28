@@ -20,4 +20,5 @@ smooth:
 f0:
   value: 0.04
 emissive:
-  scale: 0.2
+  scale: 0.4
+ctm: {}

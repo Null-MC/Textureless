@@ -1,0 +1,6 @@
+{
+  "parent": "block/dripstone_block",
+  "textures": {
+    "all": "block/dripstone_block_inventory"
+  }
+}

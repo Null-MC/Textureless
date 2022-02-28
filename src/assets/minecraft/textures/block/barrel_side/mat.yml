@@ -12,7 +12,7 @@ normal:
   noise: 1
   curve-x: 90
   curve-y: 90
-  radius-x: 0.4
+  radius-x: 0.66
   radius-y: 0.16
   method: sobel-low
   strength: 4

@@ -17,6 +17,4 @@ occlusion:
   z-scale: 8
 porosity:
   value: 0
-emissive:
-  scale: 0.2
 ctm: {}

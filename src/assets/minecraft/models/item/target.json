@@ -1,0 +1,7 @@
+{
+  "parent": "block/target",
+  "textures": {
+    "end": "block/target_top_inventory",
+    "side": "block/target_side_inventory"
+  }
+}

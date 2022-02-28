@@ -15,7 +15,7 @@ occlusion:
 smooth:
   shift: 0.14
 f0:
-  value: 0.03
+  value: 0.04
 porosity:
   shift: 2.5
   scale: 0.2

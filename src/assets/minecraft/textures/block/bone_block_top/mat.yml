@@ -4,23 +4,23 @@ wrap-y: false
 opacity:
   value: 255
 height:
-  shift: -0.1
+  shift: -0.08
   edge-fade-x: 0.2
-  edge-fade-y: 0.5
+  edge-fade-y: 0.2
 normal:
   noise: 8
   curve-x: 90
   curve-y: 90
   radius-x: 0.3
   radius-y: 0.3
-  method: sobel5
+  method: sobel-low
+  strength: 4
 occlusion:
-  step-distance: 0.2
-  z-bias: 0
+  step-distance: 0.1
+  z-bias: 1
   z-scale: 12
-smooth:
-  value: 0.04
 f0:
   value: 0.04
 porosity:
   value: 0.71
+ctm: {}

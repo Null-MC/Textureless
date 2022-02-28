@@ -1,0 +1,24 @@
+publish-item: false
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
+  value-red: 89
+  value-green: 152
+  value-blue: 152
+  bake-occlusion: true
+height:
+  scale: 0
+normal:
+  noise: 20
+  method: sobel3
+  strength: 2
+occlusion:
+  step-distance: 0.2
+  z-bias: 0.2
+  z-scale: 10
+smooth:
+  value: 0.8
+f0:
+  value: 0.051
+ctm: {}
