@@ -1,0 +1,6 @@
+{
+    "parent":"block/ore_end1",
+    "textures": {
+	   "ore":"block/raw_gold_block"
+    }
+}

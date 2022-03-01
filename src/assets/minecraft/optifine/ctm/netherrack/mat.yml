@@ -5,6 +5,9 @@ height:
   edge-fade-x: 1
   edge-fade-y: 1
   edge-fade-strength: 0.7
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
 ctm:
   method: of-repeat
   width: 8

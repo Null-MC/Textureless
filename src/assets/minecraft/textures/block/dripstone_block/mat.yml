@@ -1,3 +1,4 @@
+publish-item: true
 height:
   scale: 0.4
 normal:
@@ -9,3 +10,4 @@ smooth:
   scale: 0.6
 f0:
   value: 0.05
+ctm: {}

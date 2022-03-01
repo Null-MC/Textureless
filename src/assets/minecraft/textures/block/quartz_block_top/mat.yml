@@ -1,17 +1,20 @@
-create-inventory: true
-alpha:
+publish-item: true
+opacity:
   value: 255
-albedo:
+color:
   value-red: 236
   value-green: 232
   value-blue: 226
 height:
   value: 0
+normal:
+  noise: 1
 occlusion:
   value: 0
 smooth:
-  value: 0.3
+  value: 0.6
 f0:
-  value: 0.053
+  value: 0.035
 porosity:
   value: 0.1
+ctm: {}

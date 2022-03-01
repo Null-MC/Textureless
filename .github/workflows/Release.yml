@@ -340,7 +340,7 @@ jobs:
       - name: Upload LabPbr 32x
         run: |
           curl -X POST \
-            -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x v${{ github.event.inputs.version }}", gameVersions: [8203]}' \
+            -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x v${{ github.event.inputs.version }}", gameVersions: [9008,8857,8830,8516,8203,8152,8134,8056,8010,7892,7890,7675,7664,7469,7413,7361,7344,7318,7132,7107,7081]}' \
             -F 'file=@Textureless-LabPbr-32x-v${{ github.event.inputs.version }}.zip' 'https://minecraft.curseforge.com/api/projects/469686/upload-file?token=${{secrets.CF_API_TOKEN}}'
 
   Upload-Models-CurseForge:
@@ -355,5 +355,5 @@ jobs:
       - name: Upload LabPbr Models 32x
         run: |
           curl -X POST \
-            -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x v${{ github.event.inputs.version }}", gameVersions: [8203]}' \
+            -F 'metadata={changelog: "Release ${{github.event.inputs.version}}", changelogType: "text", releaseType: "release", displayName: "LabPBR 32x v${{ github.event.inputs.version }}", gameVersions: [9008,8857,8830,8516,8203,8152,8134,8056,8010,7892,7890,7675,7664,7469,7413,7361,7344,7318,7132,7107,7081]}' \
             -F 'file=@Textureless-Models-LabPbr-32x-v${{ github.event.inputs.version }}.zip' 'https://minecraft.curseforge.com/api/projects/582743/upload-file?token=${{secrets.CF_API_TOKEN}}'

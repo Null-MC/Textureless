@@ -1,0 +1,21 @@
+publish-item: true
+height:
+  shift: -0.04
+  scale: 0.5
+  edge-fade-x: 1
+  edge-fade-y: 1
+  edge-fade-strength: 0.7
+normal:
+  noise: 6
+  method: sobel-low
+  strength: 5
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 8
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: nether_quartz_ore
+  placeholder: true
