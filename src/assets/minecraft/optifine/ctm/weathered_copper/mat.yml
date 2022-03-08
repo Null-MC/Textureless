@@ -1,24 +1,23 @@
 publish-item: true
 height:
-  scale: 0.5
-  edge-fade-x: 0.8
-  edge-fade-y: 0.8
+  scale: 0.16
+  edge-fade-x: 3
+  edge-fade-y: 3
 normal:
   noise: 3
-  method: sobel-high
-  strength: 2
+  strength: 1
 occlusion:
-  z-scale: 4
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 6
 smooth:
-  shift: -0.08
+  scale: 0.8
 metal:
   value: 234
-porosity:
-  value: 0.4
 ctm:
   method: of-repeat
-  width: 4
-  height: 4
+  width: 8
+  height: 8
   match-tiles: weathered_copper
   placeholder: true
 filters:

@@ -1,7 +1,6 @@
 publish-item: true
 wrap-x: true
 wrap-y: false
-model: grass_block_overlay
 tint-color: '#79C05A'
 color:
   _-preview-tint: '#79C05A'
@@ -11,7 +10,7 @@ color:
 height:
   texture: opacity.png
   scale: 0.1
-  edge-fade-y: 0.1
+  edge-fade-y: 0.01
 normal:
   noise: 8
   curve-y: 90

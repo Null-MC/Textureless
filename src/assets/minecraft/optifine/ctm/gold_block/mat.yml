@@ -1,21 +1,20 @@
 publish-item: true
+color:
+  value-red: 195
+  value-green: 154
+  value-blue: 72
 height:
-  scale: 0.5
-  edge-fade-x: 0.8
-  edge-fade-y: 0.8
+  scale: 0.04
 normal:
-  method: sobel-low
-  strength: 1.5
+  noise: 0.5
+  method: sobel-high
+  strength: 3
 occlusion:
+  step-distance: 0.2
   z-bias: 2
-  z-scale: 1
-smooth:
-  shift: 2.6
-  scale: 0.2
+  z-scale: 8
 metal:
   value: 231
-porosity:
-  value: 0
 ctm:
   method: of-repeat
   width: 8
@@ -23,9 +22,17 @@ ctm:
   match-tiles: gold_block
   placeholder: true
 filters:
-- name: block
+- name: outer
   tile: true
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.2
-  normal-radius-y: 0.2
+  normal-radius-x: 0.15
+  normal-radius-y: 0.15
+- name: inner
+  left: 0.05
+  top: 0.05
+  width: 0.9
+  height: 0.9
+  tile: true
+  normal-curve-x: -8
+  normal-curve-y: -8

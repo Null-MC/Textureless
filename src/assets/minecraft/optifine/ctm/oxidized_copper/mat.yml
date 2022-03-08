@@ -1,26 +1,23 @@
 publish-item: true
-color:
-  scale-red: 0.8
-  scale-green: 0.8
-  scale-blue: 0.8
 height:
-  scale: 0.5
-  edge-fade-x: 0.8
-  edge-fade-y: 0.8
+  scale: 0.16
+  edge-fade-x: 3
+  edge-fade-y: 3
 normal:
   noise: 6
-  method: sobel-high
-  strength: 2
+  strength: 1
 occlusion:
-  z-scale: 4
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 6
 smooth:
-  scale: 0.6
-porosity:
-  value: 0.8
+  shift: 0.08
+metal:
+  value: 234
 ctm:
   method: of-repeat
-  width: 4
-  height: 4
+  width: 8
+  height: 8
   match-tiles: oxidized_copper
   placeholder: true
 filters:

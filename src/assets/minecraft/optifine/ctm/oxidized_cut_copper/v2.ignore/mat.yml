@@ -1,0 +1,64 @@
+publish-item: true
+color:
+  scale-red: 0.8
+  scale-green: 0.8
+  scale-blue: 0.8
+height:
+  scale: 0.3
+normal:
+  noise: 6
+  method: sobel-high
+  strength: 2
+occlusion:
+  z-scale: 4
+smooth:
+  scale: 0.6
+porosity:
+  value: 0.8
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: oxidized_cut_copper
+  placeholder: true
+filters:
+- name: top-left
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.5
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: top-right
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.5
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: bottom-left
+  left: 0
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: bottom-right
+  left: 0.5
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3

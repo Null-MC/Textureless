@@ -1,13 +1,10 @@
 publish-item: true
 color:
-  value-red: 240
-  value-green: 147
-  value-blue: 98
+  value-red: 186
+  value-green: 112
+  value-blue: 85
 height:
   scale: 0.3
-normal:
-  method: sobel-high
-  strength: 2
 occlusion:
   z-scale: 4
 metal:

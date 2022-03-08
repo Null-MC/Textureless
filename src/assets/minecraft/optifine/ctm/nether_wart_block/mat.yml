@@ -1,0 +1,25 @@
+publish-item: true
+height:
+  edge-fade-x: 1
+  edge-fade-y: 1
+occlusion:
+  step-distance: 0.1
+  z-bias: 2
+  z-scale: 8
+f0:
+  value: 0.017
+sss:
+  value: 0.6
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: nether_wart_block
+  placeholder: true
+filters:
+- name: default
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5

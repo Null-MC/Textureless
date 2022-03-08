@@ -7,14 +7,12 @@ height:
   scale: 0.3
 normal:
   noise: 6
-  method: sobel-high
-  strength: 2
 occlusion:
   z-scale: 4
 smooth:
-  scale: 0.6
-porosity:
-  value: 0.8
+  shift: 0.08
+metal:
+  value: 234
 ctm:
   method: of-repeat
   width: 4

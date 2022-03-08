@@ -1,0 +1,25 @@
+publish-item: true
+color:
+  value-red: 195
+  value-green: 154
+  value-blue: 72
+height:
+  scale: 0.4
+normal:
+  noise: 0.5
+  method: sobel-high
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 8
+smooth:
+  shift: -0.15
+metal:
+  value: 231
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: gold_block
+  placeholder: true
+filters: []

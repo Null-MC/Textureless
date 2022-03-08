@@ -1,0 +1,16 @@
+publish-item: true
+height:
+  scale: 0.2
+  edge-fade-x: 1
+  edge-fade-y: 1
+  edge-fade-strength: 0.7
+smooth:
+  scale: 0.7
+f0:
+  value: 0.077
+ctm:
+  method: of-repeat
+  width: 5
+  height: 5
+  match-tiles: bricks_top
+  placeholder: true

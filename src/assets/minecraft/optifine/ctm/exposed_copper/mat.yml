@@ -1,20 +1,26 @@
 publish-item: true
+color:
+  value-red: 183
+  value-green: 97
+  value-blue: 49
 height:
-  scale: 0.5
-  edge-fade-x: 0.8
-  edge-fade-y: 0.8
+  scale: 0.16
+  edge-fade-x: 3
+  edge-fade-y: 3
 normal:
   noise: 1
-  method: sobel-high
-  strength: 2
 occlusion:
-  z-scale: 4
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 24
+smooth:
+  value: 0.6
 metal:
   value: 234
 ctm:
   method: of-repeat
-  width: 4
-  height: 4
+  width: 8
+  height: 8
   match-tiles: exposed_copper
   placeholder: true
 filters:

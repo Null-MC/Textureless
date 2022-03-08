@@ -29,4 +29,4 @@ item-texture-size: 32
 texture-scale: 1
 auto-generate-occlusion: false
 occlusion-quality: 0.2
-occlusion-power: 1
+occlusion-power: 0.2

@@ -1,0 +1,32 @@
+publish-item: true
+color:
+  scale-red: 0.8
+  scale-green: 0.8
+  scale-blue: 0.8
+height:
+  scale: 0.5
+  edge-fade-x: 0.8
+  edge-fade-y: 0.8
+normal:
+  noise: 6
+  method: sobel-high
+  strength: 2
+occlusion:
+  z-scale: 4
+smooth:
+  scale: 0.6
+porosity:
+  value: 0.8
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: oxidized_copper
+  placeholder: true
+filters:
+- name: default
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.15

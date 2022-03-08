@@ -1,0 +1,23 @@
+publish-item: true
+wrap-x: true
+wrap-y: true
+color:
+  bake-occlusion: false
+height:
+  shift: -0.1
+  scale: 0.4
+normal:
+  noise: 6
+  method: sobel-low
+  strength: 0.5
+occlusion:
+  step-distance: 0.2
+  z-bias: 0.2
+  z-scale: 3
+smooth:
+  scale: 1.5
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: bricks
