@@ -1,7 +1,9 @@
 {
-	"parent": "block/flowers",
+	"parent": "block/flowers2",
 	"textures": {
-		"flower": "block/poppy",
+		"stem": "block/poppy_stem",
+		"flower": "block/poppy_bottom",
+		"flower_top": "block/poppy_top",
 		"particle": "block/poppy_inventory"
 	}
 }

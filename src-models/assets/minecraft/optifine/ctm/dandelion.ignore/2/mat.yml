@@ -1,6 +1,7 @@
 wrap-x: false
 wrap-y: false
 model: dandelion
+blend-mode: cutout
 height:
   texture: alpha.png
   scale: 0.1
@@ -17,3 +18,4 @@ f0:
   value: 0.04
 sss:
   scale: 0.6
+ctm: {}

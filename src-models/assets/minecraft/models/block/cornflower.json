@@ -1,7 +1,9 @@
 {
-	"parent": "block/flowers",
+	"parent": "block/flowers2",
 	"textures": {
-		"flower": "block/cornflower",
+		"stem": "block/cornflower_stem",
+		"flower": "block/cornflower_bottom",
+		"flower_top": "block/cornflower_top",
 		"particle": "block/cornflower_inventory"
 	}
 }

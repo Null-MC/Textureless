@@ -1,0 +1,19 @@
+wrap-x: false
+wrap-y: false
+model: oxeye_daisy
+blend-mode: cutout
+height:
+  texture: opacity.png
+  scale: 0.06
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 12
+  method: sobel3
+occlusion:
+  value: 0
+smooth:
+  value: 0.12
+f0:
+  value: 0.03
+ctm: {}

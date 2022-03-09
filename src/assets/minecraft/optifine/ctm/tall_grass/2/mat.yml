@@ -19,6 +19,9 @@ occlusion:
   z-scale: 6
 f0:
   value: 0.03
+sss:
+  shift: 0.2
+ctm: {}
 parts:
 - name: 2_top
   left: 0

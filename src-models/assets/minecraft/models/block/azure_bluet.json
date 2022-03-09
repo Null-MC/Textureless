@@ -1,0 +1,9 @@
+{
+	"parent": "block/flowers2",
+	"textures": {
+		"stem": "block/azure_bluet_stem",
+		"flower": "block/azure_bluet_bottom",
+		"flower_top": "block/azure_bluet_top",
+		"particle": "block/azure_bluet_inventory"
+	}
+}

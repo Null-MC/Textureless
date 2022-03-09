@@ -1,0 +1,9 @@
+{
+	"parent": "block/flowers2",
+	"textures": {
+		"stem": "block/blue_orchid_stem",
+		"flower": "block/blue_orchid_bottom",
+		"flower_top": "block/blue_orchid_top",
+		"particle": "block/blue_orchid_inventory"
+	}
+}

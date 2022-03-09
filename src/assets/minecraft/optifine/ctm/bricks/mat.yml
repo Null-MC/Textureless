@@ -8,13 +8,15 @@ height:
   edge-fade-x: 1
   edge-fade-y: 1
 normal:
-  noise: 2
+  noise: 3
   method: sobel-low
   strength: 0.5
 occlusion:
   step-distance: 0.2
   z-bias: 0.2
   z-scale: 3
+smooth:
+  scale: 0.6
 f0:
   value: 0.077
 ctm:

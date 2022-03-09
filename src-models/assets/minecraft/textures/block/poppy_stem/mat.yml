@@ -1,0 +1,19 @@
+wrap-x: false
+wrap-y: false
+model: poppy
+blend-mode: cutout
+height:
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 2
+  method: sobel3
+occlusion:
+  value: 0
+smooth:
+  value: 0.2
+f0:
+  value: 0.017
+ctm: {}

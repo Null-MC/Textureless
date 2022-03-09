@@ -1,7 +1,9 @@
 {
-	"parent": "block/flowers",
+	"parent": "block/flowers2",
 	"textures": {
-		"flower": "block/oxeye_daisy",
+		"stem": "block/oxeye_daisy_stem",
+		"flower": "block/oxeye_daisy_bottom",
+		"flower_top": "block/oxeye_daisy_top",
 		"particle": "block/oxeye_daisy_inventory"
 	}
 }

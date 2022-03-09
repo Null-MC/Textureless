@@ -4,8 +4,10 @@ height:
   edge-fade-x: 1
   edge-fade-y: 1
   edge-fade-strength: 0.7
+normal:
+  noise: 3
 smooth:
-  scale: 0.7
+  scale: 0.5
 f0:
   value: 0.077
 ctm:

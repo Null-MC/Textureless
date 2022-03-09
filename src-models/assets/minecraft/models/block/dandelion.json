@@ -1,7 +1,9 @@
 {
-	"parent": "block/flowers",
+	"parent": "block/flowers2",
 	"textures": {
-		"flower": "block/dandelion",
+		"stem": "block/dandelion_stem",
+		"flower": "block/dandelion_bottom",
+		"flower_top": "block/dandelion_top",
 		"particle": "block/dandelion_inventory"
 	}
 }

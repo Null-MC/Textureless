@@ -1,18 +1,20 @@
 publish-item: true
 color:
-  value-red: 195
-  value-green: 154
-  value-blue: 72
+  value-red: 176
+  value-green: 149
+  value-blue: 86
 height:
   scale: 0.04
 normal:
-  noise: 0.5
+  noise: 0.3
   method: sobel-high
-  strength: 3
+  strength: 0.4
 occlusion:
   step-distance: 0.2
   z-bias: 2
-  z-scale: 8
+  z-scale: 2
+smooth:
+  shift: -0.15
 metal:
   value: 231
 ctm:
@@ -34,5 +36,5 @@ filters:
   width: 0.9
   height: 0.9
   tile: true
-  normal-curve-x: -8
-  normal-curve-y: -8
+  normal-curve-x: -12
+  normal-curve-y: -12

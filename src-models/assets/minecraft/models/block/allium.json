@@ -1,0 +1,9 @@
+{
+	"parent": "block/flowers2",
+	"textures": {
+		"stem": "block/allium_stem",
+		"flower": "block/allium_bottom",
+		"flower_top": "block/allium_top",
+		"particle": "block/allium_inventory"
+	}
+}
