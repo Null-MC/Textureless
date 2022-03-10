@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "block/stripped_crimson_hyphae"
+    "side": "block/crimson_fence_post",
+    "end": "block/crimson_stem_top"
   }
 }

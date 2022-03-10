@@ -12,7 +12,7 @@ occlusion:
   z-bias: 1
   z-scale: 2
 smooth:
-  scale: 1.2
+  scale: 1.1
 metal:
   value: 230
 ctm:

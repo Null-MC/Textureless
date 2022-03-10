@@ -1,0 +1,6 @@
+{
+  "parent": "block/fence_side_north",
+  "textures": {
+    "texture": "block/warped_fence_side"
+  }
+}

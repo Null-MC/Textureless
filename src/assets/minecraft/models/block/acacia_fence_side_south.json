@@ -1,0 +1,6 @@
+{
+  "parent": "block/fence_side_south",
+  "textures": {
+    "texture": "block/acacia_fence_side"
+  }
+}

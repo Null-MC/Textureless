@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "block/stripped_warped_hyphae"
+    "side": "block/warped_fence_post",
+    "end": "block/warped_stem_top"
   }
 }

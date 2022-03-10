@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "block/stripped_birch_wood"
+    "side": "block/birch_fence_post",
+    "end": "block/birch_log_top"
   }
 }

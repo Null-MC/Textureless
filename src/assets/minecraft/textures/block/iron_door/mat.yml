@@ -1,26 +1,19 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
-albedo:
-  value-red: 197
-  value-green: 200
-  value-blue: 200
 height:
   shift: -0.2
   scale: 0.4
 normal:
-  strength: 0.6
-  filter: sobel-low
+  method: sobel-low
+  strength: 1.4
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 1
-  step-distance: 0.15
-smooth: {}
 metal:
   value: 230
-porosity:
-  value: 0
-create-inventory: true
+ctm: {}
 parts:
 - name: iron_door_top
   left: 0

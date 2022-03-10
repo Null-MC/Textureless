@@ -1,0 +1,6 @@
+{
+  "parent": "block/fence_side_east",
+  "textures": {
+    "texture": "block/jungle_fence_side"
+  }
+}

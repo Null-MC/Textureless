@@ -1,0 +1,40 @@
+model: nether_brick_fence_side_north
+color:
+  value-red: 120
+  value-green: 100
+  value-blue: 120
+smooth:
+  value: 0.8
+metal:
+  value: 255
+ctm: {}
+filters:
+- name: up
+  width: 0.125
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: east
+  left: 0.125
+  width: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.4
+- name: down
+  left: 0.3125
+  width: 0.125
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: west
+  left: 0.4375
+  width: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.4
+- name: up-2
+  left: 0.625
+  width: 0.125
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: east-2
+  left: 0.75
+  width: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.4

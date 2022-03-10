@@ -1,0 +1,30 @@
+model: nether_brick_fence_post
+color:
+  value-red: 120
+  value-green: 100
+  value-blue: 120
+smooth:
+  value: 0.8
+metal:
+  value: 255
+ctm: {}
+filters:
+- name: north
+  width: 0.25
+  normal-curve-x: 90
+  normal-radius-x: 0.5
+- name: south
+  left: 0.25
+  width: 0.25
+  normal-curve-x: 90
+  normal-radius-x: 0.5
+- name: west
+  left: 0.5
+  width: 0.25
+  normal-curve-x: 90
+  normal-radius-x: 0.5
+- name: east
+  left: 0.75
+  width: 0.25
+  normal-curve-x: 90
+  normal-radius-x: 0.5

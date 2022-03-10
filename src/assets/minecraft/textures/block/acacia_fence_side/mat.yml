@@ -1,0 +1,51 @@
+model: acacia_fence_side_north
+height:
+  shift: -0.02
+  scale: 0.5
+  edge-fade-x: 4
+  edge-fade-y: 4
+normal:
+  noise: 6
+  method: sobel-low
+  strength: 6
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 2
+smooth:
+  scale: 0.5
+f0:
+  value: 0.044
+porosity:
+  value: 0.8
+ctm: {}
+filters:
+- name: up
+  width: 0.125
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: east
+  left: 0.125
+  width: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.4
+- name: down
+  left: 0.3125
+  width: 0.125
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: west
+  left: 0.4375
+  width: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.4
+- name: up-2
+  left: 0.625
+  width: 0.125
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: east-2
+  left: 0.75
+  width: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.4

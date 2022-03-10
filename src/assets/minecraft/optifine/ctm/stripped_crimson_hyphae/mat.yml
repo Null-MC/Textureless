@@ -1,0 +1,26 @@
+publish-item: true
+wrap-x: true
+wrap-y: true
+height:
+  shift: -0.02
+  scale: 0.5
+  edge-fade-x: 2
+  edge-fade-y: 2
+normal:
+  noise: 4
+  method: sobel-low
+  strength: 6
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 2
+f0:
+  value: 0.044
+porosity:
+  value: 0.8
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: stripped_crimson_hyphae
+  placeholder: true

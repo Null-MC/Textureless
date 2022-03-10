@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "block/nether_brick_fence"
+    "side": "block/nether_brick_fence_post",
+    "end": "block/nether_brick_fence_post"
   }
 }
