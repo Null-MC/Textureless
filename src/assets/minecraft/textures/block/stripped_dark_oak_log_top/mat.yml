@@ -1,20 +1,20 @@
 publish-item: true
-color:
-  value-red: 95
-  value-green: 75
-  value-blue: 49
 height:
   scale: 0.5
 normal:
   noise: 3
-  method: sobel-low
-  strength: 2
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+  method: sobel-high
+  strength: 3
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 3
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 6
+smooth:
+  scale: 0.5
 f0:
-  value: 0.03
-porosity:
-  value: 0.12
+  value: 0.04
 ctm: {}

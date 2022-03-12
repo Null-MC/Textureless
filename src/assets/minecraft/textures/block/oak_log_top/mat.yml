@@ -13,6 +13,8 @@ occlusion:
   step-distance: 0.2
   z-bias: 2
   z-scale: 6
+smooth:
+  scale: 0.8
 f0:
   value: 0.04
 ctm: {}

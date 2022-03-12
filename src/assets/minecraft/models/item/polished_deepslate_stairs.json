@@ -1,5 +1,5 @@
 {
-  "parent": "block/stairs",
+  "parent": "block/polished_deepslate_stairs",
   "textures": {
     "bottom": "block/polished_deepslate_inventory",
     "top": "block/polished_deepslate_inventory",

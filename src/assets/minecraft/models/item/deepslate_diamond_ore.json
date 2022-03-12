@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/deepslate_diamond_ore",
   "textures": {
     "all": "block/deepslate_diamond_ore_inventory"
   }

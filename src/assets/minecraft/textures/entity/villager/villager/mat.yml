@@ -9,8 +9,9 @@ normal:
   method: sobel-low
   strength: 6
 occlusion:
-  step-distance: 0.15
-  z-scale: 2
+  step-distance: 0.2
+  z-bias: 1
+  z-scale: 4
 smooth:
   scale: 0.5
 ctm: {}

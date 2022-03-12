@@ -11,6 +11,8 @@ occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 1
+smooth:
+  scale: 0.8
 metal:
   value: 230
 ctm: {}

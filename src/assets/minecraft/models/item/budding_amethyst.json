@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/budding_amethyst",
   "textures": {
     "all": "block/budding_amethyst_inventory"
   }

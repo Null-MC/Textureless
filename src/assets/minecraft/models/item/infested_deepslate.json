@@ -1,7 +1,3 @@
 {
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "block/deepslate_top_inventory",
-    "side": "block/deepslate_inventory"
-  }
+  "parent": "item/deepslate"
 }

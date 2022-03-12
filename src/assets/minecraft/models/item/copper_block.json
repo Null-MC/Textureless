@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/copper_block",
   "textures": {
     "all": "block/copper_block_inventory"
   }

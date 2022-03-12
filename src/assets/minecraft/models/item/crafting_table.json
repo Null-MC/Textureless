@@ -1,0 +1,11 @@
+{
+  "parent": "block/crafting_table",
+  "textures": {
+    "north": "block/crafting_table_front_inventory",
+    "south": "block/crafting_table_side_inventory",
+    "east": "block/crafting_table_side_inventory",
+    "west": "block/crafting_table_front_inventory",
+    "up": "block/crafting_table_top_inventory",
+    "down": "block/oak_planks_inventory"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "block/slab",
+  "parent": "block/exposed_cut_copper_slab",
   "textures": {
     "bottom": "block/exposed_cut_copper_inventory",
     "top": "block/exposed_cut_copper_inventory",

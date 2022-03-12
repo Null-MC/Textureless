@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/moss_block",
   "textures": {
     "all": "block/moss_block_inventory"
   }

@@ -1,20 +1,17 @@
-publish-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: true
 height:
-  scale: 0.6
+  shift: -0.06
+  scale: 0.8
   edge-fade-x: 0.2
 normal:
+  noise: 6
   curve-x: 90
-  radius-x: 0.4
-  method: sobel-low
+  method: sobel5
+  strength: 2
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
+  step-distance: 0.2
+  z-bias: 2
   z-scale: 8
-smooth:
-  value: 0.1
-f0:
-  value: 0.04
-sss:
-  value: 0.08
+ctm: {}

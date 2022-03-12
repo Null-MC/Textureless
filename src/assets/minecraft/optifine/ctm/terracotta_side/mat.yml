@@ -14,9 +14,9 @@ normal:
   method: sobel3
   strength: 1.6
 occlusion:
-  step-distance: 0.3
-  z-bias: 0.2
-  z-scale: 12
+  step-distance: 0.2
+  z-bias: 0.3
+  z-scale: 24
 smooth:
   scale: 0.45
 f0:

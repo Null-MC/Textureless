@@ -1,0 +1,6 @@
+{
+    "parent": "block/lightning_rod",
+    "textures": {
+        "texture": "block/lightning_rod_inventory"
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/raw_iron_block",
   "textures": {
     "all": "block/raw_iron_block_inventory"
   }

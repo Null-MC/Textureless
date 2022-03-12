@@ -1,5 +1,5 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/rooted_dirt",
   "textures": {
     "all": "block/rooted_dirt_inventory"
   }

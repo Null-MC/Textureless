@@ -9,7 +9,8 @@ normal:
   method: sobel5
 occlusion:
   step-distance: 0.2
-  z-scale: 4
+  z-bias: 2
+  z-scale: 16
 smooth:
   scale: 0.8
 f0:

@@ -1,19 +1,33 @@
-albedo: {}
-height: {}
-normal:
-  curve-x: 45
-  curve-y: 45
-  filter: sobel-high
-occlusion:
-  z-bias: 0
-  z-scale: 6
-  step-distance: 0.15
-smooth:
-  value: 0.1
-f0:
-  value: 0.04
-sss:
-  value: 0.08
-create-inventory: true
+publish-item: true
 wrap-x: false
 wrap-y: false
+height:
+  scale: 0.4
+  edge-fade-x: 4
+  edge-fade-y: 4
+normal:
+  noise: 6
+  method: sobel3
+  strength: 3
+occlusion:
+  step-distance: 0.2
+  z-bias: 1
+  z-scale: 6
+ctm: {}
+filters:
+- name: surface
+  left: 0.0625
+  top: 0.0625
+  width: 0.875
+  height: 0.875
+  normal-curve-x: 160
+  normal-curve-y: 160
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: corners
+  left: 0.0625
+  top: 0.0625
+  width: 0.875
+  height: 0.875
+  normal-curve-x: 45
+  normal-curve-y: 45

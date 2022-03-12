@@ -28,6 +28,6 @@ encoding:
   sss: {}
   emissive: {}
 block-texture-size: 16
-auto-generate-occlusion: true
+auto-generate-occlusion: false
 occlusion-quality: 0.1
 occlusion-power: 1

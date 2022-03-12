@@ -1,84 +1,9 @@
 {
-  "parent": "block/block",
+  "parent": "block/big_dripleaf",
   "textures": {
     "top": "block/big_dripleaf_top_inventory",
     "stem": "block/big_dripleaf_stem_inventory",
     "side": "block/big_dripleaf_side_inventory",
-    "tip": "block/big_dripleaf_tip_inventory",
-    "particle": "block/big_dripleaf_top_inventory"
-  },
-  "display": {
-    "gui": {
-      "rotation": [ 30, 225, 0 ],
-      "translation": [ 0, -2, 0],
-      "scale":[ 0.625, 0.625, 0.625 ]
-    },
-    "fixed": {
-      "rotation": [ 0, 0, 0 ],
-      "translation": [ 0, 0, -1 ],
-      "scale":[ 0.5, 0.5, 0.5 ]
-    },
-    "thirdperson_righthand": {
-      "rotation": [ 0, 0, 0 ],
-      "translation": [ 0, 1, 0 ],
-      "scale": [ 0.55, 0.55, 0.55 ]
-    },
-    "firstperson_righthand": {
-      "rotation": [ 0, 0, 0 ],
-      "translation": [ 1.13, 0, 1.13],
-      "scale": [ 0.68, 0.68, 0.68 ]
-    }
-  },
-  "elements": [
-    {   "from": [ 0, 15, 0 ],
-        "to": [ 16, 15, 16 ],
-        "shade": false,
-        "faces": {
-            "down":  { "uv": [ 0, 16, 16, 0 ], "texture": "#top" },
-            "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top" }
-        }
-    },
-    {   "from": [ 0, 11, 0 ],
-        "to": [ 16, 15, 0.002 ],
-        "shade": false,
-        "faces": {
-            "north":  { "uv": [ 0, 0, 16, 4 ], "texture": "#tip", "cullface": "north" },
-            "south":  { "uv": [ 16, 0, 0, 4 ], "texture": "#tip" }
-        }
-    },
-    {   "from": [ 0, 11, 0 ],
-        "to": [ 0.002, 15, 16 ],
-        "shade": false,
-        "faces": {
-            "east": { "uv": [ 16, 0, 0, 4 ], "texture": "#side" },
-            "west": { "uv": [ 0, 0, 16, 4 ], "texture": "#side", "cullface": "west" }
-        }
-    },
-    {   "from": [ 15.998, 11, 0 ],
-        "to": [ 16, 15, 16 ],
-        "shade": false,
-        "faces": {
-            "east": { "uv": [ 16, 0, 0, 4 ], "texture": "#side", "cullface": "east" },
-            "west": { "uv": [ 0, 0, 16, 4 ], "texture": "#side" }
-        }
-    },
-    {   "from": [ 5, 0, 12 ],
-        "to": [ 11, 15, 12 ],
-        "rotation": { "origin": [ 8, 8, 12 ], "axis": "y", "angle": 45, "rescale": true },
-        "shade": false,
-        "faces": {
-            "north": { "uv": [ 3, 0, 14, 16 ], "texture": "#stem" },
-            "south": { "uv": [ 3, 0, 14, 16 ], "texture": "#stem" }
-        }
-    },
-    {   "from": [ 5, 0, 12 ],
-        "to": [ 11, 15, 12 ],
-        "rotation": { "origin": [ 8, 8, 12 ], "axis": "y", "angle": -45, "rescale": true },
-        "shade": false,
-        "faces": {
-            "north": { "uv": [ 3, 0, 14, 16 ], "texture": "#stem" },
-            "south": { "uv": [ 3, 0, 14, 16 ], "texture": "#stem" }
-        }
-    }
-  ]
+    "tip": "block/big_dripleaf_tip_inventory"
+  }
 }
