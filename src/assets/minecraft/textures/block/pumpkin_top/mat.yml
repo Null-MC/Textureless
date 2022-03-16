@@ -1,20 +1,20 @@
 publish-item: true
 height:
+  shift: -0.06
   scale: 0.4
-  edge-fade-x: 2
-  edge-fade-y: 2
+  edge-fade-x: 1
+  edge-fade-y: 1
 normal:
   curve-x: 90
   curve-y: 90
-  radius-x: 0.6
-  radius-y: 0.6
-  method: sobel3
+  method: sobel5
+  strength: 0.5
 occlusion:
   step-distance: 0.2
-  z-bias: 1
-  z-scale: 2
+  z-bias: 2
+  z-scale: 3
 smooth:
-  scale: 0.7
+  scale: 1.5
 porosity:
   value: 0
 ctm: {}

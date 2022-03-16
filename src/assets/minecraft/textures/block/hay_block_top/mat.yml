@@ -7,19 +7,19 @@ height:
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
-  noise: 4
+  noise: 40
   curve-x: 40
   curve-y: 40
   method: sobel3
   strength: 0.1
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 2
+  step-distance: 0.2
+  z-bias: 1
+  z-scale: 4
 smooth:
   value: 0.08
 f0:
   value: 0.04
 sss:
-  value: 0.2
+  scale: 0.6
 ctm: {}

@@ -13,7 +13,7 @@ occlusion:
 f0:
   value: 0.027
 emissive:
-  scale: 0.14
+  scale: 0.04
 ctm: {}
 filters:
 - name: head-top

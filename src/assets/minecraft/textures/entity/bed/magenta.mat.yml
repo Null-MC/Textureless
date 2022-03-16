@@ -22,6 +22,10 @@ f0:
   texture: f0.png
 porosity:
   texture: porosity.png
+sss:
+  texture: sss.png
+  scale: 0.4
+ctm: {}
 filters:
 - name: head-top
   left: 0.09375
@@ -209,3 +213,44 @@ filters:
   width: 0.046875
   height: 0.046875
   normal-curve-x: 90
+- name: pillow-top
+  left: 0.015625
+  top: 0.75
+  width: 0.1875
+  height: 0.015625
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.3
+- name: pillow-bottom
+  left: 0.203125
+  top: 0.75
+  width: 0.1875
+  height: 0.015625
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.3
+- name: pillow-west
+  left: 0
+  top: 0.765625
+  width: 0.015625
+  height: 0.09375
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.6
+- name: pillow-north
+  left: 0.015625
+  top: 0.765625
+  width: 0.1875
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.6
+- name: pillow-east
+  left: 0.203125
+  top: 0.765625
+  width: 0.015625
+  height: 0.09375
+  normal-curve-left: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.6

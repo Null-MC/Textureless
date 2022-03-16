@@ -1,26 +1,19 @@
-alpha:
-  value: 255
-albedo:
-  value-red: 217
-  value-green: 205
-  value-blue: 159
+publish-item: true
+wrap-x: true
+wrap-y: true
 height:
   shift: -0.1
   scale: 0.35
 normal:
-  strength: 0.8
   noise: 3
-  filter: sobel-high
+  method: sobel3
+  strength: 2
 occlusion:
-  z-bias: 0
-  z-scale: 2
   step-distance: 0.2
-smooth:
-  value: 0.06
+  z-bias: 1
+  z-scale: 6
 f0:
-  value: 0.07
+  value: 0.047
 porosity:
   value: 0.78
-create-inventory: true
-wrap-x: true
-wrap-y: true
+ctm: {}

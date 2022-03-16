@@ -1,0 +1,23 @@
+publish-item: true
+height:
+  shift: -0.06
+  scale: 0.4
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  curve-x: 90
+  curve-y: 90
+  method: sobel3
+occlusion:
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 2
+smooth:
+  scale: 0.7
+f0:
+  value: 0.03
+porosity:
+  value: 0
+sss:
+  value: 0.01
+ctm: {}

@@ -1,7 +1,7 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
-model: entity/bee
+blend-mode: cutout
 normal:
   method: sobel-low
   strength: 0.8
@@ -13,6 +13,7 @@ f0:
   value: 0.03
 sss:
   scale: 0.2
+ctm: {}
 filters:
 - name: torso-east
   left: 0

@@ -1,0 +1,29 @@
+publish-item: false
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
+  _-preview-tint: '#619961'
+  value-red: 62
+  value-green: 46
+  value-blue: 32
+height:
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
+normal:
+  noise: 3
+  method: sobel3
+occlusion:
+  value: 0
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 3
+smooth:
+  value: 0.07
+f0:
+  value: 0.04
+porosity:
+  value: 0.8
+ctm: {}

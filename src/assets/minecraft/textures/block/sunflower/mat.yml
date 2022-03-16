@@ -1,10 +1,10 @@
 wrap-x: false
 wrap-y: false
-model: cross
+model: sunflower_top
 color:
-  value-red: 99
-  value-green: 149
-  value-blue: 58
+  value-red: 48
+  value-green: 89
+  value-blue: 14
 height:
   texture: alpha.png
   scale: 0.15
@@ -19,9 +19,10 @@ occlusion:
   z-bias: 0
   z-scale: 2
 smooth:
-  value: 0.1
+  value: 0.3
 f0:
-  value: 0.04
+  value: 0.017
+ctm: {}
 parts:
 - name: sunflower_top
   left: 0

@@ -14,7 +14,7 @@ occlusion:
 f0:
   value: 0.017
 sss:
-  scale: 0.6
+  scale: 0.4
 ctm: {}
 filters:
 - name: head-top

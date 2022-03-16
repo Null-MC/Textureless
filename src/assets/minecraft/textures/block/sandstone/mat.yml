@@ -12,7 +12,7 @@ occlusion:
 smooth:
   value: 0.1
 f0:
-  value: 0.03
+  value: 0.047
 porosity:
   value: 0.9
 ctm: {}

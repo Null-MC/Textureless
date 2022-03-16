@@ -15,3 +15,6 @@ occlusion:
   z-scale: 5
 f0:
   value: 0.017
+sss:
+  scale: 0.6
+ctm: {}

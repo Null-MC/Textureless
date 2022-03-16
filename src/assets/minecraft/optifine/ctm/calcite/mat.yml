@@ -1,9 +1,9 @@
 publish-item: true
 height:
-  shift: -0.08
-  scale: 0.4
-  edge-fade-x: 2
-  edge-fade-y: 2
+  scale: 0.7
+  edge-fade-x: 1
+  edge-fade-y: 1
+  edge-fade-strength: 0.8
 normal:
   noise: 6
   strength: 8
@@ -14,10 +14,10 @@ occlusion:
 f0:
   value: 0.053
 sss:
-  scale: 0.7
+  scale: 0.6
 ctm:
   method: of-repeat
-  width: 8
-  height: 8
+  width: 6
+  height: 6
   match-tiles: calcite
   placeholder: true

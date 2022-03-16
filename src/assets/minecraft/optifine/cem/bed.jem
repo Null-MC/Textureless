@@ -1,0 +1,49 @@
+{
+	"texture": "textures/entity/bed/blue.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [-8, -25, 0],
+			"submodels": [
+				{
+					"id": "head_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 9, 0],
+					"rotate": [90, 0, 0],
+					"boxes": [
+						{"coordinates": [-8, 0, 0, 16, 16, 6], "textureOffset": [0, 0]},
+						{"coordinates": [-6, 9, -1, 12, 6, 1], "textureOffset": [0, 48]}
+					],
+					"submodels": [
+						{
+							"id": "head_left_leg",
+							"invertAxis": "xy",
+							"translate": [0, -16, 0],
+							"rotate": [-90, 0, -180],
+							"boxes": [
+								{"coordinates": [5, -9, -32, 3, 3, 3], "textureOffset": [50, 18]}
+							]
+						},
+						{
+							"id": "head_right_leg",
+							"invertAxis": "xy",
+							"translate": [0, -16, 0],
+							"rotate": [-90, 0, 90],
+							"boxes": [
+								{"coordinates": [29, -9, -8, 3, 3, 3], "textureOffset": [50, 6]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head_rotation.rx": "0"
+				}
+			]
+		}
+	]
+}

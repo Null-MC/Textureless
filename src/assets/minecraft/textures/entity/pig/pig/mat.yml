@@ -14,7 +14,9 @@ occlusion:
   z-bias: 2
   z-scale: 12
 f0:
-  value: 0.03
+  value: 0.017
+sss:
+  scale: 0.4
 ctm: {}
 filters:
 - name: head-up

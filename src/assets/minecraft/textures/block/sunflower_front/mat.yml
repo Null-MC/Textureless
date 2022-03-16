@@ -1,20 +1,23 @@
 wrap-x: false
 wrap-y: false
+blend-mode: cutout
 height:
-  texture: alpha.png
-  scale: 0.15
+  shift: -0.1
+  scale: 0.3
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
-  noise: 8
+  noise: 4
   curve-x: 30
   curve-y: 30
   method: sobel3
+  strength: 6
 occlusion:
   step-distance: 0.2
-  z-bias: 0.02
-  z-scale: 3
-smooth:
-  value: 0.08
+  z-bias: 2
+  z-scale: 6
 f0:
   value: 0.04
 sss:
   scale: 0.4
+ctm: {}
