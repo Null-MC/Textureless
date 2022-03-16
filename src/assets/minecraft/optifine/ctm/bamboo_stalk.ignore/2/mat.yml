@@ -1,0 +1,18 @@
+wrap-x: false
+wrap-y: true
+opacity:
+  value: 255
+color:
+  value-red: 95
+  value-green: 145
+  value-blue: 31
+height:
+  scale: 0
+normal:
+  method: sobel-high
+occlusion:
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 2
+smooth:
+  value: 0.24
