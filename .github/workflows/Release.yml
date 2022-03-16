@@ -5,13 +5,6 @@ on:
       version:
         description: 'Version number'
         required: true
-      release_notes:
-        description: 'Release notes. (optional)'
-        required: false
-      publish_curseforge:
-        description: 'Publish to CurseForge? true | false'
-        default: 'true'
-        required: false
 
 jobs:
   Publish-LabPbr-32x:
