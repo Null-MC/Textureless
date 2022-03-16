@@ -21,6 +21,7 @@ jobs:
       release_id: ${{ steps.create_release.outputs.id }}
       upload_url: ${{ steps.create_release.outputs.upload_url }}
     steps:
+      - run: echo -e "${{ github.event.inputs.release_notes }}" > release_notes.md
       - name: Create Release Draft
         id: create_release
         uses: actions/create-release@v1
@@ -29,7 +30,7 @@ jobs:
         with:
           tag_name: v${{ github.event.inputs.version }}
           release_name: Release ${{ github.event.inputs.version }}
-          body: ${{ github.event.inputs.release_notes }}
+          body_path: release_notes.md
           draft: true
 
   publish_labPbr_32x:
