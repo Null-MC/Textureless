@@ -52,8 +52,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
       - name: Publish LabPbr-32x to CurseForge
         uses: itsmeow/curseforge-upload@v3
@@ -88,8 +88,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_labPbr_16x:
@@ -111,8 +111,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_labBakedAO_32x:
@@ -134,8 +134,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_oldPbr_32x:
@@ -157,8 +157,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_rtx_32x:
@@ -180,8 +180,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_models_labPbr_32x:
@@ -203,8 +203,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
       - name: Publish LabPbr-Models-32x to CurseForge
         uses: itsmeow/curseforge-upload@v3
@@ -239,8 +239,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_models_labPbr_16x:
@@ -262,8 +262,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_models_labBakedAO_32x:
@@ -285,8 +285,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish_models_oldPbr_32x:
@@ -308,8 +308,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: $release_filename
-          #asset_name: $release_filename
+          asset_path: ./$release_filename
+          asset_name: $release_filename
           asset_content_type: application/zip
 
   publish-release:
@@ -323,6 +323,7 @@ jobs:
       - publish_labPbr_16x
       - publish_labBakedAO_32x
       - publish_oldPbr_32x
+      - publish_rtx_32x
       - publish_models_labPbr_32x
       - publish_models_labPbr_64x
       - publish_models_labPbr_16x
