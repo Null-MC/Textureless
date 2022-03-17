@@ -4,6 +4,7 @@ on:
     inputs:
       version:
         description: 'Version number'
+        default: ${{ env.GITHUB_RUN_NUMBER }}
         required: true
       release_notes:
         description: 'Release notes. (optional)'
@@ -45,22 +46,22 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src/LabPbr-32x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release LabPbr-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
       - name: Publish LabPbr-32x to CurseForge
         uses: itsmeow/curseforge-upload@v3
         if: github.event.inputs.publish_curseforge == 'true'
         with:
           display_name: "LabPBR 32x v${{ github.event.inputs.version }}"
-          file_path: $release_filename
+          file_path: ${{ env.release_filename }}
           changelog: "###Release ${{github.event.inputs.version}}\n\n${{ github.event.inputs.release_notes }}"
           release_type: "release"
           project_id: 469686
@@ -81,15 +82,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src/LabPbr-64x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release LabPbr-64x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_labPbr_16x:
@@ -104,15 +105,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src/LabPbr-16x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release LabPbr-16x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_labBakedAO_32x:
@@ -127,15 +128,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src/LabBakedAO-32x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release LabBakedAO-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_oldPbr_32x:
@@ -150,15 +151,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src/OldPbr-32x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release OldPbr-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_rtx_32x:
@@ -173,15 +174,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src/BRtx-32x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release RTX-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_models_labPbr_32x:
@@ -196,15 +197,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src-models/LabPbr-32x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release Models-LabPbr-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
       - name: Publish LabPbr-Models-32x to CurseForge
         uses: itsmeow/curseforge-upload@v3
@@ -232,15 +233,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src-models/LabPbr-64x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release Models LabPbr 64x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_models_labPbr_16x:
@@ -255,15 +256,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src-models/LabPbr-16x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release Models-LabPbr-16x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_models_labBakedAO_32x:
@@ -278,15 +279,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src-models/LabBakedAO-32x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release Models-LabBakedAO-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish_models_oldPbr_32x:
@@ -301,15 +302,15 @@ jobs:
         uses: null511/PixelGraph.GitHubAction@main
         with:
           profile: src-models/OldPbr-32x.pack.yml
-          zip: $release_filename
+          zip: ${{ env.release_filename }}
       - name: Release Models-OldPbr-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./$release_filename
-          asset_name: $release_filename
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
 
   publish-release:
