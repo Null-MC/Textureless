@@ -53,9 +53,8 @@ jobs:
           asset_path: ./${{ env.release_filename }}
           asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
-      - run: export release_notes = $(echo -e "${{ github.event.inputs.release_notes }}")
+      - run: export release_notes=$(echo -e "${{ github.event.inputs.release_notes }}")
         if: github.event.inputs.publish_curseforge == 'true'
-        shell: bash
       - name: Publish LabPbr-32x to CurseForge
         uses: itsmeow/curseforge-upload@v3
         if: github.event.inputs.publish_curseforge == 'true'
