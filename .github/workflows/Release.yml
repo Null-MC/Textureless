@@ -36,6 +36,7 @@ jobs:
     needs: [prepare_release]
     env:
       release_filename: Textureless-LabPbr-32x-v${{ github.run_number }}.zip
+      release_notes: ${{ github.event.inputs.release_notes }}
     steps:
       - uses: actions/checkout@v2
       - name: Compile LabPbr-32x
@@ -52,19 +53,20 @@ jobs:
           asset_path: ./${{ env.release_filename }}
           asset_name: ${{ env.release_filename }}
           asset_content_type: application/zip
+      - run: export release_notes = $(echo -e "${{ github.event.inputs.release_notes }}")
+        shell: bash
       - name: Publish LabPbr-32x to CurseForge
         uses: itsmeow/curseforge-upload@v3
         if: github.event.inputs.publish_curseforge == 'true'
         with:
-          display_name: "LabPBR 32x v${{ github.run_number }}"
+          display_name: LabPBR-32x v${{ github.run_number }}
           file_path: ${{ env.release_filename }}
-          changelog: "###Release ${{github.event.inputs.version}}\n\n${{ github.event.inputs.release_notes }}"
-          release_type: "release"
+          changelog: "###Release ${{ github.run_number }}\n\n${{ env.release_notes }}"
+          release_type: release
           project_id: 469686
-          game_endpoint: "minecraft"
-          #game_versions: "Minecraft 1.18:1.18.1"
+          game_endpoint: minecraft
           game_versions: "9008,8857,8830,8516,8203,8152,8134,8056,8010,7892,7890,7675,7664,7469,7413,7361,7344,7318,7132,7107,7081"
-          token: "${{ secrets.CF_API_TOKEN }}"
+          token: ${{ secrets.CF_API_TOKEN }}
 
   publish_labPbr_64x:
     name: Publish LabPbr-64x
@@ -207,15 +209,14 @@ jobs:
         uses: itsmeow/curseforge-upload@v3
         if: github.event.inputs.publish_curseforge == 'true'
         with:
-          display_name: "LabPBR Models 32x v${{ github.run_number }}"
-          file_path: "Textureless-Models-LabPbr-32x-v${{ github.run_number }}.zip"
-          changelog: "###Release ${{github.event.inputs.version}}\n\nSee base Textureless release for changelog notes."
-          release_type: "release"
-          project_id: 469686
-          game_endpoint: "minecraft"
-          #game_versions: "Minecraft 1.18:1.18.1"
+          display_name: LabPBR-Models-32x v${{ github.run_number }}
+          file_path: ${{ env.release_filename }}
+          changelog: "###Release ${{ github.run_number }}\n\nSee base Textureless release for changelog notes."
+          release_type: release
+          project_id: 582743
+          game_endpoint: minecraft
           game_versions: "9008,8857,8830,8516,8203,8152,8134,8056,8010,7892,7890,7675,7664,7469,7413,7361,7344,7318,7132,7107,7081"
-          token: "${{ secrets.CF_API_TOKEN }}"
+          token: ${{ secrets.CF_API_TOKEN }}
 
   publish_models_labPbr_64x:
     name: Publish Models-LabPbr-64x
