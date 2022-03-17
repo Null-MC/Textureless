@@ -2,10 +2,6 @@ name: Release
 on:
   workflow_dispatch:
     inputs:
-      version:
-        description: 'Version number'
-        default: ${{ env.GITHUB_RUN_NUMBER }}
-        required: true
       release_notes:
         description: 'Release notes. (optional)'
         required: false
@@ -29,8 +25,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ github.event.inputs.version }}
-          release_name: Release ${{ github.event.inputs.version }}
+          tag_name: v${{ env.GITHUB_RUN_NUMBER }}
+          release_name: Release ${{ env.GITHUB_RUN_NUMBER }}
           body_path: release_notes.md
           draft: true
 
@@ -39,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-LabPbr-32x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-LabPbr-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile LabPbr-32x
@@ -60,7 +56,7 @@ jobs:
         uses: itsmeow/curseforge-upload@v3
         if: github.event.inputs.publish_curseforge == 'true'
         with:
-          display_name: "LabPBR 32x v${{ github.event.inputs.version }}"
+          display_name: "LabPBR 32x v${{ env.GITHUB_RUN_NUMBER }}"
           file_path: ${{ env.release_filename }}
           changelog: "###Release ${{github.event.inputs.version}}\n\n${{ github.event.inputs.release_notes }}"
           release_type: "release"
@@ -75,7 +71,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-LabPbr-64x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-LabPbr-64x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile LabPbr-64x
@@ -98,7 +94,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-LabPbr-16x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-LabPbr-16x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile LabPbr-16x
@@ -121,7 +117,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-LabBakedAO-32x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-LabBakedAO-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile LabBakedAO-32x
@@ -144,7 +140,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-OldPbr-32x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-OldPbr-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile OldPbr-32x
@@ -167,7 +163,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-RTX-32x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-RTX-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile RTX-32x
@@ -190,7 +186,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-Models-LabPbr-32x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-Models-LabPbr-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile Models-LabPbr-32x
@@ -211,8 +207,8 @@ jobs:
         uses: itsmeow/curseforge-upload@v3
         if: github.event.inputs.publish_curseforge == 'true'
         with:
-          display_name: "LabPBR Models 32x v${{ github.event.inputs.version }}"
-          file_path: "Textureless-Models-LabPbr-32x-v${{ github.event.inputs.version }}.zip"
+          display_name: "LabPBR Models 32x v${{ env.GITHUB_RUN_NUMBER }}"
+          file_path: "Textureless-Models-LabPbr-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip"
           changelog: "###Release ${{github.event.inputs.version}}\n\nSee base Textureless release for changelog notes."
           release_type: "release"
           project_id: 469686
@@ -226,7 +222,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-Models-LabPbr-64x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-Models-LabPbr-64x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile Models-LabPbr-64x
@@ -249,7 +245,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-Models-LabPbr-16x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-Models-LabPbr-16x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile Models-LabPbr-16x
@@ -272,7 +268,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-Models-LabBakedAO-32x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-Models-LabBakedAO-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile Models-LabBakedAO-32x
@@ -295,7 +291,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare_release]
     env:
-      release_filename: Textureless-Models-OldPbr-32x-v${{ github.event.inputs.version }}.zip
+      release_filename: Textureless-Models-OldPbr-32x-v${{ env.GITHUB_RUN_NUMBER }}.zip
     steps:
       - uses: actions/checkout@v2
       - name: Compile Models-OldPbr-32x
