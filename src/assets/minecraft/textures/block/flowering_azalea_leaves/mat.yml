@@ -1,0 +1,15 @@
+publish-item: true
+height:
+  texture: opacity.png
+  scale: 0.1
+normal:
+  noise: 12
+  method: sobel3
+  strength: 2
+occlusion:
+  z-bias: 1
+smooth:
+  value: 0.2
+f0:
+  value: 0.017
+ctm: {}

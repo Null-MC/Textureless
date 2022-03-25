@@ -1,10 +1,10 @@
 publish-item: true
 opacity:
-  value: 200
+  value: 170
 color:
-  value-red: 112
-  value-green: 192
-  value-blue: 93
+  value-red: 69
+  value-green: 131
+  value-blue: 18
 normal:
   method: sobel5
   strength: 2
@@ -13,8 +13,9 @@ occlusion:
   z-bias: 0
   z-scale: 3
 smooth:
-  value: 0.71
+  value: 0.65
 f0:
-  value: 0.02
+  value: 0.023
 sss:
   value: 0.6
+ctm: {}

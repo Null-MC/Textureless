@@ -2,9 +2,9 @@ publish-item: true
 opacity:
   value: 210
 color:
-  value-red: 211
-  value-green: 145
-  value-blue: 44
+  value-red: 215
+  value-green: 129
+  value-blue: 7
 height:
   scale: 0.7
 normal:
@@ -14,7 +14,7 @@ occlusion:
   z-bias: 0
   z-scale: 4
 smooth:
-  value: 0.86
+  value: 0.78
 f0:
   value: 0.028
 sss:

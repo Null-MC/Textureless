@@ -1,9 +1,13 @@
 publish-item: true
+model: leaves_template
+blend-mode: cutout
+tint-color: '#59AE30'
 color:
-  value-red: 186
-  value-green: 99
-  value-blue: 189
-  preview-tint: '#59AE30'
+  _-value-red: 186
+  _-value-green: 99
+  _-value-blue: 189
+  _-preview-tint: '#59AE30'
+  value: '#BA63BD'
 height:
   texture: alpha.png
   scale: 0.1
@@ -24,3 +28,4 @@ f0:
   value: 0.04
 porosity:
   value: 0.5
+ctm: {}

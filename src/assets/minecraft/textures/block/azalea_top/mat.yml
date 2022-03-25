@@ -1,12 +1,9 @@
+publish-item: true
 blend-mode: cutout
-color:
-  value-red: 90
-  value-green: 111
-  value-blue: 47
 height:
   scale: 0
 normal:
-  noise: 6
+  noise: 38
   curve-x: 90
   curve-y: 90
   radius-x: 0.4

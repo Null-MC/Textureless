@@ -1,0 +1,6 @@
+{
+    "parent":"block/wart_end1",
+    "textures": {
+	   "wart":"block/nether_wart"
+    }
+}

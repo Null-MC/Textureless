@@ -1,8 +1,7 @@
 publish-item: true
-color:
-  scale-red: 0.7
-  scale-green: 0.5
-  preview-tint: '#59AE30'
+model: leaves_template
+blend-mode: cutout
+tint-color: '#59AE30'
 height:
   texture: alpha.png
   scale: 0.08
@@ -19,3 +18,4 @@ smooth:
   scale: 0.5
 f0:
   value: 0.04
+ctm: {}

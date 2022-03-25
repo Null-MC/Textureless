@@ -1,0 +1,26 @@
+publish-item: true
+height:
+  shift: -0.1
+  scale: 0.2
+  edge-fade-x: 1
+normal:
+  noise: 6
+  method: sobel-high
+  strength: 4
+occlusion:
+  z-bias: 3
+  z-scale: 1
+f0:
+  value: 0.04
+porosity:
+  value: 0.8
+ctm:
+  method: of-repeat
+  width: 3
+  height: 3
+  match-tiles: dark_oak_log
+  placeholder: true
+filters:
+- name: default
+  tile: true
+  normal-curve-x: 90

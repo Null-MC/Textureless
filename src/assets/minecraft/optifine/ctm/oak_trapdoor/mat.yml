@@ -1,0 +1,80 @@
+publish-item: true
+wrap-x: true
+wrap-y: true
+height:
+  scale: 0.5
+  edge-fade-x: 0.6
+  edge-fade-y: 0.6
+normal:
+  noise: 6
+  method: sobel3
+  strength: 4
+occlusion:
+  step-distance: 0.2
+  z-bias: 1
+  z-scale: 4
+f0:
+  value: 0.04
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: oak_trapdoor
+  placeholder: true
+filters:
+- name: vertical-left
+  left: 0
+  top: 0
+  width: 0.1875
+  height: 1
+  tile: true
+  normal-curve-x: 90
+  normal-radius-x: 0.8
+- name: vertical-right
+  left: 0.8125
+  top: 0
+  width: 0.1875
+  height: 1
+  tile: true
+  normal-curve-x: 90
+  normal-radius-x: 0.8
+- name: vertical-inside-top
+  left: 0.375
+  top: 0.1875
+  width: 0.25
+  height: 0.1875
+  tile: true
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: vertical-inside-bottom
+  left: 0.375
+  top: 0.625
+  width: 0.25
+  height: 0.1875
+  tile: true
+  normal-curve-x: 90
+  normal-radius-x: 0.6
+- name: horizontal-top
+  left: 0.1875
+  top: 0
+  width: 0.625
+  height: 0.1875
+  tile: true
+  normal-curve-y: 90
+  normal-radius-y: 0.8
+- name: horizontal-middle
+  left: 0.1875
+  top: 0.375
+  width: 0.625
+  height: 0.25
+  tile: true
+  normal-curve-y: 90
+  normal-radius-y: 0.6
+- name: horizontal-bottom
+  left: 0.1875
+  top: 0.8125
+  width: 0.625
+  height: 0.1875
+  tile: true
+  normal-curve-y: 90
+  normal-radius-y: 0.8

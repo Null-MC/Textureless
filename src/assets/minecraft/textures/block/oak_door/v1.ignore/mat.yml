@@ -1,0 +1,24 @@
+publish-item: true
+height:
+  scale: 0.6
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 4
+occlusion:
+  step-distance: 0.2
+  z-bias: 0
+  z-scale: 5
+smooth:
+  scale: 0.9
+parts:
+- name: oak_door_top
+  left: 0
+  top: 0
+  width: 32
+  height: 32
+- name: oak_door_bottom
+  left: 0
+  top: 32
+  width: 32
+  height: 32

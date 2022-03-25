@@ -1,12 +1,9 @@
+publish-item: true
 wrap-y: false
-color:
-  value-red: 90
-  value-green: 111
-  value-blue: 47
 height:
   scale: 0
 normal:
-  noise: 6
+  noise: 38
   method: sobel5
 occlusion:
   step-distance: 0.1

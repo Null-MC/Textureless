@@ -1,0 +1,79 @@
+{
+    "multipart": [
+        {
+           "apply": { "model": "block/nether_wart_block" }
+        },
+        {
+           "apply": [
+                { "model": "block/nether_wart_end1", "weight": 1 },
+                { "model": "block/nether_wart_end1", "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end1", "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end1", "y": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end2", "weight": 1 },
+                { "model": "block/nether_wart_end2", "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end2", "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end2", "y": 270, "uvlock": true, "weight": 1 }
+            ]
+        },
+        {
+           "apply": [
+                { "model": "block/nether_wart_end1", "x": 180, "weight": 1 },
+                { "model": "block/nether_wart_end1", "x": 180, "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end1", "x": 180, "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end1", "x": 180, "y": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end2", "x": 180, "weight": 1 },
+                { "model": "block/nether_wart_end2", "x": 180, "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end2", "x": 180, "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_end2", "x": 180, "y": 270, "uvlock": true, "weight": 1 }
+            ]
+        },
+        {
+           "apply": [
+                { "model": "block/nether_wart_side1", "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 270, "uvlock": true, "weight": 1 }
+            ]
+        },
+        {
+           "apply": [
+                { "model": "block/nether_wart_side1", "y": 90, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 90, "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 180, "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 270, "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "y": 90, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 90, "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 180, "y": 90, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 270, "y": 90, "uvlock": true, "weight": 1 }
+            ]
+        },
+        {
+           "apply": [
+                { "model": "block/nether_wart_side1", "y": 180, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 90, "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 180, "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 270, "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "y": 180, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 90, "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 180, "y": 180, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 270, "y": 180, "uvlock": true, "weight": 1 }
+            ]
+        },
+        {
+           "apply": [
+                { "model": "block/nether_wart_side1", "y": 270, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 90, "y": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 180, "y": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side1", "x": 270, "y": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "y": 270, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 90, "y": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 180, "y": 270, "uvlock": true, "weight": 1 },
+                { "model": "block/nether_wart_side2", "x": 270, "y": 270, "uvlock": true, "weight": 1 }
+            ]
+        }
+    ]
+}

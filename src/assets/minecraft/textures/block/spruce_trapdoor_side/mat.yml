@@ -2,21 +2,20 @@ publish-item: true
 wrap-x: false
 wrap-y: false
 model: spruce_trapdoor_top
-opacity:
-  value: 255
-color:
-  value-red: 106
-  value-green: 79
-  value-blue: 44
 height:
-  scale: 0.25
+  shift: -0.02
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
 normal:
   method: sobel-high
-  strength: 0.6
+  strength: 2
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 2
+  step-distance: 0.2
+  z-bias: 1
+  z-scale: 3
+f0:
+  value: 0.05
+ctm: {}
 filters:
 - name: Top
   top: 0.15625

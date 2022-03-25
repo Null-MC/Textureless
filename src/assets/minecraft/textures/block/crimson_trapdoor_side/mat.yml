@@ -1,12 +1,17 @@
-publish-inventory: true
-alpha:
+publish-item: true
+model: crimson_trapdoor_top
+blend-mode: cutout
+opacity:
   value: 255
-albedo:
-  value-red: 125
-  value-green: 57
-  value-blue: 84
+color:
+  value-red: 100
+  value-green: 16
+  value-blue: 6
+smooth:
+  value: 0.04
 f0:
   value: 0.03
+ctm: {}
 filters:
 - name: Top
   top: 0.15625

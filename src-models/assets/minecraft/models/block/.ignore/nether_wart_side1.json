@@ -1,0 +1,6 @@
+{
+    "parent":"block/wart_side1",
+    "textures": {
+	   "ore":"block/nether_wart_block"
+    }
+}

@@ -1,0 +1,29 @@
+publish-item: true
+wrap-x: true
+wrap-y: true
+height:
+  shift: -0.02
+  edge-fade-x: 0.6
+  edge-fade-y: 0.6
+normal:
+  method: sobel-low
+  strength: 6
+occlusion:
+  step-distance: 0.2
+  z-bias: 1
+  z-scale: 4
+f0:
+  value: 0.05
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: spruce_trapdoor
+  placeholder: true
+filters:
+- name: default
+  tile: true
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.1

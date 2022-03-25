@@ -2,26 +2,22 @@ publish-item: true
 opacity:
   value: 210
 color:
-  value-red: 211
-  value-green: 145
-  value-blue: 44
+  value-red: 215
+  value-green: 129
+  value-blue: 7
 height:
   shift: -0.1
   scale: 0.5
   edge-fade-x: 1
   edge-fade-y: 1
 normal:
-  curve-x: 90
-  curve-y: 90
-  radius-x: 0.4
-  radius-y: 0.4
   strength: 1.5
 occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 4
 smooth:
-  value: 0.86
+  value: 0.78
 f0:
   value: 0.028
 sss:

@@ -10,6 +10,8 @@ f0:
   value: 0.017
 sss:
   value: 0.6
+emissive:
+  scale: 0.6
 ctm:
   method: of-repeat
   width: 4

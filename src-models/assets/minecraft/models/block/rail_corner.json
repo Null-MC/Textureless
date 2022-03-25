@@ -105,7 +105,7 @@
 		},
 		{
 			"name": "Tie-1",
-			"from": [1, 0, 13],
+			"from": [1, -1.2, 13],
 			"to": [15, 0.8, 15],
 			"faces": {
 				"north": {"uv": [1, 11, 15, 12], "rotation": 180, "texture": "#rail"},
@@ -118,7 +118,7 @@
 		},
 		{
 			"name": "Tie-2",
-			"from": [1, 0, 11],
+			"from": [1, -1.2, 11],
 			"to": [9, 0.8, 13],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [9, 0, 13]},
 			"faces": {
@@ -132,7 +132,7 @@
 		},
 		{
 			"name": "Tie-3",
-			"from": [2, 0, 11],
+			"from": [2, -1.2, 11],
 			"to": [12.3, 0.8, 13],
 			"rotation": {"angle": -45, "axis": "y", "origin": [12, 0, 12]},
 			"faces": {
@@ -146,7 +146,7 @@
 		},
 		{
 			"name": "Tie-4",
-			"from": [11, 0, 1],
+			"from": [11, -1.2, 1],
 			"to": [13, 0.8, 9],
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [13, 0, 9]},
 			"faces": {
@@ -160,7 +160,7 @@
 		},
 		{
 			"name": "Tie-5",
-			"from": [13, 0, 1],
+			"from": [13, -1.2, 1],
 			"to": [15, 0.8, 13],
 			"faces": {
 				"north": {"uv": [0, 12, 1, 14], "rotation": 270, "texture": "#rail"},
