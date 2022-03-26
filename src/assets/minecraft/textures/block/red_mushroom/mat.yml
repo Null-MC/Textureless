@@ -2,8 +2,8 @@ publish-item: true
 wrap-x: false
 wrap-y: false
 height:
-  texture: alpha.png
-  scale: 0.15
+  texture: opacity.png
+  scale: 0.16
   edge-fade-x: 0.01
   edge-fade-y: 0.01
 normal:
@@ -13,6 +13,8 @@ occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 5
+smooth:
+  scale: 0.6
 f0:
   value: 0.017
 sss:

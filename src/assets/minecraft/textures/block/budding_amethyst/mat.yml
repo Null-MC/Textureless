@@ -1,8 +1,4 @@
 publish-item: true
-color:
-  value-red: 126
-  value-green: 92
-  value-blue: 184
 height:
   shift: -0.1
   scale: 0.8
@@ -11,10 +7,7 @@ normal:
   method: sobel5
   strength: 1.2
 smooth:
-  value: 0.95
+  value: 0.75
 f0:
-  value: 0.08
-sss:
-  value: 0.7
-emissive:
-  scale: 0.6
+  value: 0.045
+ctm: {}

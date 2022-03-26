@@ -1,25 +1,25 @@
 publish-item: true
 height:
-  shift: -0.2
-  scale: 0.15
-  edge-fade-x: 3
+  shift: -0.1
+  scale: 0.22
+  edge-fade-x: 2
 normal:
-  noise: 3
-  method: sobel-low
-  strength: 1.5
+  noise: 12
+  method: sobel3
+  strength: 2
 occlusion:
   step-distance: 0.2
-  z-bias: 16
-  z-scale: 1
+  z-bias: 3
+  z-scale: 2
 f0:
   value: 0.04
 porosity:
-  value: 0.6
+  value: 0.9
 ctm:
   method: of-repeat
-  width: 4
-  height: 4
-  match-tiles: birch_log
+  width: 2
+  height: 3
+  match-tiles: acacia_log
   placeholder: true
 filters:
 - name: default

@@ -1,0 +1,23 @@
+publish-item: true
+height:
+  scale: 0.3
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  noise: 2
+  method: sobel5
+  strength: 3
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 14
+f0:
+  value: 0.044
+porosity:
+  value: 0.2
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: granite
+  placeholder: true

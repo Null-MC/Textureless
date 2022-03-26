@@ -1,22 +1,22 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
+model: cross
 height:
   texture: opacity.png
-  scale: 0.16
+  scale: 0.1
   edge-fade-x: 0.01
   edge-fade-y: 0.01
 normal:
-  noise: 6
-  method: sobel5
+  noise: 16
+  strength: 2
 occlusion:
-  step-distance: 0.2
-  z-bias: 2
-  z-scale: 6
+  z-bias: 4
+  z-scale: 3
 smooth:
-  scale: 0.6
+  value: 0.75
 f0:
-  value: 0.017
+  value: 0.045
 sss:
-  scale: 0.6
+  shift: 0.2
 ctm: {}

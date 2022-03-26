@@ -19,9 +19,5 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: birch_log
+  match-tiles: birch_wood
   placeholder: true
-filters:
-- name: default
-  tile: true
-  normal-curve-x: 90
