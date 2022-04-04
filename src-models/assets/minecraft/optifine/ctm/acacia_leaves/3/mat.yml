@@ -5,7 +5,6 @@ model: acacia_leaves
 blend-mode: cutout
 tint-color: '#619961'
 color:
-  _-preview-tint: '#619961'
   value-red: 117
   value-green: 70
   value-blue: 95
@@ -25,4 +24,3 @@ f0:
   value: 0.04
 porosity:
   value: 0.2
-ctm: {}

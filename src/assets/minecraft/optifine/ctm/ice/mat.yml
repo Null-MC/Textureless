@@ -1,11 +1,9 @@
 publish-item: true
 blend-mode: transparent
 color:
-  value-red: 133
-  value-green: 148
-  value-blue: 156
+  value: '#85949C'
 height:
-  shift: -0.02
+  shift: -0.01
   scale: 0.3
   edge-fade-x: 3
   edge-fade-y: 3
@@ -23,5 +21,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: ice
   placeholder: true

@@ -2,7 +2,7 @@ publish-item: true
 blend-mode: cutout
 tint-color: '#91BD59'
 height:
-  shift: -0.2
+  shift: -0.18
   scale: 0.34
   edge-fade-x: 2
   edge-fade-y: 2
@@ -24,5 +24,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: grass_block_top
   placeholder: true

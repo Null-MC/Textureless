@@ -18,5 +18,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 2
-  match-tiles: birch_planks
   placeholder: true

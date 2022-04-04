@@ -3,7 +3,6 @@ wrap-x: false
 wrap-y: false
 blend-mode: cutout
 color:
-  _-preview-tint: '#619961'
   value-red: 62
   value-green: 46
   value-blue: 32
@@ -26,4 +25,3 @@ f0:
   value: 0.04
 porosity:
   value: 0.8
-ctm: {}

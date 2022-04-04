@@ -13,3 +13,4 @@ f0:
   value: 0.04
 emissive:
   value: 0.8
+ctm: {}

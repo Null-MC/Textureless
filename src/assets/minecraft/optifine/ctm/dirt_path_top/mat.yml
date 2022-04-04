@@ -1,6 +1,6 @@
 publish-item: true
 height:
-  shift: -0.12
+  shift: -0.1
   scale: 0.4
   edge-fade-x: 4
   edge-fade-y: 4
@@ -19,5 +19,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: dirt_path_top
   placeholder: true

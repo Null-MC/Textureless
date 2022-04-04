@@ -1,9 +1,7 @@
 wrap-x: false
 wrap-y: false
 color:
-  value-red: 248
-  value-green: 205
-  value-blue: 77
+  value: '#F8CD4D'
   bake-occlusion: true
 height:
   scale: 0
@@ -12,5 +10,5 @@ normal:
   strength: 2
 smooth:
   value: 0.6
-metal:
+hcm:
   value: 231

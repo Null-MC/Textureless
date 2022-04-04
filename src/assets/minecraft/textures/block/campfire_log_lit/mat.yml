@@ -1,3 +1,4 @@
+blend-mode: cutout
 occlusion:
   value: 0
 smooth:
@@ -6,4 +7,3 @@ porosity:
   value: 0.08
 emissive:
   scale: 0.5
-ctm: {}

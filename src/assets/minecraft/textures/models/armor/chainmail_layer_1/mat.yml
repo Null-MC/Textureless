@@ -12,7 +12,7 @@ occlusion:
   value: 0
 smooth:
   value: 0.6
-metal:
+hcm:
   value: 230
 filters:
 - name: Head1-Up

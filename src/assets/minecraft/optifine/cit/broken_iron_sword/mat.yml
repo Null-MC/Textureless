@@ -5,7 +5,7 @@ wrap-y: false
 color:
   bake-occlusion: true
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel3
   strength: 0.7
@@ -15,3 +15,4 @@ occlusion:
   z-scale: 4
 smooth:
   scale: 0.88
+ctm: {}

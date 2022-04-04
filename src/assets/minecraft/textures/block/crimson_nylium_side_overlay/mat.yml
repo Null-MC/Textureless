@@ -3,6 +3,7 @@ wrap-x: true
 wrap-y: false
 blend-mode: cutout
 height:
+  shift: -0.03
   scale: 0.32
 normal:
   noise: 5
@@ -12,4 +13,3 @@ occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 5
-ctm: {}

@@ -1,8 +1,6 @@
 texture-size: 128
 color:
-  value-red: 200
-  value-green: 204
-  value-blue: 209
+  value: '#C8CCD1'
 normal:
   method: sobel3
   strength: 2
@@ -13,7 +11,7 @@ occlusion:
   z-scale: 3
 smooth:
   value: 0.88
-metal:
+hcm:
   value: 230
 filters:
 - left: 0.171875

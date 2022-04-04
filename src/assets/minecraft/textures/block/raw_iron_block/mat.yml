@@ -1,8 +1,6 @@
 publish-item: true
 color:
-  value-red: 197
-  value-green: 182
-  value-blue: 171
+  value: '#C5B6AB'
 height:
   scale: 0.5
 normal:
@@ -11,5 +9,5 @@ normal:
   strength: 1.6
 smooth:
   value: 0.5
-metal:
+hcm:
   value: 230

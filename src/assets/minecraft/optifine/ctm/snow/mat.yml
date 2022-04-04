@@ -2,14 +2,12 @@ publish-item: true
 opacity:
   value: 255
 color:
-  value-red: 198
-  value-green: 221
-  value-blue: 236
+  value: '#C6DDEC'
 height:
-  shift: -0.24
+  shift: -0.1
   scale: 0.4
-  edge-fade-x: 4
-  edge-fade-y: 4
+  edge-fade-x: 2
+  edge-fade-y: 2
 normal:
   noise: 16
   method: sobel9
@@ -23,11 +21,10 @@ smooth:
 f0:
   value: 0.02
 sss:
-  shift: 0.4
+  shift: 0.3
   scale: 0.72
 ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: snow
   placeholder: true

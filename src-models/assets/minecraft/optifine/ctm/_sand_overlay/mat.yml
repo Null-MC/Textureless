@@ -1,0 +1,25 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+height:
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
+normal:
+  noise: 8
+  method: sobel-low
+  strength: 0.5
+occlusion:
+  z-bias: 1
+smooth:
+  shift: 0.14
+f0:
+  value: 0.04
+porosity:
+  shift: 0.5
+  scale: 0.2
+sss:
+  value: 0.2
+ctm:
+  method: of-overlay

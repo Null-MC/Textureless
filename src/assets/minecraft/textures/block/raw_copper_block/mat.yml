@@ -5,5 +5,5 @@ normal:
   noise: 12
   method: sobel3
   strength: 1.6
-metal:
+hcm:
   value: 234

@@ -10,7 +10,7 @@ normal:
   strength: 2
 smooth:
   value: 0.6
-metal:
+hcm:
   value: 255
 filters:
 - name: Head1-Up

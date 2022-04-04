@@ -2,6 +2,7 @@ publish-item: true
 wrap-x: true
 wrap-y: true
 height:
+  shift: -0.01
   scale: 0.5
   edge-fade-x: 0.6
   edge-fade-y: 0.6
@@ -19,7 +20,6 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
-  match-tiles: oak_trapdoor
   placeholder: true
 filters:
 - name: vertical-left

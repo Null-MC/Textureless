@@ -1,7 +1,7 @@
 publish-item: true
 blend-mode: cutout
 height:
-  shift: -0.14
+  shift: -0.06
   scale: 0.4
   edge-fade-x: 2
   edge-fade-y: 2
@@ -20,5 +20,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: warped_nylium
   placeholder: true

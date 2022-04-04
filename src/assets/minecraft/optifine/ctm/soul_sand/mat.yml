@@ -1,7 +1,7 @@
 publish-item: true
 height:
   shift: -0.02
-  scale: 0.3
+  scale: 0.4
   edge-fade-x: 1
   edge-fade-y: 1
 normal:
@@ -23,5 +23,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: soul_sand
   placeholder: true

@@ -1,11 +1,12 @@
-publish-inventory: true
+publish-item: true
 opacity:
   value: 255
 height:
+  shift: -0.02
   scale: 0.2
 normal:
-  method: sobel3
   noise: 4
+  method: sobel3
 occlusion:
   step-distance: 0.2
   z-bias: 1

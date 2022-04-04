@@ -1,7 +1,7 @@
 publish-item: true
 model: cube_all
 height:
-  shift: -0.06
+  shift: -0.02
   scale: 0.3
   edge-fade-x: 2
   edge-fade-y: 2
@@ -19,5 +19,4 @@ ctm:
   method: of-repeat
   width: 3
   height: 3
-  match-tiles: red_mushroom_block
   placeholder: true

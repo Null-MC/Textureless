@@ -19,5 +19,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: gilded_blackstone
   placeholder: true

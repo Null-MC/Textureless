@@ -7,13 +7,12 @@ occlusion:
   z-scale: 4
 smooth:
   scale: 0.8
-metal:
+hcm:
   value: 234
 ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: weathered_cut_copper
   placeholder: true
 filters:
 - name: top-left

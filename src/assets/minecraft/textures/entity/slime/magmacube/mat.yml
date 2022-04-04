@@ -1,4 +1,9 @@
-texture-width: 128
-texture-height: 64
+texture-width: 256
+texture-height: 128
 wrap-x: false
 wrap-y: false
+model: entity/magma_cube_open
+height:
+  scale: 0.7
+smooth:
+  scale: 0.4

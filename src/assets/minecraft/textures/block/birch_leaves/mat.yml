@@ -1,7 +1,6 @@
 publish-item: true
 tint-color: '#6BA941'
 color:
-  _-preview-tint: '#6BA941'
   value-red: 148
   value-green: 148
   value-blue: 148
@@ -21,4 +20,3 @@ f0:
   value: 0.017
 sss:
   value: 0.4
-ctm: {}

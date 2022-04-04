@@ -1,8 +1,6 @@
 blend-mode: transparent
 color:
-  value-red: 180
-  value-green: 215
-  value-blue: 221
+  value: '#B4D7DD'
   scale-red: 0.6
   scale-green: 0.6
   scale-blue: 0.6
@@ -21,4 +19,3 @@ f0:
   value: 0.04
 ctm:
   method: of-compact
-  match-tiles: glass

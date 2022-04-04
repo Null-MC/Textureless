@@ -1,13 +1,11 @@
 texture-size: 128
 color:
-  value-red: 248
-  value-green: 205
-  value-blue: 77
+  value: '#F8CD4D'
 occlusion:
   value: 0
 smooth:
   value: 0.9
-metal:
+hcm:
   value: 231
 filters:
 - left: 0.171875

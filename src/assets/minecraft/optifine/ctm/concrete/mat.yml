@@ -1,11 +1,8 @@
 publish-item: true
 color:
-  value-red: 148
-  value-green: 148
-  value-blue: 148
+  value: '#949494'
 height:
-  texture: bump.png
-  shift: -0.02
+  shift: -0.04
   scale: 0.06
   auto-level: true
 normal:

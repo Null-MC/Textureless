@@ -3,12 +3,11 @@ model: leaves_template
 blend-mode: cutout
 tint-color: '#48B518'
 color:
-  _-preview-tint: '#48B518'
   scale-red: 0.8
   scale-green: 0.8
   scale-blue: 0.8
 height:
-  texture: alpha.png
+  texture: opacity.png
   scale: 0.08
   edge-fade-x: 0.01
   edge-fade-y: 0.01
@@ -23,4 +22,3 @@ smooth:
   scale: 0.5
 f0:
   value: 0.04
-ctm: {}

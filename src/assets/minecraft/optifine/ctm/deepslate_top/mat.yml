@@ -1,8 +1,6 @@
 publish-item: true
 color:
-  value-red: 70
-  value-green: 71
-  value-blue: 74
+  value: '#46474A'
 height:
   shift: -0.02
   scale: 0.4
@@ -24,5 +22,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: deepslate_top
   placeholder: true

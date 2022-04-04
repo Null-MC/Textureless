@@ -1,7 +1,6 @@
 publish-item: true
 height:
-  shift: -0.25
-  scale: 0.16
+  scale: 0.3
   edge-fade-x: 4
   edge-fade-y: 4
 normal:
@@ -24,5 +23,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: red_sand
   placeholder: true

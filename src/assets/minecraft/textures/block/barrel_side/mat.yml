@@ -4,8 +4,8 @@ wrap-y: false
 opacity:
   value: 255
 height:
-  shift: -0.12
-  scale: 0.5
+  shift: -0.06
+  scale: 0.6
   edge-fade-x: 0.5
   edge-fade-y: 0.5
 normal:
@@ -20,4 +20,3 @@ occlusion:
   step-distance: 0.1
   z-bias: 1
   z-scale: 6
-ctm: {}

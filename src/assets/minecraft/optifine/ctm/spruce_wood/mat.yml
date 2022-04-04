@@ -1,6 +1,6 @@
 publish-item: true
 height:
-  shift: -0.1
+  shift: -0.02
   scale: 0.2
   edge-fade-x: 1
 normal:
@@ -18,5 +18,4 @@ ctm:
   method: of-repeat
   width: 3
   height: 3
-  match-tiles: spruce_wood
   placeholder: true

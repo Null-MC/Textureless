@@ -18,5 +18,4 @@ ctm:
   method: of-repeat
   width: 3
   height: 3
-  match-tiles: dark_oak_wood
   placeholder: true

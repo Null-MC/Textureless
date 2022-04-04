@@ -24,7 +24,6 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
-  match-tiles: stripped_spruce_log
   placeholder: true
 filters:
 - name: default

@@ -1,0 +1,24 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
+  value: '#C6DDEC'
+height:
+  shift: -0.07
+  scale: 0.3
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
+normal:
+  noise: 16
+  method: sobel-low
+  strength: 4
+occlusion:
+  z-bias: 1
+smooth:
+  shift: 0.2
+f0:
+  value: 0.02
+sss:
+  value: 0.9
+ctm:
+  method: of-overlay

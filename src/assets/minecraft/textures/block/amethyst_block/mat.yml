@@ -1,7 +1,8 @@
 publish-item: true
 height:
-  shift: -0.1
+  shift: -0.12
   scale: 0.8
+  auto-level: false
 normal:
   noise: 12
   method: sobel9
@@ -10,4 +11,3 @@ smooth:
   value: 0.75
 f0:
   value: 0.045
-ctm: {}

@@ -1,0 +1,24 @@
+publish-item: true
+height:
+  shift: -0.08
+  scale: 0.4
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 2
+occlusion:
+  step-distance: 0.2
+  z-bias: 2
+  z-scale: 4
+smooth:
+  scale: 1.7
+f0:
+  value: 0.03
+porosity:
+  shift: -0.3
+  scale: 2
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  placeholder: true

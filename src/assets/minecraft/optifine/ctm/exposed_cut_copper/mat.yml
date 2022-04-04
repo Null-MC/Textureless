@@ -1,21 +1,18 @@
 publish-item: true
 color:
-  value-red: 183
-  value-green: 97
-  value-blue: 49
+  value: '#B76131'
 height:
   scale: 0.3
 normal:
   noise: 1
 occlusion:
   z-scale: 4
-metal:
+hcm:
   value: 234
 ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: exposed_cut_copper
   placeholder: true
 filters:
 - name: top-left

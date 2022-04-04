@@ -16,7 +16,7 @@ smooth:
 f0:
   value: 0.04
 porosity:
-  shift: 2.5
+  shift: 0.5
   scale: 0.2
 sss:
   value: 0
@@ -24,5 +24,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: sand
   placeholder: true

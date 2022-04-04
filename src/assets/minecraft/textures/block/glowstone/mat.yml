@@ -14,5 +14,5 @@ f0:
 sss:
   value: 0
 emissive:
-  shift: 0.2
-  scale: 0.7
+  shift: 0.08
+  scale: 0.36

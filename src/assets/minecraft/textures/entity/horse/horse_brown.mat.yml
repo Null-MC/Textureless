@@ -2,25 +2,13 @@ texture-size: 128
 wrap-x: false
 wrap-y: false
 height:
-  texture: horse_height.png
   scale: 0
 normal:
-  texture: horse_normal.png
   method: sobel-low
 occlusion:
-  texture: horse_occlusion.png
   step-distance: 0.15
   z-bias: 0
   z-scale: 3
-smooth:
-  texture: horse_smooth.png
-metal:
-  texture: horse_metal.png
-f0:
-  texture: horse_f0.png
-sss:
-  texture: horse_sss.png
-ctm: {}
 filters:
 - name: head-top
   left: 0.109375

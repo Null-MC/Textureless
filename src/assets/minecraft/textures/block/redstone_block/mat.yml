@@ -1,10 +1,6 @@
 publish-item: true
-opacity:
-  value: 255
 color:
-  value-red: 188
-  value-green: 26
-  value-blue: 5
+  value: '#BC1A05'
 height:
   scale: 0.26
 normal:
@@ -16,7 +12,5 @@ occlusion:
   z-scale: 3
 smooth:
   value: 0.7
-metal:
+hcm:
   value: 234
-porosity:
-  value: 0

@@ -1,6 +1,5 @@
 publish-item: true
 height:
-  shift: -0.08
   scale: 0.4
   edge-fade-x: 1
   edge-fade-y: 1
@@ -22,5 +21,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: basalt_side
   placeholder: true

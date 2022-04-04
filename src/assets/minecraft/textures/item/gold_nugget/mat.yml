@@ -1,7 +1,5 @@
 color:
-  value-red: 248
-  value-green: 205
-  value-blue: 77
+  value: '#F8CD4D'
   bake-occlusion: true
 height:
   value: 0
@@ -14,5 +12,5 @@ occlusion:
   z-scale: 9
 smooth:
   value: 0.6
-metal:
-  value: 255
+hcm:
+  value: 231

@@ -1,7 +1,5 @@
 color:
-  value-red: 66
-  value-green: 66
-  value-blue: 66
+  value: '#424242'
 height:
   value: 0
 normal:
@@ -10,5 +8,5 @@ occlusion:
   value: 0
 smooth:
   value: 0.36
-metal:
+hcm:
   value: 230

@@ -1,6 +1,6 @@
 publish-item: true
 height:
-  shift: -0.1
+  shift: -0.16
   scale: 0.8
 normal:
   noise: 12
@@ -10,4 +10,3 @@ smooth:
   value: 0.75
 f0:
   value: 0.045
-ctm: {}

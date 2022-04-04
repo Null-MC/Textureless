@@ -1,7 +1,6 @@
 publish-item: true
 tint-color: '#71C35C'
 color:
-  _-preview-tint: '#71C35C'
   value-red: 163
   value-green: 163
   value-blue: 163
@@ -21,4 +20,3 @@ smooth:
   value: 0.55
 f0:
   value: 0.03
-ctm: {}

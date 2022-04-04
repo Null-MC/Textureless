@@ -1,5 +1,6 @@
 wrap-x: true
 wrap-y: true
+blend-mode: cutout
 normal:
   noise: 6
   method: sobel3
@@ -13,4 +14,3 @@ f0:
   value: 0.03
 porosity:
   value: 0.08
-ctm: {}

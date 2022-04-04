@@ -1,8 +1,6 @@
 publish-item: true
 color:
-  value-red: 183
-  value-green: 97
-  value-blue: 49
+  value: '#B76131'
 height:
   scale: 0.16
   edge-fade-x: 3
@@ -15,13 +13,12 @@ occlusion:
   z-scale: 24
 smooth:
   value: 0.6
-metal:
+hcm:
   value: 234
 ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: exposed_copper
   placeholder: true
 filters:
 - name: default

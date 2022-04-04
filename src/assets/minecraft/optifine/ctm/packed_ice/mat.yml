@@ -1,10 +1,8 @@
 publish-item: true
 color:
-  value-red: 125
-  value-green: 157
-  value-blue: 196
+  value: '#7D9DC4'
 height:
-  shift: -0.02
+  shift: -0.01
   scale: 0.3
   edge-fade-x: 3
   edge-fade-y: 3
@@ -28,5 +26,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: packed_ice
   placeholder: true

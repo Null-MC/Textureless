@@ -1,13 +1,11 @@
 publish-item: true
 color:
-  value-red: 223
-  value-green: 175
-  value-blue: 63
+  value: '#DFAF3F'
 height:
   scale: 0.6
 normal:
   noise: 12
   method: sobel3
   strength: 1.6
-metal:
+hcm:
   value: 231

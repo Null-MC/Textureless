@@ -18,7 +18,7 @@ occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 5
-metal:
+hcm:
   value: 255
 emissive:
   scale: 0.3

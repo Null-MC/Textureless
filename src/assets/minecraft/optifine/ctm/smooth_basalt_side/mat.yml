@@ -1,8 +1,8 @@
 height:
-  shift: -0.08
-  scale: 0.2
-  edge-fade-x: 2
-  edge-fade-y: 2
+  shift: -0.04
+  scale: 0.4
+  edge-fade-x: 1
+  edge-fade-y: 1
 normal:
   noise: 2
   method: sobel3
@@ -19,5 +19,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: smooth_basalt
   placeholder: true

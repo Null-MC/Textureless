@@ -14,5 +14,4 @@ ctm:
   method: of-repeat
   width: 5
   height: 5
-  match-tiles: bricks_top
   placeholder: true

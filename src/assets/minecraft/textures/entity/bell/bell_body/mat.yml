@@ -2,9 +2,7 @@ texture-size: 64
 wrap-x: false
 wrap-y: false
 color:
-  value-red: 133
-  value-green: 102
-  value-blue: 65
+  value: '#856641'
 height:
   scale: 3
 normal:
@@ -14,9 +12,8 @@ normal:
 occlusion:
   step-distance: 0.15
   z-scale: 6
-metal:
+hcm:
   value: 234
-ctm: {}
 filters:
 - name: top-up
   left: 0.375

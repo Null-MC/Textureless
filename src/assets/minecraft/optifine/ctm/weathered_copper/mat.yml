@@ -12,13 +12,12 @@ occlusion:
   z-scale: 6
 smooth:
   scale: 0.8
-metal:
+hcm:
   value: 234
 ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: weathered_copper
   placeholder: true
 filters:
 - name: default

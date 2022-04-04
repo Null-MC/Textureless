@@ -13,7 +13,7 @@ occlusion:
   z-scale: 4
 smooth:
   scale: 0.8
-metal:
+hcm:
   value: 230
 f0:
   value: 0.07

@@ -1,6 +1,6 @@
 publish-item: true
 height:
-  shift: -0.03
+  shift: -0.02
   scale: 0.4
 normal:
   noise: 5
@@ -20,5 +20,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 2
-  match-tiles: spruce_planks
   placeholder: true

@@ -1,9 +1,5 @@
-opacity:
-  value: 255
 color:
-  value-red: 104
-  value-green: 103
-  value-blue: 108
+  value: '#68676C'
 height:
   value: 0
 normal:
@@ -12,7 +8,7 @@ occlusion:
   value: 0
 smooth:
   value: 0.6
-metal:
+hcm:
   value: 230
 porosity:
   value: 0

@@ -1,0 +1,25 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+tint-color: '#91BD59'
+color:
+  value: '#6D6D6D'
+height:
+  shift: -0.24
+  scale: 0.3
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
+normal:
+  noise: 16
+  method: sobel-low
+  strength: 4
+occlusion:
+  z-bias: 1
+smooth:
+  value: 0.1
+f0:
+  value: 0.017
+sss:
+  value: 0.2
+ctm:
+  method: of-overlay

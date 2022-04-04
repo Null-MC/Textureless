@@ -1,22 +1,17 @@
 publish-item: true
 model: chain
 color:
-  value-red: 197
-  value-green: 200
-  value-blue: 200
+  value: '#C5C8C8'
 height:
-  texture: opacity.png
-  scale: 0.1
-  edge-fade-x: 0.01
-  edge-fade-y: 0.01
+  scale: 0.16
 normal:
   noise: 4
   method: sobel-low
 occlusion:
+  value: 0
   step-distance: 0.1
   z-scale: 2
 smooth:
   value: 0.82
-metal:
+hcm:
   value: 230
-ctm: {}

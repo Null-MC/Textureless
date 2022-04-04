@@ -2,8 +2,6 @@ texture-size: 128
 wrap-x: false
 wrap-y: false
 model: entity/chest
-height:
-  scale: 0
 normal:
   noise: 1
   method: sobel-low

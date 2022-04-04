@@ -5,7 +5,7 @@ normal:
   noise: 12
 smooth:
   value: 0.2
-metal:
+hcm:
   value: 230
 porosity:
   value: 0.9

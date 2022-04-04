@@ -13,9 +13,8 @@ occlusion:
   z-scale: 1
 smooth:
   scale: 0.8
-metal:
+hcm:
   value: 230
-ctm: {}
 parts:
 - name: iron_door_top
   left: 0

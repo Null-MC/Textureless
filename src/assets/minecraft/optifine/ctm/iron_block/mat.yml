@@ -1,7 +1,7 @@
 publish-item: true
 height:
-  shift: -0.06
-  scale: 0.1
+  shift: -0.01
+  scale: 0.06
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
@@ -13,13 +13,12 @@ occlusion:
   z-scale: 2
 smooth:
   scale: 1.1
-metal:
+hcm:
   value: 230
 ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: iron_block
   placeholder: true
 filters:
 - name: block

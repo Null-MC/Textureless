@@ -1,19 +1,14 @@
-create-inventory: true
-albedo:
-  value-red: 216
-  value-green: 216
-  value-blue: 216
+publish-item: true
+wrap-x: false
+wrap-y: true
+color:
+  value: '#D8D8D8'
 height:
   scale: 0.5
 normal:
   noise: 3
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   value: 0
-smooth: {}
-metal:
+hcm:
   value: 230
-porosity:
-  value: 0
-wrap-x: false
-wrap-y: true

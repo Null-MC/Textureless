@@ -1,7 +1,8 @@
 publish-item: true
 height:
-  shift: -0.12
-  scale: 0.4
+  texture: bump.png
+  shift: -0.06
+  scale: 0.3
   edge-fade-x: 0.5
   edge-fade-y: 0.5
   edge-fade-strength: 0.5
@@ -22,5 +23,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: stone_bricks
   placeholder: true

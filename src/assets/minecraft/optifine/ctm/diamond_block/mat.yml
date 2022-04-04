@@ -1,8 +1,6 @@
 publish-item: true
 color:
-  value-red: 113
-  value-green: 179
-  value-blue: 218
+  value: '#71B3DA'
 height:
   shift: -0.28
   scale: 0.8
@@ -27,5 +25,4 @@ ctm:
   method: of-repeat
   width: 3
   height: 3
-  match-tiles: diamond_block
   placeholder: true

@@ -19,5 +19,4 @@ ctm:
   method: of-repeat
   width: 2
   height: 3
-  match-tiles: acacia_wood
   placeholder: true

@@ -1,0 +1,41 @@
+edition: bedrock
+header-uuid: 0c4462be-f218-47ba-a698-b4f50ef15fea
+module-uuid: fffaa7b3-22b0-4aca-a79c-d6a1243ce71a
+format: 2
+name: Textureless-RTX-32x
+description: No Textures! RTX required.
+tags: ''
+encoding:
+  format: rtx
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
+  height:
+    texture: height
+    color: red
+    invert: true
+  occlusion: {}
+  normal-x:
+    texture: none
+  normal-y:
+    texture: none
+  normal-z:
+    texture: none
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  hcm: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 32
+item-texture-size: 32
+texture-scale: 1
+auto-generate-occlusion: true
+bake-occlusion-to-color: true
+occlusion-quality: 0.1
+occlusion-power: 2
+publish-inventory: false

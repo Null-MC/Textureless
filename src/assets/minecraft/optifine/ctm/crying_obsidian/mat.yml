@@ -18,5 +18,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: crying_obsidian
   placeholder: true

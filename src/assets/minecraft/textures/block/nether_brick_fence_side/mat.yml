@@ -1,13 +1,10 @@
 model: nether_brick_fence_side_north
 color:
-  value-red: 120
-  value-green: 100
-  value-blue: 120
+  value: '#786478'
 smooth:
   value: 0.8
-metal:
+hcm:
   value: 255
-ctm: {}
 filters:
 - name: up
   width: 0.125

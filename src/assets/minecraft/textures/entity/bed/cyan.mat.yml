@@ -1,31 +1,18 @@
 texture-size: 128
 wrap-x: false
 wrap-y: false
-opacity:
-  texture: alpha.png
 height:
-  texture: height.png
   scale: 0
 normal:
-  texture: normal.png
   noise: 3
   method: sobel5
   strength: 2
 occlusion:
-  texture: occlusion.png
   step-distance: 0.3
   z-bias: 0
   z-scale: 2
-smooth:
-  texture: smooth.png
-f0:
-  texture: f0.png
-porosity:
-  texture: porosity.png
 sss:
-  texture: sss.png
   scale: 0.4
-ctm: {}
 filters:
 - name: head-top
   left: 0.09375

@@ -22,7 +22,6 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: bone_block_side
   placeholder: true
 filters:
 - name: default

@@ -19,5 +19,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: crimson_nylium
   placeholder: true

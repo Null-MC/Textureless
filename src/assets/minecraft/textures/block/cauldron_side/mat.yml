@@ -1,25 +1,21 @@
 wrap-x: false
 wrap-y: false
-alpha:
-  value: 255
-albedo:
-  value-red: 85
-  value-green: 83
-  value-blue: 83
+color:
+  value: '#555353'
 height:
   value: 0
   scale: 0.8
 normal:
+  noise: 3
   method: sobel3
   strength: 1.5
-  noise: 3
 occlusion:
   step-distance: 0.2
   z-bias: 0
   z-scale: 8
 smooth:
   scale: 0.8
-metal:
+hcm:
   value: 230
 porosity:
   value: 0

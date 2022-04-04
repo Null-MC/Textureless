@@ -4,9 +4,10 @@ wrap-y: true
 color:
   bake-occlusion: false
 height:
-  scale: 0.12
-  edge-fade-x: 0.6
-  edge-fade-y: 0.6
+  scale: 0.08
+  edge-fade-x: 0.8
+  edge-fade-y: 0.4
+  edge-fade-strength: 0.8
 normal:
   noise: 3
   method: sobel-low
@@ -21,5 +22,4 @@ ctm:
   method: of-repeat
   width: 3
   height: 3
-  match-tiles: bricks
   placeholder: true

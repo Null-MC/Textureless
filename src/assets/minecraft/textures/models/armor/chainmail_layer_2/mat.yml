@@ -1,9 +1,7 @@
 texture-width: 128
 texture-height: 64
 color:
-  value-red: 196
-  value-green: 199
-  value-blue: 199
+  value: '#C4C7C7'
 height:
   scale: 0
 normal:
@@ -12,7 +10,7 @@ occlusion:
   value: 0
 smooth:
   value: 0.7
-metal:
+hcm:
   value: 230
 filters:
 - name: Body-East

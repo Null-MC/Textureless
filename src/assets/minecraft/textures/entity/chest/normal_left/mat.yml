@@ -9,7 +9,6 @@ normal:
 occlusion:
   step-distance: 0.1
   z-scale: 10
-ctm: {}
 filters:
 - name: Base-Down
   left: 0.21875

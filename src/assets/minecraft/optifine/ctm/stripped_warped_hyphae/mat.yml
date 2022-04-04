@@ -22,5 +22,4 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
-  match-tiles: stripped_warped_hyphae
   placeholder: true

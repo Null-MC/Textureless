@@ -1,11 +1,9 @@
-publish-inventory: true
-height:
-  scale: 0.3
+publish-item: true
 normal:
   noise: 3
-  method: sobel-low
-  strength: 0.5
+  method: sobel3
+  strength: 2
 occlusion:
   step-distance: 0.2
   z-bias: 0
-  z-scale: 5
+  z-scale: 10

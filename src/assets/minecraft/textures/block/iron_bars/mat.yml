@@ -1,19 +1,14 @@
-publish-inventory: true
-albedo:
-  value-red: 143
-  value-green: 145
-  value-blue: 148
-height: {}
+publish-item: true
+color:
+  value: '#8F9194'
 normal:
   noise: 2
-  filter: sobel-low
+  method: sobel-low
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 3
-  step-distance: 0.15
-smooth: {}
-metal:
+hcm:
   value: 230
 porosity:
   value: 0
-create-inventory: true

@@ -1,23 +1,17 @@
-alpha:
-  value: 255
-albedo:
-  value-red: 85
-  value-green: 83
-  value-blue: 83
-height: {}
+wrap-x: false
+wrap-y: false
+color:
+  value: '#555353'
 normal:
   noise: 3
-  filter: sobel-high
+  method: sobel-high
 occlusion:
-  quality: 0.1
+  step-distance: 0.2
   z-bias: 0
   z-scale: 1
-  step-distance: 0.2
 smooth:
   value: 0.34
-metal:
+hcm:
   value: 230
 porosity:
   value: 0
-wrap-x: false
-wrap-y: false

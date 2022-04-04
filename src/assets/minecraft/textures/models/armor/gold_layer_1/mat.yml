@@ -3,9 +3,7 @@ texture-height: 64
 wrap-x: false
 wrap-y: false
 color:
-  value-red: 248
-  value-green: 205
-  value-blue: 77
+  value: '#F8CD4D'
 height:
   scale: 0
 normal:
@@ -18,7 +16,7 @@ occlusion:
   z-scale: 3
 smooth:
   value: 0.8
-metal:
+hcm:
   value: 231
 filters:
 - name: Head1-Up

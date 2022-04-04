@@ -1,0 +1,29 @@
+publish-item: true
+height:
+  scale: 0.1
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  noise: 1.5
+  method: sobel3
+occlusion:
+  z-bias: 1
+  z-scale: 3
+smooth:
+  scale: 1.5
+f0:
+  value: 0.04
+porosity:
+  value: 0.4
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  placeholder: true
+filters:
+- name: default
+  tile: true
+  normal-curve-x: 60
+  normal-curve-y: 60
+  normal-radius-x: 0.08
+  normal-radius-y: 0.08

@@ -3,7 +3,6 @@ wrap-x: true
 wrap-y: false
 tint-color: '#79C05A'
 color:
-  _-preview-tint: '#79C05A'
   value-red: 122
   value-green: 122
   value-blue: 122
@@ -27,4 +26,3 @@ f0:
   value: 0.01
 sss:
   value: 0.2
-ctm: {}

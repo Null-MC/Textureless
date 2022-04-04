@@ -1,7 +1,5 @@
 color:
-  value-red: 200
-  value-green: 204
-  value-blue: 209
+  value: '#C8CCD1'
   bake-occlusion: true
 height:
   scale: 0
@@ -14,5 +12,5 @@ occlusion:
   z-scale: 9
 smooth:
   value: 0.6
-metal:
-  value: 255
+hcm:
+  value: 230

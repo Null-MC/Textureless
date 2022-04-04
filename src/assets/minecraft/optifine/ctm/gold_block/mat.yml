@@ -1,8 +1,6 @@
 publish-item: true
 color:
-  value-red: 176
-  value-green: 149
-  value-blue: 86
+  value: '#E6CB94'
 height:
   scale: 0.04
 normal:
@@ -15,13 +13,12 @@ occlusion:
   z-scale: 2
 smooth:
   shift: -0.15
-metal:
+hcm:
   value: 231
 ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: gold_block
   placeholder: true
 filters:
 - name: outer

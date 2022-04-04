@@ -15,7 +15,7 @@ smooth:
 f0:
   value: 0.047
 porosity:
-  value: 0.85
+  value: 0.7
 ctm:
   method: of-repeat
   width: 4

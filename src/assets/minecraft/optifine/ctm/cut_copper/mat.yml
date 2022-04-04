@@ -1,19 +1,16 @@
 publish-item: true
 color:
-  value-red: 186
-  value-green: 112
-  value-blue: 85
+  value: '#BA7055'
 height:
   scale: 0.3
 occlusion:
   z-scale: 4
-metal:
+hcm:
   value: 234
 ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: cut_copper
   placeholder: true
 filters:
 - name: top-left

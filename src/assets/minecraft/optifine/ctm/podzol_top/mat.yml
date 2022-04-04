@@ -1,6 +1,6 @@
 publish-item: true
 height:
-  shift: -0.12
+  shift: -0.03
   scale: 0.2
   edge-fade-x: 3
   edge-fade-y: 3
@@ -18,5 +18,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: podzol_top
   placeholder: true

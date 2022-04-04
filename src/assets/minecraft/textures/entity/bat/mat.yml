@@ -17,7 +17,6 @@ f0:
   value: 0.017
 emissive:
   scale: 0.6
-ctm: {}
 filters:
 - name: head-up
   left: 0.09375

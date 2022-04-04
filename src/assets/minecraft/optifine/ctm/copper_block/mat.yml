@@ -1,8 +1,6 @@
 publish-item: true
 color:
-  value-red: 186
-  value-green: 112
-  value-blue: 85
+  value: '#DE9E7D'
 height:
   scale: 0.16
   edge-fade-x: 3
@@ -13,13 +11,12 @@ occlusion:
   z-scale: 24
 smooth:
   value: 0.8
-metal:
+hcm:
   value: 234
 ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: copper_block
   placeholder: true
 filters:
 - name: default

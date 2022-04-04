@@ -4,11 +4,9 @@ tint-color: '#9d664b'
 opacity:
   value: 255
 color:
-  value-red: 255
-  value-green: 255
-  value-blue: 255
+  value: '#FFFFFF'
 height:
-  value: 0
+  scale: 0.2
 normal:
   noise: 3
   method: sobel3

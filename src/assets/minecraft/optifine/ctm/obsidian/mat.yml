@@ -1,8 +1,6 @@
 publish-item: true
 color:
-  value-red: 27
-  value-green: 24
-  value-blue: 37
+  value: '#1B1825'
 height:
   scale: 0.5
   edge-fade-x: 2
@@ -20,5 +18,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 8
-  match-tiles: obsidian
   placeholder: true

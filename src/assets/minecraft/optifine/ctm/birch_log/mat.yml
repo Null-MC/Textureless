@@ -1,6 +1,6 @@
 publish-item: true
 height:
-  shift: -0.2
+  shift: -0.26
   scale: 0.15
   edge-fade-x: 3
 normal:
@@ -19,7 +19,6 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
-  match-tiles: birch_log
   placeholder: true
 filters:
 - name: default

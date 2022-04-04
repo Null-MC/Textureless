@@ -1,18 +1,12 @@
-publish-inventory: true
-alpha:
-  value: 255
+publish-item: true
 height:
   scale: 0.2
 normal:
+  method: sobel-high
   strength: 0.5
-  filter: sobel-high
 occlusion:
+  step-distance: 0.15
   z-bias: 0
   z-scale: 4
-  step-distance: 0.15
-smooth: {}
-metal:
+hcm:
   value: 255
-porosity:
-  value: 0
-create-inventory: true

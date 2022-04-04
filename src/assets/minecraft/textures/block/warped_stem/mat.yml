@@ -19,5 +19,4 @@ f0:
 sss:
   value: 0
 emissive:
-  scale: 0.7
-ctm: {}
+  scale: 0.3

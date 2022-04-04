@@ -1,12 +1,14 @@
 texture-size: 32
 wrap-x: false
 wrap-y: false
-bake-occlusion-to-color: true
+color:
+  bake-occlusion: true
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel3
   strength: 0.6
 occlusion:
   step-distance: 0.15
   z-bias: 0
+ctm: {}

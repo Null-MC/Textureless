@@ -1,10 +1,8 @@
-publish-inventory: true
-alpha:
-  value: 255
-albedo:
-  value-red: 177
-  value-green: 129
-  value-blue: 93
+publish-item: true
+model: block/jungle_trapdoor_top
+blend-mode: cutout
+color:
+  value: '#B1815D'
 occlusion:
   value: 0
 smooth:
