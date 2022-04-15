@@ -11,7 +11,8 @@ occlusion:
   z-bias: 2
   z-scale: 6
 smooth:
-  scale: 0.8
+  shift: 0.0723
+  scale: 1.1652
 hcm:
   value: 234
 ctm:

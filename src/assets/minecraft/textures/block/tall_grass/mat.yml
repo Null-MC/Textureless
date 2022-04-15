@@ -15,11 +15,12 @@ occlusion:
   step-distance: 0.1
   z-bias: 0.2
   z-scale: 6
+smooth:
+  scale: 0.7
 f0:
   value: 0.03
 sss:
   shift: 0.2
-ctm: {}
 parts:
 - name: tall_grass_top
   left: 0

@@ -1,0 +1,14 @@
+publish-item: true
+height:
+  scale: 0.4
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.1
+  radius-y: 0.1
+  method: sobel-low
+  strength: 2
+occlusion:
+  z-bias: 1
+f0:
+  value: 0.04

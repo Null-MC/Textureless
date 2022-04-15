@@ -1,8 +1,10 @@
-publish-inventory: true
+publish-item: true
 normal:
-  method: sobel-low
   noise: 12
+  method: sobel-low
 occlusion:
   z-scale: 3
+smooth:
+  value: 0.1084
 sss:
   value: 0.3

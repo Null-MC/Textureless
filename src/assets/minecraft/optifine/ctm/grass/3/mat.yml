@@ -19,8 +19,9 @@ occlusion:
   scale: 0.6
   step-distance: 0.15
   z-bias: 0.2
+smooth:
+  scale: 0.7
 f0:
   value: 0.03
 sss:
   shift: 0.2
-ctm: {}

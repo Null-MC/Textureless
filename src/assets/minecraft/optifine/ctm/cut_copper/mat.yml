@@ -1,10 +1,12 @@
 publish-item: true
 color:
-  value: '#BA7055'
+  value: '#D2B1A1'
 height:
   scale: 0.3
 occlusion:
   z-scale: 4
+smooth:
+  shift: 0.1548
 hcm:
   value: 234
 ctm:

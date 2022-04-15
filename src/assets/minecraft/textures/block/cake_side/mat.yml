@@ -1,0 +1,11 @@
+filters:
+- name: side
+  left: 0.0625
+  top: 0.5
+  width: 0.875
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-top: 0.4
+  normal-radius-bottom: 0.1

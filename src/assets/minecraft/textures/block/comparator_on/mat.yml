@@ -1,17 +1,16 @@
-alpha:
+blend-mode: cutout
+opacity:
   value: 255
 height:
   scale: 0.3
   edge-fade-x: 1
   edge-fade-y: 1
 normal:
+  method: sobel-high
   strength: 0.4
-  filter: sobel-high
 occlusion:
+  step-distance: 0.2
   z-bias: 0
   z-scale: 2
-  step-distance: 0.2
-smooth: {}
-f0: {}
 emissive:
   scale: 0.3

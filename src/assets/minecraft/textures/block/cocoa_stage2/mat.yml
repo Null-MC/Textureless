@@ -1,20 +1,16 @@
 wrap-x: false
 wrap-y: false
-color:
-  value-red: 164
-  value-green: 106
-  value-blue: 58
 height:
   scale: 0
 normal:
-  noise: 6
-smooth:
-  value: 0.1
+  strength: 1.6
+occlusion:
+  z-bias: 1
+  z-scale: 1
 f0:
-  value: 0.04
+  value: 0.03
 porosity:
-  value: 0.08
-ctm: {}
+  value: 0.1109
 filters:
 - name: end
   left: 0

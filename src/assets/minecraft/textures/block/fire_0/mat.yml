@@ -1,6 +1,7 @@
+texture-size: 32
 wrap-x: false
 wrap-y: false
-texture-size: 32
+model: cross
 opacity:
   input:
     sampler: bicubic
@@ -11,9 +12,10 @@ color:
     sampler: bicubic
   input-blue:
     sampler: bicubic
+occlusion:
+  value: 0
+smooth:
+  value: 0
 emissive:
   input:
     sampler: bicubic
-model: cross
-occlusion:
-  value: 0

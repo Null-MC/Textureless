@@ -1,0 +1,11 @@
+blend-mode: cutout
+filters:
+- name: top
+  left: 0.0625
+  top: 0.0625
+  width: 0.875
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.8
+  normal-radius-y: 0.8

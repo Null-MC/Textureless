@@ -5,7 +5,8 @@ height:
   edge-fade-y: 1
 normal:
   noise: 1.5
-  method: sobel3
+  method: sobel-high
+  strength: 3
 occlusion:
   z-bias: 1
   z-scale: 3

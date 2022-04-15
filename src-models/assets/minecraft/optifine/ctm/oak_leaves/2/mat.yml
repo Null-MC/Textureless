@@ -1,11 +1,7 @@
-publish-item: true
+publish-item: false
 model: leaves_template
 blend-mode: cutout
-tint-color: '#48B518'
-color:
-  scale-red: 0.7
-  scale-green: 0.7
-  scale-blue: 0.7
+tint-color: '#5EB637'
 height:
   texture: opacity.png
   scale: 0.08
@@ -15,10 +11,10 @@ normal:
   noise: 6
   method: sobel5
 occlusion:
-  step-distance: 0.1
-  z-bias: 0
+  step-distance: 0.2
+  z-bias: 1
   z-scale: 6
 smooth:
-  scale: 0.5
+  value: 0.1625
 f0:
-  value: 0.04
+  value: 0.017

@@ -1,12 +1,14 @@
 publish-item: true
 color:
-  value: '#B76131'
+  value: '#A4857A'
 height:
   scale: 0.3
 normal:
-  noise: 1
+  noise: 0.6
 occlusion:
   z-scale: 4
+smooth:
+  shift: 0.2890
 hcm:
   value: 234
 ctm:

@@ -4,8 +4,8 @@ height:
   scale: 0.4
 normal:
   noise: 2
-  method: sobel-high
-  strength: 4
+  method: sobel-low
+  strength: 1
 occlusion:
   step-distance: 0.1
   z-bias: 1

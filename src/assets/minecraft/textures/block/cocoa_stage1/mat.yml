@@ -1,0 +1,28 @@
+height:
+  scale: 0
+occlusion:
+  z-bias: 1
+  z-scale: 1
+smooth:
+  value: 0.2153
+f0:
+  value: 0.03
+porosity:
+  value: 0.08
+sss:
+  value: 0.1009
+filters:
+- name: end
+  left: 0
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: side
+  left: 0.5625
+  top: 0.25
+  width: 0.375
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90

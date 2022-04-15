@@ -15,6 +15,9 @@ occlusion:
   step-distance: 0.15
   z-bias: 1
   z-scale: 8
+f0:
+  value: 0.04
 porosity:
   value: 0
-ctm: {}
+emissive:
+  scale: 0.5

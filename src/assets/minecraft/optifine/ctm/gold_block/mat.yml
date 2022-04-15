@@ -33,5 +33,5 @@ filters:
   width: 0.9
   height: 0.9
   tile: true
-  normal-curve-x: -12
-  normal-curve-y: -12
+  normal-curve-x: -20
+  normal-curve-y: -20

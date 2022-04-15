@@ -1,12 +1,9 @@
 format: raw
 auto-material: false
-alpha: {}
-diffuse-red: {}
-diffuse-green: {}
-diffuse-blue: {}
-albedo-red: {}
-albedo-green: {}
-albedo-blue: {}
+opacity: {}
+color-red: {}
+color-green: {}
+color-blue: {}
 height: {}
 occlusion: {}
 normal-x: {}
@@ -16,9 +13,8 @@ specular: {}
 smooth: {}
 rough: {}
 metal: {}
-f0:
-  max-value: 0.9
-  range-max: 229
+f0: {}
+hcm: {}
 porosity: {}
 sss: {}
 emissive: {}

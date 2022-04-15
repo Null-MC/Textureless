@@ -6,9 +6,10 @@ height:
   scale: 0
 normal:
   noise: 5
-  method: sobel3
-  strength: 3
-ctm: {}
+  method: sobel-low
+  strength: 2
+smooth:
+  shift: -0.2477
 filters:
 - name: head-up
   left: 0.125
