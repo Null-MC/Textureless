@@ -1,14 +1,14 @@
 publish-item: true
-model-type: cross
-color:
-  value-red: 109
-  value-green: 2
-  value-blue: 0
+wrap-x: false
+model: cross
 height:
-  value: 0
-occlusion:
-  value: 0
+  scale: 0
+normal:
+  method: sobel3
+  strength: 1.5
 smooth:
-  value: 0.47
+  value: 0.3090
+f0:
+  value: 0.03
 sss:
   value: 0.6

@@ -7,8 +7,9 @@ height:
 normal:
   noise: 4
   method: sobel5
+smooth:
+  scale: 0.5
 sss:
   scale: 1.6
 emissive:
   scale: 0.2
-ctm: {}

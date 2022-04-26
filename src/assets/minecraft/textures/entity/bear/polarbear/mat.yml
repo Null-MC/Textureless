@@ -2,6 +2,8 @@ texture-width: 256
 texture-height: 128
 wrap-x: false
 wrap-y: false
+opacity:
+  value: 255
 height:
   scale: 0
 normal:
@@ -16,7 +18,6 @@ smooth:
   value: 0.08
 sss:
   value: 0.24
-ctm: {}
 filters:
 - name: head-up
   left: 0.0546875

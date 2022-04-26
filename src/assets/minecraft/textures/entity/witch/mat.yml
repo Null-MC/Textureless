@@ -8,14 +8,11 @@ height:
   scale: 0
 normal:
   method: sobel-low
-  strength: 5
+  strength: 4
 occlusion:
   z-scale: 3
-smooth:
-  scale: 0.6
 emissive:
   scale: 0.2
-ctm: {}
 filters:
 - name: Head-Up
   left: 0.125

@@ -6,7 +6,7 @@ height:
 occlusion:
   z-scale: 4
 smooth:
-  shift: 0.1548
+  scale: 0.7523
 hcm:
   value: 234
 ctm:

@@ -3,12 +3,12 @@ wrap-y: false
 color:
   value: '#555353'
 height:
-  value: 0
-  scale: 0.8
+  scale: 0
 normal:
   noise: 3
+  curve-x: 60
   method: sobel3
-  strength: 1.5
+  strength: 5
 occlusion:
   step-distance: 0.2
   z-bias: 0

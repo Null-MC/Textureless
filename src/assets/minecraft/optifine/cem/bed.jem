@@ -1,5 +1,4 @@
 {
-	"texture": "textures/entity/bed/blue.png",
 	"textureSize": [64, 64],
 	"models": [
 		{

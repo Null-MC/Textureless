@@ -7,4 +7,5 @@ height:
 normal:
   noise: 4
   method: sobel5
-ctm: {}
+smooth:
+  scale: 0.5
