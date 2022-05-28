@@ -1,6 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
+    "particle": "block/birch_wood_inventory",
     "all": "block/birch_wood"
   }
 }

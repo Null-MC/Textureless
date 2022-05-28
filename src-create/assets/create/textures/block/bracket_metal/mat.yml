@@ -1,0 +1,69 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+model: create:block/bracket/shaft/ground_metal
+blend-mode: cutout
+normal:
+  noise: 2
+smooth:
+  shift: -0.16
+hcm:
+  value: 230
+filters:
+- name: plate-side-1
+  left: 0
+  top: 0.625
+  width: 0.875
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.6
+- name: plate-side-2
+  left: 0
+  top: 0.8125
+  width: 0.875
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.6
+- name: top-center
+  left: 0.5
+  top: 0.375
+  width: 0.5
+  height: 0.25
+  normal-curve-y: 90
+  normal-radius-y: 0.5
+- name: top-end
+  left: 0.625
+  top: 0.0625
+  width: 0.25
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.5
+- name: front
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.625
+  normal-curve-y: 90
+  normal-radius-y: 0.18
+- name: front-end
+  left: 0.5
+  top: 0.1875
+  width: 0.125
+  height: 0.1875
+  normal-curve-left: 45
+  normal-curve-y: 90
+  normal-radius-y: 0.6
+- name: end-side
+  left: 0.625
+  top: 0.1875
+  width: 0.25
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.6

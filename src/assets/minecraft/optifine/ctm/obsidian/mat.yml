@@ -1,19 +1,20 @@
 publish-item: true
-color:
-  value: '#1B1825'
 height:
-  scale: 0.5
-  edge-fade-x: 2
-  edge-fade-y: 2
+  scale: 0.3
+  edge-fade-x: 4
+  edge-fade-y: 4
 normal:
-  noise: 6
+  noise: 2
 occlusion:
   step-distance: 0.1
   z-scale: 20
+smooth:
+  shift: -0.1032
 f0:
   value: 0.047
 sss:
-  shift: 0.4
+  shift: -0.0413
+  scale: 2
 ctm:
   method: of-repeat
   width: 8

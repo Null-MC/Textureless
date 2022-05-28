@@ -1,0 +1,34 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+model: create:block/belt_funnel/block_retracted
+blend-mode: cutout
+color:
+  value: '#D4BF8B'
+normal:
+  noise: 0.5
+  method: sobel-low
+  strength: 1.5
+smooth:
+  value: 0.5
+hcm:
+  value: 234
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 1
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.4
+- name: side
+  left: 0
+  top: 0.375
+  width: 1
+  height: 0.375
+  normal-curve-left: 45
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.4

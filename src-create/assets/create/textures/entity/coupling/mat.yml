@@ -1,0 +1,10 @@
+texture-size: 32
+model: create:entity\minecart_coupling\attachment
+color:
+  value: '#B2ABA9'
+normal:
+  noise: 1
+smooth:
+  value: 0.4
+hcm:
+  value: 230

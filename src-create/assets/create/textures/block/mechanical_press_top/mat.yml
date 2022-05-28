@@ -1,0 +1,14 @@
+publish-item: true
+model: create:block/mechanical_press/block
+normal:
+  noise: 2
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.15
+  radius-y: 0.15
+  method: sobel-high
+  strength: 2
+smooth:
+  value: 0.329
+porosity:
+  value: 0.251

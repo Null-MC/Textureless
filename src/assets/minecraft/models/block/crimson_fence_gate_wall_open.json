@@ -1,6 +1,7 @@
 {
   "parent": "block/template_fence_gate_wall_open",
   "textures": {
+    "particle": "block/stripped_crimson_hyphae_inventory",
     "texture": "block/stripped_crimson_hyphae"
   }
 }

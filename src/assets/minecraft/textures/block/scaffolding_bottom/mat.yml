@@ -6,7 +6,7 @@ height:
   value: 0
 normal:
   strength: 1.2
-  filter: sobel-high
+  method: sobel-high
 occlusion:
   quality: 0.1
   z-bias: 0

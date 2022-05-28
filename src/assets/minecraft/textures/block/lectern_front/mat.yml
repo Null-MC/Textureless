@@ -1,11 +1,7 @@
-alpha:
-  value: 255
-albedo: {}
-height: {}
 normal:
   strength: 0.4
   noise: 2
-  filter: sobel-high
+  method: sobel-high
 occlusion:
   z-bias: 0
   z-scale: 3

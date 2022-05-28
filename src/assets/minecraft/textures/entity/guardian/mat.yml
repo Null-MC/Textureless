@@ -9,12 +9,11 @@ occlusion:
   z-bias: 0.02
   z-scale: 4
 smooth:
-  scale: 0.8
+  scale: 0.6658
 f0:
   value: 0.053
 emissive:
   scale: 3
-ctm: {}
 filters:
 - name: body-top
   left: 0.25

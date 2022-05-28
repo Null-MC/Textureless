@@ -1,3 +1,4 @@
+publish-item: true
 model: nether_brick_fence_post
 color:
   value: '#786478'

@@ -2,7 +2,7 @@ texture-width: 128
 texture-height: 64
 wrap-x: false
 wrap-y: false
-model-file: entity/blaze
+model: entity/blaze
 height:
   value: 0
 occlusion:

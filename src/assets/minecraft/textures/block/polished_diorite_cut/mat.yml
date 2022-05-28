@@ -1,0 +1,59 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+height:
+  shift: -0.08
+  scale: 0.2
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  noise: 2
+  method: sobel-high
+  strength: 0.3
+occlusion:
+  step-distance: 0.4
+  z-bias: 2
+  z-scale: 4
+smooth:
+  shift: 0.1
+f0:
+  value: 0.05
+porosity:
+  value: 0.1
+filters:
+- name: top-left
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: top-right
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: bottom-left
+  left: 0
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: bottom-right
+  left: 0.5
+  top: 0.5
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3

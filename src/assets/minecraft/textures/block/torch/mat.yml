@@ -1,19 +1,21 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
+model: block/torch
 height:
-  value: 0
+  scale: 0
 normal:
   noise: 1
-  method: sobel-low
-  strength: 0.4
+  method: sobel-high
+  strength: 0.1
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
+  step-distance: 0.3
+  z-bias: 0.1
+  z-scale: 2
 f0:
   value: 0.04
 filters:
-- name: Torch
+- name: wood
   left: 0.4375
   top: 0.5
   width: 0.125

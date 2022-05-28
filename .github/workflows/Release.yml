@@ -42,7 +42,8 @@ jobs:
       - name: Compile LabPbr-32x
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src/LabPbr-32x.pack.yml
+          project: src/project.yml
+          profile: Textureless-LabPbr-32x
           zip: ${{ env.release_filename }}
       - name: Release LabPbr-32x
         uses: actions/upload-release-asset@v1
@@ -66,29 +67,6 @@ jobs:
           game_versions: "9008,8857,8830,8516,8203,8152,8134,8056,8010,7892,7890,7675,7664,7469,7413,7361,7344,7318,7132,7107,7081"
           token: ${{ secrets.CF_API_TOKEN }}
 
-  publish_labPbr_64x:
-    name: Publish LabPbr-64x
-    runs-on: ubuntu-latest
-    needs: [prepare_release]
-    env:
-      release_filename: Textureless-LabPbr-64x-v${{ github.run_number }}.zip
-    steps:
-      - uses: actions/checkout@v2
-      - name: Compile LabPbr-64x
-        uses: null511/PixelGraph.GitHubAction@main
-        with:
-          profile: src/LabPbr-64x.pack.yml
-          zip: ${{ env.release_filename }}
-      - name: Release LabPbr-64x
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./${{ env.release_filename }}
-          asset_name: ${{ env.release_filename }}
-          asset_content_type: application/zip
-
   publish_labPbr_16x:
     name: Publish LabPbr-16x
     runs-on: ubuntu-latest
@@ -100,32 +78,10 @@ jobs:
       - name: Compile LabPbr-16x
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src/LabPbr-16x.pack.yml
+          project: src/project.yml
+          profile: Textureless-LabPbr-16x
           zip: ${{ env.release_filename }}
       - name: Release LabPbr-16x
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./${{ env.release_filename }}
-          asset_name: ${{ env.release_filename }}
-          asset_content_type: application/zip
-
-  publish_labBakedAO_32x:
-    name: Publish LabBakedAO-32x
-    runs-on: ubuntu-latest
-    needs: [prepare_release]
-    env:
-      release_filename: Textureless-LabBakedAO-32x-v${{ github.run_number }}.zip
-    steps:
-      - uses: actions/checkout@v2
-      - name: Compile LabBakedAO-32x
-        uses: null511/PixelGraph.GitHubAction@main
-        with:
-          profile: src/LabBakedAO-32x.pack.yml
-          zip: ${{ env.release_filename }}
-      - name: Release LabBakedAO-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -146,7 +102,8 @@ jobs:
       - name: Compile OldPbr-32x
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src/OldPbr-32x.pack.yml
+          project: src/project.yml
+          profile: Textureless-OldPbr-32x
           zip: ${{ env.release_filename }}
       - name: Release OldPbr-32x
         uses: actions/upload-release-asset@v1
@@ -169,7 +126,8 @@ jobs:
       - name: Compile RTX-32x
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src/BRtx-32x.pack.yml
+          project: src/project.yml
+          profile: Textureless-RTX-32x
           zip: ${{ env.release_filename }}
       - name: Release RTX-32x
         uses: actions/upload-release-asset@v1
@@ -192,7 +150,8 @@ jobs:
       - name: Compile Models-LabPbr-32x
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src-models/LabPbr-32x.pack.yml
+          project: src-models/project.yml
+          profile: Textureless-Models-LabPbr-32x
           zip: ${{ env.release_filename }}
       - name: Release Models-LabPbr-32x
         uses: actions/upload-release-asset@v1
@@ -216,29 +175,6 @@ jobs:
           game_versions: "9008,8857,8830,8516,8203,8152,8134,8056,8010,7892,7890,7675,7664,7469,7413,7361,7344,7318,7132,7107,7081"
           token: ${{ secrets.CF_API_TOKEN }}
 
-  publish_models_labPbr_64x:
-    name: Publish Models-LabPbr-64x
-    runs-on: ubuntu-latest
-    needs: [prepare_release]
-    env:
-      release_filename: Textureless-Models-LabPbr-64x-v${{ github.run_number }}.zip
-    steps:
-      - uses: actions/checkout@v2
-      - name: Compile Models-LabPbr-64x
-        uses: null511/PixelGraph.GitHubAction@main
-        with:
-          profile: src-models/LabPbr-64x.pack.yml
-          zip: ${{ env.release_filename }}
-      - name: Release Models LabPbr 64x
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./${{ env.release_filename }}
-          asset_name: ${{ env.release_filename }}
-          asset_content_type: application/zip
-
   publish_models_labPbr_16x:
     name: Publish Models-LabPbr-16x
     runs-on: ubuntu-latest
@@ -250,32 +186,10 @@ jobs:
       - name: Compile Models-LabPbr-16x
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src-models/LabPbr-16x.pack.yml
+          project: src-models/project.yml
+          profile: Textureless-Models-LabPbr-16x
           zip: ${{ env.release_filename }}
       - name: Release Models-LabPbr-16x
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.prepare_release.outputs.upload_url }}
-          asset_path: ./${{ env.release_filename }}
-          asset_name: ${{ env.release_filename }}
-          asset_content_type: application/zip
-
-  publish_models_labBakedAO_32x:
-    name: Publish Models-LabBakedAO-32x
-    runs-on: ubuntu-latest
-    needs: [prepare_release]
-    env:
-      release_filename: Textureless-Models-LabBakedAO-32x-v${{ github.run_number }}.zip
-    steps:
-      - uses: actions/checkout@v2
-      - name: Compile Models-LabBakedAO-32x
-        uses: null511/PixelGraph.GitHubAction@main
-        with:
-          profile: src-models/LabBakedAO-32x.pack.yml
-          zip: ${{ env.release_filename }}
-      - name: Release Models-LabBakedAO-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -296,9 +210,70 @@ jobs:
       - name: Compile Models-OldPbr-32x
         uses: null511/PixelGraph.GitHubAction@main
         with:
-          profile: src-models/OldPbr-32x.pack.yml
+          project: src-models/project.yml
+          profile: Textureless-Models-OldPbr-32x
           zip: ${{ env.release_filename }}
       - name: Release Models-OldPbr-32x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.prepare_release.outputs.upload_url }}
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
+          asset_content_type: application/zip
+
+  publish_create_labPbr_32x:
+    name: Publish Create-LabPbr-32x
+    runs-on: ubuntu-latest
+    needs: [prepare_release]
+    env:
+      release_filename: Textureless-Create-LabPbr-32x-v${{ github.run_number }}.zip
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compile Create-LabPbr-32x
+        uses: null511/PixelGraph.GitHubAction@main
+        with:
+          project: src-create/project.yml
+          profile: Textureless-Create-LabPbr-32x
+          zip: ${{ env.release_filename }}
+      - name: Release Create-LabPbr-32x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.prepare_release.outputs.upload_url }}
+          asset_path: ./${{ env.release_filename }}
+          asset_name: ${{ env.release_filename }}
+          asset_content_type: application/zip
+      # - name: Publish LabPbr-Create-32x to CurseForge
+      #   uses: itsmeow/curseforge-upload@v3
+      #   if: github.event.inputs.publish_curseforge == 'true'
+      #   with:
+      #     display_name: LabPBR-Create-32x v${{ github.run_number }}
+      #     file_path: ${{ env.release_filename }}
+      #     changelog: "###Release ${{ github.run_number }}\nSee base Textureless release for changelog notes."
+      #     release_type: release
+      #     project_id: ?
+      #     game_endpoint: minecraft
+      #     game_versions: "9008,8857,8830,8516,8203,8152,8134,8056,8010,7892,7890,7675,7664,7469,7413,7361,7344,7318,7132,7107,7081"
+      #     token: ${{ secrets.CF_API_TOKEN }}
+
+  publish_create_oldPbr_32x:
+    name: Publish Create-OldPbr-32x
+    runs-on: ubuntu-latest
+    needs: [prepare_release]
+    env:
+      release_filename: Textureless-Create-OldPbr-32x-v${{ github.run_number }}.zip
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compile Create-OldPbr-32x
+        uses: null511/PixelGraph.GitHubAction@main
+        with:
+          project: src-create/project.yml
+          profile: Textureless-Create-OldPbr-32x
+          zip: ${{ env.release_filename }}
+      - name: Release Create-LabPbr-32x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -315,16 +290,13 @@ jobs:
     needs:
       - prepare_release
       - publish_labPbr_32x
-      - publish_labPbr_64x
       - publish_labPbr_16x
-      - publish_labBakedAO_32x
       - publish_oldPbr_32x
       - publish_rtx_32x
       - publish_models_labPbr_32x
-      - publish_models_labPbr_64x
       - publish_models_labPbr_16x
-      - publish_models_labBakedAO_32x
       - publish_models_oldPbr_32x
+      - publish_create_labPbr_32x
     steps:
       - name: Publish Release
         uses: eregon/publish-release@v1.0.3

@@ -1,6 +1,7 @@
 {
   "parent": "block/template_orientable_trapdoor_open",
   "textures": {
+    "particle": "block/stripped_acacia_wood_inventory",
     "texture": "block/acacia_trapdoor",
     "side": "block/acacia_trapdoor_side"
   }

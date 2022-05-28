@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_bottom_top",
     "textures": {
-        "particle": "block/netherrack",
+        "particle": "block/netherrack_inventory",
         "bottom": "block/netherrack",
         "top": "block/warped_nylium",
         "side": "block/netherrack",

@@ -1,0 +1,16 @@
+texture-size: 16
+wrap-x: false
+model: create:block/belt/middle
+normal:
+  noise: 2
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.3
+  radius-y: 0.1
+  method: sobel3
+occlusion:
+  z-scale: 2
+smooth:
+  scale: 1.4
+f0:
+  value: 0.043

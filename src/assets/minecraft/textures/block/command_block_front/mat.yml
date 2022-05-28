@@ -12,3 +12,5 @@ occlusion:
   z-bias: 1
 f0:
   value: 0.04
+emissive:
+  scale: 2

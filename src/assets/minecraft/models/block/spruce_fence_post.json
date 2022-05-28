@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
+    "particle": "block/stripped_spruce_wood_inventory",
     "side": "block/spruce_fence_post",
     "end": "block/spruce_log_top"
   }

@@ -1,6 +1,5 @@
 wrap-x: false
 wrap-y: false
-model-type: cross
 height:
   value: 0
 occlusion:

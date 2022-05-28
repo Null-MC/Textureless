@@ -1,0 +1,9 @@
+{
+	"parent":"create:block/encased_chain_drive/item",
+	"textures":{
+		"side":"create:block/encased_chain_drive_inventory",
+		"1":"create:block/gearbox_inventory",
+		"1_0":"create:block/axis_inventory",
+		"1_1":"create:block/axis_top_inventory"
+	}
+}

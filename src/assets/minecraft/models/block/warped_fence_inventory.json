@@ -1,6 +1,9 @@
 {
   "parent": "block/fence_inventory",
   "textures": {
-    "texture": "block/stripped_warped_hyphae_inventory"
+    "particle": "block/stripped_warped_hyphae_inventory",
+    "post": "block/warped_fence_post_inventory",
+    "side": "block/warped_fence_side_inventory",
+    "log_end": "block/stripped_warped_stem_top_inventory"
   }
 }

@@ -1,0 +1,31 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+model: create:block/mechanical_press/head
+color:
+  value: '#C9BEBE'
+normal:
+  noise: 1
+smooth:
+  value: 0.5
+hcm:
+  value: 230
+filters:
+- name: side
+  left: 0.0625
+  top: 0
+  width: 0.625
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.6
+- name: down
+  left: 0.0625
+  top: 0.3125
+  width: 0.625
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3

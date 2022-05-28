@@ -1,0 +1,6 @@
+{
+	"parent":"create:block/chute/block",
+	"textures":{
+		"13":"create:block/chute_inventory"
+	}
+}

@@ -2,11 +2,10 @@ albedo:
   value-red: 143
   value-green: 143
   value-blue: 143
-height: {}
 normal:
   strength: 1
   noise: 1
-  filter: sobel3
+  method: sobel3
 occlusion:
   z-bias: 0
   z-scale: 2

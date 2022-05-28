@@ -1,0 +1,7 @@
+{
+	"parent":"create:block/piston_extension_pole",
+	"textures":{
+		"0":"block/piston_side_inventory",
+		"1":"create:block/pole_end"
+	}
+}

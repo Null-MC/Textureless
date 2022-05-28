@@ -1,0 +1,24 @@
+name: Textureless Create Addon
+input:
+  format: raw
+profiles:
+- edition: Java
+  format: 8
+  name: Textureless-Create-LabPbr-32x
+  description: LabPbr 32x
+  encoding:
+    format: lab-1.3
+  block-texture-size: 32
+  item-texture-size: 32
+  occlusion-quality: 0.2
+  occlusion-power: 2
+- edition: Java
+  format: 8
+  name: Textureless-Create-OldPbr-32x
+  description: OldPbr 32x
+  encoding:
+    format: old-pbr
+  block-texture-size: 32
+  item-texture-size: 32
+  occlusion-quality: 0.2
+  occlusion-power: 2

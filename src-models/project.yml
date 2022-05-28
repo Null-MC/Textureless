@@ -1,0 +1,128 @@
+name: Textureless Models
+description: Better models for Textureless
+author: Null [Joshua Miller]
+input:
+  format: raw
+  auto-material: false
+  f0:
+    max-value: 0.9
+    range-max: 229
+profiles:
+- edition: java
+  format: 8
+  name: Textureless-Models-LabBakedAO-32x
+  description: Better models for Textureless
+  tags: 32x LabPBR BakedAO
+  encoding:
+    format: lab-1.3
+    height:
+      sampler: bilinear
+    occlusion:
+      max-value: 0
+  block-texture-size: 32
+  texture-scale: 2
+  diffuse-occlusion-strength: 0.5
+  auto-generate-occlusion: false
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-Models-LabPbr-128x
+  description: Better models for Textureless
+  tags: 128x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: bicubic
+    height:
+      sampler: bilinear
+  block-texture-size: 128
+  texture-scale: 8
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-Models-LabPbr-16x
+  description: Better models for Textureless
+  tags: 16x LabPBR
+  encoding:
+    format: lab-1.3
+    height:
+      sampler: average
+    occlusion:
+      sampler: average
+    normal-x:
+      sampler: average
+    normal-y:
+      sampler: average
+    normal-z:
+      sampler: average
+  block-texture-size: 16
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 1
+- edition: java
+  format: 8
+  name: Textureless-Models-LabPbr-32x
+  description: Better models for Textureless
+  tags: 32x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: nearest
+    height:
+      sampler: bilinear
+  block-texture-size: 32
+  texture-scale: 2
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-Models-LabPbr-64x
+  description: Better models for Textureless
+  tags: 64x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: bicubic
+    metal:
+      sampler: nearest
+    f0:
+      sampler: nearest
+  block-texture-size: 64
+  texture-scale: 4
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-Models-OldPbr-32x
+  description: Better models for Textureless
+  tags: 32x OldPBR
+  encoding:
+    format: old-pbr
+    sampler: nearest
+    height:
+      sampler: bilinear
+  block-texture-size: 32
+  texture-scale: 2
+  auto-generate-occlusion: false
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-Models-OldPbr-64x
+  description: Better models for Textureless
+  tags: 64x OldPBR
+  encoding:
+    format: old-pbr
+    sampler: nearest
+    height:
+      sampler: bilinear
+  block-texture-size: 64
+  texture-scale: 4
+  auto-generate-occlusion: false
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2

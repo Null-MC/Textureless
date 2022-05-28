@@ -4,15 +4,14 @@ wrap-y: false
 height:
   scale: 0
 normal:
-  noise: 6
+  noise: 2
   method: sobel5
-  strength: 5
+  strength: 3.7628
 occlusion:
   step-distance: 0.15
   z-bias: 0.8
   z-scale: 4
+smooth:
+  value: 0.2271
 f0:
   value: 0.03
-sss:
-  scale: 2
-ctm: {}

@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
+    "particle": "block/stripped_acacia_wood_inventory",
     "side": "block/acacia_fence_post",
     "end": "block/acacia_log_top"
   }

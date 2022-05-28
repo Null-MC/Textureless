@@ -1,0 +1,16 @@
+publish-item: true
+texture-size: 64
+model: create:block/water_wheel
+blend-mode: cutout
+height:
+  scale: 0.2
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 0.8
+smooth:
+  value: 0.2
+f0:
+  value: 0.05
+porosity:
+  value: 0.8

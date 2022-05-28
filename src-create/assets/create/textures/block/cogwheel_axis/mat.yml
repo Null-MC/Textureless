@@ -1,0 +1,14 @@
+publish-item: true
+texture-size: 32
+model: create:block/cogwheel_shaft
+color:
+  value: '#888080'
+smooth:
+  value: 0.72
+hcm:
+  value: 230
+filters:
+- name: default
+  left: 0.375
+  width: 0.25
+  normal-curve-x: 90

@@ -1,9 +1,7 @@
 {
-  "parent": "block/outer_stairs",
+  "parent": "block/polished_outer_stairs",
   "textures": {
-    "bottom": "block/polished_granite",
-    "top": "block/polished_granite_slab",
-    "side": "block/polished_granite_slab",
-    "particle": "block/polished_granite_inventory"
+    "cut": "block/polished_granite_cut",
+    "particle": "block/polished_granite_cut_inventory"
   }
 }

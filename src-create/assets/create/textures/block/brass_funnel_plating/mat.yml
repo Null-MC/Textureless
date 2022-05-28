@@ -1,0 +1,54 @@
+publish-item: true
+texture-size: 64
+model: create:block/brass_funnel_vertical_push
+blend-mode: cutout
+normal:
+  noise: 0.5
+  method: sobel-high
+  strength: 2.4744
+filters:
+- name: front
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.65625
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.15
+  normal-radius-y: 0.15
+- name: back-outer
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.59375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.15
+  normal-radius-y: 0.15
+- name: back-inner
+  left: 0.5625
+  top: 0.0625
+  width: 0.375
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.1
+  normal-radius-y: 0.1
+- name: bottom
+  left: 0.5
+  top: 0.8125
+  width: 0.5
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.4
+- name: top
+  left: 0.5
+  top: 0.6875
+  width: 0.5
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.4

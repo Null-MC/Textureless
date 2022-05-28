@@ -1,0 +1,22 @@
+publish-item: true
+wrap-y: false
+model: create:block/brass_funnel_vertical_push
+blend-mode: cutout
+filters:
+- name: slope
+  left: 0
+  top: 0.125
+  width: 1
+  height: 0.375
+  normal-noise: 2
+  normal-curve-top: 35
+  normal-radius-y: 0.4
+- name: bottom
+  left: 0.125
+  top: 0.75
+  width: 0.75
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.2
+  normal-radius-y: 0.6

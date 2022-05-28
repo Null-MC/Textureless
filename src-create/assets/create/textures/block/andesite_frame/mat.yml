@@ -1,0 +1,20 @@
+publish-item: true
+blend-mode: cutout
+color:
+  value: '#636663'
+normal:
+  noise: 2
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.15
+  radius-y: 0.15
+  method: sobel-low
+  strength: 2
+occlusion:
+  z-scale: 5
+smooth:
+  value: 0.33
+f0:
+  value: 0.04
+porosity:
+  value: 0.25

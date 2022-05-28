@@ -1,0 +1,29 @@
+wrap-x: false
+wrap-y: false
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 0.4
+filters:
+- name: wood
+  left: 0.4375
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-bottom: 0.2
+- name: ember-side
+  left: 0.4375
+  top: 0.375
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-top: 45
+- name: ember-top
+  left: 0.4375
+  top: 0.25
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90

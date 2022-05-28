@@ -4,7 +4,7 @@ height:
   scale: 0.4
 normal:
   noise: 3
-  method: sobel-high
+  method: sobel-low
   strength: 3
 occlusion:
   step-distance: 0.15

@@ -1,9 +1,9 @@
 publish-item: true
 blend-mode: transparent
 opacity:
-  value: 210
+  value: 0.66
 color:
-  value: '#D78107'
+  value: '#9E6013'
 height:
   shift: -0.1
   scale: 0.5
@@ -16,8 +16,8 @@ occlusion:
   z-bias: 0
   z-scale: 4
 smooth:
-  value: 0.78
+  value: 0.56
 f0:
   value: 0.028
 sss:
-  value: 0.6
+  value: 0.7

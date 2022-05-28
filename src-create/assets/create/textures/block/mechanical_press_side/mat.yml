@@ -1,0 +1,16 @@
+publish-item: true
+model: create:block/mechanical_press/block
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 2
+filters:
+- name: base
+  left: 0
+  top: 0
+  width: 1
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.18

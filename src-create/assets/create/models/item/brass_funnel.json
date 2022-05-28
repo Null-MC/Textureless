@@ -1,0 +1,10 @@
+{
+	"parent":"create:block/funnel/item",
+	"textures":{
+		"7":"create:block/brass_funnel_plating_inventory",
+		"2":"create:block/brass_funnel_neutral_inventory",
+		"6":"create:block/brass_funnel_inventory",
+		"5":"create:block/brass_funnel_tall_inventory",
+		"3":"create:block/brass_funnel_back_inventory"
+	}
+}

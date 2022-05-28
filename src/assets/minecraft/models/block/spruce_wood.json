@@ -1,6 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
+    "particle": "spruce_wood_inventory",
     "end": "block/spruce_wood",
     "side": "block/spruce_wood"
   }

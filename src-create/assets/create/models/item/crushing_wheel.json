@@ -1,0 +1,10 @@
+{
+	"parent":"create:block/crushing_wheel",
+	"textures":{
+		"6":"create:block/crushing_wheel_body_inventory",
+		"spruce_log_top":"create:block/smooth_dark_log_top_inventory",
+		"axis_top":"create:block/axis_top_inventory",
+		"axis":"create:block/axis_inventory",
+		"crushing_wheel":"create:block/crushing_wheel_inventory"
+	}
+}

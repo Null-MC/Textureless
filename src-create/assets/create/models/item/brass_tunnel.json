@@ -1,0 +1,7 @@
+{
+	"parent":"create:block/belt_tunnel/item",
+	"textures":{
+		"1":"create:block/brass_tunnel_top_inventory",
+		"2":"create:block/brass_tunnel_inventory"
+	}
+}

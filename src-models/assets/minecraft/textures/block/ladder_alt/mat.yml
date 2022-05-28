@@ -1,9 +1,106 @@
 publish-item: true
-model-type: file
-model-file: ladder
+model: block\ladder
+height:
+  shift: -0.02
+  scale: 0.5
+  edge-fade-x: 4
+  edge-fade-y: 4
+normal:
+  noise: 4
+  method: sobel-low
+  strength: 6
+occlusion:
+  step-distance: 0.1
+  z-bias: 1
+  z-scale: 2
 smooth:
-  scale: 0.7
+  scale: 0.5
 f0:
-  value: 0.03
+  value: 0.044
 porosity:
-  value: 0.6
+  value: 0.8
+filters:
+- name: vertical-east
+  left: 0
+  top: 0
+  width: 0.0625
+  height: 1
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.1
+- name: vertical-north
+  left: 0.0625
+  top: 0
+  width: 0.125
+  height: 1
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.1
+- name: vertical-west
+  left: 0.1875
+  top: 0
+  width: 0.0625
+  height: 1
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.1
+- name: vertical-south
+  left: 0.25
+  top: 0
+  width: 0.125
+  height: 1
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.1
+- name: horizontal-down
+  left: 0.5
+  top: 0
+  width: 0.0625
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.1
+- name: horizontal-north
+  left: 0.5625
+  top: 0
+  width: 0.125
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.1
+- name: horizontal-up
+  left: 0.6875
+  top: 0
+  width: 0.0625
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-y: 0.1
+- name: horizontal-south
+  left: 0.75
+  top: 0
+  width: 0.125
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+  normal-radius-y: 0.1
+- name: end-1
+  left: 0.5
+  top: 0.90625
+  width: 0.125
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6
+- name: end-2
+  left: 0.75
+  top: 0.90625
+  width: 0.125
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.6

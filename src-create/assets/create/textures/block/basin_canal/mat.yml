@@ -1,0 +1,27 @@
+publish-item: true
+model: create:block/basin/block_directional
+normal:
+  noise: 0.5
+smooth:
+  value: 0.5
+hcm:
+  value: 230
+filters:
+- name: side
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.5
+  normal-radius-y: 0.2
+- name: end
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5

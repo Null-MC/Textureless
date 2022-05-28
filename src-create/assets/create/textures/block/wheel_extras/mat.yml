@@ -1,0 +1,15 @@
+publish-item: true
+texture-size: 64
+wrap-x: false
+wrap-y: false
+model: create:block/water_wheel
+blend-mode: cutout
+normal:
+  noise: 3
+smooth:
+  value: 0.2
+f0:
+  value: 0.05
+porosity:
+  value: 0.8
+filters: []

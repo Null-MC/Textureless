@@ -1,7 +1,7 @@
 height:
   scale: 0.5
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0

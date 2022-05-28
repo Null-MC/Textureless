@@ -7,7 +7,6 @@ occlusion:
   step-distance: 0.15
   z-bias: 0
   z-scale: 3
-ctm: {}
 filters:
 - name: side
   left: 0
@@ -33,3 +32,21 @@ filters:
   width: 0.25
   height: 0.3125
   normal-curve-x: 90
+- name: top2
+  left: 0.0625
+  top: 0
+  width: 0.25
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.4
+  normal-radius-y: 0.8
+- name: top3
+  left: 0.0625
+  top: 0.625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3

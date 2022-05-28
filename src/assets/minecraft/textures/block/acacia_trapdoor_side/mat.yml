@@ -1,12 +1,10 @@
 publish-item: true
-model-type: file
-model-file: acacia_trapdoor_top
+model: acacia_trapdoor_top
+blend-mode: cutout
 opacity:
   value: 255
 color:
-  value-red: 173
-  value-green: 93
-  value-blue: 50
+  value: '#AD5D32'
 occlusion:
   value: 0
 smooth:

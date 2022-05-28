@@ -1,0 +1,6 @@
+{
+	"parent":"create:block/brass_casing",
+	"textures":{
+		"all":"create:block/brass_casing_inventory"
+	}
+}

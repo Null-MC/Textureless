@@ -1,12 +1,15 @@
 wrap-x: false
 wrap-y: false
+blend-mode: opaque
 color:
-  value-red: 60
-  value-green: 60
-  value-blue: 60
+  value: '#161616'
 height:
-  scale: 0.16
+  scale: 0.3
 normal:
-  noise: 16
-  method: sobel-high
-  strength: 2
+  noise: 12
+  method: sobel-low
+  strength: 0.1
+smooth:
+  value: 0.2
+f0:
+  value: 0.04

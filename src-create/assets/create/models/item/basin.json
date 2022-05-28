@@ -1,0 +1,7 @@
+{
+	"parent":"create:block/basin/block",
+	"textures":{
+		"1":"create:block/basin_side_inventory",
+		"12":"create:block/basin_inventory"
+	}
+}

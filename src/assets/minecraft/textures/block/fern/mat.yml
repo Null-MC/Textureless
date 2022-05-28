@@ -1,7 +1,6 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
-model-type: cross
 color:
   value-red: 148
   value-green: 148

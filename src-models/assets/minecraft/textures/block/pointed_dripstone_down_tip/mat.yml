@@ -1,7 +1,6 @@
-model-type: file
-model-file: assets\minecraft\models\block\pointed_dripstone_down_tip.json
+model: block\pointed_dripstone_down_tip
 height:
-  value: 0
+  scale: 0
 normal:
   noise: 6
   strength: 2

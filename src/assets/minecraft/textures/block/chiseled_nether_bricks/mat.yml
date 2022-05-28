@@ -1,16 +1,13 @@
-alpha:
-  value: 255
 height:
   scale: 0.3
 normal:
   strength: 0.5
   noise: 2
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   z-bias: 0
   z-scale: 6
   step-distance: 0.2
-smooth: {}
 f0:
   value: 0.05
 porosity:

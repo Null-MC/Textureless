@@ -18,9 +18,6 @@ f0:
   value: 0.03
 porosity:
   value: 0.71
-emissive:
-  scale: 0.5
-ctm: {}
 filters:
 - name: head-top
   left: 0.125

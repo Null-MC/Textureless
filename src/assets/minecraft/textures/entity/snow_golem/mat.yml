@@ -13,6 +13,8 @@ occlusion:
   z-scale: 4
 smooth:
   shift: -0.3613
+sss:
+  scale: 0.6
 filters:
 - name: head-up
   left: 0.125

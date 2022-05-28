@@ -1,7 +1,5 @@
 publish-item: true
 wrap-y: false
-opacity:
-  value: 255
 height:
   scale: 0.5
 normal:

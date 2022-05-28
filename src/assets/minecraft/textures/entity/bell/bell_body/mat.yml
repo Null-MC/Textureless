@@ -2,7 +2,7 @@ texture-size: 64
 wrap-x: false
 wrap-y: false
 color:
-  value: '#856641'
+  value: '#B7A186'
 height:
   scale: 3
 normal:

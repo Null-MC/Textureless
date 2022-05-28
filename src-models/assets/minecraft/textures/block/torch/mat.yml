@@ -1,0 +1,38 @@
+publish-item: false
+wrap-x: false
+wrap-y: false
+height:
+  scale: 0.1
+normal:
+  noise: 1
+  method: sobel-high
+  strength: 0.1
+occlusion:
+  step-distance: 0.3
+  z-bias: 0.1
+  z-scale: 2
+f0:
+  value: 0.04
+filters:
+- name: wood
+  left: 0.4375
+  top: 0.5
+  width: 0.125
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-bottom: 0.2
+- name: ember-side
+  left: 0.4375
+  top: 0.375
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-top: 45
+- name: ember-top
+  left: 0.4375
+  top: 0.25
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90

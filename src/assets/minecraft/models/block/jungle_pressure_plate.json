@@ -1,6 +1,7 @@
 {
   "parent": "block/pressure_plate_up",
   "textures": {
+    "particle": "block/stripped_jungle_wood_inventory",
     "texture": "block/stripped_jungle_wood"
   }
 }

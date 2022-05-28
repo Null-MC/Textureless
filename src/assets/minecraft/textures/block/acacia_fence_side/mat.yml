@@ -1,3 +1,4 @@
+publish-item: true
 model: acacia_fence_side_north
 height:
   shift: -0.02
@@ -18,7 +19,6 @@ f0:
   value: 0.044
 porosity:
   value: 0.8
-ctm: {}
 filters:
 - name: up
   width: 0.125

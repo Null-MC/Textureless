@@ -1,0 +1,52 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+model: create:block/valve_handle
+normal:
+  noise: 0.5
+smooth:
+  value: 0.6536
+filters:
+- name: curve-vertical
+  left: 0.3125
+  top: 0
+  width: 0.375
+  height: 0.125
+  normal-curve-y: 90
+- name: curve-outside
+  left: 0.3125
+  top: 0.125
+  width: 0.375
+  height: 0.1875
+  normal-curve-y: 90
+- name: curve-inside
+  left: 0.3125
+  top: 0.3125
+  width: 0.375
+  height: 0.1875
+  normal-curve-y: 90
+- name: top
+  left: 0
+  top: 0
+  width: 0.3125
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: side
+  left: 0
+  top: 0.3125
+  width: 0.3125
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: support
+  left: 0.3125
+  top: 0.5
+  width: 0.1875
+  height: 0.125
+  normal-curve-y: 90
+  normal-radius-y: 0.5

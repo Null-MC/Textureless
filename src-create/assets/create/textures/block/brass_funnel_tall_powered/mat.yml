@@ -1,0 +1,17 @@
+publish-item: true
+model: create:block/brass_belt_funnel_extended_powered
+normal:
+  method: sobel-low
+  strength: 2
+emissive:
+  scale: 0.6
+filters:
+- name: side
+  left: 0
+  top: 0
+  width: 1
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.15
+  normal-radius-y: 0.6

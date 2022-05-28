@@ -1,0 +1,13 @@
+publish-item: true
+texture-size: 64
+wrap-x: false
+wrap-y: false
+model: create:block/crushing_wheel
+blend-mode: cutout
+height:
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  noise: 3
+  method: sobel-low
+  strength: 2

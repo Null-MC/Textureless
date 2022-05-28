@@ -10,7 +10,7 @@ height:
   edge-fade-y: 0.2
 normal:
   strength: 0.5
-  filter: sobel-high
+  method: sobel-high
 occlusion:
   z-bias: 1
   z-scale: 2

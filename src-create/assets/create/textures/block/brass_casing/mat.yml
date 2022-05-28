@@ -1,0 +1,7 @@
+publish-item: true
+normal:
+  noise: 1
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.15
+  radius-y: 0.15

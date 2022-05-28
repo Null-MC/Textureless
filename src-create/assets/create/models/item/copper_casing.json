@@ -1,0 +1,6 @@
+{
+	"parent":"create:block/copper_casing",
+	"textures":{
+		"all":"create:block/copper_casing_inventory"
+	}
+}

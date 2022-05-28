@@ -1,0 +1,27 @@
+wrap-x: true
+wrap-y: false
+model: create:block/fluid_pipe/window
+blend-mode: transparent
+normal:
+  noise: 0.5
+occlusion:
+  z-bias: 0.2
+  z-scale: 2
+filters:
+- name: left
+  left: 0
+  top: 0
+  width: 1
+  height: 0.25
+- name: right
+  left: 0
+  top: 0.25
+  width: 1
+  height: 0.25
+- name: full
+  left: 0
+  top: 0.5
+  width: 1
+  height: 0.5
+  normal-curve-y: 90
+  normal-radius-y: 0.7

@@ -1,6 +1,6 @@
 wrap-x: false
 wrap-y: false
-color-tint: '#D00000'
+tint-color: '#D00000'
 color:
   value-red: 235
   value-green: 235

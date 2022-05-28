@@ -1,6 +1,7 @@
 {
   "parent": "block/template_orientable_trapdoor_bottom",
   "textures": {
+    "particle": "block/stripped_crimson_hyphae_inventory",
     "texture": "block/crimson_trapdoor",
     "side": "block/crimson_trapdoor_side"
   }

@@ -1,0 +1,15 @@
+wrap-y: false
+model: template_lantern
+height:
+  scale: 0.8
+normal:
+  method: sobel-low
+  strength: 0.6
+occlusion:
+  step-distance: 0.15
+  z-bias: 0
+  z-scale: 2
+smooth:
+  value: 0.82
+porosity:
+  value: 0

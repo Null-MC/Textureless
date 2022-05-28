@@ -1,0 +1,17 @@
+publish-item: true
+model: create:block/fluid_tank/block_single
+blend-mode: cutout
+color:
+  value: '#A76940'
+normal:
+  noise: 0.5
+  curve-x: 90
+  radius-x: 0.7
+  method: sobel-low
+occlusion:
+  z-bias: 0.2
+  z-scale: 2
+smooth:
+  value: 0.5
+hcm:
+  value: 234

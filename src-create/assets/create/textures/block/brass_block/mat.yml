@@ -1,0 +1,13 @@
+publish-item: true
+color:
+  value: '#D4BF8B'
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.15
+  radius-y: 0.15
+  noise: 1
+smooth:
+  value: 0.5
+hcm:
+  value: 234

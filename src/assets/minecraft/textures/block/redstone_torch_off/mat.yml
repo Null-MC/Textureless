@@ -5,7 +5,7 @@ height:
 normal:
   strength: 0.4
   noise: 1
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   value: 0
 filters:

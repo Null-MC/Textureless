@@ -1,0 +1,18 @@
+publish-item: true
+model: create:block/brass_belt_funnel_pulling_powered
+blend-mode: cutout
+normal:
+  method: sobel-low
+  strength: 2
+emissive:
+  scale: 0.6
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 0.75
+  height: 0.25
+  normal-curve-x: 45
+  normal-curve-bottom: 45
+  normal-radius-x: 0.2
+  normal-radius-y: 0.6

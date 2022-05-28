@@ -17,4 +17,3 @@ occlusion:
   step-distance: 0.1
   z-bias: 0.6
   z-scale: 6
-ctm: {}

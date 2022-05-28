@@ -1,6 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
+    "particle": "block/warped_hyphae_inventory",
     "end": "block/warped_hyphae",
     "side": "block/warped_hyphae"
   }

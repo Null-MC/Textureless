@@ -1,0 +1,44 @@
+publish-item: true
+texture-size: 64
+wrap-x: false
+wrap-y: false
+model: create:block/brass_funnel_vertical_push
+blend-mode: cutout
+normal:
+  noise: 0.5
+  method: sobel-high
+filters:
+- name: flap
+  left: 0.78125
+  top: 0.53125
+  width: 0.09375
+  height: 0.40625
+  normal-curve-x: 90
+  normal-radius-x: 0.75
+- name: door-panel
+  left: 0.375
+  top: 0.5
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: center-up
+  left: 0.40625
+  top: 0
+  width: 0.09375
+  height: 0.375
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.2
+- name: center-south
+  left: 0.5
+  top: 0
+  width: 0.21875
+  height: 0.375
+  normal-curve-left: 45
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.2

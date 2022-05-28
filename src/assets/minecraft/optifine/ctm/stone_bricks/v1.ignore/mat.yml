@@ -1,6 +1,5 @@
 publish-item: true
 height:
-  texture: bump.png
   shift: -0.06
   scale: 0.3
   edge-fade-x: 0.5

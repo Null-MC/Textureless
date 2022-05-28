@@ -9,6 +9,8 @@ normal:
 occlusion:
   step-distance: 0.15
   z-scale: 2
+smooth:
+  scale: 0.6491
 filters:
 - name: head-top
   left: 0.125

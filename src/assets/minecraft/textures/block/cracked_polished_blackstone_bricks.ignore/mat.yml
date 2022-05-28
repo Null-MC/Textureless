@@ -1,17 +1,12 @@
-alpha:
-  value: 255
-albedo: {}
 height:
   scale: 0.4
 normal:
   strength: 0.5
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   z-bias: 0
   z-scale: 4
   step-distance: 0.2
-smooth: {}
-f0: {}
 porosity:
   value: 0.15
 create-inventory: true

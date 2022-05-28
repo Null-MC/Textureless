@@ -8,8 +8,9 @@ color:
     sampler: bilinear
   input-blue:
     sampler: bilinear
+height:
+  scale: 0.5
 emissive:
   scale: 4
   input:
     sampler: bilinear
-ctm: {}

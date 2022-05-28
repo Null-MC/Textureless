@@ -1,29 +1,12 @@
 publish-item: true
-color:
-  value: '#7D9DC4'
 height:
-  shift: -0.01
-  scale: 0.3
-  edge-fade-x: 3
-  edge-fade-y: 3
-normal:
-  noise: 1
-  method: sobel-high
-  strength: 2
-occlusion:
-  scale: 0.5
-  step-distance: 0.15
-  z-bias: 1
-  z-scale: 6
-smooth:
-  scale: 0.8
+  scale: 0.6
+  auto-level: false
+  edge-fade-x: 2
+  edge-fade-y: 2
 f0:
-  value: 0.08
-sss:
-  shift: 0.3
-  scale: 0.7
+  value: 0.017
 ctm:
   method: of-repeat
   width: 8
   height: 8
-  placeholder: true

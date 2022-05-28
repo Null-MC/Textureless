@@ -17,7 +17,7 @@ occlusion:
 smooth:
   value: 0.08
 sss:
-  value: 0.24
+  scale: 0.6032
 filters:
 - name: head-up
   left: 0.0546875

@@ -1,25 +1,19 @@
 publish-item: true
 height:
-  shift: -0.06
-  scale: 0.4
+  shift: -0.2013
+  scale: 0.26
   edge-fade-x: 0.5
   edge-fade-y: 0.5
   edge-fade-strength: 0.5
 normal:
-  noise: 7
-  method: sobel-low
-  strength: 3
+  noise: 2
+  method: sobel3
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 6
+  step-distance: 0.4
+  z-bias: 1
+  z-scale: 10
 f0:
-  value: 0.03
-porosity:
-  shift: 0.2
-  scale: 0.8
-sss:
-  scale: 0.5
+  value: 0.05
 ctm:
   method: of-repeat
   width: 4

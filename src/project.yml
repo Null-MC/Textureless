@@ -1,0 +1,285 @@
+name: Textureless
+description: No Textures! PBR shader required.
+author: Null [Joshua Miller]
+input:
+  format: raw
+  auto-material: false
+profiles:
+- edition: java
+  format: 8
+  name: Textureless-VPbr-32x
+  description: PBR for Vanilla Fabulous shaders
+  tags: AlphaPBR 32x
+  block-texture-size: 32
+  item-texture-size: 32
+  texture-scale: 1
+  auto-generate-normal: false
+  auto-generate-occlusion: false
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.14
+  occlusion-power: 2
+  publish-connected: false
+- edition: bedrock
+  header-uuid: 0c4462be-f218-47ba-a698-b4f50ef15fea
+  module-uuid: fffaa7b3-22b0-4aca-a79c-d6a1243ce71a
+  format: 2
+  name: Textureless-RTX-32x
+  description: No Textures! RTX required.
+  tags: ''
+  encoding:
+    format: rtx
+    height:
+      texture: height
+      color: red
+      invert: true
+    normal-x:
+      texture: none
+    normal-y:
+      texture: none
+    normal-z:
+      texture: none
+  block-texture-size: 32
+  item-texture-size: 32
+  texture-scale: 1
+  auto-generate-occlusion: true
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2
+  publish-inventory: false
+- edition: bedrock
+  header-uuid: 0c4462be-f218-47ba-a698-b4f50ef15fea
+  module-uuid: fffaa7b3-22b0-4aca-a79c-d6a1243ce71a
+  format: 2
+  name: Textureless-RTX-32x
+  description: No Textures! RTX required.
+  tags: ''
+  encoding:
+    format: rtx
+    height:
+      sampler: bilinear
+  block-texture-size: 32
+  item-texture-size: 32
+  texture-scale: 1
+  auto-generate-occlusion: true
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2
+  publish-inventory: false
+- edition: java
+  format: 8
+  name: Textureless-LabBakedAO-32x
+  description: No Textures! PBR shader required.
+  tags: 32x LabPBR BakedAO
+  encoding:
+    format: lab-1.3
+    height:
+      sampler: bilinear
+    occlusion:
+      max-value: 0
+  block-texture-size: 32
+  item-texture-size: 32
+  texture-scale: 1
+  diffuse-occlusion-strength: 0.5
+  auto-generate-occlusion: true
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-LabBakedAO-64x
+  description: No Textures! PBR shader required.
+  tags: 64x LabPBR BakedAO
+  encoding:
+    format: lab-1.3
+    height:
+      sampler: bilinear
+    occlusion:
+      max-value: 0
+    normal-x:
+      sampler: bilinear
+    normal-y:
+      sampler: bilinear
+    normal-z:
+      sampler: bilinear
+  block-texture-size: 64
+  item-texture-size: 64
+  texture-scale: 2
+  diffuse-occlusion-strength: 0.5
+  auto-generate-occlusion: true
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 1
+- edition: java
+  format: 8
+  name: Textureless-LabPbr-SMOOTH-128x
+  description: No Textures! PBR shader required.
+  tags: 128x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: bicubic
+    metal:
+      sampler: nearest
+    f0:
+      sampler: nearest
+  block-texture-size: 1024
+  item-texture-size: 1024
+  texture-scale: 16
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 0.5
+- edition: java
+  format: 8
+  name: Textureless-LabPbr-128x
+  description: No Textures! PBR shader required.
+  tags: 128x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: nearest
+    metal:
+      sampler: nearest
+    f0:
+      sampler: nearest
+  block-texture-size: 128
+  item-texture-size: 128
+  texture-scale: 4
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 0.5
+- edition: java
+  format: 8
+  name: Textureless-LabPbr-128x
+  description: No Textures! PBR shader required.
+  tags: 128x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: bilinear
+    metal:
+      sampler: nearest
+    f0:
+      sampler: nearest
+  block-texture-size: 128
+  item-texture-size: 128
+  texture-scale: 4
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 0.5
+- edition: java
+  format: 8
+  name: Textureless-LabPbr-16x
+  description: No Textures! PBR shader required.
+  tags: 16x LabPBR
+  encoding:
+    format: lab-1.3
+    height:
+      sampler: average
+    occlusion:
+      sampler: average
+    normal-x:
+      sampler: average
+    normal-y:
+      sampler: average
+    normal-z:
+      sampler: average
+  block-texture-size: 16
+  item-texture-size: 16
+  texture-scale: 0.5
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 1
+- edition: java
+  format: 8
+  name: Textureless-LabPbr-32x
+  description: No Textures! PBR shader required.
+  tags: 32x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: nearest
+    height:
+      sampler: bilinear
+  block-texture-size: 32
+  item-texture-size: 32
+  texture-scale: 1
+  auto-generate-occlusion: false
+  occlusion-quality: 0.2
+  occlusion-power: 1
+- edition: java
+  format: 8
+  name: Textureless-LabPbr-64x
+  description: No Textures! PBR shader required.
+  tags: 64x LabPBR
+  encoding:
+    format: lab-1.3
+    sampler: bicubic
+    color-red:
+      sampler: nearest
+    color-green:
+      sampler: nearest
+    color-blue:
+      sampler: nearest
+    metal:
+      sampler: nearest
+    f0:
+      sampler: nearest
+  block-texture-size: 64
+  item-texture-size: 64
+  texture-scale: 2
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 1
+- edition: java
+  format: 8
+  name: Textureless-Map-32x
+  description: For external map usage only.
+  tags: 32x
+  encoding:
+    format: color
+    sampler: nearest
+    height:
+      sampler: bilinear
+  block-texture-size: 32
+  item-texture-size: 32
+  texture-scale: 1
+  auto-generate-occlusion: true
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-OldPbr-32x
+  description: No Textures! PBR shader required.
+  tags: 32x OldPBR
+  encoding:
+    format: old-pbr
+    sampler: nearest
+    height:
+      sampler: bilinear
+  block-texture-size: 32
+  item-texture-size: 32
+  texture-scale: 1
+  auto-generate-occlusion: true
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2
+- edition: java
+  format: 8
+  name: Textureless-OldPbr-64x
+  description: No Textures! PBR shader required.
+  tags: 64x OldPBR
+  encoding:
+    format: old-pbr
+    sampler: nearest
+    height:
+      sampler: bilinear
+    normal-x:
+      sampler: bilinear
+    normal-y:
+      sampler: bilinear
+    normal-z:
+      sampler: bilinear
+  block-texture-size: 64
+  item-texture-size: 64
+  texture-scale: 2
+  auto-generate-occlusion: false
+  bake-occlusion-to-color: true
+  occlusion-quality: 0.1
+  occlusion-power: 2

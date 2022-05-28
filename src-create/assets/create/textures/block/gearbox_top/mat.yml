@@ -1,0 +1,11 @@
+publish-item: true
+normal:
+  noise: 2
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.15
+  radius-y: 0.15
+  method: sobel-low
+  strength: 2
+f0:
+  value: 0.04

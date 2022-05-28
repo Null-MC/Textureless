@@ -1,0 +1,11 @@
+{
+	"parent":"block/block",
+	"textures":{
+		"particle":"create:block/axis_inventory",
+		"0":"create:block/axis_inventory",
+		"1":"create:block/axis_top_inventory"
+	},
+	"elements":[
+		{"name":"Axis","from":[6.0,0.0,6.0],"to":[10.0,16.0,10.0],"faces":{"north":{"texture":"#0","uv":[6.0,0.0,10.0,16.0]},"east":{"texture":"#0","uv":[6.0,0.0,10.0,16.0]},"south":{"texture":"#0","uv":[6.0,0.0,10.0,16.0]},"west":{"texture":"#0","uv":[6.0,0.0,10.0,16.0]},"up":{"texture":"#1","uv":[6.0,6.0,10.0,10.0]},"down":{"texture":"#1","uv":[6.0,6.0,10.0,10.0]}}}
+	]
+}

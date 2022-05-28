@@ -1,3 +1,4 @@
+publish-item: true
 model: oak_fence_post
 height:
   shift: -0.02
@@ -18,18 +19,17 @@ f0:
   value: 0.044
 porosity:
   value: 0.8
-ctm: {}
 filters:
 - name: north
   width: 0.25
   normal-curve-x: 90
   normal-radius-x: 0.5
-- name: south
+- name: west
   left: 0.25
   width: 0.25
   normal-curve-x: 90
   normal-radius-x: 0.5
-- name: west
+- name: south
   left: 0.5
   width: 0.25
   normal-curve-x: 90

@@ -1,0 +1,16 @@
+publish-item: true
+color:
+  value: '#3D545F'
+height:
+  shift: -0.1
+  scale: 0.8
+  edge-fade-x: 2
+  edge-fade-y: 2
+occlusion:
+  z-bias: 0.2
+f0:
+  value: 0.017
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4

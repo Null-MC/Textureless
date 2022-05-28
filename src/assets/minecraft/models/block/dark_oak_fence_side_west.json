@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_side_west",
   "textures": {
+    "particle": "block/stripped_dark_oak_wood_inventory",
     "texture": "block/dark_oak_fence_side"
   }
 }

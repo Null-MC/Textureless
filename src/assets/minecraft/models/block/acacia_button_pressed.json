@@ -1,6 +1,7 @@
 {
   "parent": "block/button_pressed",
   "textures": {
+    "particle": "block/stripped_acacia_wood_inventory",
     "texture": "block/stripped_acacia_wood"
   }
 }

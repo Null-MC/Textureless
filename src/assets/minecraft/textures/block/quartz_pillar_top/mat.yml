@@ -1,5 +1,3 @@
-alpha:
-  value: 255
 albedo:
   value-red: 236
   value-green: 232
@@ -9,12 +7,11 @@ height:
 normal:
   strength: 0.3
   noise: 2
-  filter: sobel-high
+  method: sobel-high
 occlusion:
   z-bias: 0
   z-scale: 2
   step-distance: 0.15
-smooth: {}
 f0:
   value: 0.1
 porosity:

@@ -1,0 +1,14 @@
+{
+	"parent":"create:block/mechanical_press/item",
+	"textures":{
+		"0":"create:block/axis_inventory",
+		"1":"create:block/axis_top_inventory",
+		"8":"create:block/mechanical_press_side_inventory",
+		"mechanical_press_head":"create:block/mechanical_press_head_inventory",
+		"gearbox_top":"create:block/gearbox_top_inventory",
+		"mechanical_press_pole":"create:block/mechanical_press_pole_inventory",
+		"gearbox":"create:block/gearbox_inventory",
+		"mechanical_press_top":"create:block/mechanical_press_top_inventory",
+		"mechanical_press_bottom":"create:block/mechanical_press_bottom_inventory"
+	}
+}

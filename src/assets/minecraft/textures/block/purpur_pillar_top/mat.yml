@@ -1,5 +1,3 @@
-alpha:
-  value: 255
 albedo:
   value-red: 159
   value-green: 114
@@ -7,7 +5,7 @@ albedo:
 height:
   scale: 0.3
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   z-bias: 0
   z-scale: 3

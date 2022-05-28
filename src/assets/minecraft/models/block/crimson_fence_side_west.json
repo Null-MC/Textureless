@@ -1,6 +1,7 @@
 {
   "parent": "block/fence_side_west",
   "textures": {
+    "particle": "block/stripped_crimson_hyphae_inventory",
     "texture": "block/crimson_fence_side"
   }
 }

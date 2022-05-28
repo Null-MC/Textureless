@@ -1,0 +1,54 @@
+texture-size: 64
+wrap-x: false
+wrap-y: false
+model: create:block/belt_casing/horizontal_middle
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 2
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.15
+  normal-radius-y: 0.15
+- name: horizontal
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.5
+  normal-curve-y: 90
+  normal-radius-y: 0.15
+- name: side-large
+  left: 0
+  top: 0.5
+  width: 0.5
+  height: 0.34375
+  normal-curve-y: 90
+  normal-radius-y: 0.2
+- name: side-medium
+  left: 0.5
+  top: 0.5
+  width: 0.5
+  height: 0.28125
+  normal-curve-y: 90
+  normal-radius-y: 0.25
+- name: side-small
+  left: 0.5
+  top: 0.78125
+  width: 0.5
+  height: 0.1875
+  normal-curve-y: 90
+  normal-radius-y: 0.3
+- name: end
+  left: 0
+  top: 0.84375
+  width: 0.375
+  height: 0.09375
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.2

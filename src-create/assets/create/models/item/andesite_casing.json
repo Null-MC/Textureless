@@ -1,0 +1,6 @@
+{
+	"parent":"create:block/andesite_casing",
+	"textures":{
+		"all":"create:block/andesite_casing_inventory"
+	}
+}

@@ -1,9 +1,7 @@
-alpha:
-  value: 255
 height:
   shift: -0.02
 normal:
-  filter: sobel-low
+  method: sobel-low
 occlusion:
   quality: 0.1
   z-bias: 0

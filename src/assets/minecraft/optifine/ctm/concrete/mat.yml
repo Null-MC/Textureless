@@ -2,19 +2,20 @@ publish-item: true
 color:
   value: '#949494'
 height:
-  texture: bump.png
-  shift: -0.04
-  scale: 0.06
+  scale: 0.02
   auto-level: true
 normal:
-  noise: 4
+  noise: 2
   method: sobel-high
+  strength: 1.4
 occlusion:
   step-distance: 0.2
-  z-bias: 2
-  z-scale: 4
+  z-bias: 1
+  z-scale: 5
+smooth:
+  scale: 0.56
 f0:
-  value: 0.072
+  value: 0.191
 ctm:
   method: of-repeat
   width: 4

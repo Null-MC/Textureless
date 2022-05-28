@@ -1,21 +1,23 @@
 texture-width: 256
 texture-height: 128
+wrap-x: false
+wrap-y: false
 model: entity/ghast
 height:
   scale: 0
 normal:
   noise: 3
-  method: sobel3
-  strength: 2
+  method: sobel5
+  strength: 1.8102
 occlusion:
-  z-scale: 3
+  step-distance: 0.3
+  z-scale: 10
 smooth:
   value: 0.3
 f0:
   value: 0.02
 sss:
   value: 0.3
-ctm: {}
 filters:
 - name: Body-Up
   left: 0.25

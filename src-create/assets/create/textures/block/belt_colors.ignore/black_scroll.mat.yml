@@ -1,0 +1,19 @@
+texture-width: 32
+texture-height: 64
+model: item/belt_middle
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 0.6898
+occlusion:
+  z-scale: 1
+f0:
+  value: 0.043
+filters:
+- name: tread
+  left: 0.1875
+  top: 0
+  width: 0.625
+  height: 1
+  normal-curve-x: 90
+  normal-radius-x: 0.25

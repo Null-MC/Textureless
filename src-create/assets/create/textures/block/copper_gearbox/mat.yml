@@ -1,0 +1,11 @@
+normal:
+  noise: 0.5
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.15
+  radius-y: 0.15
+  method: sobel-low
+  strength: 1.6
+occlusion:
+  z-bias: 0.2
+  z-scale: 4

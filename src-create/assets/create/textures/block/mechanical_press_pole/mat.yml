@@ -1,0 +1,51 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+model: create:block/mechanical_press/head
+normal:
+  noise: 1
+filters:
+- name: side-outer
+  left: 0
+  top: 0
+  width: 0.375
+  height: 1
+  normal-curve-x: 90
+  normal-radius-x: 0.13
+- name: side-inner
+  left: 0.375
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: -90
+  normal-radius-x: 0.5
+- name: end-middle
+  left: 0.6875
+  top: 0.0625
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: strap-1
+  left: 0
+  top: 0
+  width: 0.625
+  height: 0.125
+  normal-curve-y: 90
+  normal-radius-y: 0.6
+- name: strap-2
+  left: 0
+  top: 0.4375
+  width: 0.625
+  height: 0.125
+  normal-curve-y: 90
+  normal-radius-y: 0.6
+- name: strap-3
+  left: 0
+  top: 0.875
+  width: 0.625
+  height: 0.125
+  normal-curve-y: 90
+  normal-radius-y: 0.6

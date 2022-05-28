@@ -1,0 +1,50 @@
+texture-width: 16
+texture-height: 32
+wrap-x: false
+model: create:block/belt/diagonal_middle
+normal:
+  noise: 2
+  method: sobel3
+occlusion:
+  z-scale: 2
+smooth:
+  scale: 1.4
+f0:
+  value: 0.043
+filters:
+- name: top
+  left: 0
+  top: 0.0625
+  width: 1
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.1
+- name: bottom
+  left: 0
+  top: 0.4375
+  width: 1
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.1
+- name: top2
+  left: 0
+  top: 0
+  width: 1
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.6
+- name: bottom2
+  left: 0
+  top: 0.8125
+  width: 1
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.3
+  normal-radius-y: 0.2

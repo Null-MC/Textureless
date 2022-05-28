@@ -1,6 +1,7 @@
 {
   "parent": "block/cube_column_horizontal2",
   "textures": {
+    "particle": "block/birch_wood_inventory",
     "end": "block/birch_log_top",
     "side": "block/birch_log"
   }

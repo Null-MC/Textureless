@@ -1,0 +1,19 @@
+publish-item: true
+texture-size: 32
+model: create:block/shaft
+color:
+  value: '#888080'
+normal:
+  method: sobel-high
+smooth:
+  value: 0.6
+hcm:
+  value: 230
+filters:
+- name: default
+  left: 0.40625
+  top: 0.40625
+  width: 0.1875
+  height: 0.1875
+  normal-curve-x: -40
+  normal-curve-y: -40

@@ -1,0 +1,11 @@
+{
+	"parent":"create:block/turntable",
+	"textures":{
+		"0":"create:block/axis_inventory",
+		"1":"block/stripped_spruce_log_inventory",
+		"2":"block/stripped_spruce_log_top_inventory",
+		"3":"create:block/axis_top_inventory",
+		"5":"create:block/gearbox_top_inventory",
+		"6":"create:block/encased_chain_drive_inventory"
+	}
+}

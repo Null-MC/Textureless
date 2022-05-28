@@ -1,0 +1,17 @@
+publish-item: true
+model: create:block/brass_tunnel/straight
+blend-mode: cutout
+color:
+  value: '#D4BF8B'
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.1
+  radius-y: 0.2
+  noise: 0.5
+  method: sobel-low
+  strength: 2
+smooth:
+  value: 0.5
+hcm:
+  value: 234

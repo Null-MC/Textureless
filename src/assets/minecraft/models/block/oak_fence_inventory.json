@@ -1,6 +1,9 @@
 {
   "parent": "block/fence_inventory",
   "textures": {
-    "texture": "block/stripped_oak_wood_inventory"
+    "particle": "block/stripped_oak_wood_inventory",
+    "post": "block/oak_fence_post_inventory",
+    "side": "block/oak_fence_side_inventory",
+    "log_end": "block/stripped_oak_log_top_inventory"
   }
 }

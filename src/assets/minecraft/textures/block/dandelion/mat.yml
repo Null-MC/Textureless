@@ -1,7 +1,6 @@
 publish-item: true
 wrap-x: false
 wrap-y: false
-model-file: cross
 height:
   texture: alpha.png
   scale: 0.15

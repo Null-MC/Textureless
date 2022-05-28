@@ -1,6 +1,7 @@
 {
   "parent": "block/pressure_plate_down",
   "textures": {
+    "particle": "block/stripped_oak_wood_inventory",
     "texture": "block/stripped_oak_wood"
   }
 }

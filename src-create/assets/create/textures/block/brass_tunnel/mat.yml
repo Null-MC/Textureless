@@ -1,0 +1,60 @@
+publish-item: true
+texture-size: 64
+model: create:block/brass_tunnel/window
+blend-mode: cutout
+normal:
+  noise: 0.5
+  method: sobel-low
+  strength: 2
+filters:
+- name: side
+  left: 0
+  top: 0
+  width: 0.5
+  height: 0.59375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.15
+  normal-radius-top: 0.1
+  normal-radius-bottom: 0.05
+- name: side-window
+  left: 0.5
+  top: 0
+  width: 0.5
+  height: 0.59375
+  normal-curve-x: 90
+  normal-curve-top: 45
+  normal-radius-x: 0.15
+  normal-radius-top: 0.1
+  normal-radius-bottom: 0.05
+- name: side-bottom
+  left: 0
+  top: 0.71875
+  width: 0.5
+  height: 0.0625
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.15
+- name: front
+  left: 0.625
+  top: 0.59375
+  width: 0.375
+  height: 0.1875
+  normal-curve-y: 90
+  normal-radius-y: 0.3
+- name: front-left
+  left: 0
+  top: 0.59375
+  width: 0.59375
+  height: 0.0625
+  normal-curve-left: 45
+  normal-curve-bottom: 45
+  normal-radius-left: 0.1
+- name: front-right
+  left: 0
+  top: 0.65625
+  width: 0.59375
+  height: 0.0625
+  normal-curve-left: 45
+  normal-curve-top: 45
+  normal-radius-left: 0.1

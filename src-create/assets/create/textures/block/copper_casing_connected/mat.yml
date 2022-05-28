@@ -1,0 +1,22 @@
+texture-size: 256
+wrap-x: false
+wrap-y: false
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 1.6
+occlusion:
+  z-bias: 0.2
+  z-scale: 2
+f0:
+  value: 0.04
+filters:
+- name: single
+  left: 0
+  top: 0
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2

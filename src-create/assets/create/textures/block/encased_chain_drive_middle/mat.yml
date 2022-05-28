@@ -1,0 +1,7 @@
+model: create:block/encased_chain_drive/middle_horizontal
+normal:
+  curve-y: 90
+  radius-y: 0.15
+  noise: 3
+  method: sobel-low
+  strength: 2

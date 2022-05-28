@@ -1,6 +1,7 @@
 {
   "parent": "block/template_fence_gate_wall_open",
   "textures": {
+    "particle": "block/stripped_acacia_wood_inventory",
     "texture": "block/stripped_acacia_wood"
   }
 }

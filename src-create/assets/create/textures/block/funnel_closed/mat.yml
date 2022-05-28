@@ -1,0 +1,12 @@
+publish-item: true
+model: create:block/brass_funnel_vertical_pull_powered
+color:
+  value: '#CDC2C2'
+normal:
+  noise: 0.3
+  method: sobel-low
+  strength: 0.5
+smooth:
+  value: 0.55
+hcm:
+  value: 230

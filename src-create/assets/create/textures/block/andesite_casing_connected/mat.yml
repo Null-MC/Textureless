@@ -1,0 +1,10 @@
+texture-size: 256
+wrap-x: false
+wrap-y: false
+normal:
+  noise: 2
+  method: sobel-low
+occlusion:
+  z-scale: 3
+f0:
+  value: 0.04

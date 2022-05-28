@@ -1,0 +1,28 @@
+publish-item: true
+model: create:block/basin/block
+normal:
+  noise: 0.5
+  method: sobel-low
+  strength: 1.2372
+smooth:
+  value: 0.5
+hcm:
+  value: 230
+filters:
+- name: basin
+  left: 0
+  top: 0
+  width: 1
+  height: 0.875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.15
+- name: base
+  left: 0.125
+  top: 0.875
+  width: 0.75
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-bottom: 45
+  normal-radius-x: 0.2

@@ -1,0 +1,37 @@
+texture-size: 32
+normal:
+  method: sobel-low
+occlusion:
+  z-bias: 0.5
+  z-scale: 4
+filters:
+- name: straight-vertical
+  left: 0
+  top: 0.5
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-radius-x: 0.7
+- name: straight-horizontal
+  left: 0.25
+  top: 0.75
+  width: 0.25
+  height: 0.25
+  normal-curve-y: 90
+  normal-radius-y: 0.7
+- name: top?
+  left: 0
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: end
+  left: 0
+  top: 0.375
+  width: 0.25
+  height: 0.125
+  normal-curve-x: 90
+  normal-radius-x: 0.7
