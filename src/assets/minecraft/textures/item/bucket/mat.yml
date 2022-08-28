@@ -4,7 +4,7 @@ color:
   value: '#C8CCD1'
   bake-occlusion: true
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel5
 occlusion:

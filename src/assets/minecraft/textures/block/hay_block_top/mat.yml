@@ -7,9 +7,9 @@ height:
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
-  noise: 40
   curve-x: 40
   curve-y: 40
+  noise: 40
   method: sobel3
   strength: 0.1
 occlusion:
@@ -20,6 +20,3 @@ smooth:
   value: 0.08
 f0:
   value: 0.04
-sss:
-  scale: 0.6
-ctm: {}

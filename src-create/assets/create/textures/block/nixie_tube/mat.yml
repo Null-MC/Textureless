@@ -1,0 +1,48 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+model: create:block/nixie_tube
+blend-mode: transparent
+filters:
+- name: connector4-up
+  left: 0.375
+  top: 0.375
+  width: 0.375
+  height: 0.375
+- name: connector4-down
+  left: 0.375
+  top: 0.375
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.1
+  normal-radius-y: 0.1
+- name: connector4-north
+  left: 0
+  top: 0.625
+  width: 0.375
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.5
+- name: tube5-up
+  left: 0.375
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.7
+- name: tube5-north
+  left: 0
+  top: 0.0625
+  width: 0.375
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-top: 0.5
+  normal-radius-bottom: 0.2

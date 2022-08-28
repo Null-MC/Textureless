@@ -6,6 +6,7 @@
 	},
 	"elements": [
 		{
+			"shade": false,
 			"from": [3, 0, 0],
 			"to": [3, 16, 16],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 8, 8]},
@@ -15,6 +16,7 @@
 			}
 		},
 		{
+			"shade": false,
 			"from": [-2, -2, 8],
 			"to": [18, 18, 8],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 8]},
@@ -24,6 +26,7 @@
 			}
 		},
 		{
+			"shade": false,
 			"from": [-3, 8, -3],
 			"to": [19, 8, 19],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 8]},
@@ -33,6 +36,7 @@
 			}
 		},
 		{
+			"shade": false,
 			"from": [13, 0, 0],
 			"to": [13, 16, 16],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [17, 8, 8]},

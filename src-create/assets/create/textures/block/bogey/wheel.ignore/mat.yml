@@ -1,0 +1,8 @@
+publish-item: true
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+smooth:
+  value: 0.66
+hcm:
+  value: 230

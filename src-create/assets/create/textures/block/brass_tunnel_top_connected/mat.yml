@@ -1,8 +1,4 @@
 texture-size: 64
-model: create:block/brass_tunnel/straight
-blend-mode: cutout
-color:
-  value: '#D4BF8B'
 normal:
   method: sobel-low
   strength: 2

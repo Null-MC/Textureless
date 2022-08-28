@@ -2,6 +2,10 @@ publish-item: true
 model: leaves_template
 blend-mode: cutout
 tint-color: '#59AE30'
+color:
+  scale-red: 2
+  scale-green: 2
+  scale-blue: 2
 height:
   texture: alpha.png
   scale: 0.1
@@ -16,7 +20,6 @@ occlusion:
   z-bias: 0
   z-scale: 6
 smooth:
-  scale: 0.5
+  scale: 0.2
 f0:
   value: 0.04
-ctm: {}

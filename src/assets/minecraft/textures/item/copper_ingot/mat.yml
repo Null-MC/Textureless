@@ -4,7 +4,7 @@ color:
   value: '#F3A289'
   bake-occlusion: true
 height:
-  value: 0
+  scale: 0
 normal:
   noise: 1
   method: sobel3

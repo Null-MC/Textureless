@@ -1,5 +1,9 @@
 publish-item: true
 tint-color: '#6BA941'
+color:
+  scale-red: 0.8
+  scale-green: 0.8
+  scale-blue: 0.8
 height:
   texture: opacity.png
   scale: 0.1
@@ -16,5 +20,4 @@ occlusion:
 f0:
   value: 0.017
 sss:
-  value: 0.4
-ctm: {}
+  value: 0.5768

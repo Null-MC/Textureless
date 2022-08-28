@@ -1,10 +1,8 @@
 publish-item: true
 opacity:
-  value: 170
+  value: 0.66
 color:
-  value-red: 69
-  value-green: 131
-  value-blue: 18
+  value: '#458312'
 normal:
   method: sobel5
   strength: 2
@@ -18,4 +16,3 @@ f0:
   value: 0.023
 sss:
   value: 0.6
-ctm: {}

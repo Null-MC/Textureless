@@ -3,7 +3,7 @@ wrap-y: false
 color:
   bake-occlusion: true
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel-low
 occlusion:

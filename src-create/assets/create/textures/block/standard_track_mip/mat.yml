@@ -1,0 +1,65 @@
+texture-size: 64
+model: create:block/track/x_ortho
+blend-mode: cutout
+normal:
+  noise: 2
+  method: sobel-low
+  strength: 1.4744
+occlusion:
+  z-bias: 1
+  z-scale: 4
+filters:
+- name: top-1
+  left: 0
+  top: 0.09375
+  width: 0.6875
+  height: 0.125
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.1
+  normal-radius-y: 0.4
+- name: top-2
+  left: 0
+  top: 0.34375
+  width: 0.6875
+  height: 0.125
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.1
+  normal-radius-y: 0.4
+- name: top-3
+  left: 0
+  top: 0.59375
+  width: 0.6875
+  height: 0.125
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.1
+  normal-radius-y: 0.4
+- name: end-1
+  left: 0.6875
+  top: 0.09375
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: end-2
+  left: 0.6875
+  top: 0.34375
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4
+- name: end-3
+  left: 0.6875
+  top: 0.59375
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.4
+  normal-radius-y: 0.4

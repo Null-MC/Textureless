@@ -1,0 +1,51 @@
+wrap-x: false
+wrap-y: false
+model: create:block/track_signal/red_tube
+blend-mode: transparent
+smooth:
+  value: 0.86
+f0:
+  value: 0.04
+sss:
+  value: 1
+emissive:
+  value: 0.2
+filters:
+- name: tube-off-up
+  left: 0.1875
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.7
+- name: tube-off-north
+  left: 0.1875
+  top: 0.4375
+  width: 0.375
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-top: 0.7
+  normal-radius-bottom: 0.2
+- name: tube-on-up
+  left: 0.625
+  top: 0
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-y: 0.7
+- name: tube-on-north
+  left: 0.625
+  top: 0.4375
+  width: 0.375
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.7
+  normal-radius-top: 0.7
+  normal-radius-bottom: 0.2

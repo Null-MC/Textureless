@@ -15,11 +15,6 @@ smooth:
   shift: 0.14
 f0:
   value: 0.04
-porosity:
-  shift: 0.5
-  scale: 0.2
-sss:
-  value: 0
 ctm:
   method: of-repeat
   width: 8

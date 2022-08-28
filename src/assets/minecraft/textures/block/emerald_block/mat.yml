@@ -1,26 +1,14 @@
 publish-item: true
-opacity:
-  value: 255
-color:
-  value-red: 46
-  value-green: 197
-  value-blue: 85
-  scale-red: 0.6
-  scale-green: 0.6
-  scale-blue: 0.6
 height:
-  scale: 0.3
+  scale: 0.2
 normal:
-  noise: 2
   method: sobel-low
-  strength: 0.4
+  strength: 0.6
 occlusion:
-  step-distance: 0.15
-  z-bias: 0
-  z-scale: 1
+  step-distance: 0.2
+  z-bias: 0.5
+  z-scale: 3
 smooth:
-  value: 0.55
+  value: 0.5965
 f0:
-  value: 0.3
-sss:
-  shift: 0.2
+  value: 0.051

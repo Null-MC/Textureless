@@ -297,6 +297,7 @@ jobs:
       - publish_models_labPbr_16x
       - publish_models_oldPbr_32x
       - publish_create_labPbr_32x
+      - publish_create_oldPbr_32x
     steps:
       - name: Publish Release
         uses: eregon/publish-release@v1.0.3

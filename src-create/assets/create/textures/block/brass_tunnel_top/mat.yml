@@ -1,8 +1,6 @@
 publish-item: true
 model: create:block/brass_tunnel/straight
 blend-mode: cutout
-color:
-  value: '#D4BF8B'
 normal:
   curve-x: 90
   curve-y: 90

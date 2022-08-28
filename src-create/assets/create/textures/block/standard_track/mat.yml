@@ -1,0 +1,48 @@
+texture-size: 64
+model: create:block/track/x_ortho
+blend-mode: cutout
+filters:
+- name: rail-top
+  left: 0
+  top: 0.71875
+  width: 0.75
+  height: 0.125
+  normal-curve-y: 120
+  normal-radius-y: 0.7
+- name: rail-side
+  left: 0
+  top: 0.375
+  width: 0.75
+  height: 0.125
+  normal-curve-y: -60
+  normal-radius-y: 0.7
+- name: tie-top
+  left: 0
+  top: 0
+  width: 0.6875
+  height: 0.125
+  normal-noise: 2
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.1
+  normal-radius-y: 0.4
+- name: tie-side
+  left: 0
+  top: 0.125
+  width: 0.6875
+  height: 0.125
+  normal-noise: 2
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.1
+  normal-radius-y: 0.4
+- name: tie-bottom
+  left: 0
+  top: 0.25
+  width: 0.6875
+  height: 0.125
+  normal-noise: 2
+  normal-curve-right: 45
+  normal-curve-y: 90
+  normal-radius-right: 0.1
+  normal-radius-y: 0.4
