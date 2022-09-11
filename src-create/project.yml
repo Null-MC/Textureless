@@ -3,7 +3,7 @@ input:
   format: raw
 profiles:
 - edition: Java
-  format: 8
+  format: 9
   name: Textureless-Create-LabPbr-32x
   description: LabPbr 32x
   encoding:
@@ -13,7 +13,7 @@ profiles:
   occlusion-quality: 0.2
   occlusion-power: 2
 - edition: Java
-  format: 8
+  format: 9
   name: Textureless-Create-OldPbr-32x
   description: OldPbr 32x
   encoding:

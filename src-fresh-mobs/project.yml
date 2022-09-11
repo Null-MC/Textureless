@@ -6,7 +6,7 @@ input:
   auto-material: false
 profiles:
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-FreshMobs-LabPbr-16x
   description: No Textures! PBR shader required.
   tags: 16x LabPBR
@@ -29,7 +29,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-FreshMobs-LabPbr-32x
   description: No Textures! PBR shader required.
   tags: 32x LabPBR
@@ -45,7 +45,7 @@ profiles:
   occlusion-quality: 0.2
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-FreshMobs-LabPbr-64x
   description: No Textures! PBR shader required.
   tags: 64x LabPBR
@@ -69,7 +69,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-FreshMobs-OldPbr-32x
   description: No Textures! PBR shader required.
   tags: 32x OldPBR

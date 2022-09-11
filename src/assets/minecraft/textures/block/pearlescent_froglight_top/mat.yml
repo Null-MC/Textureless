@@ -1,0 +1,22 @@
+model: block/pearlescent_froglight
+height:
+  scale: 0.2354
+  edge-fade-x: 0.2
+  edge-fade-y: 0.2
+normal:
+  noise: 4
+  method: sobel-low
+  strength: 2
+occlusion:
+  z-bias: 1
+  z-scale: 2
+smooth:
+  value: 0.7
+f0:
+  value: 0.03
+sss:
+  shift: 0.1
+  scale: 0.6
+emissive:
+  shift: 0.1
+  scale: 0.3

@@ -2,7 +2,7 @@ texture-width: 128
 texture-height: 64
 wrap-x: false
 wrap-y: false
-model: cube
+model: entity/rabbit
 opacity:
   texture: opacity.png
 height:

@@ -1,0 +1,37 @@
+texture-size: 128
+normal:
+  noise: 1
+smooth:
+  value: 0.5454
+hcm:
+  value: 234
+filters:
+- name: medium-cap-up
+  left: 0.296875
+  top: 0.796875
+  width: 0.15625
+  height: 0.15625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+  normal-radius-y: 0.3
+- name: medium-cap-side
+  left: 0.796875
+  top: 0.296875
+  width: 0.15625
+  height: 0.03125
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.3
+- name: medium-extension-side
+  left: 0.8125
+  top: 0.34375
+  width: 0.125
+  height: 0.125
+  normal-curve-x: 90
+- name: medium-base-side
+  left: 0.5625
+  top: 0.28125
+  width: 0.125
+  height: 0.1875
+  normal-curve-x: 90

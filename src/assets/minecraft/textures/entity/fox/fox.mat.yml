@@ -5,8 +5,7 @@ wrap-y: false
 opacity:
   texture: opacity.png
 height:
-  texture: height.png
-  value: 0
+  scale: 0
 normal:
   method: sobel-high
   strength: 2

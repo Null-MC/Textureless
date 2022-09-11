@@ -3,6 +3,8 @@ wrap-x: false
 wrap-y: false
 blend-mode: cutout
 tint-color: '#619961'
+color:
+  scale-green: 1.1
 height:
   texture: opacity.png
   scale: 0.06
@@ -19,5 +21,4 @@ occlusion:
 f0:
   value: 0.017
 sss:
-  value: 0.6
-ctm: {}
+  value: 0.4

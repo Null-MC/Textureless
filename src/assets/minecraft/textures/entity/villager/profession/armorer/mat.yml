@@ -11,7 +11,6 @@ occlusion:
   step-distance: 0.05
   z-bias: 0
   z-scale: 5
-ctm: {}
 filters:
 - name: head-top
   left: 0.125

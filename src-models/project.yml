@@ -9,7 +9,7 @@ input:
     range-max: 229
 profiles:
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Models-LabBakedAO-32x
   description: Better models for Textureless
   tags: 32x LabPBR BakedAO
@@ -27,7 +27,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Models-LabPbr-128x
   description: Better models for Textureless
   tags: 128x LabPBR
@@ -42,7 +42,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Models-LabPbr-16x
   description: Better models for Textureless
   tags: 16x LabPBR
@@ -63,7 +63,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Models-LabPbr-32x
   description: Better models for Textureless
   tags: 32x LabPBR
@@ -78,7 +78,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Models-LabPbr-64x
   description: Better models for Textureless
   tags: 64x LabPBR
@@ -95,7 +95,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Models-OldPbr-32x
   description: Better models for Textureless
   tags: 32x OldPBR
@@ -111,7 +111,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Models-OldPbr-64x
   description: Better models for Textureless
   tags: 64x OldPBR

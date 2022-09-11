@@ -1,8 +1,6 @@
 publish-item: true
-color:
-  value: '#E6CB94'
 height:
-  scale: 0.04
+  scale: 0.2135
 normal:
   noise: 0.3
   method: sobel-high
@@ -12,7 +10,8 @@ occlusion:
   z-bias: 2
   z-scale: 2
 smooth:
-  shift: -0.15
+  shift: -0.5217
+  scale: 2
 hcm:
   value: 231
 ctm:

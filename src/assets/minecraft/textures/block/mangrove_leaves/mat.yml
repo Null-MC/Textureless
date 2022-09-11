@@ -1,0 +1,18 @@
+blend-mode: cutout
+tint-color: '#7FC148'
+color:
+  value: '#929292'
+height:
+  scale: 0
+normal:
+  noise: 2
+  strength: 1.6167
+occlusion:
+  z-bias: 1
+  z-scale: 3
+smooth:
+  value: 0.28
+f0:
+  value: 0.03
+sss:
+  value: 0.6

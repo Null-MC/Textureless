@@ -6,7 +6,7 @@ input:
   auto-material: false
 profiles:
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-VPbr-32x
   description: PBR for Vanilla Fabulous shaders
   tags: AlphaPBR 32x
@@ -47,7 +47,7 @@ profiles:
   occlusion-power: 2
   publish-inventory: false
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabBakedAO-32x
   description: No Textures! PBR shader required.
   tags: 32x LabPBR BakedAO
@@ -66,7 +66,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabBakedAO-64x
   description: No Textures! PBR shader required.
   tags: 64x LabPBR BakedAO
@@ -91,7 +91,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabPbr-SMOOTH-128x
   description: No Textures! PBR shader required.
   tags: 128x LabPBR
@@ -109,7 +109,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 0.5
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabPbr-128x
   description: No Textures! PBR shader required.
   tags: 128x LabPBR
@@ -127,7 +127,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 0.5
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabPbr-128x
   description: No Textures! PBR shader required.
   tags: 128x LabPBR
@@ -145,7 +145,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 0.5
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabPbr-16x
   description: No Textures! PBR shader required.
   tags: 16x LabPBR
@@ -168,7 +168,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabPbr-32x
   description: No Textures! PBR shader required.
   tags: 32x LabPBR
@@ -184,7 +184,7 @@ profiles:
   occlusion-quality: 0.2
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-LabPbr-64x
   description: No Textures! PBR shader required.
   tags: 64x LabPBR
@@ -208,7 +208,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 1
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-Map-32x
   description: For external map usage only.
   tags: 32x
@@ -225,7 +225,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-OldPbr-32x
   description: No Textures! PBR shader required.
   tags: 32x OldPBR
@@ -242,7 +242,7 @@ profiles:
   occlusion-quality: 0.1
   occlusion-power: 2
 - edition: java
-  format: 8
+  format: 9
   name: Textureless-OldPbr-64x
   description: No Textures! PBR shader required.
   tags: 64x OldPBR
@@ -264,3 +264,26 @@ profiles:
   bake-occlusion-to-color: true
   occlusion-quality: 0.1
   occlusion-power: 2
+- edition: java
+  format: 9
+  name: Textureless-LabPbr-8x
+  description: No Textures! PBR shader required.
+  tags: 8x LabPBR
+  encoding:
+    format: lab-1.3
+    height:
+      sampler: average
+    occlusion:
+      sampler: average
+    normal-x:
+      sampler: average
+    normal-y:
+      sampler: average
+    normal-z:
+      sampler: average
+  block-texture-size: 8
+  item-texture-size: 8
+  texture-scale: 0.25
+  auto-generate-occlusion: false
+  occlusion-quality: 0.1
+  occlusion-power: 1

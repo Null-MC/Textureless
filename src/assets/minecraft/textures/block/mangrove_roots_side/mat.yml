@@ -1,0 +1,14 @@
+model: block/mangrove_roots
+blend-mode: cutout
+height:
+  scale: 0.1743
+normal:
+  noise: 3
+occlusion:
+  z-bias: 1
+smooth:
+  value: 0.2
+f0:
+  value: 0.04
+porosity:
+  value: 0.6

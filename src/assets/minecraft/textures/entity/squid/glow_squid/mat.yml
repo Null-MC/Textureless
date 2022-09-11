@@ -3,7 +3,7 @@ texture-height: 64
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel-low
 occlusion:

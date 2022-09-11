@@ -3,7 +3,7 @@ texture-height: 64
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel-low
 occlusion:
@@ -55,7 +55,6 @@ filters:
   height: 0.5
   normal-curve-x: 90
   normal-curve-y: 90
-
 - name: tentacle-top
   left: 0.78125
   top: 0
