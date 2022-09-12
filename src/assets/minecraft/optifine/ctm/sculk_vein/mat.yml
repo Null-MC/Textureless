@@ -1,0 +1,24 @@
+blend-mode: cutout
+height:
+  texture: opacity.png
+  scale: 0.08
+  edge-fade-x: 0.1
+  edge-fade-y: 0.1
+normal:
+  method: sobel5
+occlusion:
+  z-bias: 1
+  z-scale: 3
+smooth:
+  value: 0.4
+f0:
+  value: 0.04
+sss:
+  value: 0.6
+emissive:
+  scale: 0.3
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  placeholder: true

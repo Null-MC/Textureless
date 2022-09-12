@@ -1,0 +1,32 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+opacity:
+  input:
+    sampler: bicubic
+color:
+  input-red:
+    sampler: bicubic
+  input-green:
+    sampler: bicubic
+  input-blue:
+    sampler: bicubic
+height:
+  scale: 0
+  edge-fade-top: 0.01
+  edge-fade-left: 0.01
+  edge-fade-right: 0.01
+normal:
+  noise: 3
+  method: sobel5
+  strength: 2.0437
+smooth:
+  value: 0.6
+f0:
+  value: 0.04
+sss:
+  value: 0.6
+emissive:
+  scale: 0.6
+  input:
+    sampler: bicubic

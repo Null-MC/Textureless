@@ -1,5 +1,5 @@
 publish-item: true
-model: block/oak_fence_post
+model: block/mangrove_fence_post
 height:
   shift: -0.02
   scale: 0.5

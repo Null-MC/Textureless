@@ -1,0 +1,16 @@
+height:
+  shift: -0.6121
+  scale: 0.3455
+  edge-fade-x: 4
+  edge-fade-y: 4
+smooth:
+  scale: 0.7183
+f0:
+  value: 0.04
+sss:
+  scale: 0.7854
+ctm:
+  method: of-repeat
+  width: 6
+  height: 6
+  placeholder: true
