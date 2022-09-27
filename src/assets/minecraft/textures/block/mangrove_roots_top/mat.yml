@@ -1,14 +1,13 @@
 publish-item: true
-wrap-x: true
-wrap-y: true
+wrap-x: false
+wrap-y: false
 model: block/mangrove_roots
 blend-mode: cutout
 height:
-  scale: 0.1743
+  scale: 0.1146
 normal:
   noise: 3
-occlusion:
-  z-bias: 1
+  strength: 0.6205
 smooth:
   value: 0.2
 f0:
