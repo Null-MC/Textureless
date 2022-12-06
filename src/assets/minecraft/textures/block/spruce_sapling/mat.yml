@@ -1,0 +1,11 @@
+wrap-x: false
+wrap-y: false
+height:
+  texture: opacity.png
+  scale: 0.1
+  edge-fade-top: 0.01
+  edge-fade-left: 0.01
+  edge-fade-right: 0.01
+normal:
+  curve-x: 90
+  noise: 4

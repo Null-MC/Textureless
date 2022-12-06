@@ -1,0 +1,10 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  curve-x: 90
+  curve-y: 90
+  noise: 3
+emissive:
+  value: 0.95
