@@ -1,4 +1,6 @@
 blend-mode: transparent
+opacity:
+  shift: 0.1
 color:
   value: '#B4D7DD'
   scale-red: 0.6

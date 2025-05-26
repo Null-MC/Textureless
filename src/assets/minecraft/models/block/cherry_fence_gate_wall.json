@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "block/stripped_cherry_wood_inventory",
+    "texture": "block/stripped_cherry_wood"
+  }
+}

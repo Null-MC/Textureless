@@ -1,9 +1,15 @@
 height:
-  scale: 0.3292
-  edge-fade-x: 2
-  edge-fade-y: 2
+  shift: -0.4893
+  scale: 0.2
+  edge-fade-x: 4
+  edge-fade-y: 4
+occlusion:
+  step-distance: 2.0
+  z-scale: 12
+f0:
+  value: 0.04
 ctm:
   method: of-repeat
-  width: 8
-  height: 8
+  width: 4
+  height: 4
   placeholder: true

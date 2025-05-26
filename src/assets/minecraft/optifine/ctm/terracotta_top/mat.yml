@@ -4,7 +4,7 @@ tint-color: '#9d664b'
 opacity:
   value: 255
 color:
-  value: '#FFFFFF'
+  value: '#A0A0A0'
 height:
   scale: 0.2
 normal:

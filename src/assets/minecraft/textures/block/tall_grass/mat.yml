@@ -20,7 +20,8 @@ smooth:
 f0:
   value: 0.03
 sss:
-  shift: 0.2
+  shift: 0.5097
+  scale: 0.7510
 parts:
 - name: tall_grass_top
   left: 0

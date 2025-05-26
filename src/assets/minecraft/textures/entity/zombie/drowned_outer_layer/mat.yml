@@ -3,7 +3,7 @@ wrap-x: false
 wrap-y: false
 blend-mode: cutout
 height:
-  value: 0
+  scale: 0
 normal:
   method: sobel-low
   strength: 2
@@ -11,7 +11,6 @@ occlusion:
   z-scale: 4
 smooth:
   scale: 0.8
-ctm: {}
 filters:
 - name: head-top
   left: 0.125

@@ -1,8 +1,4 @@
 publish-item: true
-opacity:
-  value: 255
-color:
-  value: '#C6DDEC'
 height:
   shift: -0.1620
   scale: 0.3
@@ -13,8 +9,6 @@ normal:
   method: sobel9
   strength: 0.6
 occlusion:
-  scale: 0.7
-  step-distance: 0.1
   z-scale: 4
 smooth:
   shift: 0.2

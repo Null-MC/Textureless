@@ -1,6 +1,6 @@
 publish-item: true
 color:
-  value: '#BC1A05'
+  value: '#C53719'
 height:
   scale: 0.26
 normal:
@@ -13,4 +13,4 @@ occlusion:
 smooth:
   value: 0.7
 hcm:
-  value: 234
+  value: 231

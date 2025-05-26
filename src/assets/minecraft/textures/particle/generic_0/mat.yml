@@ -1,0 +1,8 @@
+texture-size: 16
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  noise: 3
+  method: sobel5
+  strength: 1.2847

@@ -1,5 +1,5 @@
 {
-  "parent": "block/fence_post",
+  "parent": "block/fence_post_ex",
   "textures": {
     "particle": "block/stripped_jungle_wood_inventory",
     "side": "block/jungle_fence_post",

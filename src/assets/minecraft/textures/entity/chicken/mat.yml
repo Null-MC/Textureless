@@ -6,13 +6,13 @@ blend-mode: cutout
 height:
   scale: 0
 normal:
+  noise: 9
   method: sobel3
-  strength: 2
+  strength: 0.0001
 f0:
   value: 0.04
 sss:
   scale: 0.3
-ctm: {}
 filters:
 - name: head-top
   left: 0.046875
@@ -105,6 +105,8 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
 - name: body-back
   left: 0.1875
   top: 0.28125
@@ -112,6 +114,8 @@ filters:
   height: 0.1875
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
 - name: body-right
   left: 0
   top: 0.46875
@@ -119,6 +123,8 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
 - name: body-bottom
   left: 0.09375
   top: 0.46875
@@ -126,6 +132,8 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
 - name: body-left
   left: 0.1875
   top: 0.46875
@@ -133,6 +141,8 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
 - name: body-top
   left: 0.28125
   top: 0.46875
@@ -140,3 +150,5 @@ filters:
   height: 0.25
   normal-curve-x: 90
   normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5

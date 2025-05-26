@@ -1,0 +1,9 @@
+normal:
+  curve-x: 160
+  curve-y: 160
+  radius-x: 0.2
+  radius-y: 0.2
+  method: sobel-low
+  strength: 5.6968
+occlusion:
+  z-scale: 12

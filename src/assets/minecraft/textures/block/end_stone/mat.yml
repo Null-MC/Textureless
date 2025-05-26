@@ -1,10 +1,6 @@
 publish-item: true
 opacity:
   value: 255
-color:
-  value-red: 222
-  value-green: 225
-  value-blue: 161
 height:
   scale: 0.4
 normal:

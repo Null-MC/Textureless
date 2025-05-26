@@ -2,6 +2,10 @@ publish-item: true
 height:
   scale: 0.2
 normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.3
+  radius-y: 0.3
   method: sobel-low
   strength: 0.6
 occlusion:

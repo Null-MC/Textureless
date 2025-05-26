@@ -16,7 +16,10 @@ occlusion:
   z-bias: 1
   z-scale: 8
 f0:
-  value: 0.017
+  value: 0.018
+sss:
+  shift: 0.0722
+  scale: 1.3613
 ctm:
   method: of-repeat
   width: 8

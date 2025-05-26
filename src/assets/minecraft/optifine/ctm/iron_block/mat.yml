@@ -10,9 +10,7 @@ normal:
 occlusion:
   step-distance: 0.1
   z-bias: 1
-  z-scale: 2
-smooth:
-  scale: 1.2142
+  z-scale: 0.4
 hcm:
   value: 230
 ctm:
@@ -23,7 +21,11 @@ ctm:
 filters:
 - name: block
   tile: true
-  normal-curve-x: 90
-  normal-curve-y: 90
+  normal-curve-x: 110
+  normal-curve-y: 110
   normal-radius-x: 0.2
   normal-radius-y: 0.2
+- name: inner
+  tile: true
+  normal-curve-x: -8
+  normal-curve-y: -8

@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "block/cherry_leaves"
+      },
+      {
+        "model": "block/cherry_leaves",
+        "y": 90
+      },
+      {
+        "model": "block/cherry_leaves",
+        "y": 180
+      },
+      {
+        "model": "block/cherry_leaves",
+        "y": 270
+      },
+      {
+        "model": "block/cherry_leaves",
+        "z": 90
+      },
+      {
+        "model": "block/cherry_leaves",
+        "x": 90
+      }
+    ]
+  }
+}

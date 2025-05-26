@@ -1,16 +1,14 @@
 publish-item: true
 tint-color: '#48B518'
 color:
-  value-red: 148
-  value-green: 148
-  value-blue: 148
+  value: '#808080'
 height:
   texture: opacity.png
   scale: 0.1
 normal:
-  noise: 3
   curve-x: 90
   curve-y: 90
+  noise: 3
   method: sobel5
 occlusion:
   step-distance: 0.4
@@ -18,4 +16,3 @@ occlusion:
   z-scale: 6
 f0:
   value: 0.017
-ctm: {}

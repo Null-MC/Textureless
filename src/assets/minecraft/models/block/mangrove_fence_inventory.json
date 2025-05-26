@@ -1,5 +1,5 @@
 {
-  "parent": "block/fence_inventory",
+  "parent": "block/fence_inventory_ex",
   "textures": {
     "particle": "block/stripped_mangrove_wood_inventory",
     "post": "block/mangrove_fence_post_inventory",

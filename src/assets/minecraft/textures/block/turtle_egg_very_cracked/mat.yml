@@ -1,0 +1,64 @@
+wrap-x: false
+wrap-y: false
+model: block/four_very_cracked_turtle_eggs
+smooth:
+  value: 0.1
+sss:
+  value: 0.1
+filters:
+- name: up-1
+  left: 0
+  top: 0
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: side-1
+  left: 0.0625
+  top: 0.25
+  width: 0.25
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: up-2
+  left: 0.375
+  top: 0.4375
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: side-2
+  left: 0.625
+  top: 0.625
+  width: 0.25
+  height: 0.3125
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: up-3
+  left: 0.3125
+  top: 0
+  width: 0.1875
+  height: 0.1875
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: side-3
+  left: 0.5
+  top: 0.1875
+  width: 0.1875
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: up-4
+  left: 0
+  top: 0.6875
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+- name: side-4
+  left: 0.25
+  top: 0.6875
+  width: 0.25
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90

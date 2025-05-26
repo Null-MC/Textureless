@@ -5,14 +5,9 @@ wrap-y: false
 blend-mode: cutout
 opacity:
   value: 0
-color:
-  value-red: 133
-  value-green: 12
-  value-blue: 179
 smooth:
   value: 0.6
 f0:
   value: 0.02
 emissive:
-  scale: 0.2
-ctm: {}
+  value: 0.2

@@ -1,5 +1,5 @@
 {
-  "parent": "block/fence_inventory",
+  "parent": "block/fence_inventory_ex",
   "textures": {
     "particle": "block/nether_brick_fence_inventory",
     "post": "block/nether_brick_fence_post_inventory",

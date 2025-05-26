@@ -1,6 +1,8 @@
 publish-item: true
 height:
+  texture: bump.png
   scale: 0.2135
+  auto-level: true
 normal:
   noise: 0.3
   method: sobel-high
@@ -9,9 +11,6 @@ occlusion:
   step-distance: 0.2
   z-bias: 2
   z-scale: 2
-smooth:
-  shift: -0.5217
-  scale: 2
 hcm:
   value: 231
 ctm:

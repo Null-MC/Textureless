@@ -1,0 +1,14 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+height:
+  scale: 0
+normal:
+  method: sobel3
+occlusion:
+  z-bias: 2
+  z-scale: 0.3
+smooth:
+  value: 0.2
+f0:
+  value: 0.04

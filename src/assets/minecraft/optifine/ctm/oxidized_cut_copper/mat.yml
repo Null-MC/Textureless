@@ -1,8 +1,4 @@
 publish-item: true
-color:
-  scale-red: 0.8
-  scale-green: 0.8
-  scale-blue: 0.8
 height:
   scale: 0.3
 normal:

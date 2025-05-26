@@ -5,7 +5,7 @@ wrap-y: false
 model: entity/slime_full
 blend-mode: transparent
 height:
-  scale: 0
+  shift: -0.46
 normal:
   method: sobel5
   strength: 0.7
@@ -19,7 +19,6 @@ f0:
   value: 0.017
 sss:
   value: 0.8
-ctm: {}
 filters:
 - name: body-up
   left: 0.09375

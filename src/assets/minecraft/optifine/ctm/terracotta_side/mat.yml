@@ -2,9 +2,7 @@ wrap-x: true
 wrap-y: true
 tint-color: '#9d664b'
 color:
-  value-red: 255
-  value-green: 255
-  value-blue: 255
+  value: '#A0A0A0'
 height:
   scale: 0.6
   edge-fade-x: 2

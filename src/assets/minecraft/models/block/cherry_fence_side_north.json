@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side_north_ex",
+  "textures": {
+    "particle": "block/stripped_cherry_wood_inventory",
+    "texture": "block/cherry_fence_side"
+  }
+}

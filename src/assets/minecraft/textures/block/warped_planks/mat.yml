@@ -1,4 +1,4 @@
-publish-inventory: true
+publish-item: true
 height:
   scale: 0.6
 normal:

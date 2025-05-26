@@ -4,9 +4,9 @@ model: cross_mirrored
 blend-mode: cutout
 tint-color: '#b3e471'
 color:
-  scale-red: 0.7
-  scale-green: 0.7
-  scale-blue: 0.7
+  scale-red: 0.9
+  scale-green: 0.9
+  scale-blue: 0.9
 height:
   texture: opacity.png
   scale: 0.05

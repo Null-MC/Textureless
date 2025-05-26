@@ -19,5 +19,4 @@ smooth:
 f0:
   value: 0.017
 sss:
-  shift: 2.5
-  scale: 0.3
+  value: 0.94

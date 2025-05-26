@@ -1,11 +1,11 @@
 wrap-x: false
 wrap-y: false
 height:
-  value: 0
+  scale: 0
 normal:
-  strength: 0.4
   noise: 1
   method: sobel-low
+  strength: 0.4
 occlusion:
   value: 0
 filters:

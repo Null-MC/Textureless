@@ -1,6 +1,6 @@
 publish-item: true
 color:
-  value: '#CEA591'
+  value: '#E6C1AF'
 height:
   scale: 0.16
   edge-fade-x: 3
@@ -10,7 +10,7 @@ occlusion:
   z-bias: 1
   z-scale: 24
 smooth:
-  value: 0.7504
+  value: 0.85
 hcm:
   value: 234
 ctm:

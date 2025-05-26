@@ -11,7 +11,7 @@ occlusion:
   z-bias: 0
   z-scale: 3
 smooth:
-  value: 0.65
+  value: 0.75
 f0:
   value: 0.023
 sss:

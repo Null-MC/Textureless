@@ -5,15 +5,13 @@ height:
   edge-fade-y: 1.5
   edge-fade-strength: 0.8
 normal:
-  noise: 1
+  noise: 2
   method: sobel-low
   strength: 3
 occlusion:
   step-distance: 0.1
   z-bias: 1
   z-scale: 8
-smooth:
-  scale: 0.4
 f0:
   value: 0.07
 emissive:

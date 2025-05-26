@@ -1,0 +1,9 @@
+normal:
+  curve-x: 90
+  noise: 4
+smooth:
+  value: 0.1
+f0:
+  value: 0.04
+porosity:
+  value: 0.8

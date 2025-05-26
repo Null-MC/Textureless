@@ -1,0 +1,55 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "block/cherry_fence_post"
+        },
+        {
+          "model": "block/cherry_fence_post",
+          "y": 90
+        },
+        {
+          "model": "block/cherry_fence_post",
+          "y": 180
+        },
+        {
+          "model": "block/cherry_fence_post",
+          "y": 270
+        }
+      ]
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "block/cherry_fence_side_north"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "block/cherry_fence_side_east"
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "block/cherry_fence_side_south"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "block/cherry_fence_side_west"
+      }
+    }
+  ]
+}

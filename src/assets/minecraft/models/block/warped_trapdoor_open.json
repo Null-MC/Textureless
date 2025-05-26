@@ -1,5 +1,5 @@
 {
-  "parent": "block/template_orientable_trapdoor_open",
+  "parent": "block/template_orientable_trapdoor_sides_open",
   "textures": {
     "particle": "block/stripped_warped_hyphae_inventory",
     "texture": "block/warped_trapdoor",

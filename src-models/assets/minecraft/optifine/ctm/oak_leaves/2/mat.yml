@@ -2,6 +2,10 @@ publish-item: false
 model: leaves_template
 blend-mode: cutout
 tint-color: '#5EB637'
+color:
+  scale-red: 1.1
+  scale-green: 1.1
+  scale-blue: 1.1
 height:
   texture: opacity.png
   scale: 0.08
@@ -19,5 +23,4 @@ smooth:
 f0:
   value: 0.017
 sss:
-  shift: 2.5
-  scale: 0.3
+  value: 0.94

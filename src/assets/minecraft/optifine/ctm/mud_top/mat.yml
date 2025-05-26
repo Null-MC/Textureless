@@ -1,0 +1,10 @@
+height:
+  scale: 0.3292
+  edge-fade-x: 2
+  edge-fade-y: 2
+ctm:
+  method: of-repeat
+  width: 8
+  height: 8
+  match-tiles: mud
+  placeholder: false

@@ -1,5 +1,5 @@
 {
-  "parent": "block/fence_side_east",
+  "parent": "block/fence_side_east_ex",
   "textures": {
     "particle": "block/stripped_spruce_wood_inventory",
     "texture": "block/spruce_fence_side"

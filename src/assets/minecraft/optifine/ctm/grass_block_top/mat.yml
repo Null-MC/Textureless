@@ -1,6 +1,10 @@
 publish-item: true
 blend-mode: cutout
 tint-color: '#91BD59'
+color:
+  scale-red: 1.2
+  scale-green: 1.2
+  scale-blue: 1.2
 height:
   shift: -0.18
   scale: 0.34
